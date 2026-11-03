@@ -1,0 +1,474 @@
+{
+  "format": 1,
+  "research_dates": [
+    "2026-10-16",
+    "2026-10-17"
+  ],
+  "editor_version": "10.0.14.0",
+  "editor_sha256": "c9d70afba98678264c82e06ebaafa3018409e3f4cdd6d4e53e6fa3932817152d",
+  "notes": "Markdown adapted for categorization and publication. All metadata and 31 instruments byte-identical; headless_runtime_probe.py has one documented interpreter-path correction. No Editor experiments rerun for this transfer.",
+  "files": [
+    {
+      "source_file": "desktop-observation-research.md",
+      "source_sha256": "48faed28716a4344d2c18734fe08b4e70990c19d51046fa1bc2e202110bd0c44",
+      "archive_file": "research/04-desktop-operations/desktop-observation-research.md",
+      "archive_sha256": "1bd010ebfbf34fdbf24a887e8c310601ef83f6c7981bfb402df7dad0118ed360",
+      "byte_identical": false
+    },
+    {
+      "source_file": "desktop-operational-results.md",
+      "source_sha256": "bc7e885545986710f958740da8e4cffceae4d90ede172ec85fe372950a3a8e7b",
+      "archive_file": "research/04-desktop-operations/desktop-operational-results.md",
+      "archive_sha256": "f0f4fe6997b236b96e3b1c15e2d317467bc9eeb1e846e6b493aba82dcd44204d",
+      "byte_identical": false
+    },
+    {
+      "source_file": "desktop-operational-results.metadata.json",
+      "source_sha256": "11e3b167908a8799301de4bce5e5057207e8e84519b8903b5519cd03c41adc3b",
+      "archive_file": "research/04-desktop-operations/desktop-operational-results.metadata.json",
+      "archive_sha256": "11e3b167908a8799301de4bce5e5057207e8e84519b8903b5519cd03c41adc3b",
+      "byte_identical": true
+    },
+    {
+      "source_file": "fidelity-research.md",
+      "source_sha256": "feaf9d2fb934a41fbe64352b9dfbadeeca59d94215ae2fd6882a462a4973e805",
+      "archive_file": "research/05-asset-fidelity/fidelity-research.md",
+      "archive_sha256": "1909d015e5aa4044d41c03fe14032aec2ad71100f5396713a3d9ff4e5c05e55e",
+      "byte_identical": false
+    },
+    {
+      "source_file": "fidelity-results.md",
+      "source_sha256": "04c248565cf6d06625de2a7d71dd4c90f58a5f3e6b6c9e567705f67448a97060",
+      "archive_file": "research/05-asset-fidelity/fidelity-results.md",
+      "archive_sha256": "6545c2fdc38ef2dfa833649abb18af88a17888f06396e64522e973dbdc2576bf",
+      "byte_identical": false
+    },
+    {
+      "source_file": "fidelity-results.metadata.json",
+      "source_sha256": "4c078ad64bec40145cacc67677446c4f1574130d207105e1b400be694ab5bc64",
+      "archive_file": "research/05-asset-fidelity/fidelity-results.metadata.json",
+      "archive_sha256": "4c078ad64bec40145cacc67677446c4f1574130d207105e1b400be694ab5bc64",
+      "byte_identical": true
+    },
+    {
+      "source_file": "handle-growth-results.md",
+      "source_sha256": "a8f24d30b3cb2669a0848983ac16546e0cbfdda92ff17dddfc5978063ce2dfe6",
+      "archive_file": "research/04-desktop-operations/handle-growth-results.md",
+      "archive_sha256": "e2b43f51c14d1a859feb0ba98ccbd1f511ddf81d256a606eee29f11bc17fb983",
+      "byte_identical": false
+    },
+    {
+      "source_file": "handle-growth-results.metadata.json",
+      "source_sha256": "ed801285e0d176df07ce18e91ade4d5baec8ae54eba6939305ce6f7851f4614e",
+      "archive_file": "research/04-desktop-operations/handle-growth-results.metadata.json",
+      "archive_sha256": "ed801285e0d176df07ce18e91ade4d5baec8ae54eba6939305ce6f7851f4614e",
+      "byte_identical": true
+    },
+    {
+      "source_file": "headless-alternative-routes.md",
+      "source_sha256": "58a6a8810595c1bde7fb9978263fcb8eef0a92d70f9114ee5e1d688425ea9628",
+      "archive_file": "research/03-startup-and-headless/headless-alternative-routes.md",
+      "archive_sha256": "fca80ff12169ebed40711fff2a3629c03bdadbe254c6549a6f6563bb09039a43",
+      "byte_identical": false
+    },
+    {
+      "source_file": "headless-runtime-results.md",
+      "source_sha256": "66a964ffefe3a48975c30fdc445b106bbdc8d3b80a2b4be1dc33593adc201653",
+      "archive_file": "research/03-startup-and-headless/headless-runtime-results.md",
+      "archive_sha256": "5c554da780828e92e251a9c5cf1ee124264a2c15699db80d20aed3ae8cbf832e",
+      "byte_identical": false
+    },
+    {
+      "source_file": "headless-runtime-results.metadata.json",
+      "source_sha256": "1a3b90b9c4b5fe06d7849a63d7fa0b02e8ca629af33df564e1aeba8932c1da7c",
+      "archive_file": "research/03-startup-and-headless/headless-runtime-results.metadata.json",
+      "archive_sha256": "1a3b90b9c4b5fe06d7849a63d7fa0b02e8ca629af33df564e1aeba8932c1da7c",
+      "byte_identical": true
+    },
+    {
+      "source_file": "headless-startup-trace.md",
+      "source_sha256": "f481bb1da7c5bb492908ee299f8463cbf977b7463460a5314331709a72fb0b3d",
+      "archive_file": "research/03-startup-and-headless/headless-startup-trace.md",
+      "archive_sha256": "07fc1ea057b6c9adca183097dcb4e07f897cb400fc0d4f51c429685c89bc8dd2",
+      "byte_identical": false
+    },
+    {
+      "source_file": "instruments/analyze_desktop_endurance.py",
+      "source_sha256": "00c9dbd3569f0dc06f30f7ab3a563571db82bd892b10cb1ead3b113b423b2eba",
+      "archive_file": "research/07-instruments/analyze_desktop_endurance.py",
+      "archive_sha256": "00c9dbd3569f0dc06f30f7ab3a563571db82bd892b10cb1ead3b113b423b2eba",
+      "byte_identical": true
+    },
+    {
+      "source_file": "instruments/analyze_fidelity.py",
+      "source_sha256": "11d5f9540f686a2f3d3486e57274f1d492367fe0922884ed425299ef12bdbd05",
+      "archive_file": "research/07-instruments/analyze_fidelity.py",
+      "archive_sha256": "11d5f9540f686a2f3d3486e57274f1d492367fe0922884ed425299ef12bdbd05",
+      "byte_identical": true
+    },
+    {
+      "source_file": "instruments/analyze_headless_runtime.py",
+      "source_sha256": "0955847e7959becbad4c0d15292ecda72ede94754893d09b55fb9aa27034a80a",
+      "archive_file": "research/07-instruments/analyze_headless_runtime.py",
+      "archive_sha256": "0955847e7959becbad4c0d15292ecda72ede94754893d09b55fb9aa27034a80a",
+      "byte_identical": true
+    },
+    {
+      "source_file": "instruments/analyze_invisible_startup.py",
+      "source_sha256": "bcd2da3e41da1fd4a09b7fb9bfac7087718c1bda06907d6ce3631440b590e42d",
+      "archive_file": "research/07-instruments/analyze_invisible_startup.py",
+      "archive_sha256": "bcd2da3e41da1fd4a09b7fb9bfac7087718c1bda06907d6ce3631440b590e42d",
+      "byte_identical": true
+    },
+    {
+      "source_file": "instruments/analyze_practical_results.py",
+      "source_sha256": "0e9b2037a76c9cd463d1fa4aac3e77ccf0f4e82c4e984616f0f24cb316c08417",
+      "archive_file": "research/07-instruments/analyze_practical_results.py",
+      "archive_sha256": "0e9b2037a76c9cd463d1fa4aac3e77ccf0f4e82c4e984616f0f24cb316c08417",
+      "byte_identical": true
+    },
+    {
+      "source_file": "instruments/analyze_replacement_results.py",
+      "source_sha256": "387ebf954e1107c5964754104a2d5bea9e420aee5c83de668de188731539ab2d",
+      "archive_file": "research/07-instruments/analyze_replacement_results.py",
+      "archive_sha256": "387ebf954e1107c5964754104a2d5bea9e420aee5c83de668de188731539ab2d",
+      "byte_identical": true
+    },
+    {
+      "source_file": "instruments/desktop_endurance_probe.lua",
+      "source_sha256": "b135882256ed9506ec533215faa1a3c84340220741c6b601707f664bff90e9b4",
+      "archive_file": "research/07-instruments/desktop_endurance_probe.lua",
+      "archive_sha256": "b135882256ed9506ec533215faa1a3c84340220741c6b601707f664bff90e9b4",
+      "byte_identical": true
+    },
+    {
+      "source_file": "instruments/desktop_endurance_probe.py",
+      "source_sha256": "9e905d60753cbb1930b7af458a019bb13406bec145b2a737d793b2c129f1ee47",
+      "archive_file": "research/07-instruments/desktop_endurance_probe.py",
+      "archive_sha256": "9e905d60753cbb1930b7af458a019bb13406bec145b2a737d793b2c129f1ee47",
+      "byte_identical": true
+    },
+    {
+      "source_file": "instruments/desktop_research_controller.py",
+      "source_sha256": "66a819cf5fa26258b7437fea2ed68764c2933d63efebaf7fec012e2e74d70918",
+      "archive_file": "research/07-instruments/desktop_research_controller.py",
+      "archive_sha256": "66a819cf5fa26258b7437fea2ed68764c2933d63efebaf7fec012e2e74d70918",
+      "byte_identical": true
+    },
+    {
+      "source_file": "instruments/editor_fence_trace.js",
+      "source_sha256": "822787740c89a7d2270b2765265f3c9e4c4d84df4f6468ff2a4b7020024759d6",
+      "archive_file": "research/07-instruments/editor_fence_trace.js",
+      "archive_sha256": "822787740c89a7d2270b2765265f3c9e4c4d84df4f6468ff2a4b7020024759d6",
+      "byte_identical": true
+    },
+    {
+      "source_file": "instruments/editor_handle_types.py",
+      "source_sha256": "4bf545357f7ecff0b9ee13aabb5ac311c455ea25adbde19658f60d6659ebed11",
+      "archive_file": "research/07-instruments/editor_handle_types.py",
+      "archive_sha256": "4bf545357f7ecff0b9ee13aabb5ac311c455ea25adbde19658f60d6659ebed11",
+      "byte_identical": true
+    },
+    {
+      "source_file": "instruments/fidelity_host.py",
+      "source_sha256": "fa2044f58f31e6560bab2b85aa5a93c8f68e349e9aeb04c10fb658b62b73630d",
+      "archive_file": "research/07-instruments/fidelity_host.py",
+      "archive_sha256": "fa2044f58f31e6560bab2b85aa5a93c8f68e349e9aeb04c10fb658b62b73630d",
+      "byte_identical": true
+    },
+    {
+      "source_file": "instruments/fidelity_scene_probe.lua",
+      "source_sha256": "7bcba6f0c45c5fb635f46f7ac7fee934cad9c487f396080ecf1eb2525ae02fe8",
+      "archive_file": "research/07-instruments/fidelity_scene_probe.lua",
+      "archive_sha256": "7bcba6f0c45c5fb635f46f7ac7fee934cad9c487f396080ecf1eb2525ae02fe8",
+      "byte_identical": true
+    },
+    {
+      "source_file": "instruments/gate_keyframes.py",
+      "source_sha256": "19f8f274482f572b70d32ec9c9d731cc427bd2ce773e2b4516f805eb50da5301",
+      "archive_file": "research/07-instruments/gate_keyframes.py",
+      "archive_sha256": "19f8f274482f572b70d32ec9c9d731cc427bd2ce773e2b4516f805eb50da5301",
+      "byte_identical": true
+    },
+    {
+      "source_file": "instruments/headless_runtime_hooks.js",
+      "source_sha256": "5e1d4623f24b08ca8c3d7ec117741f38e2213ef9caa8f900c423acea290213b4",
+      "archive_file": "research/07-instruments/headless_runtime_hooks.js",
+      "archive_sha256": "5e1d4623f24b08ca8c3d7ec117741f38e2213ef9caa8f900c423acea290213b4",
+      "byte_identical": true
+    },
+    {
+      "source_file": "instruments/headless_runtime_probe.py",
+      "source_sha256": "6bc5fb3d80e1dc356fb50aad4b071c54bcede0be2ebdac18e442314a468c0367",
+      "archive_file": "research/07-instruments/headless_runtime_probe.py",
+      "archive_sha256": "98cd3a00e6410f4679df88ae458406c46baf53120d65b01eee7f05075687beaa",
+      "byte_identical": false
+    },
+    {
+      "source_file": "instruments/invisible_startup_static.py",
+      "source_sha256": "09f805c4421d79bfd7e89ae5820760a68e40a33fb0bba445def1746a6ee78706",
+      "archive_file": "research/07-instruments/invisible_startup_static.py",
+      "archive_sha256": "09f805c4421d79bfd7e89ae5820760a68e40a33fb0bba445def1746a6ee78706",
+      "byte_identical": true
+    },
+    {
+      "source_file": "instruments/lua_registrations.py",
+      "source_sha256": "3a21358dbe97632661c17c7134992d090aaedf92739d8519444df1b790d244dc",
+      "archive_file": "research/07-instruments/lua_registrations.py",
+      "archive_sha256": "3a21358dbe97632661c17c7134992d090aaedf92739d8519444df1b790d244dc",
+      "byte_identical": true
+    },
+    {
+      "source_file": "instruments/native_dispatch_menu.lua",
+      "source_sha256": "22d3c36c22bbae320cd6610a6de8f1321b0f216cb195688f1a244836413e1405",
+      "archive_file": "research/07-instruments/native_dispatch_menu.lua",
+      "archive_sha256": "22d3c36c22bbae320cd6610a6de8f1321b0f216cb195688f1a244836413e1405",
+      "byte_identical": true
+    },
+    {
+      "source_file": "instruments/native_save.py",
+      "source_sha256": "303846e55a15eb667bdf4a0fd56095cacde4fc82abe3f200fe12bf7900e97476",
+      "archive_file": "research/07-instruments/native_save.py",
+      "archive_sha256": "303846e55a15eb667bdf4a0fd56095cacde4fc82abe3f200fe12bf7900e97476",
+      "byte_identical": true
+    },
+    {
+      "source_file": "instruments/practical_scene_probe.lua",
+      "source_sha256": "0f3bc0387c073ffe64f746930cd48f0c6676267caaea881ccff15752a23b9b1c",
+      "archive_file": "research/07-instruments/practical_scene_probe.lua",
+      "archive_sha256": "0f3bc0387c073ffe64f746930cd48f0c6676267caaea881ccff15752a23b9b1c",
+      "byte_identical": true
+    },
+    {
+      "source_file": "instruments/practical_windows_probe.py",
+      "source_sha256": "b67e031cbae595ec09315df8018f47ec00baaf8a9a4982d6a417733f13fff1dc",
+      "archive_file": "research/07-instruments/practical_windows_probe.py",
+      "archive_sha256": "b67e031cbae595ec09315df8018f47ec00baaf8a9a4982d6a417733f13fff1dc",
+      "byte_identical": true
+    },
+    {
+      "source_file": "instruments/private_desktop_probe.py",
+      "source_sha256": "a7033a7ed0d07c61c17462eeb2008bcc0e80b279954856b0d0b1602d8b567dd8",
+      "archive_file": "research/07-instruments/private_desktop_probe.py",
+      "archive_sha256": "a7033a7ed0d07c61c17462eeb2008bcc0e80b279954856b0d0b1602d8b567dd8",
+      "byte_identical": true
+    },
+    {
+      "source_file": "instruments/replacement_research.py",
+      "source_sha256": "077211c33d33d7d8fc47c4208f910a19fc635b37e2eb35b109ffec1d138a8158",
+      "archive_file": "research/07-instruments/replacement_research.py",
+      "archive_sha256": "077211c33d33d7d8fc47c4208f910a19fc635b37e2eb35b109ffec1d138a8158",
+      "byte_identical": true
+    },
+    {
+      "source_file": "instruments/replacement_scene_probe.lua",
+      "source_sha256": "3a6afa4e40ab6c814beb0e39e7e900d51d2f18797bf9a91256b792219983050f",
+      "archive_file": "research/07-instruments/replacement_scene_probe.lua",
+      "archive_sha256": "3a6afa4e40ab6c814beb0e39e7e900d51d2f18797bf9a91256b792219983050f",
+      "byte_identical": true
+    },
+    {
+      "source_file": "instruments/runtime_readback.lua",
+      "source_sha256": "bbfb1546354badd433d5fca86947ff4001313383f698c572a20a2bf694e8ea65",
+      "archive_file": "research/07-instruments/runtime_readback.lua",
+      "archive_sha256": "bbfb1546354badd433d5fca86947ff4001313383f698c572a20a2bf694e8ea65",
+      "byte_identical": true
+    },
+    {
+      "source_file": "instruments/runtime_save_fixture.lua",
+      "source_sha256": "66e41cf9d5f1d18116060b57a47b984c98cc8138ba5d2ab63f169bf0d3e2ac63",
+      "archive_file": "research/07-instruments/runtime_save_fixture.lua",
+      "archive_sha256": "66e41cf9d5f1d18116060b57a47b984c98cc8138ba5d2ab63f169bf0d3e2ac63",
+      "byte_identical": true
+    },
+    {
+      "source_file": "instruments/startup_flags.py",
+      "source_sha256": "abd8b82d2f120afe5b8f19483eb05353b3663a03597d46065d00bae9619bf96e",
+      "archive_file": "research/07-instruments/startup_flags.py",
+      "archive_sha256": "abd8b82d2f120afe5b8f19483eb05353b3663a03597d46065d00bae9619bf96e",
+      "byte_identical": true
+    },
+    {
+      "source_file": "instruments/test_editor_handle_observers.py",
+      "source_sha256": "94cc563c7f8628d41df24889b6f35c5479e0cd4e01194db8ce9ed5b6222f1bfd",
+      "archive_file": "research/07-instruments/test_editor_handle_observers.py",
+      "archive_sha256": "94cc563c7f8628d41df24889b6f35c5479e0cd4e01194db8ce9ed5b6222f1bfd",
+      "byte_identical": true
+    },
+    {
+      "source_file": "instruments/trace_editor_fences.py",
+      "source_sha256": "6bdde4a081104c59475024bbdf3d2dcc3f93b88ad0f76c4ad33075b1e28bee3d",
+      "archive_file": "research/07-instruments/trace_editor_fences.py",
+      "archive_sha256": "6bdde4a081104c59475024bbdf3d2dcc3f93b88ad0f76c4ad33075b1e28bee3d",
+      "byte_identical": true
+    },
+    {
+      "source_file": "instruments/windows_save_probe.py",
+      "source_sha256": "f3aa0ceaaf50fa9cde85a51042b606eb952736f0f07c311eb8b910ffeef01aee",
+      "archive_file": "research/07-instruments/windows_save_probe.py",
+      "archive_sha256": "f3aa0ceaaf50fa9cde85a51042b606eb952736f0f07c311eb8b910ffeef01aee",
+      "byte_identical": true
+    },
+    {
+      "source_file": "instruments/windows_script_probe.py",
+      "source_sha256": "bb028b516b8742f05e02d3adec62e51fa668e1cdda083f2a2586227a42e5e5e8",
+      "archive_file": "research/07-instruments/windows_script_probe.py",
+      "archive_sha256": "bb028b516b8742f05e02d3adec62e51fa668e1cdda083f2a2586227a42e5e5e8",
+      "byte_identical": true
+    },
+    {
+      "source_file": "invisible-startup-results.md",
+      "source_sha256": "77cbedc7448461f3676cd25c22e105ae38c5453a6c4f4fa778438166dbfc63b9",
+      "archive_file": "research/03-startup-and-headless/invisible-startup-results.md",
+      "archive_sha256": "39bfeb78c1601d36d3f716974f5a9efe88c8a53de9370cd960b9697333eba559",
+      "byte_identical": false
+    },
+    {
+      "source_file": "invisible-startup-results.metadata.json",
+      "source_sha256": "b5a0d8570687616fc699f6995f9e21fc496a35274953344b97fb4bccab8a738a",
+      "archive_file": "research/03-startup-and-headless/invisible-startup-results.metadata.json",
+      "archive_sha256": "b5a0d8570687616fc699f6995f9e21fc496a35274953344b97fb4bccab8a738a",
+      "byte_identical": true
+    },
+    {
+      "source_file": "invisible-startup-static.md",
+      "source_sha256": "f8a88d59a9c266fcd782f748b0d804e4fd68157ec051ef5b97dc3e9a4ccb3559",
+      "archive_file": "research/03-startup-and-headless/invisible-startup-static.md",
+      "archive_sha256": "3ce44c70e05c86bcc3bc32ff806be0ef5114c5d1a882b862227e56f5a5a6f42b",
+      "byte_identical": false
+    },
+    {
+      "source_file": "keyframe-records.metadata.json",
+      "source_sha256": "cdf82f6d9fff5dadc643919015e7a55008598a9a553c041ffcb2832d44bc9ee6",
+      "archive_file": "research/05-asset-fidelity/keyframe-records.metadata.json",
+      "archive_sha256": "cdf82f6d9fff5dadc643919015e7a55008598a9a553c041ffcb2832d44bc9ee6",
+      "byte_identical": true
+    },
+    {
+      "source_file": "live-results.md",
+      "source_sha256": "319a608d97aa845e7281cd7b62a0c13d8b2ea7320eaabb792b1ecc8d9b674a38",
+      "archive_file": "research/02-lua-and-save/live-results.md",
+      "archive_sha256": "3be09e4eedd4450198ba4fb85a27b78e72cfe7b6007ad273660e8af92b8672ad",
+      "byte_identical": false
+    },
+    {
+      "source_file": "lua-registrations.md",
+      "source_sha256": "8d546df59a269027337d06921e20030047f39681049246aa9613fa14a73f3860",
+      "archive_file": "research/02-lua-and-save/lua-registrations.md",
+      "archive_sha256": "1bb40f0aac1e276cd2de3d31c3a48850fba2866600b4ef1864bc0e5717a4f481",
+      "byte_identical": false
+    },
+    {
+      "source_file": "lua-registrations.metadata.json",
+      "source_sha256": "ff6814627e9bd4a2fe9005f06873596ab8aae1ab5da05c9962d760584b6ee1a3",
+      "archive_file": "research/02-lua-and-save/lua-registrations.metadata.json",
+      "archive_sha256": "ff6814627e9bd4a2fe9005f06873596ab8aae1ab5da05c9962d760584b6ee1a3",
+      "byte_identical": true
+    },
+    {
+      "source_file": "mcp-build-plan.md",
+      "source_sha256": "aa680dcc606de4617d3029b6f7b961be9d5a936f73059c325562ebe175669e11",
+      "archive_file": "research/01-design-input/mcp-build-plan.md",
+      "archive_sha256": "58b993a8d554b77c55ee7b7edf98361268b8c25c41e329bddda304dce7e65b9d",
+      "byte_identical": false
+    },
+    {
+      "source_file": "mcp-design.md",
+      "source_sha256": "dafa751ee39ab5a19388500ab5395f41a73da3ca646034f5a87a0b31cd28a101",
+      "archive_file": "research/01-design-input/mcp-design.md",
+      "archive_sha256": "7bd7c8a90580884f34422aaaf2a469f921f9abe1df8aa9d845fb86581543568c",
+      "byte_identical": false
+    },
+    {
+      "source_file": "modal-probe-design.md",
+      "source_sha256": "8fe9423b173b7760db94d983a65d465ca8174fe3fb89bada6b41905bb509c3a8",
+      "archive_file": "research/04-desktop-operations/modal-probe-design.md",
+      "archive_sha256": "afc9bd6efec372c5d54fdd3a60d81b7ac28bc28e8fe3f70f9d09eddf9654a5eb",
+      "byte_identical": false
+    },
+    {
+      "source_file": "native-save.md",
+      "source_sha256": "f75b1b29025ff84dcfd973bd10ea9e8e6352e42f716bab69970032ce69fa3434",
+      "archive_file": "research/02-lua-and-save/native-save.md",
+      "archive_sha256": "545da042a82bf1988312440ee599766060475ea01b271e614fece126d7017fe2",
+      "byte_identical": false
+    },
+    {
+      "source_file": "practical-results.md",
+      "source_sha256": "721f7026f2872511da115e13aa9ccfde221472c86b06d3e7554a6249b73df5e1",
+      "archive_file": "research/05-asset-fidelity/practical-results.md",
+      "archive_sha256": "138c084abdb7c7a2ca3d1a07d68b90a89560dc7fcdfc162023ae4c3b42179bcc",
+      "byte_identical": false
+    },
+    {
+      "source_file": "practical-results.metadata.json",
+      "source_sha256": "14b3491a737f30adbeaaa229d2e8c476da0c7b9c71bbda08a2ce271768cbeda4",
+      "archive_file": "research/05-asset-fidelity/practical-results.metadata.json",
+      "archive_sha256": "14b3491a737f30adbeaaa229d2e8c476da0c7b9c71bbda08a2ce271768cbeda4",
+      "byte_identical": true
+    },
+    {
+      "source_file": "private-desktop-feasibility.md",
+      "source_sha256": "38fe0c717b68b7e7aef2dd6e3307d9920fcf998e474070367ee2726fc2bd0c39",
+      "archive_file": "research/04-desktop-operations/private-desktop-feasibility.md",
+      "archive_sha256": "d7fa860b398221bf2d2951c5412f674e5dc4865421bb5819ec84e1a02c49308a",
+      "byte_identical": false
+    },
+    {
+      "source_file": "proof-of-concept.md",
+      "source_sha256": "95391ba6e9415ee7925aa815a25ebcaae279482eec0700e47fb5ca4e84301fb4",
+      "archive_file": "research/01-design-input/proof-of-concept.md",
+      "archive_sha256": "706d09be70d219066893d4f73432082561b89bdfbd528359bbabed3636849670",
+      "byte_identical": false
+    },
+    {
+      "source_file": "publication-license-review.md",
+      "source_sha256": "ea5209ec51ac73893a04eb030290834b15627307c418d8be9b9520ba97b7f535",
+      "archive_file": "research/06-publication/publication-license-review.md",
+      "archive_sha256": "9a1f4f0a2d77eae68b42a34b1bb7ace6362b4dc1e2b6ec7ef72a8bb0f0792afd",
+      "byte_identical": false
+    },
+    {
+      "source_file": "replacement-results.md",
+      "source_sha256": "f73631d7d4df1d8565b1552d9f6190b9109912686f62db1e4ab525a82f5f0854",
+      "archive_file": "research/05-asset-fidelity/replacement-results.md",
+      "archive_sha256": "0fc9fc7c6b39abc72d37a0344643859bb0a5ed59112cec70c3dcb23763f9c74a",
+      "byte_identical": false
+    },
+    {
+      "source_file": "replacement-results.metadata.json",
+      "source_sha256": "ba404491c7991d6b39db856c6d2ba2226bbf23d5a9c3d959d6650d2708ccf421",
+      "archive_file": "research/05-asset-fidelity/replacement-results.metadata.json",
+      "archive_sha256": "ba404491c7991d6b39db856c6d2ba2226bbf23d5a9c3d959d6650d2708ccf421",
+      "byte_identical": true
+    },
+    {
+      "source_file": "runtime-results.metadata.json",
+      "source_sha256": "5756bdccb020dd1b5e7011892ce2220b438a4ea1b322eab8aceb1908e7500578",
+      "archive_file": "research/02-lua-and-save/runtime-results.metadata.json",
+      "archive_sha256": "5756bdccb020dd1b5e7011892ce2220b438a4ea1b322eab8aceb1908e7500578",
+      "byte_identical": true
+    },
+    {
+      "source_file": "startup-flags.md",
+      "source_sha256": "a9a9cd0dbf91ce23c629c945436544dc6b5296955cdb71b45c6dda8b91e8f262",
+      "archive_file": "research/03-startup-and-headless/startup-flags.md",
+      "archive_sha256": "4534a839496b89eda38be6d135db22a6f8fc307afe9ae2add1b3df5f1e4baa58",
+      "byte_identical": false
+    },
+    {
+      "source_file": "unlock-investigation.md",
+      "source_sha256": "4a06e25cc276d4442d41957f5e0af27bb8c71653d94d6a3da2a1d9056a1927af",
+      "archive_file": "research/04-desktop-operations/unlock-investigation.md",
+      "archive_sha256": "e9ffa55efe4753a72cec6b62048cb6a3ec3b3e0b58f65812c3a9cb0c37553cc8",
+      "byte_identical": false
+    },
+    {
+      "source_file": "unlock-investigation.metadata.json",
+      "source_sha256": "6afef48f4857185e1a8667f1fa432d9f10e3c8c5fbaa1d17b46e39b455dc3efa",
+      "archive_file": "research/04-desktop-operations/unlock-investigation.metadata.json",
+      "archive_sha256": "6afef48f4857185e1a8667f1fa432d9f10e3c8c5fbaa1d17b46e39b455dc3efa",
+      "byte_identical": true
+    }
+  ]
+}

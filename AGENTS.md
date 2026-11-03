@@ -45,6 +45,7 @@ When in doubt about a place, ask the user.
 Every tracked top-level folder whose name does not start with a dot gets one line: the path and at most one short clause. No explanation, rules, status, subfolders, nested lists or file pointers. A new top-level folder adds its line; a removed one removes its line.
 
 - `docs/`: Development-flow configuration.
+- `research/`: Historical research and proposed design input.
 
 ## Testing instructions
 

@@ -1,0 +1,286 @@
+{
+  "format": 1,
+  "date": "2026-10-17",
+  "status": "cause_unresolved",
+  "scope": "retrospective_read_only_no_new_lock_no_editor_launch",
+  "reported_failure_stage": "before_credential_field",
+  "reported_recovery": "Ctrl+Alt+Delete made credential screen visible",
+  "windows": {
+    "build": "26300.9711",
+    "display_version": "26H2",
+    "lockapp_file_version": "10.0.26100.9549",
+    "lockapp_signature": "Valid Microsoft signature",
+    "lockapp_instance_created_before_trial": true,
+    "lockapp_session_matches_editor": true,
+    "matching_foreground_process_identity_method": "still-running PID matched and creation time predates historical samples; no contemporaneous image capture"
+  },
+  "timeline_utc": {
+    "wts_lock_seen": "2026-10-17T07:16:18.083+00:00",
+    "active_work_stopped": "2026-10-17T07:17:23.116+00:00",
+    "last_lockapp_foreground_sample": "2026-10-17T07:18:49.398+00:00",
+    "first_late_input_access_denied": "2026-10-17T07:18:49.600+00:00",
+    "wts_unlock_seen": "2026-10-17T07:18:52.186+00:00",
+    "first_postunlock_command_completed": "2026-10-17T07:18:52.386+00:00",
+    "first_postunlock_native_reply": "2026-10-17T07:18:52.376+00:00"
+  },
+  "quiet_interval_seconds": 89.0700608,
+  "editor_commands_during_quiet_interval": 0,
+  "quiet_interval_resources": {
+    "handle_count": {
+      "min": 1071,
+      "max": 1083
+    },
+    "working_set_bytes": {
+      "min": 379600896,
+      "max": 379678720
+    },
+    "private_usage_bytes": {
+      "min": 1188425728,
+      "max": 1188581376
+    }
+  },
+  "event_log_query": {
+    "start_utc": "2026-10-17T07:15:00.000Z",
+    "end_utc": "2026-10-17T07:21:00.000Z",
+    "method": "server-side TimeCreated XPath, maximum 2000 per log",
+    "supersedes": "initial latest-500 survey",
+    "logs": [
+      {
+        "log": "Application",
+        "status": "no_matching_events",
+        "count": null,
+        "cap_hit": false
+      },
+      {
+        "log": "Microsoft-Windows-Authentication User Interface/Operational",
+        "status": "no_matching_events",
+        "count": null,
+        "cap_hit": false
+      },
+      {
+        "log": "Microsoft-Windows-Biometrics/Operational",
+        "status": "no_matching_events",
+        "count": null,
+        "cap_hit": false
+      },
+      {
+        "log": "Microsoft-Windows-HelloForBusiness/Operational",
+        "status": "queried",
+        "count": 2,
+        "cap_hit": false
+      },
+      {
+        "log": "Microsoft-Windows-Shell-Core/ActionCenter",
+        "status": "no_matching_events",
+        "count": null,
+        "cap_hit": false
+      },
+      {
+        "log": "Microsoft-Windows-Shell-Core/AppDefaults",
+        "status": "no_matching_events",
+        "count": null,
+        "cap_hit": false
+      },
+      {
+        "log": "Microsoft-Windows-Shell-Core/LogonTasksChannel",
+        "status": "no_matching_events",
+        "count": null,
+        "cap_hit": false
+      },
+      {
+        "log": "Microsoft-Windows-Shell-Core/Operational",
+        "status": "no_matching_events",
+        "count": null,
+        "cap_hit": false
+      },
+      {
+        "log": "Microsoft-Windows-SmartCard-Audit/Authentication",
+        "status": "no_matching_events",
+        "count": null,
+        "cap_hit": false
+      },
+      {
+        "log": "Microsoft-Windows-TerminalServices-LocalSessionManager/Admin",
+        "status": "no_matching_events",
+        "count": null,
+        "cap_hit": false
+      },
+      {
+        "log": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+        "status": "no_matching_events",
+        "count": null,
+        "cap_hit": false
+      },
+      {
+        "log": "Microsoft-Windows-Win32k/Operational",
+        "status": "no_matching_events",
+        "count": null,
+        "cap_hit": false
+      },
+      {
+        "log": "Microsoft-Windows-Winlogon/Operational",
+        "status": "queried",
+        "count": 8,
+        "cap_hit": false
+      },
+      {
+        "log": "Security",
+        "status": "access_denied_or_restricted",
+        "count": null,
+        "cap_hit": false
+      },
+      {
+        "log": "System",
+        "status": "no_matching_events",
+        "count": null,
+        "cap_hit": false
+      }
+    ],
+    "events": [
+      {
+        "provider": "Microsoft-Windows-Winlogon",
+        "id": 811,
+        "utc": "2026-10-17T07:16:18.0309872Z",
+        "level": 4,
+        "fields": {
+          "Event": "4",
+          "SubscriberName": "Sens"
+        }
+      },
+      {
+        "provider": "Microsoft-Windows-Winlogon",
+        "id": 812,
+        "utc": "2026-10-17T07:16:18.0321628Z",
+        "level": 4,
+        "fields": {
+          "Event": "4",
+          "SubscriberName": "Sens"
+        }
+      },
+      {
+        "provider": "Microsoft-Windows-Winlogon",
+        "id": 811,
+        "utc": "2026-10-17T07:16:18.0322415Z",
+        "level": 4,
+        "fields": {
+          "Event": "4",
+          "SubscriberName": "TermSrv"
+        }
+      },
+      {
+        "provider": "Microsoft-Windows-Winlogon",
+        "id": 812,
+        "utc": "2026-10-17T07:16:18.0353376Z",
+        "level": 4,
+        "fields": {
+          "Event": "4",
+          "SubscriberName": "TermSrv"
+        }
+      },
+      {
+        "provider": "Microsoft-Windows-HelloForBusiness",
+        "id": 5002,
+        "utc": "2026-10-17T07:18:51.8996849Z",
+        "level": 4
+      },
+      {
+        "provider": "Microsoft-Windows-HelloForBusiness",
+        "id": 5001,
+        "utc": "2026-10-17T07:18:52.0679299Z",
+        "level": 4
+      },
+      {
+        "provider": "Microsoft-Windows-Winlogon",
+        "id": 811,
+        "utc": "2026-10-17T07:18:52.0685856Z",
+        "level": 4,
+        "fields": {
+          "Event": "5",
+          "SubscriberName": "Sens"
+        }
+      },
+      {
+        "provider": "Microsoft-Windows-Winlogon",
+        "id": 812,
+        "utc": "2026-10-17T07:18:52.0690870Z",
+        "level": 4,
+        "fields": {
+          "Event": "5",
+          "SubscriberName": "Sens"
+        }
+      },
+      {
+        "provider": "Microsoft-Windows-Winlogon",
+        "id": 811,
+        "utc": "2026-10-17T07:18:52.0691609Z",
+        "level": 4,
+        "fields": {
+          "Event": "5",
+          "SubscriberName": "TermSrv"
+        }
+      },
+      {
+        "provider": "Microsoft-Windows-Winlogon",
+        "id": 812,
+        "utc": "2026-10-17T07:18:52.0723957Z",
+        "level": 4,
+        "fields": {
+          "Event": "5",
+          "SubscriberName": "TermSrv"
+        }
+      }
+    ],
+    "disabled_logs": [
+      "Microsoft-Windows-Authentication/AuthenticationPolicyFailures-DomainController",
+      "Microsoft-Windows-Authentication/ProtectedUser-Client",
+      "Microsoft-Windows-Authentication/ProtectedUserFailures-DomainController",
+      "Microsoft-Windows-Authentication/ProtectedUserSuccesses-DomainController"
+    ],
+    "patterns_without_matching_logs": [
+      "*CredUI*",
+      "*Dwm*",
+      "*LockApp*"
+    ],
+    "missing_log_classification": "separate Get-WinEvent -ListLog checks returned NoMatchingLogsFound; initial inventory labelled these access_error"
+  },
+  "policy_current_read_only": {
+    "Policies/System/DisableCAD": "absent",
+    "Winlogon/DisableCAD": 1,
+    "effective_precedence_not_established": true,
+    "historical_policy_state_not_captured": true
+  },
+  "original_instrument_hashes": {
+    "launcher_sha256": "001945acbabe5c18c14815c783a458e48b87a52ec90035376b9c6de7cc7be21e",
+    "launcher_reconstruction_exact_hash_match": true,
+    "lua_sha256": "7a84a4416319d43f4082c07a599e231c95277f6c199ed68891231905e4de8260",
+    "retained_lua_exact_hash_match": true,
+    "controller_source_hash": "not_recorded"
+  },
+  "audit_findings": {
+    "no_desktop_switch_or_focus_calls_found_in_verified_launcher": true,
+    "no_editor_commands_after_65_seconds_until_wts_unlock": true,
+    "observer_input_desktop_polling_continued_while_locked": true,
+    "no_linked_owned_error_dialog_identified": true,
+    "secure_attention_time_not_captured": true,
+    "post_unlock_dispatch_does_not_fit_reported_pre_credential_failure": true
+  },
+  "new_trials": {
+    "editor_launches": 0,
+    "new_private_desktops": 0,
+    "lock_operations": 0,
+    "visible_operations": 0,
+    "settings_changes": 0
+  },
+  "source_receipts": {
+    "lock_timeline_sha256": "3195207e9336a367b001fcf485da71dbe9ccc41fdd652798d570448b0ec012eb",
+    "bounded_event_audit_v2_sha256": "58f2b08ff28b737a812454dd2c7a4f74805fa7a29a2e6a5c14017693545b1544",
+    "lock_operations_sha256": "4886d960da0fdb2242451cff45c8ca8e769aaa0252739971acb2c1238e529de3",
+    "lock_telemetry_sha256": "3df2ab18f35525d25a0adc86c67d18efc0b7b35137973a49a2220d115ae32f0d"
+  },
+  "limits": [
+    "Foreground identity is not a capture of credential UI or its focus/input state.",
+    "No keypress or beep timestamp/source was measured.",
+    "Security log was restricted; other absent/empty channels are not evidence that no failure occurred.",
+    "This phase did not reproduce the symptom or validate a fix."
+  ]
+}

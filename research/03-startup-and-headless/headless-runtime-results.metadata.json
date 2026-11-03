@@ -1,0 +1,3448 @@
+{
+  "case_count": 32,
+  "cases": [
+    {
+      "backend": {
+        "audio_driver": null,
+        "correlated": false,
+        "last_render_driver": null,
+        "reason": "log_pid_unavailable"
+      },
+      "case": "backend-d3d12",
+      "classification": "backend_rejected_before_lua",
+      "config_snapshot": {
+        "input_editor_xml_exists": true,
+        "input_editor_xml_sha256": "26df4c84cabab27fb6b3abbd9e108e93be99dd8f48fc67fdcf22f6c4aeab2d17",
+        "input_hash_matches_recorded": true,
+        "input_renderer": "Vulkan",
+        "post_renderer": "Vulkan"
+      },
+      "controller_errors": [
+        "Editor exited without a fresh parseable Lua result.xml receipt"
+      ],
+      "desktop_cleanup": {
+        "absent_after_close": true,
+        "cleanup_confirmed": true,
+        "cleanup_errors": [],
+        "open_error_after_close": 2
+      },
+      "event_counts": {
+        "canvas_error_writes": [
+          "Unable to create canvas for Direct 3D 12"
+        ],
+        "create_window_events": 8,
+        "hooks_ready": 1,
+        "installed_win32u_api_count": 8,
+        "installed_win32u_api_names": [
+          "CreateWindowExA",
+          "CreateWindowExW",
+          "MessageBoxA",
+          "MessageBoxW",
+          "NtUserCreateWindowEx",
+          "SetWindowPos",
+          "ShowWindow",
+          "ShowWindowAsync",
+          "WriteFile"
+        ],
+        "native_window_events": 10,
+        "native_windows_created": 8,
+        "renderer_config_events": [
+          {
+            "after": 0,
+            "before": 5
+          }
+        ],
+        "renderer_factory_enums": [
+          0
+        ],
+        "successful_create_windows": 8,
+        "trace_event_counts": {
+          "canvas_error_write": 1,
+          "create_window": 8,
+          "editor_function_enter": 2,
+          "hook_installed": 9,
+          "instrumentation_ready": 1,
+          "module_loaded": 1,
+          "native_window_created": 10,
+          "renderer_config_constructed": 1,
+          "renderer_factory_enter": 1
+        },
+        "window_denied_events": 0
+      },
+      "exit_code_recorded": 1,
+      "hooks_coverage": {
+        "all_expected_installed": true,
+        "expected_count": 8
+      },
+      "individual_run": {
+        "input_hashes_before_start": {
+          "editor.exe": "c9d70afba98678264c82e06ebaafa3018409e3f4cdd6d4e53e6fa3932817152d",
+          "editor.xml": "26df4c84cabab27fb6b3abbd9e108e93be99dd8f48fc67fdcf22f6c4aeab2d17",
+          "hooks": "5e1d4623f24b08ca8c3d7ec117741f38e2213ef9caa8f900c423acea290213b4",
+          "probe.lua": "5f4573dc21933e8f653b4d01ae98178a86b5297e55144278d347857a1d80c114",
+          "spec.json": "51de1048b3d8005456ccd88f3fa046728cda59353f42133f230c1e2b92cc7ad8"
+        },
+        "mode": "force-d3d12"
+      },
+      "lua_probe": {
+        "exists": false,
+        "fresh_mtime_provable": false,
+        "fresh_mtime_reason": "result_missing_or_unparseable",
+        "ok": false,
+        "parseable": false,
+        "scene_correlated": false
+      },
+      "mode": "force-d3d12",
+      "requested_renderer": "Vulkan",
+      "result_ready": false,
+      "script_errors": [],
+      "status": "failed",
+      "telemetry": {
+        "all_editor_windows_on_input_empty": true,
+        "all_foreground_pids_are_other": true,
+        "all_input_desktops_default": true,
+        "has_exited_phase": true,
+        "has_suspended_phase": true,
+        "missing_input_state_fields": 0,
+        "phases": [
+          "exited",
+          "running",
+          "suspended"
+        ],
+        "row_count": 3,
+        "state_row_count": 3
+      }
+    },
+    {
+      "backend": {
+        "audio_driver": null,
+        "correlated": false,
+        "last_render_driver": null,
+        "reason": "log_pid_unavailable"
+      },
+      "case": "backend-gnm",
+      "classification": "backend_rejected_before_lua",
+      "config_snapshot": {
+        "input_editor_xml_exists": true,
+        "input_editor_xml_sha256": "ea3bf56ca6da26db140ef4d9505e11a3107652363525a7a5cbf769a4ab3a9e51",
+        "input_hash_matches_recorded": true,
+        "input_renderer": "Vulkan",
+        "post_renderer": "Vulkan"
+      },
+      "controller_errors": [
+        "Editor exited without a fresh parseable Lua result.xml receipt"
+      ],
+      "desktop_cleanup": {
+        "absent_after_close": true,
+        "cleanup_confirmed": true,
+        "cleanup_errors": [],
+        "open_error_after_close": 2
+      },
+      "event_counts": {
+        "canvas_error_writes": [
+          "Unable to create canvas for GNM"
+        ],
+        "create_window_events": 8,
+        "hooks_ready": 1,
+        "installed_win32u_api_count": 8,
+        "installed_win32u_api_names": [
+          "CreateWindowExA",
+          "CreateWindowExW",
+          "MessageBoxA",
+          "MessageBoxW",
+          "NtUserCreateWindowEx",
+          "SetWindowPos",
+          "ShowWindow",
+          "ShowWindowAsync",
+          "WriteFile"
+        ],
+        "native_window_events": 10,
+        "native_windows_created": 8,
+        "renderer_config_events": [
+          {
+            "after": 1,
+            "before": 5
+          }
+        ],
+        "renderer_factory_enums": [
+          1
+        ],
+        "successful_create_windows": 8,
+        "trace_event_counts": {
+          "canvas_error_write": 1,
+          "create_window": 8,
+          "editor_function_enter": 2,
+          "hook_installed": 9,
+          "instrumentation_ready": 1,
+          "module_loaded": 1,
+          "native_window_created": 10,
+          "renderer_config_constructed": 1,
+          "renderer_factory_enter": 1
+        },
+        "window_denied_events": 0
+      },
+      "exit_code_recorded": 1,
+      "hooks_coverage": {
+        "all_expected_installed": true,
+        "expected_count": 8
+      },
+      "individual_run": {
+        "input_hashes_before_start": {
+          "editor.exe": "c9d70afba98678264c82e06ebaafa3018409e3f4cdd6d4e53e6fa3932817152d",
+          "editor.xml": "ea3bf56ca6da26db140ef4d9505e11a3107652363525a7a5cbf769a4ab3a9e51",
+          "hooks": "5e1d4623f24b08ca8c3d7ec117741f38e2213ef9caa8f900c423acea290213b4",
+          "probe.lua": "80f54d97bff001b90a01e07613f44babcb66bbf6abc90fa932b525d333b2df0b",
+          "spec.json": "cf09989c4533e0b659325b6b2e558ab377cb5e1832d19f92583bb2b281d9b6df"
+        },
+        "mode": "force-gnm"
+      },
+      "lua_probe": {
+        "exists": false,
+        "fresh_mtime_provable": false,
+        "fresh_mtime_reason": "result_missing_or_unparseable",
+        "ok": false,
+        "parseable": false,
+        "scene_correlated": false
+      },
+      "mode": "force-gnm",
+      "requested_renderer": "Vulkan",
+      "result_ready": false,
+      "script_errors": [],
+      "status": "failed",
+      "telemetry": {
+        "all_editor_windows_on_input_empty": true,
+        "all_foreground_pids_are_other": true,
+        "all_input_desktops_default": true,
+        "has_exited_phase": true,
+        "has_suspended_phase": true,
+        "missing_input_state_fields": 0,
+        "phases": [
+          "exited",
+          "running",
+          "suspended"
+        ],
+        "row_count": 3,
+        "state_row_count": 3
+      }
+    },
+    {
+      "backend": {
+        "audio_driver": null,
+        "correlated": false,
+        "last_render_driver": null,
+        "reason": "log_pid_unavailable"
+      },
+      "case": "backend-metal",
+      "classification": "backend_rejected_before_lua",
+      "config_snapshot": {
+        "input_editor_xml_exists": true,
+        "input_editor_xml_sha256": "4a2df695be422f5ec97ab31a46b9f20d9a5fffc60c64b5f8abbab2dc2c3afd74",
+        "input_hash_matches_recorded": true,
+        "input_renderer": "Vulkan",
+        "post_renderer": "Vulkan"
+      },
+      "controller_errors": [
+        "Editor exited without a fresh parseable Lua result.xml receipt"
+      ],
+      "desktop_cleanup": {
+        "absent_after_close": true,
+        "cleanup_confirmed": true,
+        "cleanup_errors": [],
+        "open_error_after_close": 2
+      },
+      "event_counts": {
+        "canvas_error_writes": [
+          "Unable to create canvas for Metal"
+        ],
+        "create_window_events": 8,
+        "hooks_ready": 1,
+        "installed_win32u_api_count": 8,
+        "installed_win32u_api_names": [
+          "CreateWindowExA",
+          "CreateWindowExW",
+          "MessageBoxA",
+          "MessageBoxW",
+          "NtUserCreateWindowEx",
+          "SetWindowPos",
+          "ShowWindow",
+          "ShowWindowAsync",
+          "WriteFile"
+        ],
+        "native_window_events": 10,
+        "native_windows_created": 8,
+        "renderer_config_events": [
+          {
+            "after": 4,
+            "before": 5
+          }
+        ],
+        "renderer_factory_enums": [
+          4
+        ],
+        "successful_create_windows": 8,
+        "trace_event_counts": {
+          "canvas_error_write": 1,
+          "create_window": 8,
+          "editor_function_enter": 2,
+          "hook_installed": 9,
+          "instrumentation_ready": 1,
+          "module_loaded": 1,
+          "native_window_created": 10,
+          "renderer_config_constructed": 1,
+          "renderer_factory_enter": 1
+        },
+        "window_denied_events": 0
+      },
+      "exit_code_recorded": 1,
+      "hooks_coverage": {
+        "all_expected_installed": true,
+        "expected_count": 8
+      },
+      "individual_run": {
+        "input_hashes_before_start": {
+          "editor.exe": "c9d70afba98678264c82e06ebaafa3018409e3f4cdd6d4e53e6fa3932817152d",
+          "editor.xml": "4a2df695be422f5ec97ab31a46b9f20d9a5fffc60c64b5f8abbab2dc2c3afd74",
+          "hooks": "5e1d4623f24b08ca8c3d7ec117741f38e2213ef9caa8f900c423acea290213b4",
+          "probe.lua": "e1715c7cc87b319e2471f14c93812998d48fd43258a9bb3742a62768b22707f3",
+          "spec.json": "9a458969a59765902681efda19a7c90f2c7a959c5e82276c80a68b0d28810b99"
+        },
+        "mode": "force-metal"
+      },
+      "lua_probe": {
+        "exists": false,
+        "fresh_mtime_provable": false,
+        "fresh_mtime_reason": "result_missing_or_unparseable",
+        "ok": false,
+        "parseable": false,
+        "scene_correlated": false
+      },
+      "mode": "force-metal",
+      "requested_renderer": "Vulkan",
+      "result_ready": false,
+      "script_errors": [],
+      "status": "failed",
+      "telemetry": {
+        "all_editor_windows_on_input_empty": true,
+        "all_foreground_pids_are_other": true,
+        "all_input_desktops_default": true,
+        "has_exited_phase": true,
+        "has_suspended_phase": true,
+        "missing_input_state_fields": 0,
+        "phases": [
+          "exited",
+          "running",
+          "suspended"
+        ],
+        "row_count": 3,
+        "state_row_count": 3
+      }
+    },
+    {
+      "backend": {
+        "audio_driver": null,
+        "correlated": false,
+        "last_render_driver": null,
+        "reason": "log_pid_unavailable"
+      },
+      "case": "backend-null",
+      "classification": "backend_rejected_before_lua",
+      "config_snapshot": {
+        "input_editor_xml_exists": true,
+        "input_editor_xml_sha256": "bb852fffb953d2d60c0be7b6c75eb9ecfb5f1195087945e86eb8b19661215cef",
+        "input_hash_matches_recorded": true,
+        "input_renderer": "Vulkan",
+        "post_renderer": "Vulkan"
+      },
+      "controller_errors": [
+        "Editor exited without a fresh parseable Lua result.xml receipt"
+      ],
+      "desktop_cleanup": {
+        "absent_after_close": true,
+        "cleanup_confirmed": true,
+        "cleanup_errors": [],
+        "open_error_after_close": 2
+      },
+      "event_counts": {
+        "canvas_error_writes": [
+          "Unable to create canvas for NULL"
+        ],
+        "create_window_events": 8,
+        "hooks_ready": 1,
+        "installed_win32u_api_count": 8,
+        "installed_win32u_api_names": [
+          "CreateWindowExA",
+          "CreateWindowExW",
+          "MessageBoxA",
+          "MessageBoxW",
+          "NtUserCreateWindowEx",
+          "SetWindowPos",
+          "ShowWindow",
+          "ShowWindowAsync",
+          "WriteFile"
+        ],
+        "native_window_events": 10,
+        "native_windows_created": 8,
+        "renderer_config_events": [
+          {
+            "after": 6,
+            "before": 5
+          }
+        ],
+        "renderer_factory_enums": [
+          6
+        ],
+        "successful_create_windows": 8,
+        "trace_event_counts": {
+          "canvas_error_write": 1,
+          "create_window": 8,
+          "editor_function_enter": 2,
+          "hook_installed": 9,
+          "instrumentation_ready": 1,
+          "module_loaded": 1,
+          "native_window_created": 10,
+          "renderer_config_constructed": 1,
+          "renderer_factory_enter": 1
+        },
+        "window_denied_events": 0
+      },
+      "exit_code_recorded": 1,
+      "hooks_coverage": {
+        "all_expected_installed": true,
+        "expected_count": 8
+      },
+      "individual_run": {
+        "input_hashes_before_start": {
+          "editor.exe": "c9d70afba98678264c82e06ebaafa3018409e3f4cdd6d4e53e6fa3932817152d",
+          "editor.xml": "bb852fffb953d2d60c0be7b6c75eb9ecfb5f1195087945e86eb8b19661215cef",
+          "hooks": "5e1d4623f24b08ca8c3d7ec117741f38e2213ef9caa8f900c423acea290213b4",
+          "probe.lua": "66462262549f1a499ee190d77eb2e07e3b938e61611f4eade78413b0ee076f10",
+          "spec.json": "fa192a388893cbc8809f940e6acb371ffde7af735f81fb4cb55e7e07a4957744"
+        },
+        "mode": "force-null"
+      },
+      "lua_probe": {
+        "exists": false,
+        "fresh_mtime_provable": false,
+        "fresh_mtime_reason": "result_missing_or_unparseable",
+        "ok": false,
+        "parseable": false,
+        "scene_correlated": false
+      },
+      "mode": "force-null",
+      "requested_renderer": "Vulkan",
+      "result_ready": false,
+      "script_errors": [],
+      "status": "failed",
+      "telemetry": {
+        "all_editor_windows_on_input_empty": true,
+        "all_foreground_pids_are_other": true,
+        "all_input_desktops_default": true,
+        "has_exited_phase": true,
+        "has_suspended_phase": true,
+        "missing_input_state_fields": 0,
+        "phases": [
+          "exited",
+          "running",
+          "suspended"
+        ],
+        "row_count": 3,
+        "state_row_count": 3
+      }
+    },
+    {
+      "backend": {
+        "audio_driver": null,
+        "correlated": false,
+        "last_render_driver": null,
+        "reason": "log_pid_unavailable"
+      },
+      "case": "backend-null-tracking",
+      "classification": "backend_rejected_before_lua",
+      "config_snapshot": {
+        "input_editor_xml_exists": true,
+        "input_editor_xml_sha256": "000bddaac7a322ab61898f28a0468b0384ae2f514dd6f2ecda2e2527da923bc6",
+        "input_hash_matches_recorded": true,
+        "input_renderer": "Vulkan",
+        "post_renderer": "Vulkan"
+      },
+      "controller_errors": [
+        "Editor exited without a fresh parseable Lua result.xml receipt"
+      ],
+      "desktop_cleanup": {
+        "absent_after_close": true,
+        "cleanup_confirmed": true,
+        "cleanup_errors": [],
+        "open_error_after_close": 2
+      },
+      "event_counts": {
+        "canvas_error_writes": [
+          "Unable to create canvas for NULL TRACKING"
+        ],
+        "create_window_events": 8,
+        "hooks_ready": 1,
+        "installed_win32u_api_count": 8,
+        "installed_win32u_api_names": [
+          "CreateWindowExA",
+          "CreateWindowExW",
+          "MessageBoxA",
+          "MessageBoxW",
+          "NtUserCreateWindowEx",
+          "SetWindowPos",
+          "ShowWindow",
+          "ShowWindowAsync",
+          "WriteFile"
+        ],
+        "native_window_events": 10,
+        "native_windows_created": 8,
+        "renderer_config_events": [
+          {
+            "after": 7,
+            "before": 5
+          }
+        ],
+        "renderer_factory_enums": [
+          7
+        ],
+        "successful_create_windows": 8,
+        "trace_event_counts": {
+          "canvas_error_write": 1,
+          "create_window": 8,
+          "editor_function_enter": 2,
+          "hook_installed": 9,
+          "instrumentation_ready": 1,
+          "module_loaded": 1,
+          "native_window_created": 10,
+          "renderer_config_constructed": 1,
+          "renderer_factory_enter": 1
+        },
+        "window_denied_events": 0
+      },
+      "exit_code_recorded": 1,
+      "hooks_coverage": {
+        "all_expected_installed": true,
+        "expected_count": 8
+      },
+      "individual_run": {
+        "input_hashes_before_start": {
+          "editor.exe": "c9d70afba98678264c82e06ebaafa3018409e3f4cdd6d4e53e6fa3932817152d",
+          "editor.xml": "000bddaac7a322ab61898f28a0468b0384ae2f514dd6f2ecda2e2527da923bc6",
+          "hooks": "5e1d4623f24b08ca8c3d7ec117741f38e2213ef9caa8f900c423acea290213b4",
+          "probe.lua": "ddb67598ae69d9701bebc0695cee0ace86624c47a15eaa7c1d62bb216256c6b9",
+          "spec.json": "2896a2f3543add113040565d787463d61b409f8a495c18a9e5ac4a319122e070"
+        },
+        "mode": "force-null-tracking"
+      },
+      "lua_probe": {
+        "exists": false,
+        "fresh_mtime_provable": false,
+        "fresh_mtime_reason": "result_missing_or_unparseable",
+        "ok": false,
+        "parseable": false,
+        "scene_correlated": false
+      },
+      "mode": "force-null-tracking",
+      "requested_renderer": "Vulkan",
+      "result_ready": false,
+      "script_errors": [],
+      "status": "failed",
+      "telemetry": {
+        "all_editor_windows_on_input_empty": true,
+        "all_foreground_pids_are_other": true,
+        "all_input_desktops_default": true,
+        "has_exited_phase": true,
+        "has_suspended_phase": true,
+        "missing_input_state_fields": 0,
+        "phases": [
+          "exited",
+          "running",
+          "suspended"
+        ],
+        "row_count": 3,
+        "state_row_count": 3
+      }
+    },
+    {
+      "backend": {
+        "audio_driver": null,
+        "correlated": false,
+        "last_render_driver": null,
+        "reason": "log_pid_unavailable"
+      },
+      "case": "backend-nvn",
+      "classification": "backend_rejected_before_lua",
+      "config_snapshot": {
+        "input_editor_xml_exists": true,
+        "input_editor_xml_sha256": "7e55f46ff5c33421b823d6947d83f913c8962d37585ce11e57d54bd2ea6f5daf",
+        "input_hash_matches_recorded": true,
+        "input_renderer": "Vulkan",
+        "post_renderer": "Vulkan"
+      },
+      "controller_errors": [
+        "Editor exited without a fresh parseable Lua result.xml receipt"
+      ],
+      "desktop_cleanup": {
+        "absent_after_close": true,
+        "cleanup_confirmed": true,
+        "cleanup_errors": [],
+        "open_error_after_close": 2
+      },
+      "event_counts": {
+        "canvas_error_writes": [
+          "Unable to create canvas for NVN"
+        ],
+        "create_window_events": 8,
+        "hooks_ready": 1,
+        "installed_win32u_api_count": 8,
+        "installed_win32u_api_names": [
+          "CreateWindowExA",
+          "CreateWindowExW",
+          "MessageBoxA",
+          "MessageBoxW",
+          "NtUserCreateWindowEx",
+          "SetWindowPos",
+          "ShowWindow",
+          "ShowWindowAsync",
+          "WriteFile"
+        ],
+        "native_window_events": 10,
+        "native_windows_created": 8,
+        "renderer_config_events": [
+          {
+            "after": 3,
+            "before": 5
+          }
+        ],
+        "renderer_factory_enums": [
+          3
+        ],
+        "successful_create_windows": 8,
+        "trace_event_counts": {
+          "canvas_error_write": 1,
+          "create_window": 8,
+          "editor_function_enter": 2,
+          "hook_installed": 9,
+          "instrumentation_ready": 1,
+          "module_loaded": 1,
+          "native_window_created": 10,
+          "renderer_config_constructed": 1,
+          "renderer_factory_enter": 1
+        },
+        "window_denied_events": 0
+      },
+      "exit_code_recorded": 1,
+      "hooks_coverage": {
+        "all_expected_installed": true,
+        "expected_count": 8
+      },
+      "individual_run": {
+        "input_hashes_before_start": {
+          "editor.exe": "c9d70afba98678264c82e06ebaafa3018409e3f4cdd6d4e53e6fa3932817152d",
+          "editor.xml": "7e55f46ff5c33421b823d6947d83f913c8962d37585ce11e57d54bd2ea6f5daf",
+          "hooks": "5e1d4623f24b08ca8c3d7ec117741f38e2213ef9caa8f900c423acea290213b4",
+          "probe.lua": "b5e5b8b4c3c78226555440c3816285d55bfe9974d4cd7d70439b89628959cb72",
+          "spec.json": "66e162b2df14c6ab9f3699156ca303016654bc0bad513fffcb6b00ed58ca7645"
+        },
+        "mode": "force-nvn"
+      },
+      "lua_probe": {
+        "exists": false,
+        "fresh_mtime_provable": false,
+        "fresh_mtime_reason": "result_missing_or_unparseable",
+        "ok": false,
+        "parseable": false,
+        "scene_correlated": false
+      },
+      "mode": "force-nvn",
+      "requested_renderer": "Vulkan",
+      "result_ready": false,
+      "script_errors": [],
+      "status": "failed",
+      "telemetry": {
+        "all_editor_windows_on_input_empty": true,
+        "all_foreground_pids_are_other": true,
+        "all_input_desktops_default": true,
+        "has_exited_phase": true,
+        "has_suspended_phase": true,
+        "missing_input_state_fields": 0,
+        "phases": [
+          "exited",
+          "running",
+          "suspended"
+        ],
+        "row_count": 3,
+        "state_row_count": 3
+      }
+    },
+    {
+      "backend": {
+        "audio_driver": null,
+        "correlated": false,
+        "last_render_driver": null,
+        "reason": "log_pid_unavailable"
+      },
+      "case": "backend-ps5",
+      "classification": "backend_rejected_before_lua",
+      "config_snapshot": {
+        "input_editor_xml_exists": true,
+        "input_editor_xml_sha256": "d2ffad867cf5b646d9e400f834b2e9371f0ce7dafca07645c8202fa2eaefe393",
+        "input_hash_matches_recorded": true,
+        "input_renderer": "Vulkan",
+        "post_renderer": "Vulkan"
+      },
+      "controller_errors": [
+        "Editor exited without a fresh parseable Lua result.xml receipt"
+      ],
+      "desktop_cleanup": {
+        "absent_after_close": true,
+        "cleanup_confirmed": true,
+        "cleanup_errors": [],
+        "open_error_after_close": 2
+      },
+      "event_counts": {
+        "canvas_error_writes": [
+          "Unable to create canvas for PS5"
+        ],
+        "create_window_events": 8,
+        "hooks_ready": 1,
+        "installed_win32u_api_count": 8,
+        "installed_win32u_api_names": [
+          "CreateWindowExA",
+          "CreateWindowExW",
+          "MessageBoxA",
+          "MessageBoxW",
+          "NtUserCreateWindowEx",
+          "SetWindowPos",
+          "ShowWindow",
+          "ShowWindowAsync",
+          "WriteFile"
+        ],
+        "native_window_events": 10,
+        "native_windows_created": 8,
+        "renderer_config_events": [
+          {
+            "after": 2,
+            "before": 5
+          }
+        ],
+        "renderer_factory_enums": [
+          2
+        ],
+        "successful_create_windows": 8,
+        "trace_event_counts": {
+          "canvas_error_write": 1,
+          "create_window": 8,
+          "editor_function_enter": 2,
+          "hook_installed": 9,
+          "instrumentation_ready": 1,
+          "module_loaded": 1,
+          "native_window_created": 10,
+          "renderer_config_constructed": 1,
+          "renderer_factory_enter": 1
+        },
+        "window_denied_events": 0
+      },
+      "exit_code_recorded": 1,
+      "hooks_coverage": {
+        "all_expected_installed": true,
+        "expected_count": 8
+      },
+      "individual_run": {
+        "input_hashes_before_start": {
+          "editor.exe": "c9d70afba98678264c82e06ebaafa3018409e3f4cdd6d4e53e6fa3932817152d",
+          "editor.xml": "d2ffad867cf5b646d9e400f834b2e9371f0ce7dafca07645c8202fa2eaefe393",
+          "hooks": "5e1d4623f24b08ca8c3d7ec117741f38e2213ef9caa8f900c423acea290213b4",
+          "probe.lua": "f56ac29d5fed6d75071d73d05dee4a2f1c54e82c601e08fdec3210dac338be8b",
+          "spec.json": "90a1bec69cae5a54ed6daf6b0c0f269ce5d39d9c23deab88e1e7379a95518b15"
+        },
+        "mode": "force-ps5"
+      },
+      "lua_probe": {
+        "exists": false,
+        "fresh_mtime_provable": false,
+        "fresh_mtime_reason": "result_missing_or_unparseable",
+        "ok": false,
+        "parseable": false,
+        "scene_correlated": false
+      },
+      "mode": "force-ps5",
+      "requested_renderer": "Vulkan",
+      "result_ready": false,
+      "script_errors": [],
+      "status": "failed",
+      "telemetry": {
+        "all_editor_windows_on_input_empty": true,
+        "all_foreground_pids_are_other": true,
+        "all_input_desktops_default": true,
+        "has_exited_phase": true,
+        "has_suspended_phase": true,
+        "missing_input_state_fields": 0,
+        "phases": [
+          "exited",
+          "running",
+          "suspended"
+        ],
+        "row_count": 3,
+        "state_row_count": 3
+      }
+    },
+    {
+      "backend": {
+        "audio_driver": "SoftMixer WASAPI Stereo",
+        "correlated": true,
+        "last_render_driver": "Vulkan",
+        "reason": "summary_pid_matches_log_pid"
+      },
+      "case": "backend-vulkan",
+      "classification": "gui_startup_succeeded_non_headless",
+      "config_snapshot": {
+        "input_editor_xml_exists": true,
+        "input_editor_xml_sha256": "fa0e56d13e1280168af0a6c2ea9eb68f4ed863eaa1b9772d12fa2aa65e2c9bb3",
+        "input_hash_matches_recorded": true,
+        "input_renderer": "Vulkan",
+        "post_renderer": "Vulkan"
+      },
+      "controller_errors": [],
+      "desktop_cleanup": {
+        "absent_after_close": true,
+        "cleanup_confirmed": true,
+        "cleanup_errors": [],
+        "open_error_after_close": 2
+      },
+      "event_counts": {
+        "canvas_error_writes": [],
+        "create_window_events": 1305,
+        "hooks_ready": 1,
+        "installed_win32u_api_count": 8,
+        "installed_win32u_api_names": [
+          "CreateWindowExA",
+          "CreateWindowExW",
+          "MessageBoxA",
+          "MessageBoxW",
+          "NtUserCreateWindowEx",
+          "SetWindowPos",
+          "ShowWindow",
+          "ShowWindowAsync",
+          "WriteFile"
+        ],
+        "native_window_events": 1324,
+        "native_windows_created": 1306,
+        "renderer_config_events": [
+          {
+            "after": 5,
+            "before": 5
+          }
+        ],
+        "renderer_factory_enums": [
+          5
+        ],
+        "successful_create_windows": 1305,
+        "trace_event_counts": {
+          "create_window": 1305,
+          "editor_function_enter": 2,
+          "hook_installed": 9,
+          "instrumentation_ready": 1,
+          "module_loaded": 1,
+          "native_window_created": 1324,
+          "renderer_config_constructed": 1,
+          "renderer_factory_enter": 1,
+          "renderer_factory_leave": 1,
+          "show_window": 470
+        },
+        "window_denied_events": 0
+      },
+      "exit_code_recorded": 0,
+      "hooks_coverage": {
+        "all_expected_installed": true,
+        "expected_count": 8
+      },
+      "individual_run": {
+        "input_hashes_before_start": {
+          "editor.exe": "c9d70afba98678264c82e06ebaafa3018409e3f4cdd6d4e53e6fa3932817152d",
+          "editor.xml": "fa0e56d13e1280168af0a6c2ea9eb68f4ed863eaa1b9772d12fa2aa65e2c9bb3",
+          "hooks": "5e1d4623f24b08ca8c3d7ec117741f38e2213ef9caa8f900c423acea290213b4",
+          "probe.lua": "76eb187e572fa2e5fa9f2a3fcc2e438f21a1bfd750cfa04ab9c6b230e3bf95b6",
+          "spec.json": "508c72e191713f8382f1f1df7cd464b86f1e7aaaa51f0dc3c1ad97a8f8bc2355"
+        },
+        "mode": "baseline"
+      },
+      "lua_probe": {
+        "children_value": "2",
+        "exists": true,
+        "expected_children_value": 2,
+        "fresh_mtime_provable": true,
+        "fresh_mtime_reason": "recorded_suspended_sample_before_resume",
+        "ok": true,
+        "parseable": true,
+        "root_value": "5",
+        "scene_correlated": true,
+        "scene_file": "scene.i3d"
+      },
+      "mode": "baseline",
+      "requested_renderer": "Vulkan",
+      "result_ready": true,
+      "script_errors": [],
+      "status": "completed",
+      "telemetry": {
+        "all_editor_windows_on_input_empty": true,
+        "all_foreground_pids_are_other": true,
+        "all_input_desktops_default": true,
+        "has_exited_phase": true,
+        "has_suspended_phase": true,
+        "missing_input_state_fields": 1,
+        "phases": [
+          "exited",
+          "lua-result-ready",
+          "running",
+          "suspended"
+        ],
+        "row_count": 45,
+        "state_row_count": 44
+      }
+    },
+    {
+      "backend": {
+        "audio_driver": "SoftMixer WASAPI Stereo",
+        "correlated": true,
+        "last_render_driver": "Vulkan",
+        "reason": "summary_pid_matches_log_pid"
+      },
+      "case": "baseline",
+      "classification": "gui_startup_succeeded_non_headless",
+      "config_snapshot": {
+        "input_editor_xml_exists": false,
+        "input_editor_xml_sha256": null,
+        "input_hash_matches_recorded": null,
+        "input_renderer": null,
+        "post_renderer": "Vulkan"
+      },
+      "controller_errors": [],
+      "desktop_cleanup": {
+        "absent_after_close": true,
+        "cleanup_confirmed": true,
+        "cleanup_errors": [],
+        "open_error_after_close": 2
+      },
+      "event_counts": {
+        "canvas_error_writes": [],
+        "create_window_events": 1258,
+        "hooks_ready": 1,
+        "installed_win32u_api_count": 8,
+        "installed_win32u_api_names": [
+          "CreateWindowExA",
+          "CreateWindowExW",
+          "MessageBoxA",
+          "MessageBoxW",
+          "NtUserCreateWindowEx",
+          "SetWindowPos",
+          "ShowWindow",
+          "ShowWindowAsync"
+        ],
+        "native_window_events": 1276,
+        "native_windows_created": 1258,
+        "renderer_config_events": [],
+        "renderer_factory_enums": [],
+        "successful_create_windows": 1258,
+        "trace_event_counts": {
+          "create_window": 1258,
+          "editor_function_enter": 2,
+          "hook_installed": 8,
+          "instrumentation_ready": 1,
+          "module_loaded": 1,
+          "native_window_created": 1276,
+          "show_window": 448
+        },
+        "window_denied_events": 0
+      },
+      "exit_code_recorded": 0,
+      "hooks_coverage": {
+        "all_expected_installed": true,
+        "expected_count": 8
+      },
+      "individual_run": {
+        "input_hashes_before_start": {
+          "editor.exe": "c9d70afba98678264c82e06ebaafa3018409e3f4cdd6d4e53e6fa3932817152d",
+          "editor.xml": "03eeda062cf55e11f8a4e081c404a66df95b06ab2a3013e63c13baf4ba8d8df9",
+          "hooks": "0a61cb0d14f1144ae296cd2a9c5693d7b1d82180ddf42d62c2cf4aa105e39fd5",
+          "probe.lua": "8af89554c55345b6f513f911388093935b269d231c104b864ef90f59fe93f7ba",
+          "spec.json": "6dc577433ad6297affd75921240b7a013754a9b8448db9ab34520e7a1f018be8"
+        },
+        "mode": "baseline"
+      },
+      "lua_probe": {
+        "children_value": "2",
+        "exists": true,
+        "expected_children_value": 2,
+        "fresh_mtime_provable": true,
+        "fresh_mtime_reason": "recorded_suspended_sample_before_resume",
+        "ok": true,
+        "parseable": true,
+        "root_value": "5",
+        "scene_correlated": true,
+        "scene_file": "scene.i3d"
+      },
+      "mode": "baseline",
+      "requested_renderer": "unknown",
+      "result_ready": true,
+      "script_errors": [],
+      "status": "completed",
+      "telemetry": {
+        "all_editor_windows_on_input_empty": true,
+        "all_foreground_pids_are_other": true,
+        "all_input_desktops_default": true,
+        "has_exited_phase": true,
+        "has_suspended_phase": true,
+        "missing_input_state_fields": 1,
+        "phases": [
+          "exited",
+          "lua-result-ready",
+          "running",
+          "suspended"
+        ],
+        "row_count": 44,
+        "state_row_count": 43
+      }
+    },
+    {
+      "backend": {
+        "audio_driver": "SoftMixer WASAPI Stereo",
+        "correlated": true,
+        "last_render_driver": "Vulkan",
+        "reason": "summary_pid_matches_log_pid"
+      },
+      "case": "baseline-final",
+      "classification": "gui_startup_succeeded_non_headless",
+      "config_snapshot": {
+        "input_editor_xml_exists": true,
+        "input_editor_xml_sha256": "da05cb084b1275e47d33ffb35718f1fdadbee3732e6b2b7d68be429805e69144",
+        "input_hash_matches_recorded": true,
+        "input_renderer": "Vulkan",
+        "post_renderer": "Vulkan"
+      },
+      "controller_errors": [],
+      "desktop_cleanup": {
+        "absent_after_close": true,
+        "cleanup_confirmed": true,
+        "cleanup_errors": [],
+        "open_error_after_close": 2
+      },
+      "event_counts": {
+        "canvas_error_writes": [],
+        "create_window_events": 1356,
+        "hooks_ready": 1,
+        "installed_win32u_api_count": 8,
+        "installed_win32u_api_names": [
+          "CreateWindowExA",
+          "CreateWindowExW",
+          "MessageBoxA",
+          "MessageBoxW",
+          "NtUserCreateWindowEx",
+          "SetWindowPos",
+          "ShowWindow",
+          "ShowWindowAsync"
+        ],
+        "native_window_events": 1375,
+        "native_windows_created": 1357,
+        "renderer_config_events": [
+          {
+            "after": 5,
+            "before": 5
+          }
+        ],
+        "renderer_factory_enums": [
+          5
+        ],
+        "successful_create_windows": 1356,
+        "trace_event_counts": {
+          "create_window": 1356,
+          "editor_function_enter": 2,
+          "hook_installed": 8,
+          "instrumentation_ready": 1,
+          "module_loaded": 1,
+          "native_window_created": 1375,
+          "renderer_config_constructed": 1,
+          "renderer_factory_enter": 1,
+          "renderer_factory_leave": 1,
+          "show_window": 482
+        },
+        "window_denied_events": 0
+      },
+      "exit_code_recorded": 0,
+      "hooks_coverage": {
+        "all_expected_installed": true,
+        "expected_count": 8
+      },
+      "individual_run": {
+        "input_hashes_before_start": {
+          "editor.exe": "c9d70afba98678264c82e06ebaafa3018409e3f4cdd6d4e53e6fa3932817152d",
+          "editor.xml": "da05cb084b1275e47d33ffb35718f1fdadbee3732e6b2b7d68be429805e69144",
+          "hooks": "00d65a11ff86e01e7380a6efef13f1248bfd26a5f25dd926bba33a1a3b74af04",
+          "probe.lua": "9dd73dda40a9aaa1362fa91ff9771c1126f3a69ebc885ef0e27550d7b5c0e50f",
+          "spec.json": "944a1487f78ead1a8345047fc4637bec79b9defc9a62df7d695102bf45d39f95"
+        },
+        "mode": "baseline"
+      },
+      "lua_probe": {
+        "children_value": "2",
+        "exists": true,
+        "expected_children_value": 2,
+        "fresh_mtime_provable": true,
+        "fresh_mtime_reason": "recorded_suspended_sample_before_resume",
+        "ok": true,
+        "parseable": true,
+        "root_value": "5",
+        "scene_correlated": true,
+        "scene_file": "scene.i3d"
+      },
+      "mode": "baseline",
+      "requested_renderer": "Vulkan",
+      "result_ready": true,
+      "script_errors": [],
+      "status": "completed",
+      "telemetry": {
+        "all_editor_windows_on_input_empty": true,
+        "all_foreground_pids_are_other": true,
+        "all_input_desktops_default": true,
+        "has_exited_phase": true,
+        "has_suspended_phase": true,
+        "missing_input_state_fields": 1,
+        "phases": [
+          "exited",
+          "lua-result-ready",
+          "running",
+          "suspended"
+        ],
+        "row_count": 45,
+        "state_row_count": 44
+      }
+    },
+    {
+      "backend": {
+        "audio_driver": "SoftMixer WASAPI Stereo",
+        "correlated": true,
+        "last_render_driver": "Vulkan",
+        "reason": "summary_pid_matches_log_pid"
+      },
+      "case": "baseline-v2",
+      "classification": "gui_startup_succeeded_non_headless",
+      "config_snapshot": {
+        "input_editor_xml_exists": true,
+        "input_editor_xml_sha256": "cc4fc2552ac84fa08c630662d7797b62e136748d870bb8dbb4c9c8456799fe2d",
+        "input_hash_matches_recorded": true,
+        "input_renderer": "Vulkan",
+        "post_renderer": "Vulkan"
+      },
+      "controller_errors": [],
+      "desktop_cleanup": {
+        "absent_after_close": true,
+        "cleanup_confirmed": true,
+        "cleanup_errors": [],
+        "open_error_after_close": 2
+      },
+      "event_counts": {
+        "canvas_error_writes": [],
+        "create_window_events": 1238,
+        "hooks_ready": 1,
+        "installed_win32u_api_count": 8,
+        "installed_win32u_api_names": [
+          "CreateWindowExA",
+          "CreateWindowExW",
+          "MessageBoxA",
+          "MessageBoxW",
+          "NtUserCreateWindowEx",
+          "SetWindowPos",
+          "ShowWindow",
+          "ShowWindowAsync"
+        ],
+        "native_window_events": 1257,
+        "native_windows_created": 1239,
+        "renderer_config_events": [
+          {
+            "after": 5,
+            "before": 5
+          }
+        ],
+        "renderer_factory_enums": [],
+        "successful_create_windows": 1238,
+        "trace_event_counts": {
+          "create_window": 1238,
+          "editor_function_enter": 2,
+          "hook_installed": 8,
+          "instrumentation_ready": 1,
+          "module_loaded": 1,
+          "native_window_created": 1257,
+          "renderer_config_constructed": 1,
+          "show_window": 439
+        },
+        "window_denied_events": 0
+      },
+      "exit_code_recorded": 0,
+      "hooks_coverage": {
+        "all_expected_installed": true,
+        "expected_count": 8
+      },
+      "individual_run": {
+        "input_hashes_before_start": {
+          "editor.exe": "c9d70afba98678264c82e06ebaafa3018409e3f4cdd6d4e53e6fa3932817152d",
+          "editor.xml": "cc4fc2552ac84fa08c630662d7797b62e136748d870bb8dbb4c9c8456799fe2d",
+          "hooks": "0ff62fa0dc663e642b3dc7706a9b781caa4de64296535dd2260158069d73052e",
+          "probe.lua": "adab36f27bc819fbdb35f23747caff5a05d233e16a1dc40a1fbfbc7508af042f",
+          "spec.json": "92b3f37705033f9ee4e019cf82bb31b5fc7a7c34f13900c8b61b55b8c2e6083d"
+        },
+        "mode": "baseline"
+      },
+      "lua_probe": {
+        "children_value": "2",
+        "exists": true,
+        "expected_children_value": 2,
+        "fresh_mtime_provable": true,
+        "fresh_mtime_reason": "recorded_suspended_sample_before_resume",
+        "ok": true,
+        "parseable": true,
+        "root_value": "5",
+        "scene_correlated": true,
+        "scene_file": "scene.i3d"
+      },
+      "mode": "baseline",
+      "requested_renderer": "Vulkan",
+      "result_ready": true,
+      "script_errors": [],
+      "status": "completed",
+      "telemetry": {
+        "all_editor_windows_on_input_empty": true,
+        "all_foreground_pids_are_other": true,
+        "all_input_desktops_default": true,
+        "has_exited_phase": true,
+        "has_suspended_phase": true,
+        "missing_input_state_fields": 1,
+        "phases": [
+          "exited",
+          "lua-result-ready",
+          "running",
+          "suspended"
+        ],
+        "row_count": 42,
+        "state_row_count": 41
+      }
+    },
+    {
+      "backend": {
+        "audio_driver": null,
+        "correlated": false,
+        "last_render_driver": null,
+        "reason": "log_pid_mismatch"
+      },
+      "case": "deny-editor-frame",
+      "classification": "lua_startup_not_reached",
+      "config_snapshot": {
+        "input_editor_xml_exists": true,
+        "input_editor_xml_sha256": "b5396481b458d160fea5a1228b836009e28775ee904504b148ba29f3b6177fec",
+        "input_hash_matches_recorded": true,
+        "input_renderer": "Vulkan",
+        "post_renderer": "Vulkan"
+      },
+      "controller_errors": [
+        "Editor exited without a fresh parseable Lua result.xml receipt"
+      ],
+      "desktop_cleanup": {
+        "absent_after_close": true,
+        "cleanup_confirmed": true,
+        "cleanup_errors": [],
+        "open_error_after_close": 2
+      },
+      "event_counts": {
+        "canvas_error_writes": [],
+        "create_window_events": 5,
+        "hooks_ready": 1,
+        "installed_win32u_api_count": 8,
+        "installed_win32u_api_names": [
+          "CreateWindowExA",
+          "CreateWindowExW",
+          "MessageBoxA",
+          "MessageBoxW",
+          "NtUserCreateWindowEx",
+          "SetWindowPos",
+          "ShowWindow",
+          "ShowWindowAsync"
+        ],
+        "native_window_events": 5,
+        "native_windows_created": 2,
+        "renderer_config_events": [
+          {
+            "after": 5,
+            "before": 5
+          }
+        ],
+        "renderer_factory_enums": [],
+        "successful_create_windows": 2,
+        "trace_event_counts": {
+          "create_window": 5,
+          "editor_frame_creation_denied": 1,
+          "editor_function_enter": 2,
+          "hook_installed": 8,
+          "instrumentation_ready": 1,
+          "module_loaded": 1,
+          "native_window_created": 5,
+          "renderer_config_constructed": 1
+        },
+        "window_denied_events": 0
+      },
+      "exit_code_recorded": 3221225477,
+      "hooks_coverage": {
+        "all_expected_installed": true,
+        "expected_count": 8
+      },
+      "individual_run": {
+        "input_hashes_before_start": {
+          "editor.exe": "c9d70afba98678264c82e06ebaafa3018409e3f4cdd6d4e53e6fa3932817152d",
+          "editor.xml": "b5396481b458d160fea5a1228b836009e28775ee904504b148ba29f3b6177fec",
+          "hooks": "0ff62fa0dc663e642b3dc7706a9b781caa4de64296535dd2260158069d73052e",
+          "probe.lua": "b83d81b1e78cf2801bff2fa16ab741f92c5692589d98eb9bdc7bc5c0d3452026",
+          "spec.json": "0c1a91c8507480407d00480bb7508456746d5fd7b3cc5e03f009cac7e13c4c2c"
+        },
+        "mode": "deny-editor-frame"
+      },
+      "lua_probe": {
+        "exists": false,
+        "fresh_mtime_provable": false,
+        "fresh_mtime_reason": "result_missing_or_unparseable",
+        "ok": false,
+        "parseable": false,
+        "scene_correlated": false
+      },
+      "mode": "deny-editor-frame",
+      "requested_renderer": "Vulkan",
+      "result_ready": false,
+      "script_errors": [],
+      "status": "failed",
+      "telemetry": {
+        "all_editor_windows_on_input_empty": true,
+        "all_foreground_pids_are_other": true,
+        "all_input_desktops_default": true,
+        "has_exited_phase": true,
+        "has_suspended_phase": true,
+        "missing_input_state_fields": 0,
+        "phases": [
+          "exited",
+          "running",
+          "suspended"
+        ],
+        "row_count": 47,
+        "state_row_count": 47
+      }
+    },
+    {
+      "backend": {
+        "audio_driver": null,
+        "correlated": false,
+        "last_render_driver": null,
+        "reason": "log_pid_mismatch"
+      },
+      "case": "deny-windows",
+      "classification": "lua_startup_not_reached",
+      "config_snapshot": {
+        "input_editor_xml_exists": false,
+        "input_editor_xml_sha256": null,
+        "input_hash_matches_recorded": null,
+        "input_renderer": null,
+        "post_renderer": "Vulkan"
+      },
+      "controller_errors": [
+        "Editor exited without a fresh parseable Lua result.xml receipt"
+      ],
+      "desktop_cleanup": {
+        "absent_after_close": true,
+        "cleanup_confirmed": true,
+        "cleanup_errors": [],
+        "open_error_after_close": 2
+      },
+      "event_counts": {
+        "canvas_error_writes": [],
+        "create_window_events": 1,
+        "hooks_ready": 1,
+        "installed_win32u_api_count": 8,
+        "installed_win32u_api_names": [
+          "CreateWindowExA",
+          "CreateWindowExW",
+          "MessageBoxA",
+          "MessageBoxW",
+          "NtUserCreateWindowEx",
+          "SetWindowPos",
+          "ShowWindow",
+          "ShowWindowAsync"
+        ],
+        "native_window_events": 0,
+        "native_windows_created": 0,
+        "renderer_config_events": [],
+        "renderer_factory_enums": [],
+        "successful_create_windows": 0,
+        "trace_event_counts": {
+          "create_window": 1,
+          "hook_installed": 8,
+          "instrumentation_ready": 1,
+          "message_box": 3,
+          "module_loaded": 1,
+          "window_creation_denied": 4
+        },
+        "window_denied_events": 4
+      },
+      "exit_code_recorded": 4294967295,
+      "hooks_coverage": {
+        "all_expected_installed": true,
+        "expected_count": 8
+      },
+      "individual_run": {
+        "input_hashes_before_start": {
+          "editor.exe": "c9d70afba98678264c82e06ebaafa3018409e3f4cdd6d4e53e6fa3932817152d",
+          "editor.xml": "008860438cb237e60018336d19e1287d430f9620db8bcdeda76e807afed2bd77",
+          "hooks": "0a61cb0d14f1144ae296cd2a9c5693d7b1d82180ddf42d62c2cf4aa105e39fd5",
+          "probe.lua": "e1cf3324c0081ff0ab967e14eff69bde98c79feb20761e9707a9635be243e51b",
+          "spec.json": "f0f07285844bec2fb06125775afe7ae4dc564e4615503b4bab316e4b55b8c360"
+        },
+        "mode": "deny-windows"
+      },
+      "lua_probe": {
+        "exists": false,
+        "fresh_mtime_provable": false,
+        "fresh_mtime_reason": "result_missing_or_unparseable",
+        "ok": false,
+        "parseable": false,
+        "scene_correlated": false
+      },
+      "mode": "deny-windows",
+      "requested_renderer": "unknown",
+      "result_ready": false,
+      "script_errors": [],
+      "status": "failed",
+      "telemetry": {
+        "all_editor_windows_on_input_empty": true,
+        "all_foreground_pids_are_other": true,
+        "all_input_desktops_default": true,
+        "has_exited_phase": true,
+        "has_suspended_phase": true,
+        "missing_input_state_fields": 0,
+        "phases": [
+          "exited",
+          "suspended"
+        ],
+        "row_count": 2,
+        "state_row_count": 2
+      }
+    },
+    {
+      "backend": {
+        "audio_driver": "SoftMixer WASAPI Stereo",
+        "correlated": true,
+        "last_render_driver": "Vulkan",
+        "reason": "summary_pid_matches_log_pid"
+      },
+      "case": "flag-batch",
+      "classification": "gui_startup_succeeded_non_headless",
+      "config_snapshot": {
+        "input_editor_xml_exists": false,
+        "input_editor_xml_sha256": null,
+        "input_hash_matches_recorded": null,
+        "input_renderer": null,
+        "post_renderer": "Vulkan"
+      },
+      "controller_errors": [],
+      "desktop_cleanup": {
+        "absent_after_close": true,
+        "cleanup_confirmed": true,
+        "cleanup_errors": [],
+        "open_error_after_close": 2
+      },
+      "event_counts": {
+        "canvas_error_writes": [],
+        "create_window_events": 1145,
+        "hooks_ready": 1,
+        "installed_win32u_api_count": 8,
+        "installed_win32u_api_names": [
+          "CreateWindowExA",
+          "CreateWindowExW",
+          "MessageBoxA",
+          "MessageBoxW",
+          "NtUserCreateWindowEx",
+          "SetWindowPos",
+          "ShowWindow",
+          "ShowWindowAsync"
+        ],
+        "native_window_events": 1164,
+        "native_windows_created": 1146,
+        "renderer_config_events": [],
+        "renderer_factory_enums": [],
+        "successful_create_windows": 1145,
+        "trace_event_counts": {
+          "create_window": 1145,
+          "editor_function_enter": 2,
+          "hook_installed": 8,
+          "instrumentation_ready": 1,
+          "module_loaded": 1,
+          "native_window_created": 1164,
+          "show_window": 397
+        },
+        "window_denied_events": 0
+      },
+      "exit_code_recorded": 0,
+      "hooks_coverage": {
+        "all_expected_installed": true,
+        "expected_count": 8
+      },
+      "individual_run": {
+        "input_hashes_before_start": {
+          "editor.exe": "c9d70afba98678264c82e06ebaafa3018409e3f4cdd6d4e53e6fa3932817152d",
+          "editor.xml": "01f9516fa5dc4a8e5095254f25828a39478ba387f0979bcbaf349ffc382b9611",
+          "hooks": "0a61cb0d14f1144ae296cd2a9c5693d7b1d82180ddf42d62c2cf4aa105e39fd5",
+          "probe.lua": "47e1c50159e36c0f3c85497ee0f425d509748aa03eea92d0dbb996a639caf60d",
+          "spec.json": "9eedaa4c260dd8237389f8ba06fc51c876fd10e2441afbdb0401ecf60a8a6ffe"
+        },
+        "mode": "baseline"
+      },
+      "lua_probe": {
+        "children_value": "2",
+        "exists": true,
+        "expected_children_value": 2,
+        "fresh_mtime_provable": true,
+        "fresh_mtime_reason": "recorded_suspended_sample_before_resume",
+        "ok": true,
+        "parseable": true,
+        "root_value": "5",
+        "scene_correlated": true,
+        "scene_file": "scene.i3d"
+      },
+      "mode": "baseline",
+      "requested_renderer": "unknown",
+      "result_ready": true,
+      "script_errors": [],
+      "status": "completed",
+      "telemetry": {
+        "all_editor_windows_on_input_empty": true,
+        "all_foreground_pids_are_other": true,
+        "all_input_desktops_default": true,
+        "has_exited_phase": true,
+        "has_suspended_phase": true,
+        "missing_input_state_fields": 1,
+        "phases": [
+          "exited",
+          "lua-result-ready",
+          "running",
+          "suspended"
+        ],
+        "row_count": 45,
+        "state_row_count": 44
+      }
+    },
+    {
+      "backend": {
+        "audio_driver": "SoftMixer WASAPI Stereo",
+        "correlated": true,
+        "last_render_driver": "Vulkan",
+        "reason": "summary_pid_matches_log_pid"
+      },
+      "case": "flag-headless",
+      "classification": "gui_startup_succeeded_non_headless",
+      "config_snapshot": {
+        "input_editor_xml_exists": false,
+        "input_editor_xml_sha256": null,
+        "input_hash_matches_recorded": null,
+        "input_renderer": null,
+        "post_renderer": "Vulkan"
+      },
+      "controller_errors": [],
+      "desktop_cleanup": {
+        "absent_after_close": true,
+        "cleanup_confirmed": true,
+        "cleanup_errors": [],
+        "open_error_after_close": 2
+      },
+      "event_counts": {
+        "canvas_error_writes": [],
+        "create_window_events": 1316,
+        "hooks_ready": 1,
+        "installed_win32u_api_count": 8,
+        "installed_win32u_api_names": [
+          "CreateWindowExA",
+          "CreateWindowExW",
+          "MessageBoxA",
+          "MessageBoxW",
+          "NtUserCreateWindowEx",
+          "SetWindowPos",
+          "ShowWindow",
+          "ShowWindowAsync"
+        ],
+        "native_window_events": 1334,
+        "native_windows_created": 1316,
+        "renderer_config_events": [],
+        "renderer_factory_enums": [],
+        "successful_create_windows": 1316,
+        "trace_event_counts": {
+          "create_window": 1316,
+          "editor_function_enter": 2,
+          "hook_installed": 8,
+          "instrumentation_ready": 1,
+          "module_loaded": 1,
+          "native_window_created": 1334,
+          "show_window": 474
+        },
+        "window_denied_events": 0
+      },
+      "exit_code_recorded": 0,
+      "hooks_coverage": {
+        "all_expected_installed": true,
+        "expected_count": 8
+      },
+      "individual_run": {
+        "input_hashes_before_start": {
+          "editor.exe": "c9d70afba98678264c82e06ebaafa3018409e3f4cdd6d4e53e6fa3932817152d",
+          "editor.xml": "ed59b361f073a3260e8411f966693738ad8d16642b3a6e1f44053322f98e6c8a",
+          "hooks": "0a61cb0d14f1144ae296cd2a9c5693d7b1d82180ddf42d62c2cf4aa105e39fd5",
+          "probe.lua": "6b543ed4d8f7010afb82e947a01e2257da49318f50477785215c0c9a5f69b2ac",
+          "spec.json": "709c6b123e8a7091bdd3414df959d2b59039ef532bc17e100a38d430c7a920aa"
+        },
+        "mode": "baseline"
+      },
+      "lua_probe": {
+        "children_value": "2",
+        "exists": true,
+        "expected_children_value": 2,
+        "fresh_mtime_provable": true,
+        "fresh_mtime_reason": "recorded_suspended_sample_before_resume",
+        "ok": true,
+        "parseable": true,
+        "root_value": "5",
+        "scene_correlated": true,
+        "scene_file": "scene.i3d"
+      },
+      "mode": "baseline",
+      "requested_renderer": "unknown",
+      "result_ready": true,
+      "script_errors": [],
+      "status": "completed",
+      "telemetry": {
+        "all_editor_windows_on_input_empty": true,
+        "all_foreground_pids_are_other": true,
+        "all_input_desktops_default": true,
+        "has_exited_phase": true,
+        "has_suspended_phase": true,
+        "missing_input_state_fields": 1,
+        "phases": [
+          "exited",
+          "lua-result-ready",
+          "running",
+          "suspended"
+        ],
+        "row_count": 45,
+        "state_row_count": 44
+      }
+    },
+    {
+      "backend": {
+        "audio_driver": "SoftMixer WASAPI Stereo",
+        "correlated": true,
+        "last_render_driver": "Vulkan",
+        "reason": "summary_pid_matches_log_pid"
+      },
+      "case": "flag-nogui",
+      "classification": "gui_startup_succeeded_non_headless",
+      "config_snapshot": {
+        "input_editor_xml_exists": false,
+        "input_editor_xml_sha256": null,
+        "input_hash_matches_recorded": null,
+        "input_renderer": null,
+        "post_renderer": "Vulkan"
+      },
+      "controller_errors": [],
+      "desktop_cleanup": {
+        "absent_after_close": true,
+        "cleanup_confirmed": true,
+        "cleanup_errors": [],
+        "open_error_after_close": 2
+      },
+      "event_counts": {
+        "canvas_error_writes": [],
+        "create_window_events": 1205,
+        "hooks_ready": 1,
+        "installed_win32u_api_count": 8,
+        "installed_win32u_api_names": [
+          "CreateWindowExA",
+          "CreateWindowExW",
+          "MessageBoxA",
+          "MessageBoxW",
+          "NtUserCreateWindowEx",
+          "SetWindowPos",
+          "ShowWindow",
+          "ShowWindowAsync"
+        ],
+        "native_window_events": 1224,
+        "native_windows_created": 1206,
+        "renderer_config_events": [],
+        "renderer_factory_enums": [],
+        "successful_create_windows": 1205,
+        "trace_event_counts": {
+          "create_window": 1205,
+          "editor_function_enter": 2,
+          "hook_installed": 8,
+          "instrumentation_ready": 1,
+          "module_loaded": 1,
+          "native_window_created": 1224,
+          "show_window": 424
+        },
+        "window_denied_events": 0
+      },
+      "exit_code_recorded": 0,
+      "hooks_coverage": {
+        "all_expected_installed": true,
+        "expected_count": 8
+      },
+      "individual_run": {
+        "input_hashes_before_start": {
+          "editor.exe": "c9d70afba98678264c82e06ebaafa3018409e3f4cdd6d4e53e6fa3932817152d",
+          "editor.xml": "ddbd11b7273ac4cf938fc1fcce68b07b4a7ecea057b80af5e6b8cc5aca406ddf",
+          "hooks": "0a61cb0d14f1144ae296cd2a9c5693d7b1d82180ddf42d62c2cf4aa105e39fd5",
+          "probe.lua": "e3aaffc2249487430fba4a7dd5a30d4a9dd64bd825e8ff48f91c193b50215066",
+          "spec.json": "bfd72e124706cbe412c9734a8c49e44932be49bba9d23e4d15823a7687daba33"
+        },
+        "mode": "baseline"
+      },
+      "lua_probe": {
+        "children_value": "2",
+        "exists": true,
+        "expected_children_value": 2,
+        "fresh_mtime_provable": true,
+        "fresh_mtime_reason": "recorded_suspended_sample_before_resume",
+        "ok": true,
+        "parseable": true,
+        "root_value": "5",
+        "scene_correlated": true,
+        "scene_file": "scene.i3d"
+      },
+      "mode": "baseline",
+      "requested_renderer": "unknown",
+      "result_ready": true,
+      "script_errors": [],
+      "status": "completed",
+      "telemetry": {
+        "all_editor_windows_on_input_empty": true,
+        "all_foreground_pids_are_other": true,
+        "all_input_desktops_default": true,
+        "has_exited_phase": true,
+        "has_suspended_phase": true,
+        "missing_input_state_fields": 1,
+        "phases": [
+          "exited",
+          "lua-result-ready",
+          "running",
+          "suspended"
+        ],
+        "row_count": 43,
+        "state_row_count": 42
+      }
+    },
+    {
+      "backend": {
+        "audio_driver": null,
+        "correlated": false,
+        "last_render_driver": null,
+        "reason": "log_pid_unavailable"
+      },
+      "case": "force-d3d12",
+      "classification": "lua_startup_not_reached",
+      "config_snapshot": {
+        "input_editor_xml_exists": true,
+        "input_editor_xml_sha256": "cb53f5e314c27565360c0c7c24fa30051118a59b93e104dea572e1ff3669b05e",
+        "input_hash_matches_recorded": true,
+        "input_renderer": "Vulkan",
+        "post_renderer": "Vulkan"
+      },
+      "controller_errors": [
+        "Editor exited without a fresh parseable Lua result.xml receipt"
+      ],
+      "desktop_cleanup": {
+        "absent_after_close": true,
+        "cleanup_confirmed": true,
+        "cleanup_errors": [],
+        "open_error_after_close": 2
+      },
+      "event_counts": {
+        "canvas_error_writes": [],
+        "create_window_events": 8,
+        "hooks_ready": 1,
+        "installed_win32u_api_count": 8,
+        "installed_win32u_api_names": [
+          "CreateWindowExA",
+          "CreateWindowExW",
+          "MessageBoxA",
+          "MessageBoxW",
+          "NtUserCreateWindowEx",
+          "SetWindowPos",
+          "ShowWindow",
+          "ShowWindowAsync"
+        ],
+        "native_window_events": 10,
+        "native_windows_created": 8,
+        "renderer_config_events": [
+          {
+            "after": 0,
+            "before": 5
+          }
+        ],
+        "renderer_factory_enums": [
+          0
+        ],
+        "successful_create_windows": 8,
+        "trace_event_counts": {
+          "create_window": 8,
+          "editor_function_enter": 2,
+          "hook_installed": 8,
+          "instrumentation_ready": 1,
+          "module_loaded": 1,
+          "native_window_created": 10,
+          "renderer_config_constructed": 1,
+          "renderer_factory_enter": 1
+        },
+        "window_denied_events": 0
+      },
+      "exit_code_recorded": 1,
+      "hooks_coverage": {
+        "all_expected_installed": true,
+        "expected_count": 8
+      },
+      "individual_run": {
+        "input_hashes_before_start": {
+          "editor.exe": "c9d70afba98678264c82e06ebaafa3018409e3f4cdd6d4e53e6fa3932817152d",
+          "editor.xml": "cb53f5e314c27565360c0c7c24fa30051118a59b93e104dea572e1ff3669b05e",
+          "hooks": "00d65a11ff86e01e7380a6efef13f1248bfd26a5f25dd926bba33a1a3b74af04",
+          "probe.lua": "38af0a4a95fea6f9ab7e41b0de84ac11d27673a5344918f4dd5b114cc49e3e4c",
+          "spec.json": "c40b5312b2e49a650ef4340ebf53f3972480dee934be25fee0ba05c3b5588f48"
+        },
+        "mode": "force-d3d12"
+      },
+      "lua_probe": {
+        "exists": false,
+        "fresh_mtime_provable": false,
+        "fresh_mtime_reason": "result_missing_or_unparseable",
+        "ok": false,
+        "parseable": false,
+        "scene_correlated": false
+      },
+      "mode": "force-d3d12",
+      "requested_renderer": "Vulkan",
+      "result_ready": false,
+      "script_errors": [],
+      "status": "failed",
+      "telemetry": {
+        "all_editor_windows_on_input_empty": true,
+        "all_foreground_pids_are_other": true,
+        "all_input_desktops_default": true,
+        "has_exited_phase": true,
+        "has_suspended_phase": true,
+        "missing_input_state_fields": 0,
+        "phases": [
+          "exited",
+          "running",
+          "suspended"
+        ],
+        "row_count": 3,
+        "state_row_count": 3
+      }
+    },
+    {
+      "backend": {
+        "audio_driver": "SoftMixer WASAPI Stereo",
+        "correlated": true,
+        "last_render_driver": "Vulkan",
+        "reason": "summary_pid_matches_log_pid"
+      },
+      "case": "force-hidden",
+      "classification": "lua_startup_not_reached",
+      "config_snapshot": {
+        "input_editor_xml_exists": false,
+        "input_editor_xml_sha256": null,
+        "input_hash_matches_recorded": null,
+        "input_renderer": null,
+        "post_renderer": "Vulkan"
+      },
+      "controller_errors": [
+        "headless runtime timeout elapsed"
+      ],
+      "desktop_cleanup": {
+        "absent_after_close": true,
+        "cleanup_confirmed": true,
+        "cleanup_errors": [],
+        "open_error_after_close": 2
+      },
+      "event_counts": {
+        "canvas_error_writes": [],
+        "create_window_events": 2971,
+        "hooks_ready": 1,
+        "installed_win32u_api_count": 8,
+        "installed_win32u_api_names": [
+          "CreateWindowExA",
+          "CreateWindowExW",
+          "MessageBoxA",
+          "MessageBoxW",
+          "NtUserCreateWindowEx",
+          "SetWindowPos",
+          "ShowWindow",
+          "ShowWindowAsync"
+        ],
+        "native_window_events": 2997,
+        "native_windows_created": 2972,
+        "renderer_config_events": [],
+        "renderer_factory_enums": [],
+        "successful_create_windows": 2971,
+        "trace_event_counts": {
+          "create_window": 2971,
+          "editor_function_enter": 2,
+          "editor_function_leave": 2,
+          "hook_installed": 8,
+          "instrumentation_ready": 1,
+          "module_loaded": 5,
+          "native_window_created": 2997,
+          "show_window": 1387
+        },
+        "window_denied_events": 0
+      },
+      "exit_code_recorded": null,
+      "hooks_coverage": {
+        "all_expected_installed": true,
+        "expected_count": 8
+      },
+      "individual_run": {
+        "input_hashes_before_start": {
+          "editor.exe": "c9d70afba98678264c82e06ebaafa3018409e3f4cdd6d4e53e6fa3932817152d",
+          "editor.xml": "5571d8709d03ca4568694459f1c979f49a62f5b7f36129ffb29f06a61f1ae31a",
+          "hooks": "0a61cb0d14f1144ae296cd2a9c5693d7b1d82180ddf42d62c2cf4aa105e39fd5",
+          "probe.lua": "48cc3b0e0c7659c1386ca7cadd78eb01dff8ab18702fe83b5aff73ea5df059f9",
+          "spec.json": "42f37be537a9c5781bb68d72107c9b6aa490dab9851cf303907ea283a20453b1"
+        },
+        "mode": "force-hidden"
+      },
+      "lua_probe": {
+        "exists": false,
+        "fresh_mtime_provable": false,
+        "fresh_mtime_reason": "result_missing_or_unparseable",
+        "ok": false,
+        "parseable": false,
+        "scene_correlated": false
+      },
+      "mode": "force-hidden",
+      "requested_renderer": "unknown",
+      "result_ready": null,
+      "script_errors": [],
+      "status": "failed",
+      "telemetry": {
+        "all_editor_windows_on_input_empty": true,
+        "all_foreground_pids_are_other": true,
+        "all_input_desktops_default": true,
+        "has_exited_phase": false,
+        "has_suspended_phase": true,
+        "missing_input_state_fields": 0,
+        "phases": [
+          "running",
+          "suspended"
+        ],
+        "row_count": 323,
+        "state_row_count": 323
+      }
+    },
+    {
+      "backend": {
+        "audio_driver": null,
+        "correlated": false,
+        "last_render_driver": null,
+        "reason": "log_pid_unavailable"
+      },
+      "case": "force-null",
+      "classification": "lua_startup_not_reached",
+      "config_snapshot": {
+        "input_editor_xml_exists": true,
+        "input_editor_xml_sha256": "f202986912d608dd89190f3d1434900c183bbbf073f7d19865651e47cc0b569c",
+        "input_hash_matches_recorded": true,
+        "input_renderer": "Vulkan",
+        "post_renderer": "Vulkan"
+      },
+      "controller_errors": [
+        "Editor exited without a fresh parseable Lua result.xml receipt"
+      ],
+      "desktop_cleanup": {
+        "absent_after_close": true,
+        "cleanup_confirmed": true,
+        "cleanup_errors": [],
+        "open_error_after_close": 2
+      },
+      "event_counts": {
+        "canvas_error_writes": [],
+        "create_window_events": 8,
+        "hooks_ready": 1,
+        "installed_win32u_api_count": 8,
+        "installed_win32u_api_names": [
+          "CreateWindowExA",
+          "CreateWindowExW",
+          "MessageBoxA",
+          "MessageBoxW",
+          "NtUserCreateWindowEx",
+          "SetWindowPos",
+          "ShowWindow",
+          "ShowWindowAsync"
+        ],
+        "native_window_events": 10,
+        "native_windows_created": 8,
+        "renderer_config_events": [
+          {
+            "after": 6,
+            "before": 5
+          }
+        ],
+        "renderer_factory_enums": [],
+        "successful_create_windows": 8,
+        "trace_event_counts": {
+          "create_window": 8,
+          "editor_function_enter": 2,
+          "hook_installed": 8,
+          "instrumentation_ready": 1,
+          "module_loaded": 1,
+          "native_window_created": 10,
+          "renderer_config_constructed": 1
+        },
+        "window_denied_events": 0
+      },
+      "exit_code_recorded": 1,
+      "hooks_coverage": {
+        "all_expected_installed": true,
+        "expected_count": 8
+      },
+      "individual_run": {
+        "input_hashes_before_start": {
+          "editor.exe": "c9d70afba98678264c82e06ebaafa3018409e3f4cdd6d4e53e6fa3932817152d",
+          "editor.xml": "f202986912d608dd89190f3d1434900c183bbbf073f7d19865651e47cc0b569c",
+          "hooks": "0ff62fa0dc663e642b3dc7706a9b781caa4de64296535dd2260158069d73052e",
+          "probe.lua": "f8515602a0ff1122604c8cb3c3ab909d5bb9810b3144075a59aad001f03d6d8a",
+          "spec.json": "98a606a4f6e555b12ab8561047e84bd173f7988d6331183c5b4b9bafbc858050"
+        },
+        "mode": "force-null"
+      },
+      "lua_probe": {
+        "exists": false,
+        "fresh_mtime_provable": false,
+        "fresh_mtime_reason": "result_missing_or_unparseable",
+        "ok": false,
+        "parseable": false,
+        "scene_correlated": false
+      },
+      "mode": "force-null",
+      "requested_renderer": "Vulkan",
+      "result_ready": false,
+      "script_errors": [],
+      "status": "failed",
+      "telemetry": {
+        "all_editor_windows_on_input_empty": true,
+        "all_foreground_pids_are_other": true,
+        "all_input_desktops_default": true,
+        "has_exited_phase": true,
+        "has_suspended_phase": true,
+        "missing_input_state_fields": 0,
+        "phases": [
+          "exited",
+          "running",
+          "suspended"
+        ],
+        "row_count": 3,
+        "state_row_count": 3
+      }
+    },
+    {
+      "backend": {
+        "audio_driver": null,
+        "correlated": false,
+        "last_render_driver": null,
+        "reason": "log_pid_unavailable"
+      },
+      "case": "force-null-final",
+      "classification": "lua_startup_not_reached",
+      "config_snapshot": {
+        "input_editor_xml_exists": true,
+        "input_editor_xml_sha256": "0450a79cccdbcf8ed15a23d0ec90ce55bbe89b7895ae59d2d5aa87777ee46928",
+        "input_hash_matches_recorded": true,
+        "input_renderer": "Vulkan",
+        "post_renderer": "Vulkan"
+      },
+      "controller_errors": [
+        "Editor exited without a fresh parseable Lua result.xml receipt"
+      ],
+      "desktop_cleanup": {
+        "absent_after_close": true,
+        "cleanup_confirmed": true,
+        "cleanup_errors": [],
+        "open_error_after_close": 2
+      },
+      "event_counts": {
+        "canvas_error_writes": [],
+        "create_window_events": 8,
+        "hooks_ready": 1,
+        "installed_win32u_api_count": 8,
+        "installed_win32u_api_names": [
+          "CreateWindowExA",
+          "CreateWindowExW",
+          "MessageBoxA",
+          "MessageBoxW",
+          "NtUserCreateWindowEx",
+          "SetWindowPos",
+          "ShowWindow",
+          "ShowWindowAsync"
+        ],
+        "native_window_events": 10,
+        "native_windows_created": 8,
+        "renderer_config_events": [
+          {
+            "after": 6,
+            "before": 5
+          }
+        ],
+        "renderer_factory_enums": [
+          6
+        ],
+        "successful_create_windows": 8,
+        "trace_event_counts": {
+          "create_window": 8,
+          "editor_function_enter": 2,
+          "hook_installed": 8,
+          "instrumentation_ready": 1,
+          "module_loaded": 1,
+          "native_window_created": 10,
+          "renderer_config_constructed": 1,
+          "renderer_factory_enter": 1
+        },
+        "window_denied_events": 0
+      },
+      "exit_code_recorded": 1,
+      "hooks_coverage": {
+        "all_expected_installed": true,
+        "expected_count": 8
+      },
+      "individual_run": {
+        "input_hashes_before_start": {
+          "editor.exe": "c9d70afba98678264c82e06ebaafa3018409e3f4cdd6d4e53e6fa3932817152d",
+          "editor.xml": "0450a79cccdbcf8ed15a23d0ec90ce55bbe89b7895ae59d2d5aa87777ee46928",
+          "hooks": "00d65a11ff86e01e7380a6efef13f1248bfd26a5f25dd926bba33a1a3b74af04",
+          "probe.lua": "decfaef9a62973d73d9664f67b7f865514687a8a0429764031e83942e9fd2303",
+          "spec.json": "7718147dd8c93fbb4f5f82f0b902f1949d67e126dfead3ae7085b62cff19bb89"
+        },
+        "mode": "force-null"
+      },
+      "lua_probe": {
+        "exists": false,
+        "fresh_mtime_provable": false,
+        "fresh_mtime_reason": "result_missing_or_unparseable",
+        "ok": false,
+        "parseable": false,
+        "scene_correlated": false
+      },
+      "mode": "force-null",
+      "requested_renderer": "Vulkan",
+      "result_ready": false,
+      "script_errors": [],
+      "status": "failed",
+      "telemetry": {
+        "all_editor_windows_on_input_empty": true,
+        "all_foreground_pids_are_other": true,
+        "all_input_desktops_default": true,
+        "has_exited_phase": true,
+        "has_suspended_phase": true,
+        "missing_input_state_fields": 0,
+        "phases": [
+          "exited",
+          "running",
+          "suspended"
+        ],
+        "row_count": 3,
+        "state_row_count": 3
+      }
+    },
+    {
+      "backend": {
+        "audio_driver": null,
+        "correlated": false,
+        "last_render_driver": null,
+        "reason": "log_pid_unavailable"
+      },
+      "case": "force-null-tracking",
+      "classification": "lua_startup_not_reached",
+      "config_snapshot": {
+        "input_editor_xml_exists": true,
+        "input_editor_xml_sha256": "37877f8ec8d3875238b90946dacf7c57178ba72180bc5c8d3272700a7bd94481",
+        "input_hash_matches_recorded": true,
+        "input_renderer": "Vulkan",
+        "post_renderer": "Vulkan"
+      },
+      "controller_errors": [
+        "Editor exited without a fresh parseable Lua result.xml receipt"
+      ],
+      "desktop_cleanup": {
+        "absent_after_close": true,
+        "cleanup_confirmed": true,
+        "cleanup_errors": [],
+        "open_error_after_close": 2
+      },
+      "event_counts": {
+        "canvas_error_writes": [],
+        "create_window_events": 8,
+        "hooks_ready": 1,
+        "installed_win32u_api_count": 8,
+        "installed_win32u_api_names": [
+          "CreateWindowExA",
+          "CreateWindowExW",
+          "MessageBoxA",
+          "MessageBoxW",
+          "NtUserCreateWindowEx",
+          "SetWindowPos",
+          "ShowWindow",
+          "ShowWindowAsync"
+        ],
+        "native_window_events": 10,
+        "native_windows_created": 8,
+        "renderer_config_events": [
+          {
+            "after": 7,
+            "before": 5
+          }
+        ],
+        "renderer_factory_enums": [],
+        "successful_create_windows": 8,
+        "trace_event_counts": {
+          "create_window": 8,
+          "editor_function_enter": 2,
+          "hook_installed": 8,
+          "instrumentation_ready": 1,
+          "module_loaded": 1,
+          "native_window_created": 10,
+          "renderer_config_constructed": 1
+        },
+        "window_denied_events": 0
+      },
+      "exit_code_recorded": 1,
+      "hooks_coverage": {
+        "all_expected_installed": true,
+        "expected_count": 8
+      },
+      "individual_run": {
+        "input_hashes_before_start": {
+          "editor.exe": "c9d70afba98678264c82e06ebaafa3018409e3f4cdd6d4e53e6fa3932817152d",
+          "editor.xml": "37877f8ec8d3875238b90946dacf7c57178ba72180bc5c8d3272700a7bd94481",
+          "hooks": "0ff62fa0dc663e642b3dc7706a9b781caa4de64296535dd2260158069d73052e",
+          "probe.lua": "feb538473586d0c0ebca9459646fcab2bc25ceb8b5fb4e1d67ac6a831fd80b44",
+          "spec.json": "03ffa8c77feeee5f696c56c5c8d393fea126c9f4ef6bdf8bc42c484092d902d7"
+        },
+        "mode": "force-null-tracking"
+      },
+      "lua_probe": {
+        "exists": false,
+        "fresh_mtime_provable": false,
+        "fresh_mtime_reason": "result_missing_or_unparseable",
+        "ok": false,
+        "parseable": false,
+        "scene_correlated": false
+      },
+      "mode": "force-null-tracking",
+      "requested_renderer": "Vulkan",
+      "result_ready": false,
+      "script_errors": [],
+      "status": "failed",
+      "telemetry": {
+        "all_editor_windows_on_input_empty": true,
+        "all_foreground_pids_are_other": true,
+        "all_input_desktops_default": true,
+        "has_exited_phase": true,
+        "has_suspended_phase": true,
+        "missing_input_state_fields": 0,
+        "phases": [
+          "exited",
+          "running",
+          "suspended"
+        ],
+        "row_count": 3,
+        "state_row_count": 3
+      }
+    },
+    {
+      "backend": {
+        "audio_driver": null,
+        "correlated": false,
+        "last_render_driver": null,
+        "reason": "log_pid_unavailable"
+      },
+      "case": "force-null-tracking-final",
+      "classification": "lua_startup_not_reached",
+      "config_snapshot": {
+        "input_editor_xml_exists": true,
+        "input_editor_xml_sha256": "c7c14ac306b090d347ba47c161a4b86bccac41bf4e46e7a2d48ef0ed8423590b",
+        "input_hash_matches_recorded": true,
+        "input_renderer": "Vulkan",
+        "post_renderer": "Vulkan"
+      },
+      "controller_errors": [
+        "Editor exited without a fresh parseable Lua result.xml receipt"
+      ],
+      "desktop_cleanup": {
+        "absent_after_close": true,
+        "cleanup_confirmed": true,
+        "cleanup_errors": [],
+        "open_error_after_close": 2
+      },
+      "event_counts": {
+        "canvas_error_writes": [],
+        "create_window_events": 8,
+        "hooks_ready": 1,
+        "installed_win32u_api_count": 8,
+        "installed_win32u_api_names": [
+          "CreateWindowExA",
+          "CreateWindowExW",
+          "MessageBoxA",
+          "MessageBoxW",
+          "NtUserCreateWindowEx",
+          "SetWindowPos",
+          "ShowWindow",
+          "ShowWindowAsync"
+        ],
+        "native_window_events": 10,
+        "native_windows_created": 8,
+        "renderer_config_events": [
+          {
+            "after": 7,
+            "before": 5
+          }
+        ],
+        "renderer_factory_enums": [
+          7
+        ],
+        "successful_create_windows": 8,
+        "trace_event_counts": {
+          "create_window": 8,
+          "editor_function_enter": 2,
+          "hook_installed": 8,
+          "instrumentation_ready": 1,
+          "module_loaded": 1,
+          "native_window_created": 10,
+          "renderer_config_constructed": 1,
+          "renderer_factory_enter": 1
+        },
+        "window_denied_events": 0
+      },
+      "exit_code_recorded": 1,
+      "hooks_coverage": {
+        "all_expected_installed": true,
+        "expected_count": 8
+      },
+      "individual_run": {
+        "input_hashes_before_start": {
+          "editor.exe": "c9d70afba98678264c82e06ebaafa3018409e3f4cdd6d4e53e6fa3932817152d",
+          "editor.xml": "c7c14ac306b090d347ba47c161a4b86bccac41bf4e46e7a2d48ef0ed8423590b",
+          "hooks": "00d65a11ff86e01e7380a6efef13f1248bfd26a5f25dd926bba33a1a3b74af04",
+          "probe.lua": "7f94e4a03642acf3739154fafa5a2821c747d92fd95795b68e1662ddae211bcb",
+          "spec.json": "247829daf490f06d9cbd52f461bf569dce35be4331c63cd8822a6a99092d6545"
+        },
+        "mode": "force-null-tracking"
+      },
+      "lua_probe": {
+        "exists": false,
+        "fresh_mtime_provable": false,
+        "fresh_mtime_reason": "result_missing_or_unparseable",
+        "ok": false,
+        "parseable": false,
+        "scene_correlated": false
+      },
+      "mode": "force-null-tracking",
+      "requested_renderer": "Vulkan",
+      "result_ready": false,
+      "script_errors": [],
+      "status": "failed",
+      "telemetry": {
+        "all_editor_windows_on_input_empty": true,
+        "all_foreground_pids_are_other": true,
+        "all_input_desktops_default": true,
+        "has_exited_phase": true,
+        "has_suspended_phase": true,
+        "missing_input_state_fields": 0,
+        "phases": [
+          "exited",
+          "running",
+          "suspended"
+        ],
+        "row_count": 3,
+        "state_row_count": 3
+      }
+    },
+    {
+      "backend": {
+        "audio_driver": "SoftMixer WASAPI Stereo",
+        "correlated": true,
+        "last_render_driver": "Vulkan",
+        "reason": "summary_pid_matches_log_pid"
+      },
+      "case": "logging-nogui",
+      "classification": "gui_startup_succeeded_non_headless",
+      "config_snapshot": {
+        "input_editor_xml_exists": false,
+        "input_editor_xml_sha256": null,
+        "input_hash_matches_recorded": null,
+        "input_renderer": null,
+        "post_renderer": "Vulkan"
+      },
+      "controller_errors": [],
+      "desktop_cleanup": {
+        "absent_after_close": true,
+        "cleanup_confirmed": true,
+        "cleanup_errors": [],
+        "open_error_after_close": 2
+      },
+      "event_counts": {
+        "canvas_error_writes": [],
+        "create_window_events": 1203,
+        "hooks_ready": 1,
+        "installed_win32u_api_count": 8,
+        "installed_win32u_api_names": [
+          "CreateWindowExA",
+          "CreateWindowExW",
+          "MessageBoxA",
+          "MessageBoxW",
+          "NtUserCreateWindowEx",
+          "SetWindowPos",
+          "ShowWindow",
+          "ShowWindowAsync"
+        ],
+        "native_window_events": 1222,
+        "native_windows_created": 1204,
+        "renderer_config_events": [],
+        "renderer_factory_enums": [],
+        "successful_create_windows": 1203,
+        "trace_event_counts": {
+          "create_window": 1203,
+          "editor_function_enter": 2,
+          "hook_installed": 8,
+          "instrumentation_ready": 1,
+          "module_loaded": 1,
+          "native_window_created": 1222,
+          "show_window": 423
+        },
+        "window_denied_events": 0
+      },
+      "exit_code_recorded": 0,
+      "hooks_coverage": {
+        "all_expected_installed": true,
+        "expected_count": 8
+      },
+      "individual_run": {
+        "input_hashes_before_start": {
+          "editor.exe": "c9d70afba98678264c82e06ebaafa3018409e3f4cdd6d4e53e6fa3932817152d",
+          "editor.xml": "f3cb14873db704592b257bf8ec47831eb2c1b11a3258f29b5916ac09af5dd51d",
+          "hooks": "0a61cb0d14f1144ae296cd2a9c5693d7b1d82180ddf42d62c2cf4aa105e39fd5",
+          "probe.lua": "de8771a91b9f05adeb9d7d99f5b7d63d96682895a28aebfbf469cef5fab1d7d4",
+          "spec.json": "865d7b4ed7d3d5a7fe4b38976c77bd00d96c286d6b1d9752c695e1c0ae36e548"
+        },
+        "mode": "baseline"
+      },
+      "lua_probe": {
+        "children_value": "2",
+        "exists": true,
+        "expected_children_value": 2,
+        "fresh_mtime_provable": true,
+        "fresh_mtime_reason": "recorded_suspended_sample_before_resume",
+        "ok": true,
+        "parseable": true,
+        "root_value": "5",
+        "scene_correlated": true,
+        "scene_file": "scene.i3d"
+      },
+      "mode": "baseline",
+      "requested_renderer": "unknown",
+      "result_ready": true,
+      "script_errors": [],
+      "status": "completed",
+      "telemetry": {
+        "all_editor_windows_on_input_empty": true,
+        "all_foreground_pids_are_other": true,
+        "all_input_desktops_default": true,
+        "has_exited_phase": true,
+        "has_suspended_phase": true,
+        "missing_input_state_fields": 1,
+        "phases": [
+          "exited",
+          "lua-result-ready",
+          "running",
+          "suspended"
+        ],
+        "row_count": 47,
+        "state_row_count": 46
+      }
+    },
+    {
+      "backend": {
+        "audio_driver": "SoftMixer WASAPI Stereo",
+        "correlated": true,
+        "last_render_driver": "Vulkan",
+        "reason": "summary_pid_matches_log_pid"
+      },
+      "case": "renderer-d3d12",
+      "classification": "gui_startup_succeeded_non_headless",
+      "config_snapshot": {
+        "input_editor_xml_exists": false,
+        "input_editor_xml_sha256": null,
+        "input_hash_matches_recorded": null,
+        "input_renderer": null,
+        "post_renderer": "Vulkan"
+      },
+      "controller_errors": [],
+      "desktop_cleanup": {
+        "absent_after_close": true,
+        "cleanup_confirmed": true,
+        "cleanup_errors": [],
+        "open_error_after_close": 2
+      },
+      "event_counts": {
+        "canvas_error_writes": [],
+        "create_window_events": 1285,
+        "hooks_ready": 1,
+        "installed_win32u_api_count": 8,
+        "installed_win32u_api_names": [
+          "CreateWindowExA",
+          "CreateWindowExW",
+          "MessageBoxA",
+          "MessageBoxW",
+          "NtUserCreateWindowEx",
+          "SetWindowPos",
+          "ShowWindow",
+          "ShowWindowAsync"
+        ],
+        "native_window_events": 1303,
+        "native_windows_created": 1285,
+        "renderer_config_events": [],
+        "renderer_factory_enums": [],
+        "successful_create_windows": 1285,
+        "trace_event_counts": {
+          "create_window": 1285,
+          "editor_function_enter": 2,
+          "hook_installed": 8,
+          "instrumentation_ready": 1,
+          "module_loaded": 1,
+          "native_window_created": 1303,
+          "show_window": 461
+        },
+        "window_denied_events": 0
+      },
+      "exit_code_recorded": 0,
+      "hooks_coverage": {
+        "all_expected_installed": true,
+        "expected_count": 8
+      },
+      "individual_run": {
+        "input_hashes_before_start": {
+          "editor.exe": "c9d70afba98678264c82e06ebaafa3018409e3f4cdd6d4e53e6fa3932817152d",
+          "editor.xml": "8e233d1441c16b4fa070b46df39f8f303e9e0a5dfa3c34d2200e0be8c63bdfb5",
+          "hooks": "0a61cb0d14f1144ae296cd2a9c5693d7b1d82180ddf42d62c2cf4aa105e39fd5",
+          "probe.lua": "5a18d81ab5a00fa9cbf1764d5120f351183f83e5444c6e2d5964365d6ffab3d6",
+          "spec.json": "fc9ba9109fb0536cb8b782c3a7f0b796c448e0660ca684632cefc12cc63d8e4c"
+        },
+        "mode": "baseline"
+      },
+      "lua_probe": {
+        "children_value": "2",
+        "exists": true,
+        "expected_children_value": 2,
+        "fresh_mtime_provable": true,
+        "fresh_mtime_reason": "recorded_suspended_sample_before_resume",
+        "ok": true,
+        "parseable": true,
+        "root_value": "5",
+        "scene_correlated": true,
+        "scene_file": "scene.i3d"
+      },
+      "mode": "baseline",
+      "requested_renderer": "unknown",
+      "result_ready": true,
+      "script_errors": [],
+      "status": "completed",
+      "telemetry": {
+        "all_editor_windows_on_input_empty": true,
+        "all_foreground_pids_are_other": true,
+        "all_input_desktops_default": true,
+        "has_exited_phase": true,
+        "has_suspended_phase": true,
+        "missing_input_state_fields": 1,
+        "phases": [
+          "exited",
+          "lua-result-ready",
+          "running",
+          "suspended"
+        ],
+        "row_count": 47,
+        "state_row_count": 46
+      }
+    },
+    {
+      "backend": {
+        "audio_driver": "SoftMixer WASAPI Stereo",
+        "correlated": true,
+        "last_render_driver": "Vulkan",
+        "reason": "summary_pid_matches_log_pid"
+      },
+      "case": "renderer-d3d12-v2",
+      "classification": "gui_startup_succeeded_non_headless",
+      "config_snapshot": {
+        "input_editor_xml_exists": true,
+        "input_editor_xml_sha256": "f8ca8d4e9259e159d0c674a94bc8d4188f5cda9e056675be0b6c9b4ce15159fc",
+        "input_hash_matches_recorded": true,
+        "input_renderer": "D3D_12",
+        "post_renderer": "Vulkan"
+      },
+      "controller_errors": [],
+      "desktop_cleanup": {
+        "absent_after_close": true,
+        "cleanup_confirmed": true,
+        "cleanup_errors": [],
+        "open_error_after_close": 2
+      },
+      "event_counts": {
+        "canvas_error_writes": [],
+        "create_window_events": 1450,
+        "hooks_ready": 1,
+        "installed_win32u_api_count": 8,
+        "installed_win32u_api_names": [
+          "CreateWindowExA",
+          "CreateWindowExW",
+          "MessageBoxA",
+          "MessageBoxW",
+          "NtUserCreateWindowEx",
+          "SetWindowPos",
+          "ShowWindow",
+          "ShowWindowAsync"
+        ],
+        "native_window_events": 1468,
+        "native_windows_created": 1450,
+        "renderer_config_events": [
+          {
+            "after": 5,
+            "before": 5
+          }
+        ],
+        "renderer_factory_enums": [],
+        "successful_create_windows": 1450,
+        "trace_event_counts": {
+          "create_window": 1450,
+          "editor_function_enter": 2,
+          "hook_installed": 8,
+          "instrumentation_ready": 1,
+          "module_loaded": 1,
+          "native_window_created": 1468,
+          "renderer_config_constructed": 1,
+          "show_window": 482
+        },
+        "window_denied_events": 0
+      },
+      "exit_code_recorded": 0,
+      "hooks_coverage": {
+        "all_expected_installed": true,
+        "expected_count": 8
+      },
+      "individual_run": {
+        "input_hashes_before_start": {
+          "editor.exe": "c9d70afba98678264c82e06ebaafa3018409e3f4cdd6d4e53e6fa3932817152d",
+          "editor.xml": "f8ca8d4e9259e159d0c674a94bc8d4188f5cda9e056675be0b6c9b4ce15159fc",
+          "hooks": "0ff62fa0dc663e642b3dc7706a9b781caa4de64296535dd2260158069d73052e",
+          "probe.lua": "9d4c233841cfd5a7f15bcb79fd4f98837d6665a35c12ac04d3d7ea600d8f1a32",
+          "spec.json": "8128b10b43d78dc265a82941a6015c56c5f6304204d515357b5f86ed70aba321"
+        },
+        "mode": "baseline"
+      },
+      "lua_probe": {
+        "children_value": "2",
+        "exists": true,
+        "expected_children_value": 2,
+        "fresh_mtime_provable": true,
+        "fresh_mtime_reason": "recorded_suspended_sample_before_resume",
+        "ok": true,
+        "parseable": true,
+        "root_value": "5",
+        "scene_correlated": true,
+        "scene_file": "scene.i3d"
+      },
+      "mode": "baseline",
+      "requested_renderer": "D3D_12",
+      "result_ready": true,
+      "script_errors": [],
+      "status": "completed",
+      "telemetry": {
+        "all_editor_windows_on_input_empty": true,
+        "all_foreground_pids_are_other": true,
+        "all_input_desktops_default": true,
+        "has_exited_phase": true,
+        "has_suspended_phase": true,
+        "missing_input_state_fields": 1,
+        "phases": [
+          "exited",
+          "lua-result-ready",
+          "running",
+          "suspended"
+        ],
+        "row_count": 42,
+        "state_row_count": 41
+      }
+    },
+    {
+      "backend": {
+        "audio_driver": "SoftMixer WASAPI Stereo",
+        "correlated": true,
+        "last_render_driver": "Vulkan",
+        "reason": "summary_pid_matches_log_pid"
+      },
+      "case": "renderer-headless",
+      "classification": "gui_startup_succeeded_non_headless",
+      "config_snapshot": {
+        "input_editor_xml_exists": false,
+        "input_editor_xml_sha256": null,
+        "input_hash_matches_recorded": null,
+        "input_renderer": null,
+        "post_renderer": "Vulkan"
+      },
+      "controller_errors": [],
+      "desktop_cleanup": {
+        "absent_after_close": true,
+        "cleanup_confirmed": true,
+        "cleanup_errors": [],
+        "open_error_after_close": 2
+      },
+      "event_counts": {
+        "canvas_error_writes": [],
+        "create_window_events": 1231,
+        "hooks_ready": 1,
+        "installed_win32u_api_count": 8,
+        "installed_win32u_api_names": [
+          "CreateWindowExA",
+          "CreateWindowExW",
+          "MessageBoxA",
+          "MessageBoxW",
+          "NtUserCreateWindowEx",
+          "SetWindowPos",
+          "ShowWindow",
+          "ShowWindowAsync"
+        ],
+        "native_window_events": 1249,
+        "native_windows_created": 1231,
+        "renderer_config_events": [],
+        "renderer_factory_enums": [],
+        "successful_create_windows": 1231,
+        "trace_event_counts": {
+          "create_window": 1231,
+          "editor_function_enter": 2,
+          "hook_installed": 8,
+          "instrumentation_ready": 1,
+          "module_loaded": 1,
+          "native_window_created": 1249,
+          "show_window": 436
+        },
+        "window_denied_events": 0
+      },
+      "exit_code_recorded": 0,
+      "hooks_coverage": {
+        "all_expected_installed": true,
+        "expected_count": 8
+      },
+      "individual_run": {
+        "input_hashes_before_start": {
+          "editor.exe": "c9d70afba98678264c82e06ebaafa3018409e3f4cdd6d4e53e6fa3932817152d",
+          "editor.xml": "41d596de66422327bc0988ec5ea8385a95f8936b394526abe1b290365d5fec7f",
+          "hooks": "0a61cb0d14f1144ae296cd2a9c5693d7b1d82180ddf42d62c2cf4aa105e39fd5",
+          "probe.lua": "0a638669f751f89988bc16548acd66cab398a0943e82240b247328cf01a5c1f1",
+          "spec.json": "225c7ad3776fde88952fac468441cfd1156af066e8a2340241a1497dd920fc57"
+        },
+        "mode": "baseline"
+      },
+      "lua_probe": {
+        "children_value": "2",
+        "exists": true,
+        "expected_children_value": 2,
+        "fresh_mtime_provable": true,
+        "fresh_mtime_reason": "recorded_suspended_sample_before_resume",
+        "ok": true,
+        "parseable": true,
+        "root_value": "5",
+        "scene_correlated": true,
+        "scene_file": "scene.i3d"
+      },
+      "mode": "baseline",
+      "requested_renderer": "unknown",
+      "result_ready": true,
+      "script_errors": [],
+      "status": "completed",
+      "telemetry": {
+        "all_editor_windows_on_input_empty": true,
+        "all_foreground_pids_are_other": true,
+        "all_input_desktops_default": true,
+        "has_exited_phase": true,
+        "has_suspended_phase": true,
+        "missing_input_state_fields": 1,
+        "phases": [
+          "exited",
+          "lua-result-ready",
+          "running",
+          "suspended"
+        ],
+        "row_count": 45,
+        "state_row_count": 44
+      }
+    },
+    {
+      "backend": {
+        "audio_driver": "SoftMixer WASAPI Stereo",
+        "correlated": true,
+        "last_render_driver": "Vulkan",
+        "reason": "summary_pid_matches_log_pid"
+      },
+      "case": "renderer-none",
+      "classification": "gui_startup_succeeded_non_headless",
+      "config_snapshot": {
+        "input_editor_xml_exists": false,
+        "input_editor_xml_sha256": null,
+        "input_hash_matches_recorded": null,
+        "input_renderer": null,
+        "post_renderer": "Vulkan"
+      },
+      "controller_errors": [],
+      "desktop_cleanup": {
+        "absent_after_close": true,
+        "cleanup_confirmed": true,
+        "cleanup_errors": [],
+        "open_error_after_close": 2
+      },
+      "event_counts": {
+        "canvas_error_writes": [],
+        "create_window_events": 1195,
+        "hooks_ready": 1,
+        "installed_win32u_api_count": 8,
+        "installed_win32u_api_names": [
+          "CreateWindowExA",
+          "CreateWindowExW",
+          "MessageBoxA",
+          "MessageBoxW",
+          "NtUserCreateWindowEx",
+          "SetWindowPos",
+          "ShowWindow",
+          "ShowWindowAsync"
+        ],
+        "native_window_events": 1214,
+        "native_windows_created": 1196,
+        "renderer_config_events": [],
+        "renderer_factory_enums": [],
+        "successful_create_windows": 1195,
+        "trace_event_counts": {
+          "create_window": 1195,
+          "editor_function_enter": 2,
+          "hook_installed": 8,
+          "instrumentation_ready": 1,
+          "module_loaded": 1,
+          "native_window_created": 1214,
+          "show_window": 420
+        },
+        "window_denied_events": 0
+      },
+      "exit_code_recorded": 0,
+      "hooks_coverage": {
+        "all_expected_installed": true,
+        "expected_count": 8
+      },
+      "individual_run": {
+        "input_hashes_before_start": {
+          "editor.exe": "c9d70afba98678264c82e06ebaafa3018409e3f4cdd6d4e53e6fa3932817152d",
+          "editor.xml": "11c405d5178a2aef9ec622ad5bba9bab4d6fcd73348634bb5da36ac25c57c3bf",
+          "hooks": "0a61cb0d14f1144ae296cd2a9c5693d7b1d82180ddf42d62c2cf4aa105e39fd5",
+          "probe.lua": "037f5f689566859e809ecb1ed6cad770e756c269709ff259cd81132389e15c2a",
+          "spec.json": "2dcc4f8f05752f91f6568ed934ee061e5c7dcbc7edfcd62a2614cc86c96b0d48"
+        },
+        "mode": "baseline"
+      },
+      "lua_probe": {
+        "children_value": "2",
+        "exists": true,
+        "expected_children_value": 2,
+        "fresh_mtime_provable": true,
+        "fresh_mtime_reason": "recorded_suspended_sample_before_resume",
+        "ok": true,
+        "parseable": true,
+        "root_value": "5",
+        "scene_correlated": true,
+        "scene_file": "scene.i3d"
+      },
+      "mode": "baseline",
+      "requested_renderer": "unknown",
+      "result_ready": true,
+      "script_errors": [],
+      "status": "completed",
+      "telemetry": {
+        "all_editor_windows_on_input_empty": true,
+        "all_foreground_pids_are_other": true,
+        "all_input_desktops_default": true,
+        "has_exited_phase": true,
+        "has_suspended_phase": true,
+        "missing_input_state_fields": 1,
+        "phases": [
+          "exited",
+          "lua-result-ready",
+          "running",
+          "suspended"
+        ],
+        "row_count": 43,
+        "state_row_count": 42
+      }
+    },
+    {
+      "backend": {
+        "audio_driver": "SoftMixer WASAPI Stereo",
+        "correlated": true,
+        "last_render_driver": "Vulkan",
+        "reason": "summary_pid_matches_log_pid"
+      },
+      "case": "renderer-null",
+      "classification": "gui_startup_succeeded_non_headless",
+      "config_snapshot": {
+        "input_editor_xml_exists": false,
+        "input_editor_xml_sha256": null,
+        "input_hash_matches_recorded": null,
+        "input_renderer": null,
+        "post_renderer": "Vulkan"
+      },
+      "controller_errors": [],
+      "desktop_cleanup": {
+        "absent_after_close": true,
+        "cleanup_confirmed": true,
+        "cleanup_errors": [],
+        "open_error_after_close": 2
+      },
+      "event_counts": {
+        "canvas_error_writes": [],
+        "create_window_events": 1489,
+        "hooks_ready": 1,
+        "installed_win32u_api_count": 8,
+        "installed_win32u_api_names": [
+          "CreateWindowExA",
+          "CreateWindowExW",
+          "MessageBoxA",
+          "MessageBoxW",
+          "NtUserCreateWindowEx",
+          "SetWindowPos",
+          "ShowWindow",
+          "ShowWindowAsync"
+        ],
+        "native_window_events": 1507,
+        "native_windows_created": 1489,
+        "renderer_config_events": [],
+        "renderer_factory_enums": [],
+        "successful_create_windows": 1489,
+        "trace_event_counts": {
+          "create_window": 1489,
+          "editor_function_enter": 2,
+          "hook_installed": 8,
+          "instrumentation_ready": 1,
+          "module_loaded": 1,
+          "native_window_created": 1507,
+          "show_window": 485
+        },
+        "window_denied_events": 0
+      },
+      "exit_code_recorded": 0,
+      "hooks_coverage": {
+        "all_expected_installed": true,
+        "expected_count": 8
+      },
+      "individual_run": {
+        "input_hashes_before_start": {
+          "editor.exe": "c9d70afba98678264c82e06ebaafa3018409e3f4cdd6d4e53e6fa3932817152d",
+          "editor.xml": "89fc7978752ec8584bb3e959bf0c132b0f4c0349379289b4369d42cb55e28975",
+          "hooks": "0a61cb0d14f1144ae296cd2a9c5693d7b1d82180ddf42d62c2cf4aa105e39fd5",
+          "probe.lua": "292c9056a7e6fe309ae96fd4ed14795e3b339e9967960212fadaa930e5d784a2",
+          "spec.json": "5ac9f2316477a36145229f4949b6079cd367482f4f21e7681a8ee679a3a14aed"
+        },
+        "mode": "baseline"
+      },
+      "lua_probe": {
+        "children_value": "2",
+        "exists": true,
+        "expected_children_value": 2,
+        "fresh_mtime_provable": true,
+        "fresh_mtime_reason": "recorded_suspended_sample_before_resume",
+        "ok": true,
+        "parseable": true,
+        "root_value": "5",
+        "scene_correlated": true,
+        "scene_file": "scene.i3d"
+      },
+      "mode": "baseline",
+      "requested_renderer": "unknown",
+      "result_ready": true,
+      "script_errors": [],
+      "status": "completed",
+      "telemetry": {
+        "all_editor_windows_on_input_empty": true,
+        "all_foreground_pids_are_other": true,
+        "all_input_desktops_default": true,
+        "has_exited_phase": true,
+        "has_suspended_phase": true,
+        "missing_input_state_fields": 1,
+        "phases": [
+          "exited",
+          "lua-result-ready",
+          "running",
+          "suspended"
+        ],
+        "row_count": 42,
+        "state_row_count": 41
+      }
+    },
+    {
+      "backend": {
+        "audio_driver": "SoftMixer WASAPI Stereo",
+        "correlated": true,
+        "last_render_driver": "Vulkan",
+        "reason": "summary_pid_matches_log_pid"
+      },
+      "case": "renderer-null-tracking",
+      "classification": "gui_startup_succeeded_non_headless",
+      "config_snapshot": {
+        "input_editor_xml_exists": false,
+        "input_editor_xml_sha256": null,
+        "input_hash_matches_recorded": null,
+        "input_renderer": null,
+        "post_renderer": "Vulkan"
+      },
+      "controller_errors": [],
+      "desktop_cleanup": {
+        "absent_after_close": true,
+        "cleanup_confirmed": true,
+        "cleanup_errors": [],
+        "open_error_after_close": 2
+      },
+      "event_counts": {
+        "canvas_error_writes": [],
+        "create_window_events": 1209,
+        "hooks_ready": 1,
+        "installed_win32u_api_count": 8,
+        "installed_win32u_api_names": [
+          "CreateWindowExA",
+          "CreateWindowExW",
+          "MessageBoxA",
+          "MessageBoxW",
+          "NtUserCreateWindowEx",
+          "SetWindowPos",
+          "ShowWindow",
+          "ShowWindowAsync"
+        ],
+        "native_window_events": 1228,
+        "native_windows_created": 1210,
+        "renderer_config_events": [],
+        "renderer_factory_enums": [],
+        "successful_create_windows": 1209,
+        "trace_event_counts": {
+          "create_window": 1209,
+          "editor_function_enter": 2,
+          "hook_installed": 8,
+          "instrumentation_ready": 1,
+          "module_loaded": 1,
+          "native_window_created": 1228,
+          "show_window": 427
+        },
+        "window_denied_events": 0
+      },
+      "exit_code_recorded": 0,
+      "hooks_coverage": {
+        "all_expected_installed": true,
+        "expected_count": 8
+      },
+      "individual_run": {
+        "input_hashes_before_start": {
+          "editor.exe": "c9d70afba98678264c82e06ebaafa3018409e3f4cdd6d4e53e6fa3932817152d",
+          "editor.xml": "65763af8cd68c8970e5b5bda6f445a2a2562adb6e03590d3c2b4de0cbaa525ac",
+          "hooks": "0a61cb0d14f1144ae296cd2a9c5693d7b1d82180ddf42d62c2cf4aa105e39fd5",
+          "probe.lua": "c1431f46eed4c68635faaaa0441f2b0e80c52962d4b60d915522bce30e355b8c",
+          "spec.json": "4a7aa7fd459670c9dbffe55d445c2cd220af8e014049456e21fbfdb031c3ec29"
+        },
+        "mode": "baseline"
+      },
+      "lua_probe": {
+        "children_value": "2",
+        "exists": true,
+        "expected_children_value": 2,
+        "fresh_mtime_provable": true,
+        "fresh_mtime_reason": "recorded_suspended_sample_before_resume",
+        "ok": true,
+        "parseable": true,
+        "root_value": "5",
+        "scene_correlated": true,
+        "scene_file": "scene.i3d"
+      },
+      "mode": "baseline",
+      "requested_renderer": "unknown",
+      "result_ready": true,
+      "script_errors": [],
+      "status": "completed",
+      "telemetry": {
+        "all_editor_windows_on_input_empty": true,
+        "all_foreground_pids_are_other": true,
+        "all_input_desktops_default": true,
+        "has_exited_phase": true,
+        "has_suspended_phase": true,
+        "missing_input_state_fields": 1,
+        "phases": [
+          "exited",
+          "lua-result-ready",
+          "running",
+          "suspended"
+        ],
+        "row_count": 44,
+        "state_row_count": 43
+      }
+    },
+    {
+      "backend": {
+        "audio_driver": "SoftMixer WASAPI Stereo",
+        "correlated": true,
+        "last_render_driver": "Vulkan",
+        "reason": "summary_pid_matches_log_pid"
+      },
+      "case": "renderer-null-tracking-v2",
+      "classification": "gui_startup_succeeded_non_headless",
+      "config_snapshot": {
+        "input_editor_xml_exists": true,
+        "input_editor_xml_sha256": "79fb7bae7d99864e59cc2a677855d114dacb4f399f51cb7775af3a6ffef73174",
+        "input_hash_matches_recorded": true,
+        "input_renderer": "NULL_TRACKING",
+        "post_renderer": "Vulkan"
+      },
+      "controller_errors": [],
+      "desktop_cleanup": {
+        "absent_after_close": true,
+        "cleanup_confirmed": true,
+        "cleanup_errors": [],
+        "open_error_after_close": 2
+      },
+      "event_counts": {
+        "canvas_error_writes": [],
+        "create_window_events": 1354,
+        "hooks_ready": 1,
+        "installed_win32u_api_count": 8,
+        "installed_win32u_api_names": [
+          "CreateWindowExA",
+          "CreateWindowExW",
+          "MessageBoxA",
+          "MessageBoxW",
+          "NtUserCreateWindowEx",
+          "SetWindowPos",
+          "ShowWindow",
+          "ShowWindowAsync"
+        ],
+        "native_window_events": 1372,
+        "native_windows_created": 1354,
+        "renderer_config_events": [
+          {
+            "after": 5,
+            "before": 5
+          }
+        ],
+        "renderer_factory_enums": [],
+        "successful_create_windows": 1354,
+        "trace_event_counts": {
+          "create_window": 1354,
+          "editor_function_enter": 2,
+          "hook_installed": 8,
+          "instrumentation_ready": 1,
+          "module_loaded": 1,
+          "native_window_created": 1372,
+          "renderer_config_constructed": 1,
+          "show_window": 482
+        },
+        "window_denied_events": 0
+      },
+      "exit_code_recorded": 0,
+      "hooks_coverage": {
+        "all_expected_installed": true,
+        "expected_count": 8
+      },
+      "individual_run": {
+        "input_hashes_before_start": {
+          "editor.exe": "c9d70afba98678264c82e06ebaafa3018409e3f4cdd6d4e53e6fa3932817152d",
+          "editor.xml": "79fb7bae7d99864e59cc2a677855d114dacb4f399f51cb7775af3a6ffef73174",
+          "hooks": "0ff62fa0dc663e642b3dc7706a9b781caa4de64296535dd2260158069d73052e",
+          "probe.lua": "f89bfc1f8ff71b206ef6c1c7bb621f6320ec1722968e52e6acf18bf2ee7a7f7b",
+          "spec.json": "3ee37d012c2eaadf6ca34c13036255eb403629dbe71399fb4f655f233d791108"
+        },
+        "mode": "baseline"
+      },
+      "lua_probe": {
+        "children_value": "2",
+        "exists": true,
+        "expected_children_value": 2,
+        "fresh_mtime_provable": true,
+        "fresh_mtime_reason": "recorded_suspended_sample_before_resume",
+        "ok": true,
+        "parseable": true,
+        "root_value": "5",
+        "scene_correlated": true,
+        "scene_file": "scene.i3d"
+      },
+      "mode": "baseline",
+      "requested_renderer": "NULL_TRACKING",
+      "result_ready": true,
+      "script_errors": [],
+      "status": "completed",
+      "telemetry": {
+        "all_editor_windows_on_input_empty": true,
+        "all_foreground_pids_are_other": true,
+        "all_input_desktops_default": true,
+        "has_exited_phase": true,
+        "has_suspended_phase": true,
+        "missing_input_state_fields": 1,
+        "phases": [
+          "exited",
+          "lua-result-ready",
+          "running",
+          "suspended"
+        ],
+        "row_count": 42,
+        "state_row_count": 41
+      }
+    },
+    {
+      "backend": {
+        "audio_driver": "SoftMixer WASAPI Stereo",
+        "correlated": true,
+        "last_render_driver": "Vulkan",
+        "reason": "summary_pid_matches_log_pid"
+      },
+      "case": "renderer-null-v2",
+      "classification": "gui_startup_succeeded_non_headless",
+      "config_snapshot": {
+        "input_editor_xml_exists": true,
+        "input_editor_xml_sha256": "607bcdaafd1ccb16f357d95026a86d49dcfef4d01ab61e39bbb7f7c17e013527",
+        "input_hash_matches_recorded": true,
+        "input_renderer": "NULL",
+        "post_renderer": "Vulkan"
+      },
+      "controller_errors": [],
+      "desktop_cleanup": {
+        "absent_after_close": true,
+        "cleanup_confirmed": true,
+        "cleanup_errors": [],
+        "open_error_after_close": 2
+      },
+      "event_counts": {
+        "canvas_error_writes": [],
+        "create_window_events": 1330,
+        "hooks_ready": 1,
+        "installed_win32u_api_count": 8,
+        "installed_win32u_api_names": [
+          "CreateWindowExA",
+          "CreateWindowExW",
+          "MessageBoxA",
+          "MessageBoxW",
+          "NtUserCreateWindowEx",
+          "SetWindowPos",
+          "ShowWindow",
+          "ShowWindowAsync"
+        ],
+        "native_window_events": 1349,
+        "native_windows_created": 1331,
+        "renderer_config_events": [
+          {
+            "after": 5,
+            "before": 5
+          }
+        ],
+        "renderer_factory_enums": [],
+        "successful_create_windows": 1330,
+        "trace_event_counts": {
+          "create_window": 1330,
+          "editor_function_enter": 2,
+          "hook_installed": 8,
+          "instrumentation_ready": 1,
+          "module_loaded": 1,
+          "native_window_created": 1349,
+          "renderer_config_constructed": 1,
+          "show_window": 482
+        },
+        "window_denied_events": 0
+      },
+      "exit_code_recorded": 0,
+      "hooks_coverage": {
+        "all_expected_installed": true,
+        "expected_count": 8
+      },
+      "individual_run": {
+        "input_hashes_before_start": {
+          "editor.exe": "c9d70afba98678264c82e06ebaafa3018409e3f4cdd6d4e53e6fa3932817152d",
+          "editor.xml": "607bcdaafd1ccb16f357d95026a86d49dcfef4d01ab61e39bbb7f7c17e013527",
+          "hooks": "0ff62fa0dc663e642b3dc7706a9b781caa4de64296535dd2260158069d73052e",
+          "probe.lua": "ca304237e5dabee47a172a4d324c1ed905a37175b163a9d23c9e8f953a1f227b",
+          "spec.json": "eab5dec96280f0604bb99a683dcd1fc3ec373b1dc20d84c29fafba72c16a3c15"
+        },
+        "mode": "baseline"
+      },
+      "lua_probe": {
+        "children_value": "2",
+        "exists": true,
+        "expected_children_value": 2,
+        "fresh_mtime_provable": true,
+        "fresh_mtime_reason": "recorded_suspended_sample_before_resume",
+        "ok": true,
+        "parseable": true,
+        "root_value": "5",
+        "scene_correlated": true,
+        "scene_file": "scene.i3d"
+      },
+      "mode": "baseline",
+      "requested_renderer": "NULL",
+      "result_ready": true,
+      "script_errors": [],
+      "status": "completed",
+      "telemetry": {
+        "all_editor_windows_on_input_empty": true,
+        "all_foreground_pids_are_other": true,
+        "all_input_desktops_default": true,
+        "has_exited_phase": true,
+        "has_suspended_phase": true,
+        "missing_input_state_fields": 1,
+        "phases": [
+          "exited",
+          "lua-result-ready",
+          "running",
+          "suspended"
+        ],
+        "row_count": 42,
+        "state_row_count": 41
+      }
+    },
+    {
+      "backend": {
+        "audio_driver": "SoftMixer WASAPI Stereo",
+        "correlated": true,
+        "last_render_driver": "Vulkan",
+        "reason": "summary_pid_matches_log_pid"
+      },
+      "case": "sw-hide",
+      "classification": "lua_startup_not_reached",
+      "config_snapshot": {
+        "input_editor_xml_exists": false,
+        "input_editor_xml_sha256": null,
+        "input_hash_matches_recorded": null,
+        "input_renderer": null,
+        "post_renderer": "Vulkan"
+      },
+      "controller_errors": [
+        "headless runtime timeout elapsed"
+      ],
+      "desktop_cleanup": {
+        "absent_after_close": true,
+        "cleanup_confirmed": true,
+        "cleanup_errors": [],
+        "open_error_after_close": 2
+      },
+      "event_counts": {
+        "canvas_error_writes": [],
+        "create_window_events": 2971,
+        "hooks_ready": 1,
+        "installed_win32u_api_count": 8,
+        "installed_win32u_api_names": [
+          "CreateWindowExA",
+          "CreateWindowExW",
+          "MessageBoxA",
+          "MessageBoxW",
+          "NtUserCreateWindowEx",
+          "SetWindowPos",
+          "ShowWindow",
+          "ShowWindowAsync"
+        ],
+        "native_window_events": 2997,
+        "native_windows_created": 2972,
+        "renderer_config_events": [],
+        "renderer_factory_enums": [],
+        "successful_create_windows": 2971,
+        "trace_event_counts": {
+          "create_window": 2971,
+          "editor_function_enter": 2,
+          "editor_function_leave": 2,
+          "hook_installed": 8,
+          "instrumentation_ready": 1,
+          "module_loaded": 5,
+          "native_window_created": 2997,
+          "show_window": 1387
+        },
+        "window_denied_events": 0
+      },
+      "exit_code_recorded": null,
+      "hooks_coverage": {
+        "all_expected_installed": true,
+        "expected_count": 8
+      },
+      "individual_run": {
+        "input_hashes_before_start": {
+          "editor.exe": "c9d70afba98678264c82e06ebaafa3018409e3f4cdd6d4e53e6fa3932817152d",
+          "editor.xml": "cd37e3f89f5202e6882cab9b888800f887373f391a1a3f269fccb9d5b1cecdf8",
+          "hooks": "0a61cb0d14f1144ae296cd2a9c5693d7b1d82180ddf42d62c2cf4aa105e39fd5",
+          "probe.lua": "00349fc4ee882b18e8d9d5cf3f965972829ef77d68e0bc0c628acb088b186c40",
+          "spec.json": "73d6eadedaaeb95a1fb77020294d12c97b905de2cd0bda438fa37277e0fdab61"
+        },
+        "mode": "sw-hide"
+      },
+      "lua_probe": {
+        "exists": false,
+        "fresh_mtime_provable": false,
+        "fresh_mtime_reason": "result_missing_or_unparseable",
+        "ok": false,
+        "parseable": false,
+        "scene_correlated": false
+      },
+      "mode": "sw-hide",
+      "requested_renderer": "unknown",
+      "result_ready": null,
+      "script_errors": [],
+      "status": "failed",
+      "telemetry": {
+        "all_editor_windows_on_input_empty": true,
+        "all_foreground_pids_are_other": true,
+        "all_input_desktops_default": true,
+        "has_exited_phase": false,
+        "has_suspended_phase": true,
+        "missing_input_state_fields": 0,
+        "phases": [
+          "running",
+          "suspended"
+        ],
+        "row_count": 324,
+        "state_row_count": 324
+      }
+    }
+  ],
+  "coverage": {
+    "all_desktop_cleanup_confirmed": true,
+    "all_desktops_default": true,
+    "all_editor_windows_absent_on_input": true,
+    "all_foreground_pids_are_other": true,
+    "cases_with_any_successful_gui_windows": 31,
+    "cases_with_successful_gui_windows": 16,
+    "native_window_created_events": 26620,
+    "program_binary_hashes_consistent": true,
+    "program_binary_sha256": "c9d70afba98678264c82e06ebaafa3018409e3f4cdd6d4e53e6fa3932817152d",
+    "successful_create_window_events": 26609,
+    "successful_lua_results": 16
+  },
+  "experiment": "giants_editor_headless_runtime",
+  "format": 1,
+  "limitations": [
+    "Receipt freshness uses the recorded suspended-process sample before ResumeThread when summary.started_ns is absent.",
+    "The Lua fixture exposes root and child counts; it does not identify child node names.",
+    "Backend fields are omitted when the editor log PID does not match the run summary PID.",
+    "The classification records observed startup outcomes and does not claim absolute impossibility."
+  ],
+  "system_check": {
+    "editor_process_count": 0,
+    "no_editor_processes": true,
+    "normal_config_sha256": "31720002d6f6639a6d340ff4d7bb4e558f5ccd1001209c169d1f79f3345871cf",
+    "normal_config_unchanged": true,
+    "requested": true
+  }
+}

@@ -1,0 +1,12 @@
+-- Read-only verification after a fresh normal Editor document load.
+local base=assert(MCP_PROBE_ROOT)
+local node=getChild(getRootNode(),"MCP_Save_Probe")
+assert(node~=0,"fixture_node_missing")
+local x,y,z=getTranslation(node)
+local xml=createXMLFile("readback",base.."fresh-readback.xml","readback")
+setXMLString(xml,"readback#scene",getSceneFilename())
+setXMLString(xml,"readback#name",getName(node))
+setXMLFloat(xml,"readback#x",x);setXMLFloat(xml,"readback#y",y);setXMLFloat(xml,"readback#z",z)
+saveXMLFile(xml);delete(xml)
+print("MCP_FRESH_READBACK_DONE")
+editorExit(0)

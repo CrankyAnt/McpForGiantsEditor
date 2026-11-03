@@ -1,0 +1,217 @@
+{
+  "date": "2026-10-17",
+  "status": "passed_bounded_research",
+  "target": "specialCalfShed.i3d",
+  "donor": "farmGarageConstructable02.i3d",
+  "target_node": "specialCalfShed01/visuals/instances/gate01/gate01",
+  "donor_node": "farmGarageBuildable02/visual/visual_lod/farmGarageBuildable02_lod0/phase07/doorLeftSmall_lod0",
+  "scene_nodes_before": 50,
+  "scene_nodes_after": 51,
+  "shapes_before": 25,
+  "shapes_after": 26,
+  "other_gate_controls": 8,
+  "original_bounds_parent_space": {
+    "vertexCount": 979,
+    "maxZ": 0.293454409,
+    "shapeCount": 1,
+    "minX": -3.05175774e-07,
+    "minZ": -0.0336037539,
+    "width": 1.15701849,
+    "maxY": 0.466674268,
+    "centerY": 2.98023224e-08,
+    "centerZ": 0.129925327,
+    "height": 0.933348477,
+    "minY": -0.466674209,
+    "depth": 0.327058163,
+    "maxX": 1.15701818,
+    "centerX": 0.57850894
+  },
+  "imported_bounds_parent_space": {
+    "vertexCount": 829,
+    "maxZ": 6.10494518,
+    "shapeCount": 2,
+    "minX": -12.5955658,
+    "minZ": 5.93861437,
+    "width": 1.3754425,
+    "maxY": 2.36058187,
+    "centerY": 1.18016149,
+    "centerZ": 6.02177978,
+    "height": 2.36084077,
+    "minY": -0.000258892775,
+    "depth": 0.166330814,
+    "maxX": -11.2201233,
+    "centerX": -11.9078445
+  },
+  "fitted_bounds_parent_space": {
+    "vertexCount": 829,
+    "maxZ": 0.213090658,
+    "shapeCount": 2,
+    "minX": -3.57627869e-07,
+    "minZ": 0.0467600822,
+    "width": 1.15701854,
+    "maxY": 0.466674268,
+    "centerY": 2.98023224e-08,
+    "centerZ": 0.12992537,
+    "height": 0.933348477,
+    "minY": -0.466674209,
+    "depth": 0.166330576,
+    "maxX": 1.15701818,
+    "centerX": 0.578508914
+  },
+  "reloaded_bounds_parent_space": {
+    "vertexCount": 829,
+    "maxZ": 0.213090301,
+    "shapeCount": 2,
+    "minX": 1.43051147e-06,
+    "minZ": 0.0467597246,
+    "width": 1.15701914,
+    "maxY": 0.466674715,
+    "centerY": 2.5331974e-07,
+    "centerZ": 0.129925013,
+    "height": 0.933348924,
+    "minY": -0.466674209,
+    "depth": 0.166330576,
+    "maxX": 1.15702057,
+    "centerX": 0.578511
+  },
+  "replacement_scale": [
+    0.84119767,
+    0.395345807,
+    1
+  ],
+  "fit_errors_m": {
+    "width": 4.9999999918171056e-08,
+    "height": 0.0,
+    "centerX": 2.5999999930803597e-08,
+    "centerY": 0.0,
+    "centerZ": 4.3000000005122274e-08
+  },
+  "fresh_reload_errors_m": {
+    "width": 6.500000000464468e-07,
+    "height": 4.470000000145191e-07,
+    "centerX": 2.06000000002593e-06,
+    "centerY": 2.235174176e-07,
+    "centerZ": 3.140000000012577e-07
+  },
+  "other_nodes_max_transform_rounding": 3.820000000764878e-06,
+  "other_nodes_with_transform_rounding": 16,
+  "other_nodes_geometry_signatures_match": true,
+  "replacement_geometry_signatures_survive_reload": true,
+  "uncertain_ack": {
+    "native_timeout_ms": 100,
+    "win32_error": 1460,
+    "applied_delta_x": 0.009999989999999848,
+    "same_sequence_replay_delta_x": 0
+  },
+  "forced_exit": {
+    "exit_code": 73,
+    "saved_x": 1.15701997,
+    "unsaved_x": 1.16701996,
+    "recovered_x": 1.15701997,
+    "saved_asset_hashes_unchanged": true,
+    "same_original_path_recovery_x": 1.15701997,
+    "same_original_path_verified": true
+  },
+  "native_save_resource_refs": 25,
+  "resource_refs_all_game_data": true,
+  "source_files_unchanged": {
+    "target": 9,
+    "donor": 5
+  },
+  "image_before_after": {
+    "changed_pixels": 30304,
+    "total_pixels": 786432,
+    "changed_fraction": 0.038533528645833336
+  },
+  "image_saved_reload": {
+    "changed_pixels": 701,
+    "total_pixels": 786432,
+    "changed_fraction": 0.0008913675944010416
+  },
+  "image_reload_recovered": {
+    "changed_pixels": 0,
+    "total_pixels": 786432,
+    "changed_fraction": 0.0
+  },
+  "cases": {
+    "replacement-door3": {
+      "exit_code": 0,
+      "private_desktop_removed": true,
+      "input_samples": 47,
+      "editor_on_input_desktop_samples": 0,
+      "native_pngs": 8,
+      "operations_sha256": "abf7ee57e0718f3f66fd325911f3d35110befe275ef5d2f7de3ef05ed9954aad",
+      "summary_sha256": "8159d0350faa24fb00695702760b5ef4d8dbdc4aa822f3c60fb6fa0be182b9bc",
+      "telemetry_sha256": "dae201c115cf60a9e0322b5f1f675712ae63d92b8d61356de04888eb4cc7e248",
+      "bridge_sha256": "9dfd03cc1602e63447e098919c844f59ab7a41c876d55d129873d0c2d2e1aa0f",
+      "replacement_config_sha256": "1d6034b7fb38bac3496aae16ae48c06c7829a93c1d16c1a8e6611e128bcdb137"
+    },
+    "replacement-reload1": {
+      "exit_code": 0,
+      "private_desktop_removed": true,
+      "input_samples": 15,
+      "editor_on_input_desktop_samples": 0,
+      "native_pngs": 2,
+      "operations_sha256": "924fc959123b96241ab139e93a6e1a9786853d62aa8873667f46618061e95a9e",
+      "summary_sha256": "afe5feb422249664d36b0766735b4adcbd56967439627e7a6d3996af4adb2655",
+      "telemetry_sha256": "02feaa7e810e64282da45de55b044f34f1f7d24f8acaca7520a44c05057651fe",
+      "bridge_sha256": "9dfd03cc1602e63447e098919c844f59ab7a41c876d55d129873d0c2d2e1aa0f",
+      "replacement_config_sha256": "b3587fe734a8bfe5803dbb8a29a84bc82f737d477405bc5881aea3a1776e238d"
+    },
+    "replacement-forced1-proof": {
+      "exit_code": 73,
+      "private_desktop_removed": true,
+      "input_samples": 33,
+      "editor_on_input_desktop_samples": 0,
+      "native_pngs": 2,
+      "operations_sha256": "f814273f4590aa5dca70b570b646c996fe0428d66c5babff10fcdcf7b39a5677",
+      "summary_sha256": "c79e950d845a2f4291410981adc635c82d607d97a53940190b1154b160b881d1",
+      "telemetry_sha256": "80c14c2c460bd7e61edf72d4c672756cd596b0f93933bfcb11e0d292859087a7",
+      "bridge_sha256": "9dfd03cc1602e63447e098919c844f59ab7a41c876d55d129873d0c2d2e1aa0f",
+      "replacement_config_sha256": "f310094738c035a9f9a355d4ca7cd5b0e647d335708d74fc7a127c8a3da36974"
+    },
+    "replacement-recovered1": {
+      "exit_code": 0,
+      "private_desktop_removed": true,
+      "input_samples": 16,
+      "editor_on_input_desktop_samples": 0,
+      "native_pngs": 2,
+      "operations_sha256": "ed2f20013e0a9238c405efc503a26e7bb44f0455856579b916103d5185e07185",
+      "summary_sha256": "c93ff03afcd6303f146ea5eab61f3228dcb83a64e864a690325c499cfd2a221d",
+      "telemetry_sha256": "a066c8bf1af2afdb81b2073226f43b5c7dd5ba1cfa6acacac300c4a5cc993ae5",
+      "bridge_sha256": "9dfd03cc1602e63447e098919c844f59ab7a41c876d55d129873d0c2d2e1aa0f",
+      "replacement_config_sha256": "3f944947a98e1bc7cacc885d5391cb049d9fcc9c4325d1577462fb9e1d6e68af"
+    },
+    "replacement-forced1": {
+      "exit_code": 0,
+      "private_desktop_removed": true,
+      "input_samples": 16,
+      "editor_on_input_desktop_samples": 0,
+      "native_pngs": 2,
+      "operations_sha256": "f25f546bbb5f810df0a2946ad7542043dcf67ab62cabc9e9771237320c4e92b0",
+      "summary_sha256": "f7d5c4089c33651afb30cdf50c21d7a4d4ad314e050d26faaa6d07875aa9852c",
+      "telemetry_sha256": "8b56062658054a68063be1648794c168ef20dde9005ecb95395d5ee9864605aa",
+      "bridge_sha256": "9dfd03cc1602e63447e098919c844f59ab7a41c876d55d129873d0c2d2e1aa0f",
+      "replacement_config_sha256": "f310094738c035a9f9a355d4ca7cd5b0e647d335708d74fc7a127c8a3da36974"
+    },
+    "replacement-input-copy1": {
+      "exit_code": 0,
+      "private_desktop_removed": true,
+      "input_samples": 16,
+      "editor_on_input_desktop_samples": 0,
+      "native_pngs": 2,
+      "operations_sha256": "878ed65cc7aefed78689b41ff729b93a422258acbeae944a9a7bce2cf0406dc2",
+      "summary_sha256": "9386e324ecc25561180e133175de8193d57256aba88f08c51027b2c35dd94f0e",
+      "telemetry_sha256": "7ff5b11097857f90a648722bbc145daacd9cc52c353b7db2f407bc48fd76164f",
+      "bridge_sha256": "087db4e7166328c276acb23695d31cebff6ef32be2c87fadefaf404dfee49830",
+      "replacement_config_sha256": "41419a233d118a4a21c560033a8dae6d170fe990dd098e2b83ddf85993fc60e7"
+    }
+  },
+  "limits": [
+    "Rigid zero-local-rotation subtree fitting only; Z depth not scaled.",
+    "Geometry digests quantize vertex positions; normals, UVs, indices and gameplay behavior were not checked.",
+    "No claim of transactional multi-file save, recovery after crash during Save, or deduplication across editor restart.",
+    "No live private-desktop viewing or switching was performed.",
+    "Shared materials and textures remain installed-game data dependencies; this is not a standalone mod package."
+  ]
+}

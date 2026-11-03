@@ -1,0 +1,308 @@
+{
+  "cases": {
+    "gate-native": {
+      "asset": "gate",
+      "asset_compare": {
+        "saved_i3d_equal": true,
+        "saved_i3d_sha256": "6f697e0a748cb41b6b12fc596643194ebebe91cf51fd9bfd49791f9b6a09d7d3",
+        "sidecars": {
+          ".anim": {
+            "equal": true,
+            "private_sha256": "c8c6aca97a944cade1be62feeb0a254e7638398786a0f9c51451c8e94a7a365b",
+            "visible_sha256": "c8c6aca97a944cade1be62feeb0a254e7638398786a0f9c51451c8e94a7a365b"
+          },
+          ".shapes": {
+            "equal": false,
+            "private_sha256": "35289115086e4a5f9141e91d075fa6e1e571a75b9ebed1036035b31c4de364bd",
+            "visible_sha256": "28f6ccacda4c1e57f8cb8790139af95e25ca416a7e9b9c90925c47ed3026e01b"
+          }
+        },
+        "visible_saved_i3d_sha256": "6f697e0a748cb41b6b12fc596643194ebebe91cf51fd9bfd49791f9b6a09d7d3"
+      },
+      "frame": {
+        "all_membership_evidence_explicit": true,
+        "all_not_iconic": true,
+        "all_thread_desktop_queries_access_denied": true,
+        "all_visible": true,
+        "binary_sha256": [
+          "c9d70afba98678264c82e06ebaafa3018409e3f4cdd6d4e53e6fa3932817152d"
+        ],
+        "count": 2,
+        "private_desktops": [
+          "GiantsProbe_c82f33b3334f494885603eb0e7f49f22",
+          "GiantsProbe_70cad73649634cb39651c7ab0a17a364"
+        ]
+      },
+      "images": {
+        "end.png": {
+          "a": "end.png",
+          "b": "end.png",
+          "different_pixels": 0,
+          "max_channel_delta": 0,
+          "mean_channel_max_delta": 0.0,
+          "status": "valid"
+        },
+        "middle.png": {
+          "a": "middle.png",
+          "b": "middle.png",
+          "different_pixels": 0,
+          "max_channel_delta": 0,
+          "mean_channel_max_delta": 0.0,
+          "status": "valid"
+        },
+        "start.png": {
+          "a": "start.png",
+          "b": "start.png",
+          "different_pixels": 0,
+          "max_channel_delta": 0,
+          "mean_channel_max_delta": 0.0,
+          "status": "valid"
+        }
+      },
+      "mode": "native",
+      "phases": {
+        "fresh": {
+          "receipt": {
+            "exists": true,
+            "ok": true,
+            "operation_matches": true,
+            "scene_matches": true,
+            "valid": true
+          },
+          "telemetry": {
+            "all_foreground_other": true,
+            "all_input_desktops_default": true,
+            "all_input_editor_windows_empty": true,
+            "gap_ms": {
+              "maximum": 92.5858,
+              "median": 62.29805,
+              "minimum": 57.6793
+            },
+            "sample_count": 97
+          }
+        },
+        "initial": {
+          "receipt": {
+            "exists": true,
+            "ok": true,
+            "operation_matches": true,
+            "scene_matches": true,
+            "valid": true
+          },
+          "save_receipt": {
+            "exists": true,
+            "ok": true,
+            "operation_matches": true,
+            "path_matches": true,
+            "scene_matches": true,
+            "valid": true
+          },
+          "telemetry": {
+            "all_foreground_other": true,
+            "all_input_desktops_default": true,
+            "all_input_editor_windows_empty": true,
+            "gap_ms": {
+              "maximum": 91.8658,
+              "median": 61.873450000000005,
+              "minimum": 17.0923
+            },
+            "sample_count": 49
+          }
+        }
+      },
+      "prepared_i3d_sha256": "577bbd08d14ea17fe9cbfb6fe8f93dd59db7b4c4e8830431fae6ff6b95ead973",
+      "sample_compare": {
+        "euler_delta_frame_count": 0,
+        "frame_count": 41,
+        "max_local_euler_delta": 0.0,
+        "max_local_scale_delta": 0.0,
+        "max_local_translation_delta": 0.0,
+        "max_quaternion_angular_delta_radians": 0.0,
+        "status": "valid",
+        "translation_delta_frame_count": 0
+      },
+      "source": {
+        "copied_file_count": 22,
+        "copied_hash_mismatches_against_original": [
+          "sentinelGarage_gate_animation.i3d",
+          "sentinelGarage_gate_animation.i3d.anim",
+          "sentinelGarage_gate_animation.i3d.shapes"
+        ],
+        "copied_missing": [],
+        "expected_file_count": 22,
+        "original_file_count": 22,
+        "original_hash_mismatches": [],
+        "original_missing": [],
+        "original_source_hashes_match": true,
+        "original_source_root": "D:\\Games\\Farming Simulator 2025\\data\\placeables\\agi\\sentinelGarage",
+        "prepared_i3d_hash_matches": true,
+        "prepared_i3d_sha256_actual": "577bbd08d14ea17fe9cbfb6fe8f93dd59db7b4c4e8830431fae6ff6b95ead973",
+        "prepared_i3d_sha256_expected": "577bbd08d14ea17fe9cbfb6fe8f93dd59db7b4c4e8830431fae6ff6b95ead973"
+      }
+    },
+    "water-native": {
+      "asset": "water",
+      "asset_compare": {
+        "saved_i3d_equal": true,
+        "saved_i3d_sha256": "04ce81342f1bfb08fbe16c56075cfc19129323b57232bd301bbb1224002bd59f",
+        "sidecars": {
+          ".anim": {
+            "reason": "no_sidecar_in_fixture",
+            "status": "not_applicable"
+          },
+          ".shapes": {
+            "equal": false,
+            "private_sha256": "2655a8e9bbf1eb84734bbed4421911c2fa6d0b982c3ca5ad461fb537945bf9a8",
+            "visible_sha256": "3f58400e3396406277c775db4f7b568ce76bcad426e96b9edef6416688c824c0"
+          }
+        },
+        "visible_saved_i3d_sha256": "04ce81342f1bfb08fbe16c56075cfc19129323b57232bd301bbb1224002bd59f"
+      },
+      "frame": {
+        "all_membership_evidence_explicit": true,
+        "all_not_iconic": true,
+        "all_thread_desktop_queries_access_denied": true,
+        "all_visible": true,
+        "binary_sha256": [
+          "c9d70afba98678264c82e06ebaafa3018409e3f4cdd6d4e53e6fa3932817152d"
+        ],
+        "count": 2,
+        "private_desktops": [
+          "GiantsProbe_8361b7361d864ea8b34584f0c113dd23",
+          "GiantsProbe_153bd80252084af4ad7b4369cabac45d"
+        ]
+      },
+      "images": {
+        "view.png": {
+          "a": "view.png",
+          "b": "view.png",
+          "different_pixels": 0,
+          "max_channel_delta": 0,
+          "mean_channel_max_delta": 0.0,
+          "status": "valid"
+        }
+      },
+      "mode": "native",
+      "phases": {
+        "fresh": {
+          "receipt": {
+            "exists": true,
+            "ok": true,
+            "operation_matches": true,
+            "scene_matches": true,
+            "valid": true
+          },
+          "telemetry": {
+            "all_foreground_other": true,
+            "all_input_desktops_default": true,
+            "all_input_editor_windows_empty": true,
+            "gap_ms": {
+              "maximum": 93.144,
+              "median": 62.1424,
+              "minimum": 33.5045
+            },
+            "sample_count": 62
+          }
+        },
+        "initial": {
+          "receipt": {
+            "exists": true,
+            "ok": true,
+            "operation_matches": true,
+            "scene_matches": true,
+            "valid": true
+          },
+          "save_receipt": {
+            "exists": true,
+            "ok": true,
+            "operation_matches": true,
+            "path_matches": true,
+            "scene_matches": true,
+            "valid": true
+          },
+          "telemetry": {
+            "all_foreground_other": true,
+            "all_input_desktops_default": true,
+            "all_input_editor_windows_empty": true,
+            "gap_ms": {
+              "maximum": 93.0477,
+              "median": 62.3779,
+              "minimum": 1.5642
+            },
+            "sample_count": 50
+          }
+        }
+      },
+      "prepared_i3d_sha256": "e71d8ecbdac4a207dfc6ccf8b006ffa9cf78a1ad235a821e16577a9325d4e269",
+      "sample_compare": {
+        "status": "not_applicable"
+      },
+      "source": {
+        "copied_file_count": 10,
+        "copied_hash_mismatches_against_original": [
+          "waterTrailer550.i3d",
+          "waterTrailer550.i3d.shapes"
+        ],
+        "copied_missing": [],
+        "expected_file_count": 10,
+        "original_file_count": 10,
+        "original_hash_mismatches": [],
+        "original_missing": [],
+        "original_source_hashes_match": true,
+        "original_source_root": "D:\\Games\\Farming Simulator 2025\\data\\vehicles\\abi\\waterTrailer550",
+        "prepared_i3d_hash_matches": true,
+        "prepared_i3d_sha256_actual": "e71d8ecbdac4a207dfc6ccf8b006ffa9cf78a1ad235a821e16577a9325d4e269",
+        "prepared_i3d_sha256_expected": "e71d8ecbdac4a207dfc6ccf8b006ffa9cf78a1ad235a821e16577a9325d4e269"
+      }
+    }
+  },
+  "coverage": {
+    "gap_is_not_a_fixed_50ms_guarantee": true,
+    "input_default_and_editor_absent": true,
+    "phase_count": 4,
+    "sample_gap_max_ms": 93.144,
+    "successful_editor_exits": true,
+    "telemetry_samples": 258
+  },
+  "earlier_diagnostics": {
+    "archived_attempt_count": 5,
+    "attempts_preserved": true,
+    "claims_about_unstarted_runs": false
+  },
+  "experiment": "giants_editor_invisible_private_startup",
+  "format": 1,
+  "runs": 4,
+  "system_check": {
+    "editor_process_count": 0,
+    "no_editor_processes": true,
+    "normal_config": {
+      "exists": true,
+      "hash_matches_baseline": true,
+      "sha256": "31720002d6f6639a6d340ff4d7bb4e558f5ccd1001209c169d1f79f3345871cf"
+    },
+    "private_desktop_queries": [
+      {
+        "name": "GiantsProbe_c82f33b3334f494885603eb0e7f49f22",
+        "open_error": 2,
+        "opened": false
+      },
+      {
+        "name": "GiantsProbe_70cad73649634cb39651c7ab0a17a364",
+        "open_error": 2,
+        "opened": false
+      },
+      {
+        "name": "GiantsProbe_8361b7361d864ea8b34584f0c113dd23",
+        "open_error": 2,
+        "opened": false
+      },
+      {
+        "name": "GiantsProbe_153bd80252084af4ad7b4369cabac45d",
+        "open_error": 2,
+        "opened": false
+      }
+    ],
+    "private_desktops_absent_after_run": true,
+    "requested": true
+  }
+}

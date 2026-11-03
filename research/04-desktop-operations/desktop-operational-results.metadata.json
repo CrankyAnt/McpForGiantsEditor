@@ -1,0 +1,297 @@
+{
+  "format": 1,
+  "build": "10.0.14.0",
+  "exe_sha256": "c9d70afba98678264c82e06ebaafa3018409e3f4cdd6d4e53e6fa3932817152d",
+  "cases": {
+    "longrun": {
+      "duration": {
+        "actual_monotonic_ns": [
+          90980255940100,
+          91880960909700
+        ],
+        "clean_exit_proven": true,
+        "editor_exit_code": 0,
+        "receipt_failure_count": 0,
+        "utc_ns": [
+          1792220405542708500,
+          1792221306247679400
+        ]
+      },
+      "experiment_result_observed": {
+        "duration_s": 900.8796369000047,
+        "last_mutate_sequence": 339,
+        "lock_observed": false,
+        "requests": 340,
+        "saves": 31,
+        "status": "passed",
+        "unlock_observed": false
+      },
+      "wts": {
+        "active_finish_lock_elapsed_s": null,
+        "any_locked_action_out_of_window": false,
+        "flags_0_is_locked": true,
+        "flags_1_is_unlocked": true,
+        "lock_seen": false,
+        "locked_action_count_inside_active_window": 0,
+        "locked_action_count_pre_and_post_flags_0": 0,
+        "locked_actions_out_of_window": [],
+        "locked_active_work_finished": false,
+        "proved_successful_during_lock": false,
+        "status": "uncertain",
+        "transitions": [
+          {
+            "elapsed_s": 7.802508299995679,
+            "flags": 1
+          }
+        ],
+        "unlock_lock_elapsed_s": null,
+        "unlock_seen": false,
+        "valid_locked_action_count": 0,
+        "valid_locked_action_counts_by_op": {}
+      },
+      "operations": {
+        "command_counts": {
+          "inspect": 155,
+          "mutate": 154,
+          "quit": 1,
+          "render": 30,
+          "save": 31
+        },
+        "host_latency_ms": {
+          "count": 371,
+          "max_ms": 215.73830000124872,
+          "median_ms": 172.9531000019051,
+          "p95_ms": 186.93245000758907
+        },
+        "native_latency_ms": {
+          "count": 371,
+          "max_ms": 24.482999986503273,
+          "median_ms": 2.4129000084940344,
+          "p95_ms": 15.94939999631606
+        },
+        "missing_or_invalid_receipts": {
+          "command_returned_false": 0,
+          "invalid_or_identity_failed": 0,
+          "missing": 0
+        }
+      },
+      "analysis_status": "complete"
+    },
+    "lock-only": {
+      "duration": {
+        "actual_monotonic_ns": [
+          91902318472300,
+          92108992280700
+        ],
+        "clean_exit_proven": true,
+        "editor_exit_code": 0,
+        "receipt_failure_count": 0,
+        "utc_ns": [
+          1792221327605240400,
+          1792221534279050800
+        ]
+      },
+      "experiment_result_observed": {
+        "duration_s": 206.85780730000988,
+        "last_mutate_sequence": 33,
+        "lock_observed": true,
+        "requests": 34,
+        "saves": 8,
+        "status": "passed",
+        "unlock_observed": true
+      },
+      "wts": {
+        "active_finish_lock_elapsed_s": 65.0333466000011,
+        "any_locked_action_out_of_window": false,
+        "flags_0_is_locked": true,
+        "flags_1_is_unlocked": true,
+        "lock_seen": true,
+        "locked_action_count_inside_active_window": 29,
+        "locked_action_count_pre_and_post_flags_0": 29,
+        "locked_actions_out_of_window": [],
+        "locked_active_work_finished": true,
+        "proved_successful_during_lock": true,
+        "status": "proved",
+        "transitions": [
+          {
+            "elapsed_s": 43.01711390000128,
+            "flags": 1
+          },
+          {
+            "elapsed_s": 50.65089700001408,
+            "flags": 0
+          },
+          {
+            "elapsed_s": 204.7540383000014,
+            "flags": 1
+          }
+        ],
+        "unlock_lock_elapsed_s": 154.10314179999114,
+        "unlock_seen": true,
+        "valid_locked_action_count": 29,
+        "valid_locked_action_counts_by_op": {
+          "inspect": 10,
+          "mutate": 11,
+          "render": 4,
+          "save": 4
+        }
+      },
+      "operations": {
+        "command_counts": {
+          "inspect": 13,
+          "mutate": 13,
+          "quit": 1,
+          "render": 7,
+          "save": 8
+        },
+        "host_latency_ms": {
+          "count": 42,
+          "max_ms": 303.90149999584537,
+          "median_ms": 170.84484999941196,
+          "p95_ms": 198.10281999671133
+        },
+        "native_latency_ms": {
+          "count": 42,
+          "max_ms": 97.9323000065051,
+          "median_ms": 2.793399995425716,
+          "p95_ms": 17.313710000598803
+        },
+        "missing_or_invalid_receipts": {
+          "command_returned_false": 0,
+          "invalid_or_identity_failed": 0,
+          "missing": 0
+        }
+      },
+      "analysis_status": "complete"
+    }
+  },
+  "fresh_reloads": [
+    {
+      "case": "reload-longrun",
+      "expected": [
+        0.339,
+        -1.5,
+        2.125
+      ],
+      "actual": [
+        0.33899998664855957,
+        -1.5,
+        2.125
+      ],
+      "fresh_readback_passed": true,
+      "exit_code": 0,
+      "desktop_removed": true
+    },
+    {
+      "case": "reload-lock-only",
+      "expected": [
+        0.033,
+        -1.5,
+        2.125
+      ],
+      "actual": [
+        0.032999999821186066,
+        -1.5,
+        2.125
+      ],
+      "fresh_readback_passed": true,
+      "exit_code": 0,
+      "desktop_removed": true
+    },
+    {
+      "case": "reload-modal",
+      "expected": [
+        0.011,
+        -1.5,
+        2.125
+      ],
+      "actual": [
+        0.010999999940395355,
+        -1.5,
+        2.125
+      ],
+      "fresh_readback_passed": true,
+      "exit_code": 0,
+      "desktop_removed": true
+    }
+  ],
+  "modal": {
+    "exclusive_open_control_error": 32,
+    "failed_save_dispatch_returned": false,
+    "failed_save_win32_error": 1460,
+    "failed_save_native_ms": 3014.1742,
+    "dialog_title": "Error",
+    "dialog_message": "Error while saving i3d file",
+    "main_disabled": true,
+    "captured_png_dimensions": [
+      366,
+      132
+    ],
+    "known_ok_dismissal_succeeded": true,
+    "released_lock_hash_unchanged": true,
+    "retry_save_succeeded": true,
+    "initial_permit_wrong_hwnd_rejected": true,
+    "caught_error_receipt": true,
+    "uncaught_error_response_absent": true,
+    "subsequent_inspect_succeeded": true,
+    "missing_asset_loaded_node": 0,
+    "explicit_update_loop_callbacks": 648,
+    "explicit_update_loop_final_y": -582.9281005859375,
+    "reset_before_final_save": true
+  },
+  "raw_root": ".docs/giants-editor-desktop/endurance",
+  "source_hashes": {
+    "desktop_endurance_probe.py": "d4668af02107a704ebb914f55277d519f812a1ebdf7a83756c9e92560f81a8c4",
+    "desktop_endurance_probe.lua": "7a84a4416319d43f4082c07a599e231c95277f6c199ed68891231905e4de8260",
+    "desktop_research_controller.py": "b26b703d1e904e1babaeca78c78b9640c50f3767921675a945eef0d3e417e9ae",
+    "analyze_desktop_endurance.py": "00c9dbd3569f0dc06f30f7ab3a563571db82bd892b10cb1ead3b113b423b2eba"
+  },
+  "resource_stages": [
+    {
+      "name": "initial_idle",
+      "elapsed_ms": 20019.5856,
+      "handle_count": 1029,
+      "private_usage_bytes": 1190363136,
+      "working_set_bytes": 391987200
+    },
+    {
+      "name": "inspect_100",
+      "elapsed_ms": 17674.1577,
+      "handle_count": 1119,
+      "private_usage_bytes": 1157267456,
+      "working_set_bytes": 359550976
+    },
+    {
+      "name": "save_20",
+      "elapsed_ms": 3748.3685,
+      "handle_count": 1253,
+      "private_usage_bytes": 1176801280,
+      "working_set_bytes": 365760512
+    },
+    {
+      "name": "render_30",
+      "elapsed_ms": 5663.7946,
+      "handle_count": 1289,
+      "private_usage_bytes": 1187569664,
+      "working_set_bytes": 375328768
+    },
+    {
+      "name": "final_idle",
+      "elapsed_ms": 20018.5965,
+      "handle_count": 1285,
+      "private_usage_bytes": 1186529280,
+      "working_set_bytes": 374243328
+    }
+  ],
+  "instrument_revision": "48382b7",
+  "operator_unlock_report": {
+    "symptoms": [
+      "login activation produced error sound",
+      "login screen did not appear",
+      "Ctrl+Alt+Delete restored screen"
+    ],
+    "causality": "unresolved",
+    "interactive_unlock_proven_unobstructed": false,
+    "fault_injection_file_lock_overlapped_wts_lock": false
+  }
+}

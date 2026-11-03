@@ -1,0 +1,400 @@
+{
+  "assets": [
+    {
+      "all_mutation_save_checks_iconic_and_foreground_other": true,
+      "animation_clip_binding_count": 0,
+      "animation_clip_bindings_equal": true,
+      "baseline_readback_sha256": "1146bdfe54805eb4571cd2a7056a1069e43be99b9f388915216b521c7e6f0101",
+      "distinct_clip_name_duration_pairs": 0,
+      "document_root_name_after": "waterTrailer550.i3d",
+      "document_root_name_before": "waterTrailer550",
+      "exact_save_dispatch_start_time_retained": false,
+      "fixture": "water-trailer",
+      "foreground_unchanged_each_work_dispatch": true,
+      "installed_source_hashes_unchanged": true,
+      "local_textures_unchanged": true,
+      "material_diffuse_color_changes": [
+        {
+          "after": "0.501961 0.501961 0.501961 1",
+          "before": "0.5 0.5 0.5 1",
+          "material": "lambert1"
+        }
+      ],
+      "material_xml_descriptors_equal": false,
+      "material_xml_differing_names": [
+        "lambert1",
+        "waterTrailer550Decal_metalPainted_mat",
+        "waterTrailer550Decal_plasticPainted_mat",
+        "waterTrailer550Decal_reflectorWhite_mat",
+        "waterTrailer550Decal_silverScratched_mat",
+        "waterTrailer550Hose_silverScratched_mat",
+        "waterTrailer550_plasticPaintedShinyGray_02_mat"
+      ],
+      "max_other_translation_delta": 4.000000000115023e-06,
+      "node_count": 38,
+      "node_paths_and_nonroot_names_equal": true,
+      "other_translation_changes": [
+        {
+          "deltas": {
+            "z": -9.999999999177334e-07
+          },
+          "node_path": "/0/0/9"
+        },
+        {
+          "deltas": {
+            "z": -2.0000000000575113e-06
+          },
+          "node_path": "/0/1/0"
+        },
+        {
+          "deltas": {
+            "z": 4.000000000115023e-06
+          },
+          "node_path": "/0/0/0/0"
+        },
+        {
+          "deltas": {
+            "z": 2.9999999999752447e-06
+          },
+          "node_path": "/0/0/0/1"
+        },
+        {
+          "deltas": {
+            "z": -3.999999999892978e-06
+          },
+          "node_path": "/0/0/1/0"
+        },
+        {
+          "deltas": {
+            "z": -2.0000000000575113e-06
+          },
+          "node_path": "/0/0/1/1"
+        },
+        {
+          "deltas": {
+            "z": 1.000000000139778e-06
+          },
+          "node_path": "/0/0/3/0"
+        },
+        {
+          "deltas": {
+            "z": 2.9999999999752447e-06
+          },
+          "node_path": "/0/0/0/1/0/0/0/0"
+        }
+      ],
+      "quantized_vertex_digests_and_slot_counts_equal": true,
+      "removed_material_parameters": [
+        {
+          "equals_shader_default": true,
+          "material": "waterTrailer550Hose_silverScratched_mat",
+          "parameter": "colorScale",
+          "shader_default": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "value": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "equals_shader_default": true,
+          "material": "waterTrailer550Decal_silverScratched_mat",
+          "parameter": "alphaBlendingClipThreshold",
+          "shader_default": [
+            1.0
+          ],
+          "value": [
+            1.0
+          ]
+        },
+        {
+          "equals_shader_default": true,
+          "material": "waterTrailer550Decal_metalPainted_mat",
+          "parameter": "alphaBlendingClipThreshold",
+          "shader_default": [
+            1.0
+          ],
+          "value": [
+            1.0
+          ]
+        },
+        {
+          "equals_shader_default": true,
+          "material": "waterTrailer550Decal_plasticPainted_mat",
+          "parameter": "alphaBlendingClipThreshold",
+          "shader_default": [
+            1.0
+          ],
+          "value": [
+            1.0
+          ]
+        },
+        {
+          "equals_shader_default": true,
+          "material": "waterTrailer550Decal_reflectorWhite_mat",
+          "parameter": "alphaBlendingClipThreshold",
+          "shader_default": [
+            1.0
+          ],
+          "value": [
+            1.0
+          ]
+        },
+        {
+          "equals_shader_default": true,
+          "material": "waterTrailer550_plasticPaintedShinyGray_02_mat",
+          "parameter": "colorScale",
+          "shader_default": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "value": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "runtime_material_slots": 30,
+      "runtime_shapes": 13,
+      "runtime_vertices": 34252,
+      "save_callback_after_last_work_response": true,
+      "save_callback_ok_and_expected_document": true,
+      "saved_target_translation": [
+        7.25,
+        -1.5,
+        2.125
+      ],
+      "script_requests": 13,
+      "sidecars": [
+        {
+          "bytes_after": 1895892,
+          "bytes_before": 1895892,
+          "bytes_unchanged": false,
+          "different_bytes_in_common_prefix": 1888444,
+          "sha256_after": "c015637bc397ab33defcfca2af244cff56b0dae4ac51588aa7566097da220514",
+          "sha256_before": "f4e50c8919555e851c332028a46e5c98f7a8c16c0b28a8a2443f97d9ab9dd172",
+          "suffix": ".shapes"
+        }
+      ],
+      "source_basename": "waterTrailer550.i3d",
+      "source_file_count": 10,
+      "source_receipt_hashes": {
+        "fresh-readback.xml": "f41473c4eace43cdaa05a64e1601f5760614f2bba25cb3df12055a86c12dc838",
+        "initial-ready.xml": "3c7b8f7b262eb87718e41be52afe494e429d26481a4e0dcb18f9cbee2d45b971",
+        "save-001.xml": "2fbde511a463ec6f8ef4b41dbde9448a23ac48e3d2eee576b0ec0c3bb21b8201"
+      },
+      "vertex_digest_is_cryptographic": false,
+      "vertex_digest_resolution": 1e-06,
+      "xml_counts_after": {
+        "Animation": 0,
+        "File": 25,
+        "Material": 19,
+        "Shape": 11,
+        "TransformGroup": 22
+      },
+      "xml_counts_before": {
+        "Animation": 0,
+        "File": 25,
+        "Material": 19,
+        "Shape": 11,
+        "TransformGroup": 22
+      }
+    },
+    {
+      "all_mutation_save_checks_iconic_and_foreground_other": true,
+      "animation_clip_binding_count": 7,
+      "animation_clip_bindings_equal": true,
+      "baseline_readback_sha256": "6a7369f427d53bad5723128527712d4d71814067de3a3ea7510ce6aeb868c6bb",
+      "distinct_clip_name_duration_pairs": 1,
+      "document_root_name_after": "sentinelGarage_gate_animation.i3d",
+      "document_root_name_before": "sentinelGarage_gate_animation",
+      "exact_save_dispatch_start_time_retained": false,
+      "fixture": "animated-gate",
+      "foreground_unchanged_each_work_dispatch": true,
+      "installed_source_hashes_unchanged": true,
+      "local_textures_unchanged": true,
+      "material_diffuse_color_changes": [
+        {
+          "after": "0.501961 0.501961 0.501961 1",
+          "before": "0.5 0.5 0.5 1",
+          "material": "lambert1"
+        }
+      ],
+      "material_xml_descriptors_equal": false,
+      "material_xml_differing_names": [
+        "lambert1"
+      ],
+      "max_other_translation_delta": 5.000000000254801e-06,
+      "node_count": 24,
+      "node_paths_and_nonroot_names_equal": true,
+      "other_translation_changes": [
+        {
+          "deltas": {
+            "x": 5.000000000254801e-06
+          },
+          "node_path": "/0/0/1"
+        },
+        {
+          "deltas": {
+            "x": -2.9999999999752447e-06
+          },
+          "node_path": "/0/0/2"
+        },
+        {
+          "deltas": {
+            "x": -1.9999999998354667e-06
+          },
+          "node_path": "/0/0/0/1"
+        },
+        {
+          "deltas": {
+            "x": -2.9999999999752447e-06
+          },
+          "node_path": "/0/0/0/2"
+        },
+        {
+          "deltas": {
+            "x": -4.000000000115023e-06
+          },
+          "node_path": "/0/0/0/0/1"
+        },
+        {
+          "deltas": {
+            "x": -2.9999999999752447e-06
+          },
+          "node_path": "/0/0/0/0/2"
+        },
+        {
+          "deltas": {
+            "x": 5.000000000254801e-06
+          },
+          "node_path": "/0/0/0/0/0/1"
+        },
+        {
+          "deltas": {
+            "x": -2.9999999999752447e-06
+          },
+          "node_path": "/0/0/0/0/0/2"
+        },
+        {
+          "deltas": {
+            "x": 5.000000000254801e-06
+          },
+          "node_path": "/0/0/0/0/0/0/1"
+        },
+        {
+          "deltas": {
+            "x": -2.9999999999752447e-06
+          },
+          "node_path": "/0/0/0/0/0/0/2"
+        },
+        {
+          "deltas": {
+            "x": 5.000000000254801e-06
+          },
+          "node_path": "/0/0/0/0/0/0/0/1"
+        },
+        {
+          "deltas": {
+            "x": -2.9999999999752447e-06
+          },
+          "node_path": "/0/0/0/0/0/0/0/2"
+        },
+        {
+          "deltas": {
+            "x": -4.000000000115023e-06
+          },
+          "node_path": "/0/0/0/0/0/0/0/0/0"
+        },
+        {
+          "deltas": {
+            "x": -2.9999999999752447e-06
+          },
+          "node_path": "/0/0/0/0/0/0/0/0/1"
+        }
+      ],
+      "quantized_vertex_digests_and_slot_counts_equal": true,
+      "removed_material_parameters": [],
+      "runtime_material_slots": 21,
+      "runtime_shapes": 21,
+      "runtime_vertices": 8782,
+      "save_callback_after_last_work_response": true,
+      "save_callback_ok_and_expected_document": true,
+      "saved_target_translation": [
+        7.25,
+        -1.5,
+        2.125
+      ],
+      "script_requests": 13,
+      "sidecars": [
+        {
+          "bytes_after": 525472,
+          "bytes_before": 526416,
+          "bytes_unchanged": false,
+          "different_bytes_in_common_prefix": 523403,
+          "sha256_after": "56d19c5354c81d650955428b1188a5c1212a45c206ce57b13059f15fe7361e7d",
+          "sha256_before": "c6a0adbc14366dd7d6bf34c075822fd2ee9f312c68cd9e0c5ad150839a09d165",
+          "suffix": ".shapes"
+        },
+        {
+          "bytes_after": 35172,
+          "bytes_before": 35172,
+          "bytes_unchanged": false,
+          "different_bytes_in_common_prefix": 2390,
+          "sha256_after": "c8c6aca97a944cade1be62feeb0a254e7638398786a0f9c51451c8e94a7a365b",
+          "sha256_before": "67d2098d2bdaecd0279b60178b66384866f8585de3e1b59faa4bd093bf223a03",
+          "suffix": ".anim"
+        }
+      ],
+      "source_basename": "sentinelGarage_gate_animation.i3d",
+      "source_file_count": 22,
+      "source_receipt_hashes": {
+        "fresh-readback.xml": "e6f01ef6a6eb29c9fc722110e1c8a462f0421b7d1bf7872d68cbdc375a79db88",
+        "initial-ready.xml": "7c6d9de51110a78ddd5425503e24ae0e64c456672d2a9d9d4e5ed80e5e63e750",
+        "save-001.xml": "75da285b1a8f4e8a6a0690bb8f0934efb5722dd5a1a08f657ca2b73b7bd5a7a5"
+      },
+      "vertex_digest_is_cryptographic": false,
+      "vertex_digest_resolution": 1e-06,
+      "xml_counts_after": {
+        "Animation": 1,
+        "File": 8,
+        "Material": 3,
+        "Shape": 21,
+        "TransformGroup": 1
+      },
+      "xml_counts_before": {
+        "Animation": 1,
+        "File": 8,
+        "Material": 3,
+        "Shape": 21,
+        "TransformGroup": 1
+      }
+    }
+  ],
+  "binary_sha256": "c9d70afba98678264c82e06ebaafa3018409e3f4cdd6d4e53e6fa3932817152d",
+  "format": 1,
+  "limitations": [
+    "No UI rendering or in-game acceptance.",
+    "Animation bindings and durations only; no playback or keyframe equivalence proof.",
+    "Vertex digests are rounded checks, not bitwise geometry or triangle-topology proof.",
+    "One other foreground process was observed in the sampled data; user interaction was not instrumented."
+  ],
+  "simple_background": {
+    "all_foreground_other_process": true,
+    "all_iconic": true,
+    "foreground_distinct_processes": 1,
+    "foreground_unchanged_each_dispatch": true,
+    "requests": 30,
+    "saved_translation": "30.125 -2.5 8.75"
+  },
+  "simple_dispatch_latency_ms_range": [
+    2.922,
+    12.555
+  ]
+}

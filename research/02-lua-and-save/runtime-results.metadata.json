@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-16",
+  "binary_sha256": "c9d70afba98678264c82e06ebaafa3018409e3f4cdd6d4e53e6fa3932817152d",
+  "provenance": "Derived from isolated local runtime receipts. Raw machine logs and vendor output remain ignored. Hashes identify the local artifacts; they are not independent proof without those artifacts.",
+  "cases": [
+    {
+      "evidence_directory": ".docs/giants-editor-static/runtime-native-save",
+      "saved_fixture_sha256": "5e21159fc23a2ed4a28fc464e0be3c729b6cd68563cf4bc45898cb8d404d6ddb",
+      "persisted_node": "MCP_Save_Probe",
+      "persisted_translation": "21.75 -4.5 9.125",
+      "fresh_engine_translation": [
+        21.75,
+        -4.5,
+        9.125
+      ],
+      "fresh_readback_sha256": "c552ec10c1e47e4073253c0f68d2e745250dc7a5011c9ab0f8929fe7bc23ec6a"
+    },
+    {
+      "evidence_directory": ".docs/giants-editor-static/runtime-script-dispatch2",
+      "saved_fixture_sha256": "9bed9138f8435423856376647b19cb6b6e1f81a47a2e507f4e9c6c7d77506995",
+      "persisted_node": "MCP_Save_Probe",
+      "persisted_translation": "42.25 -6.5 14.875",
+      "fresh_engine_translation": [
+        42.25,
+        -6.5,
+        14.875
+      ],
+      "fresh_readback_sha256": "80deeac6547dce562bbb6c7503d2697933bd0d86ed5eb56ad62d42b846ffae85",
+      "script_command_id_observed": 7311,
+      "script_id_is_dynamic": true,
+      "script_is_iconic_before": true,
+      "script_is_iconic_after": true,
+      "script_message_returned": true,
+      "foreground_handle_unchanged": true,
+      "foreground_was_another_application": false,
+      "save_is_iconic": true,
+      "save_command_id": 6001,
+      "save_dispatch_status": "returned"
+    }
+  ]
+}

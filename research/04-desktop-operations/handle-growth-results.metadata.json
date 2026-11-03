@@ -1,0 +1,1077 @@
+{
+  "cases": [
+    {
+      "case": "handles-fence-lifecycle1",
+      "case_completion": "passed",
+      "clean_exit": true,
+      "command_counts": {
+        "persistent-inspect": 80,
+        "persistent-render": 20,
+        "quit": 1
+      },
+      "desktop_removed": true,
+      "nonteardown_memory_window": {
+        "private_usage_bytes_max": 1282170880,
+        "private_usage_bytes_min": 20140032,
+        "samples": 200,
+        "working_set_bytes_max": 476405760,
+        "working_set_bytes_min": 15335424
+      },
+      "receipt_counts": {
+        "response_xml": 101,
+        "save_xml": 0
+      },
+      "stages": [
+        {
+          "Event": 307,
+          "Unknown": 241,
+          "elapsed_s": 2.8652662000095006,
+          "raw_sha256": "feb9001059c052bfa2e8cb4d21e7854bcbece2eb94b35d4e9bee932f3b42d0fb",
+          "stage": "ready",
+          "total": 1026
+        },
+        {
+          "Event": 302,
+          "Unknown": 241,
+          "elapsed_s": 33.14400620000379,
+          "raw_sha256": "e860a6a767031ac68c459babc6f5574a0087d75911205988e62882807514cf32",
+          "stage": "warm-idle",
+          "total": 1017
+        },
+        {
+          "Event": 331,
+          "Unknown": 242,
+          "elapsed_s": 36.53777610001271,
+          "raw_sha256": "4edf81e7845063a8fc04dfc8561464ca3271df9f55c732d831272d644974217e",
+          "stage": "restored-read",
+          "total": 1073
+        },
+        {
+          "Event": 331,
+          "Unknown": 242,
+          "elapsed_s": 37.48815270001069,
+          "raw_sha256": "4edf81e7845063a8fc04dfc8561464ca3271df9f55c732d831272d644974217e",
+          "stage": "minimized-read",
+          "total": 1073
+        },
+        {
+          "Event": 332,
+          "Unknown": 242,
+          "elapsed_s": 38.74691590000293,
+          "raw_sha256": "ae77338bc26b386d057514e0823497b3d1f4cb4b033a9f9311d525733d970835",
+          "stage": "minimized-render",
+          "total": 1074
+        },
+        {
+          "Event": 358,
+          "Unknown": 242,
+          "elapsed_s": 39.762662699999055,
+          "raw_sha256": "19564cc6bb31133476471c6f5e2241c633a3f33ad193ceb2e459010652b8281c",
+          "stage": "restored-again",
+          "total": 1100
+        },
+        {
+          "Event": 358,
+          "Unknown": 242,
+          "elapsed_s": 40.68721709999954,
+          "raw_sha256": "19564cc6bb31133476471c6f5e2241c633a3f33ad193ceb2e459010652b8281c",
+          "stage": "minimized-again",
+          "total": 1100
+        },
+        {
+          "Event": 354,
+          "Unknown": 308,
+          "elapsed_s": 40.971002900012536,
+          "raw_sha256": "be302c5d16344442b6403fd8c25ec4683fccefc88eb64f3261a70ae2bb3fe0e9",
+          "stage": "after-detach",
+          "total": 1075
+        }
+      ]
+    },
+    {
+      "case": "handles-fence-submit1",
+      "case_completion": "passed",
+      "clean_exit": true,
+      "command_counts": {
+        "persistent-inspect": 80,
+        "persistent-render": 20,
+        "quit": 1
+      },
+      "desktop_removed": true,
+      "nonteardown_memory_window": {
+        "private_usage_bytes_max": 1278091264,
+        "private_usage_bytes_min": 20152320,
+        "samples": 198,
+        "working_set_bytes_max": 473829376,
+        "working_set_bytes_min": 15421440
+      },
+      "receipt_counts": {
+        "response_xml": 101,
+        "save_xml": 0
+      },
+      "stages": [
+        {
+          "Event": 307,
+          "Unknown": 241,
+          "elapsed_s": 2.672208399992087,
+          "raw_sha256": "feb9001059c052bfa2e8cb4d21e7854bcbece2eb94b35d4e9bee932f3b42d0fb",
+          "stage": "ready",
+          "total": 1026
+        },
+        {
+          "Event": 301,
+          "Unknown": 307,
+          "elapsed_s": 32.99148850000347,
+          "raw_sha256": "345753918752c318f5ba3d5a5dc703be03134383ebbb0702f72eb4470ae416b1",
+          "stage": "warm-idle",
+          "total": 1015
+        },
+        {
+          "Event": 330,
+          "Unknown": 280,
+          "elapsed_s": 36.44383879999805,
+          "raw_sha256": "3ec357265257195d95d3a714a2a8dfa5247a5645e3692a024a325846cc5ee9b7",
+          "stage": "restored-read",
+          "total": 1071
+        },
+        {
+          "Event": 330,
+          "Unknown": 280,
+          "elapsed_s": 37.46174869999231,
+          "raw_sha256": "3ec357265257195d95d3a714a2a8dfa5247a5645e3692a024a325846cc5ee9b7",
+          "stage": "minimized-read",
+          "total": 1071
+        },
+        {
+          "Event": 331,
+          "Unknown": 315,
+          "elapsed_s": 38.74650949999341,
+          "raw_sha256": "a5cd4608689b35873602f855ed61bad043d35a2a3e3def5bfa5392343028ea1c",
+          "stage": "minimized-render",
+          "total": 1072
+        },
+        {
+          "Event": 357,
+          "Unknown": 315,
+          "elapsed_s": 39.766149499992025,
+          "raw_sha256": "fca0dff472d74a6d6fddfd7832f3a4a804de4d522385abe2970db2617bb277ea",
+          "stage": "restored-again",
+          "total": 1098
+        },
+        {
+          "Event": 357,
+          "Unknown": 315,
+          "elapsed_s": 40.74785259999044,
+          "raw_sha256": "fca0dff472d74a6d6fddfd7832f3a4a804de4d522385abe2970db2617bb277ea",
+          "stage": "minimized-again",
+          "total": 1098
+        },
+        {
+          "Event": 353,
+          "Unknown": 242,
+          "elapsed_s": 41.069120200001635,
+          "raw_sha256": "c723137ff9c072383ab865304d4be597179eaaead94a2a656833f96f7e5991d2",
+          "stage": "after-detach",
+          "total": 1073
+        }
+      ]
+    },
+    {
+      "case": "handles-fence-trace1",
+      "case_completion": "passed",
+      "clean_exit": true,
+      "command_counts": {
+        "persistent-inspect": 80,
+        "persistent-render": 20,
+        "quit": 1
+      },
+      "desktop_removed": true,
+      "nonteardown_memory_window": {
+        "private_usage_bytes_max": 1288372224,
+        "private_usage_bytes_min": 20152320,
+        "samples": 200,
+        "working_set_bytes_max": 476418048,
+        "working_set_bytes_min": 15392768
+      },
+      "receipt_counts": {
+        "response_xml": 101,
+        "save_xml": 0
+      },
+      "stages": [
+        {
+          "Event": 305,
+          "Unknown": 241,
+          "elapsed_s": 2.862701600010041,
+          "raw_sha256": "64c1a4d36eeee0d04c82084f2e36e43bcb6ea254bfd3b1190d878115eae719ed",
+          "stage": "ready",
+          "total": 1021
+        },
+        {
+          "Event": 301,
+          "Unknown": 241,
+          "elapsed_s": 33.13242470000114,
+          "raw_sha256": "f07d7211e535c52583ba790e274a9348f69ad19c363ddd9029207eefc585bac7",
+          "stage": "warm-idle",
+          "total": 1013
+        },
+        {
+          "Event": 326,
+          "Unknown": 277,
+          "elapsed_s": 36.50731010000163,
+          "raw_sha256": "9d84068f2007b7ecc7bfa4af7fda195935d6401ed5b99a6558980f8c51dff3d8",
+          "stage": "restored-read",
+          "total": 1065
+        },
+        {
+          "Event": 326,
+          "Unknown": 277,
+          "elapsed_s": 37.46167859999696,
+          "raw_sha256": "9d84068f2007b7ecc7bfa4af7fda195935d6401ed5b99a6558980f8c51dff3d8",
+          "stage": "minimized-read",
+          "total": 1065
+        },
+        {
+          "Event": 327,
+          "Unknown": 277,
+          "elapsed_s": 38.733116600007634,
+          "raw_sha256": "e66cffc639e51c0a2d329e1e3c986cfd0f0e51632c5d951ecbfd3f88dbb3ada2",
+          "stage": "minimized-render",
+          "total": 1066
+        },
+        {
+          "Event": 352,
+          "Unknown": 277,
+          "elapsed_s": 39.72519569999713,
+          "raw_sha256": "3825a6b67a0794ea5d69f7ce7501e30e2a36e277fe41e2ed9b85cf7ac01928c4",
+          "stage": "restored-again",
+          "total": 1091
+        },
+        {
+          "Event": 352,
+          "Unknown": 277,
+          "elapsed_s": 40.658001100004185,
+          "raw_sha256": "3825a6b67a0794ea5d69f7ce7501e30e2a36e277fe41e2ed9b85cf7ac01928c4",
+          "stage": "minimized-again",
+          "total": 1091
+        },
+        {
+          "Event": 348,
+          "Unknown": 277,
+          "elapsed_s": 40.96069940000598,
+          "raw_sha256": "b7033dcdd49f635f26764d10a73d92066bbd1a34d193427ed29ec1fe05047613",
+          "stage": "after-detach",
+          "total": 1066
+        }
+      ]
+    },
+    {
+      "case": "handles-long-minimized1",
+      "case_completion": "passed",
+      "clean_exit": true,
+      "command_counts": {
+        "inspect": 133,
+        "mutate": 133,
+        "persistent-inspect": 5000,
+        "quit": 1,
+        "render": 28,
+        "save": 29
+      },
+      "desktop_removed": true,
+      "nonteardown_memory_window": {
+        "private_usage_bytes_max": 1215270912,
+        "private_usage_bytes_min": 20144128,
+        "samples": 4365,
+        "working_set_bytes_max": 420151296,
+        "working_set_bytes_min": 15339520
+      },
+      "receipt_audit": {
+        "clean_exit": true,
+        "config_hash_unchanged": true,
+        "desktop_removed": true,
+        "duration_seconds": 901.35,
+        "inspect_responses": 5133,
+        "mutate_responses": 133,
+        "png_dimensions": [
+          512,
+          512
+        ],
+        "quit_responses": 1,
+        "render_responses": 28,
+        "save_xml": 29,
+        "valid_responses": 5295,
+        "validated_pngs": 28
+      },
+      "receipt_counts": {
+        "response_xml": 5295,
+        "save_xml": 29
+      },
+      "stages": [
+        {
+          "Event": 307,
+          "Unknown": 241,
+          "elapsed_s": 2.68089649999456,
+          "raw_sha256": "feb9001059c052bfa2e8cb4d21e7854bcbece2eb94b35d4e9bee932f3b42d0fb",
+          "stage": "ready",
+          "total": 1026
+        },
+        {
+          "Event": 302,
+          "Unknown": 241,
+          "elapsed_s": 32.97612449999724,
+          "raw_sha256": "e860a6a767031ac68c459babc6f5574a0087d75911205988e62882807514cf32",
+          "stage": "warm-idle",
+          "total": 1017
+        },
+        {
+          "Event": 302,
+          "Unknown": 241,
+          "elapsed_s": 49.68850820000807,
+          "raw_sha256": "e860a6a767031ac68c459babc6f5574a0087d75911205988e62882807514cf32",
+          "stage": "inspect-5000",
+          "total": 1017
+        },
+        {
+          "Event": 302,
+          "Unknown": 307,
+          "elapsed_s": 109.95578079999541,
+          "raw_sha256": "2a3d96ca38d674d00ee1c0e1930b25be5d24084670123f35afde066d36268a82",
+          "stage": "minute-1",
+          "total": 1013
+        },
+        {
+          "Event": 297,
+          "Unknown": 241,
+          "elapsed_s": 170.36583500000415,
+          "raw_sha256": "a561787996ca4731265b653e0e4a0e564c79967ccd4e7aa8da53e96dcbbed537",
+          "stage": "minute-2",
+          "total": 999
+        },
+        {
+          "Event": 297,
+          "Unknown": 304,
+          "elapsed_s": 230.63879549999547,
+          "raw_sha256": "0a9ffdd84a04dc757b1c386302db44530a9427a021512fb4a8c98c885993cc8e",
+          "stage": "minute-3",
+          "total": 999
+        },
+        {
+          "Event": 297,
+          "Unknown": 241,
+          "elapsed_s": 291.06781110000156,
+          "raw_sha256": "a561787996ca4731265b653e0e4a0e564c79967ccd4e7aa8da53e96dcbbed537",
+          "stage": "minute-4",
+          "total": 999
+        },
+        {
+          "Event": 296,
+          "Unknown": 305,
+          "elapsed_s": 351.4187835000048,
+          "raw_sha256": "f3ea1d5d295c8d0e603294076717bbf07e30cd480a4ecda73d03a70bf16dfe22",
+          "stage": "minute-5",
+          "total": 1000
+        },
+        {
+          "Event": 299,
+          "Unknown": 241,
+          "elapsed_s": 412.02483540000685,
+          "raw_sha256": "2d454f291f23a49e8d061d8285f8750bd8f2e8e952e4c39cae3f37ac5c2d3041",
+          "stage": "minute-6",
+          "total": 1006
+        },
+        {
+          "Event": 296,
+          "Unknown": 241,
+          "elapsed_s": 472.4738862999948,
+          "raw_sha256": "83e85caa723275be35197be901918e704dd1275c6e45c664a851a6728f1e05f5",
+          "stage": "minute-7",
+          "total": 996
+        },
+        {
+          "Event": 296,
+          "Unknown": 276,
+          "elapsed_s": 532.8676768000005,
+          "raw_sha256": "2b97cd09cd4b4020db1f4471b987ec2f575e0459d50d3a86348e3f8f94a45645",
+          "stage": "minute-8",
+          "total": 996
+        },
+        {
+          "Event": 296,
+          "Unknown": 268,
+          "elapsed_s": 593.2284099999961,
+          "raw_sha256": "db701b240cba3b6445d13ffb13d3124ddc8c28c162ed5aae22f286e821ba8f31",
+          "stage": "minute-9",
+          "total": 996
+        },
+        {
+          "Event": 296,
+          "Unknown": 270,
+          "elapsed_s": 653.6457472000038,
+          "raw_sha256": "d4be42d69d5e2667707a3666bf699071faa0a72aa3f0d23da4900ff236247dbe",
+          "stage": "minute-10",
+          "total": 1000
+        },
+        {
+          "Event": 295,
+          "Unknown": 241,
+          "elapsed_s": 714.1127341999963,
+          "raw_sha256": "0e4f1706474ebddbcbe23cc021a84356709ab8ff5332b066e9d5f92c5b2b36f2",
+          "stage": "minute-11",
+          "total": 994
+        },
+        {
+          "Event": 297,
+          "Unknown": 305,
+          "elapsed_s": 774.5167646000045,
+          "raw_sha256": "8b7d13e9b372343ca02dcd29da94916224c7c4a95d143265aaaf1c625fb76f04",
+          "stage": "minute-12",
+          "total": 1002
+        },
+        {
+          "Event": 295,
+          "Unknown": 303,
+          "elapsed_s": 834.9396544000047,
+          "raw_sha256": "ed6dcbce56ed65ec302a378d297dd6cd62833492b09310c9e1d24def323f0889",
+          "stage": "minute-13",
+          "total": 994
+        },
+        {
+          "Event": 295,
+          "Unknown": 241,
+          "elapsed_s": 895.3558155000064,
+          "raw_sha256": "0e4f1706474ebddbcbe23cc021a84356709ab8ff5332b066e9d5f92c5b2b36f2",
+          "stage": "minute-14",
+          "total": 994
+        },
+        {
+          "Event": 295,
+          "Unknown": 241,
+          "elapsed_s": 900.6928466999962,
+          "raw_sha256": "0e4f1706474ebddbcbe23cc021a84356709ab8ff5332b066e9d5f92c5b2b36f2",
+          "stage": "final-saved",
+          "total": 994
+        }
+      ]
+    },
+    {
+      "case": "handles-minimized1",
+      "case_completion": "passed",
+      "clean_exit": true,
+      "command_counts": {
+        "persistent-gc": 2,
+        "persistent-inspect": 2400,
+        "persistent-render": 30,
+        "persistent-save": 30,
+        "persistent-wm-null": 500,
+        "quit": 1
+      },
+      "desktop_removed": true,
+      "nonteardown_memory_window": {
+        "private_usage_bytes_max": 1206390784,
+        "private_usage_bytes_min": 20156416,
+        "samples": 510,
+        "working_set_bytes_max": 410992640,
+        "working_set_bytes_min": 2232320
+      },
+      "receipt_counts": {
+        "response_xml": 2433,
+        "save_xml": 30
+      },
+      "stages": [
+        {
+          "Event": 307,
+          "Unknown": 241,
+          "elapsed_s": 2.8894790000049397,
+          "raw_sha256": "feb9001059c052bfa2e8cb4d21e7854bcbece2eb94b35d4e9bee932f3b42d0fb",
+          "stage": "ready",
+          "total": 1026
+        },
+        {
+          "Event": 302,
+          "Unknown": 307,
+          "elapsed_s": 33.26795980001043,
+          "raw_sha256": "b1f028161df00385d20ad036751fc4152e6f74009dedf64ac460cc1aab72f851",
+          "stage": "warm-idle",
+          "total": 1017
+        },
+        {
+          "Event": 302,
+          "Unknown": 307,
+          "elapsed_s": 33.65145140000095,
+          "raw_sha256": "b1f028161df00385d20ad036751fc4152e6f74009dedf64ac460cc1aab72f851",
+          "stage": "null-500",
+          "total": 1017
+        },
+        {
+          "Event": 302,
+          "Unknown": 307,
+          "elapsed_s": 34.54289750001044,
+          "raw_sha256": "b1f028161df00385d20ad036751fc4152e6f74009dedf64ac460cc1aab72f851",
+          "stage": "inspect-200",
+          "total": 1017
+        },
+        {
+          "Event": 302,
+          "Unknown": 307,
+          "elapsed_s": 35.46869950000837,
+          "raw_sha256": "b1f028161df00385d20ad036751fc4152e6f74009dedf64ac460cc1aab72f851",
+          "stage": "inspect-400",
+          "total": 1017
+        },
+        {
+          "Event": 302,
+          "Unknown": 307,
+          "elapsed_s": 35.79343079999671,
+          "raw_sha256": "b1f028161df00385d20ad036751fc4152e6f74009dedf64ac460cc1aab72f851",
+          "stage": "gc1",
+          "total": 1017
+        },
+        {
+          "Event": 302,
+          "Unknown": 307,
+          "elapsed_s": 39.0631951999967,
+          "raw_sha256": "b1f028161df00385d20ad036751fc4152e6f74009dedf64ac460cc1aab72f851",
+          "stage": "inspect-1400",
+          "total": 1017
+        },
+        {
+          "Event": 302,
+          "Unknown": 307,
+          "elapsed_s": 39.39990950000356,
+          "raw_sha256": "b1f028161df00385d20ad036751fc4152e6f74009dedf64ac460cc1aab72f851",
+          "stage": "gc2",
+          "total": 1017
+        },
+        {
+          "Event": 302,
+          "Unknown": 307,
+          "elapsed_s": 42.83985550000216,
+          "raw_sha256": "b1f028161df00385d20ad036751fc4152e6f74009dedf64ac460cc1aab72f851",
+          "stage": "inspect-2400",
+          "total": 1017
+        },
+        {
+          "Event": 302,
+          "Unknown": 307,
+          "elapsed_s": 43.50533020000148,
+          "raw_sha256": "b1f028161df00385d20ad036751fc4152e6f74009dedf64ac460cc1aab72f851",
+          "stage": "save-30",
+          "total": 1017
+        },
+        {
+          "Event": 303,
+          "Unknown": 307,
+          "elapsed_s": 44.36479380000674,
+          "raw_sha256": "81a6dd8101cb934369612b64269ab0c6f9b1ec9c0fc88f92044c4c7c053746aa",
+          "stage": "render-30",
+          "total": 1018
+        },
+        {
+          "Event": 302,
+          "Unknown": 241,
+          "elapsed_s": 104.63880880000943,
+          "raw_sha256": "d3d0710b4aaa7189129ea9bef08cf6987563e5e4d8ce6906108da6e6e10a67b4",
+          "stage": "final-idle",
+          "total": 1013
+        }
+      ]
+    },
+    {
+      "case": "handles-mixed1",
+      "case_completion": "passed",
+      "clean_exit": true,
+      "command_counts": {
+        "inspect": 400,
+        "quit": 1,
+        "render": 30,
+        "save": 20
+      },
+      "desktop_removed": true,
+      "nonteardown_memory_window": {
+        "private_usage_bytes_max": 1191514112,
+        "private_usage_bytes_min": 20131840,
+        "samples": 1009,
+        "working_set_bytes_max": 392036352,
+        "working_set_bytes_min": 2056192
+      },
+      "receipt_counts": {
+        "response_xml": 431,
+        "save_xml": 20
+      },
+      "stages": [
+        {
+          "Event": 307,
+          "Unknown": 241,
+          "elapsed_s": 2.9013453000079608,
+          "raw_sha256": "1350fba2a1867937e80839544fe033c6d15396ef5b13b62f695c2e60c25a9e68",
+          "stage": "ready",
+          "total": 1024
+        },
+        {
+          "Event": 302,
+          "Unknown": 276,
+          "elapsed_s": 33.19078050000826,
+          "raw_sha256": "4c33603c67fc0676d5f2a0c938daab078a782e2db45701244587841a975d4628",
+          "stage": "warm-idle",
+          "total": 1015
+        },
+        {
+          "Event": 501,
+          "Unknown": 241,
+          "elapsed_s": 68.9633002000046,
+          "raw_sha256": "459ce3173acbdc7dbcf6fa98e414711dc53448539547944f10219b5343f6f284",
+          "stage": "inspect-200",
+          "total": 1210
+        },
+        {
+          "Event": 501,
+          "Unknown": 241,
+          "elapsed_s": 99.2882818000071,
+          "raw_sha256": "459ce3173acbdc7dbcf6fa98e414711dc53448539547944f10219b5343f6f284",
+          "stage": "after-idle1",
+          "total": 1210
+        },
+        {
+          "Event": 696,
+          "Unknown": 241,
+          "elapsed_s": 136.00508880001144,
+          "raw_sha256": "75da74bd987f4c59b9f06ab0217976af33a924e9c9fb24d6fb647a17919a2985",
+          "stage": "inspect-400",
+          "total": 1396
+        },
+        {
+          "Event": 837,
+          "Unknown": 241,
+          "elapsed_s": 140.0324288999982,
+          "raw_sha256": "33f68faf508c8113673ef3df2cc7b15a28a33d1525329f36f9ebbda8fa3d854e",
+          "stage": "save-20",
+          "total": 1537
+        },
+        {
+          "Event": 867,
+          "Unknown": 241,
+          "elapsed_s": 146.21287909999955,
+          "raw_sha256": "7459f8689f5964758c13a6686efb5d590f1ad4f3623a25ca6ba6c41d9e2f1e1d",
+          "stage": "render-30",
+          "total": 1567
+        },
+        {
+          "Event": 867,
+          "Unknown": 303,
+          "elapsed_s": 206.48723900000914,
+          "raw_sha256": "ffe70c53e265c970b86175b98c280846274cfad3042922731cf6c30336803c8b",
+          "stage": "final-idle",
+          "total": 1567
+        }
+      ]
+    },
+    {
+      "case": "handles-observer-smoke1",
+      "case_completion": "passed",
+      "clean_exit": true,
+      "command_counts": {
+        "inspect": 15,
+        "quit": 1
+      },
+      "desktop_removed": true,
+      "nonteardown_memory_window": {
+        "private_usage_bytes_max": 1260290048,
+        "private_usage_bytes_min": 20131840,
+        "samples": 211,
+        "working_set_bytes_max": 459255808,
+        "working_set_bytes_min": 15261696
+      },
+      "receipt_counts": {
+        "response_xml": 16,
+        "save_xml": 0
+      },
+      "stages": [
+        {
+          "Event": 307,
+          "Unknown": 241,
+          "elapsed_s": 2.878847100000712,
+          "raw_sha256": "feb9001059c052bfa2e8cb4d21e7854bcbece2eb94b35d4e9bee932f3b42d0fb",
+          "stage": "ready",
+          "total": 1026
+        },
+        {
+          "Event": 302,
+          "Unknown": 241,
+          "elapsed_s": 33.15702610000153,
+          "raw_sha256": "e860a6a767031ac68c459babc6f5574a0087d75911205988e62882807514cf32",
+          "stage": "warm-idle",
+          "total": 1017
+        }
+      ]
+    },
+    {
+      "case": "handles-persistent1",
+      "case_completion": "passed",
+      "clean_exit": true,
+      "command_counts": {
+        "persistent-gc": 2,
+        "persistent-inspect": 2400,
+        "persistent-render": 30,
+        "persistent-save": 30,
+        "persistent-wm-null": 500,
+        "quit": 1
+      },
+      "desktop_removed": true,
+      "nonteardown_memory_window": {
+        "private_usage_bytes_max": 1216086016,
+        "private_usage_bytes_min": 20131840,
+        "samples": 570,
+        "working_set_bytes_max": 405803008,
+        "working_set_bytes_min": 2052096
+      },
+      "receipt_counts": {
+        "response_xml": 2433,
+        "save_xml": 30
+      },
+      "stages": [
+        {
+          "Event": 307,
+          "Unknown": 241,
+          "elapsed_s": 2.885716200005845,
+          "raw_sha256": "feb9001059c052bfa2e8cb4d21e7854bcbece2eb94b35d4e9bee932f3b42d0fb",
+          "stage": "ready",
+          "total": 1026
+        },
+        {
+          "Event": 302,
+          "Unknown": 241,
+          "elapsed_s": 33.16421170000103,
+          "raw_sha256": "e860a6a767031ac68c459babc6f5574a0087d75911205988e62882807514cf32",
+          "stage": "warm-idle",
+          "total": 1017
+        },
+        {
+          "Event": 779,
+          "Unknown": 241,
+          "elapsed_s": 36.7971627000079,
+          "raw_sha256": "26cb228565daaaad11f59afd65ca357317ab2a0d9b100f138c22c6e23d8fb059",
+          "stage": "null-500",
+          "total": 1494
+        },
+        {
+          "Event": 974,
+          "Unknown": 241,
+          "elapsed_s": 38.58792829999584,
+          "raw_sha256": "aaff06f56f6f8ba85e11ef3023abc717592963fbdbf56da1b6a3649668802b5b",
+          "stage": "inspect-200",
+          "total": 1689
+        },
+        {
+          "Event": 1170,
+          "Unknown": 241,
+          "elapsed_s": 40.314709900005255,
+          "raw_sha256": "7fedc60b5cb03371b749e7b16e2b61498c29eca81c3716956c82b0f27427e4db",
+          "stage": "inspect-400",
+          "total": 1885
+        },
+        {
+          "Event": 1172,
+          "Unknown": 241,
+          "elapsed_s": 40.670017199998256,
+          "raw_sha256": "d2fb98e98320e7906371575cff1d51ad26b3ff8d4a05582f0f41f663612e3137",
+          "stage": "gc1",
+          "total": 1887
+        },
+        {
+          "Event": 2146,
+          "Unknown": 241,
+          "elapsed_s": 47.787604199998896,
+          "raw_sha256": "0109bcf9e2ec660563f3b6fdc6a3c67da47f7c82f063d0cff8e7b1bb260266ae",
+          "stage": "inspect-1400",
+          "total": 2861
+        },
+        {
+          "Event": 2147,
+          "Unknown": 241,
+          "elapsed_s": 48.134793400007766,
+          "raw_sha256": "15a255691677b1bf90acb05e62c27ceae54bdfbf8117038944900bafdc844808",
+          "stage": "gc2",
+          "total": 2862
+        },
+        {
+          "Event": 3144,
+          "Unknown": 241,
+          "elapsed_s": 55.4098340000055,
+          "raw_sha256": "90a8ae25836f1658304882530282b2b2ca998795f3e47d0f1c39701d81e1a75f",
+          "stage": "inspect-2400",
+          "total": 3859
+        },
+        {
+          "Event": 3150,
+          "Unknown": 241,
+          "elapsed_s": 56.168361999996705,
+          "raw_sha256": "f2545985c7517237da2e1906e6aaf1483233ae95f10207c570aae870243f5b9b",
+          "stage": "save-30",
+          "total": 3865
+        },
+        {
+          "Event": 3180,
+          "Unknown": 241,
+          "elapsed_s": 57.128633000000264,
+          "raw_sha256": "1daa1618c90ed36cd069052054a83d8446e99a0c7eb60640c58dee0db065c024",
+          "stage": "render-30",
+          "total": 3895
+        },
+        {
+          "Event": 3179,
+          "Unknown": 241,
+          "elapsed_s": 117.42394940000668,
+          "raw_sha256": "384173c5a4d9dbf7ab94e9658c4cefec58b6357e38597ebd3b3505ef947cc827",
+          "stage": "final-idle",
+          "total": 3890
+        }
+      ]
+    },
+    {
+      "case": "handles-toggle1",
+      "case_completion": "passed",
+      "clean_exit": true,
+      "command_counts": {
+        "persistent-inspect": 800,
+        "persistent-mutate": 1,
+        "persistent-render": 1,
+        "persistent-save": 1,
+        "quit": 1
+      },
+      "desktop_removed": true,
+      "nonteardown_memory_window": {
+        "private_usage_bytes_max": 1217720320,
+        "private_usage_bytes_min": 20144128,
+        "samples": 197,
+        "working_set_bytes_max": 409059328,
+        "working_set_bytes_min": 15331328
+      },
+      "receipt_counts": {
+        "response_xml": 803,
+        "save_xml": 1
+      },
+      "stages": [
+        {
+          "Event": 307,
+          "Unknown": 241,
+          "elapsed_s": 3.1371658999996725,
+          "raw_sha256": "feb9001059c052bfa2e8cb4d21e7854bcbece2eb94b35d4e9bee932f3b42d0fb",
+          "stage": "ready",
+          "total": 1026
+        },
+        {
+          "Event": 302,
+          "Unknown": 307,
+          "elapsed_s": 33.422671499996795,
+          "raw_sha256": "b1f028161df00385d20ad036751fc4152e6f74009dedf64ac460cc1aab72f851",
+          "stage": "warm-idle",
+          "total": 1017
+        },
+        {
+          "Event": 302,
+          "Unknown": 307,
+          "elapsed_s": 33.729466100005084,
+          "raw_sha256": "b1f028161df00385d20ad036751fc4152e6f74009dedf64ac460cc1aab72f851",
+          "stage": "a-restored-before",
+          "total": 1017
+        },
+        {
+          "Event": 483,
+          "Unknown": 307,
+          "elapsed_s": 35.25034290000622,
+          "raw_sha256": "809624ab5524c66080f3e280505bbb96cfcbbd8884f9ed26fd40c2292fd70c51",
+          "stage": "a-restored-after",
+          "total": 1198
+        },
+        {
+          "Event": 483,
+          "Unknown": 307,
+          "elapsed_s": 35.576089299996966,
+          "raw_sha256": "809624ab5524c66080f3e280505bbb96cfcbbd8884f9ed26fd40c2292fd70c51",
+          "stage": "b-minimized-before",
+          "total": 1198
+        },
+        {
+          "Event": 483,
+          "Unknown": 307,
+          "elapsed_s": 36.45206510000571,
+          "raw_sha256": "809624ab5524c66080f3e280505bbb96cfcbbd8884f9ed26fd40c2292fd70c51",
+          "stage": "b-minimized-after",
+          "total": 1198
+        },
+        {
+          "Event": 490,
+          "Unknown": 307,
+          "elapsed_s": 36.776616100003594,
+          "raw_sha256": "e158d121daf1a9bc2a9aa3e437ca97b1685359d7f49ddc42496d745e7f8127a6",
+          "stage": "c-restored-before",
+          "total": 1205
+        },
+        {
+          "Event": 688,
+          "Unknown": 307,
+          "elapsed_s": 38.43682350000017,
+          "raw_sha256": "7877ae7e4cde626b597f806b1799a36907475711d0bc1dba45de489212f30e4f",
+          "stage": "c-restored-after",
+          "total": 1403
+        },
+        {
+          "Event": 688,
+          "Unknown": 307,
+          "elapsed_s": 38.77434540000104,
+          "raw_sha256": "7877ae7e4cde626b597f806b1799a36907475711d0bc1dba45de489212f30e4f",
+          "stage": "d-minimized-before",
+          "total": 1403
+        },
+        {
+          "Event": 688,
+          "Unknown": 307,
+          "elapsed_s": 39.80104069999652,
+          "raw_sha256": "7877ae7e4cde626b597f806b1799a36907475711d0bc1dba45de489212f30e4f",
+          "stage": "d-minimized-after",
+          "total": 1403
+        },
+        {
+          "Event": 688,
+          "Unknown": 307,
+          "elapsed_s": 40.294050500000594,
+          "raw_sha256": "7877ae7e4cde626b597f806b1799a36907475711d0bc1dba45de489212f30e4f",
+          "stage": "final-saved",
+          "total": 1403
+        }
+      ]
+    },
+    {
+      "case": "handles-trace1",
+      "case_completion": "passed",
+      "clean_exit": true,
+      "command_counts": {
+        "inspect": 10,
+        "persistent-gc": 1,
+        "persistent-inspect": 10,
+        "persistent-render": 2,
+        "persistent-save": 2,
+        "quit": 1
+      },
+      "desktop_removed": true,
+      "nonteardown_memory_window": {
+        "private_usage_bytes_max": 1314738176,
+        "private_usage_bytes_min": 20160512,
+        "samples": 194,
+        "working_set_bytes_max": 511696896,
+        "working_set_bytes_min": 15425536
+      },
+      "receipt_counts": {
+        "response_xml": 24,
+        "save_xml": 2
+      },
+      "stages": [
+        {
+          "Event": 307,
+          "Unknown": 241,
+          "elapsed_s": 3.100919700009399,
+          "raw_sha256": "135fd86b5584308d56f2d2fbec3633b66eb15e7b4124f9f445483370f9af308c",
+          "stage": "ready",
+          "total": 1034
+        },
+        {
+          "Event": 302,
+          "Unknown": 241,
+          "elapsed_s": 33.40786880000087,
+          "raw_sha256": "b0935b5572a8e16baf31d1a48f0b47702a24cb0fa49c0bc6dfb35dc1c0ee5b0a",
+          "stage": "warm-idle",
+          "total": 1025
+        },
+        {
+          "Event": 321,
+          "Unknown": 242,
+          "elapsed_s": 36.321409900003346,
+          "raw_sha256": "827ee9071320da6d7e9fe26186c82719470b36790f52832daea3a84301ccd54b",
+          "stage": "read-persistent",
+          "total": 1071
+        },
+        {
+          "Event": 331,
+          "Unknown": 242,
+          "elapsed_s": 38.37669260000985,
+          "raw_sha256": "673707f3420383fe04f40943616273a708f60ab5220af69a881bcb2f89f83315",
+          "stage": "read-fresh",
+          "total": 1081
+        },
+        {
+          "Event": 338,
+          "Unknown": 242,
+          "elapsed_s": 38.744366300001275,
+          "raw_sha256": "d74eb6f0f272f46524a9c9afa2eb076d59f82f3b2989d7b2833cfb7afb868e00",
+          "stage": "save-persistent",
+          "total": 1088
+        },
+        {
+          "Event": 340,
+          "Unknown": 242,
+          "elapsed_s": 39.344525600012275,
+          "raw_sha256": "a9c325b4a629146e138a36fcd1dffe2a1a35ee9b34408b04f6eb5aca4339d706",
+          "stage": "render-persistent",
+          "total": 1092
+        },
+        {
+          "Event": 342,
+          "Unknown": 242,
+          "elapsed_s": 39.68383880000329,
+          "raw_sha256": "c29b94cee8a6b91ae334806f519914b3681d5388b1e3daecd4f7d4c88f41965f",
+          "stage": "gc",
+          "total": 1094
+        },
+        {
+          "Event": 338,
+          "Unknown": 242,
+          "elapsed_s": 39.9778701000032,
+          "raw_sha256": "be2c024b0f640285343f77b259b1c9afecd8dbb926f14a4f3d35a9590beb54d7",
+          "stage": "after-detach",
+          "total": 1069
+        }
+      ]
+    }
+  ],
+  "fence_submit": {
+    "linked_event_closes": 0,
+    "linked_event_creations": 47,
+    "module_pointer_checked": true,
+    "monitored_queue_submit_calls": 87,
+    "native_destroy_calls": 0,
+    "successful_fence_creations": 47
+  },
+  "fresh_reload": {
+    "actual": [
+      5.294000148773193,
+      -1.5,
+      2.125
+    ],
+    "clean_exit": true,
+    "desktop_removed": true,
+    "expected": [
+      5.294,
+      -1.5,
+      2.125
+    ],
+    "png_valid": true,
+    "status": "passed"
+  },
+  "gpu_driver": {
+    "filename": "nvoglv64.dll",
+    "sha256": "adda6dc8054888d5c52e3f97cf33b742952d16b3f145ced74cfb1012556bd696",
+    "version": "32.0.16.1742"
+  },
+  "limitations": [
+    "Duplicate <Unknown type> rows are reparsed and summed; they are not assigned guessed names.",
+    "The measurements do not establish a causal driver attribution.",
+    "Unlock safety was not proven by these runs.",
+    "The runs do not establish resource exhaustion."
+  ],
+  "source_hashes": {
+    "desktop_endurance_probe.lua": "b135882256ed9506ec533215faa1a3c84340220741c6b601707f664bff90e9b4",
+    "desktop_research_controller.py": "66a819cf5fa26258b7437fea2ed68764c2933d63efebaf7fec012e2e74d70918",
+    "editor_fence_trace.js": "822787740c89a7d2270b2765265f3c9e4c4d84df4f6468ff2a4b7020024759d6",
+    "editor_handle_types.py": "4bf545357f7ecff0b9ee13aabb5ac311c455ea25adbde19658f60d6659ebed11",
+    "trace_editor_fences.py": "6bdde4a081104c59475024bbdf3d2dcc3f93b88ad0f76c4ad33075b1e28bee3d"
+  }
+}

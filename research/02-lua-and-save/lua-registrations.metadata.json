@@ -1,0 +1,1118 @@
+{
+  "binary": {
+    "image_base": "0x140000000",
+    "machine": "0x8664",
+    "name": "editor.exe",
+    "sha256": "c9d70afba98678264c82e06ebaafa3018409e3f4cdd6d4e53e6fa3932817152d"
+  },
+  "containing_name_pool_pages": {
+    "end_rva_exclusive": "0x212c000",
+    "rip_reference_count": 180,
+    "rip_references": [
+      {
+        "instruction_rva": "0x1b4f77",
+        "target_rva": "0x2127090"
+      },
+      {
+        "instruction_rva": "0x1b4f92",
+        "target_rva": "0x2127090"
+      },
+      {
+        "instruction_rva": "0x1b4fbd",
+        "target_rva": "0x2127090"
+      },
+      {
+        "instruction_rva": "0x1b4ffe",
+        "target_rva": "0x2127080"
+      },
+      {
+        "instruction_rva": "0x1b500e",
+        "target_rva": "0x2127080"
+      },
+      {
+        "instruction_rva": "0x1b5039",
+        "target_rva": "0x2127080"
+      },
+      {
+        "instruction_rva": "0x1b507a",
+        "target_rva": "0x2127070"
+      },
+      {
+        "instruction_rva": "0x1b508a",
+        "target_rva": "0x2127070"
+      },
+      {
+        "instruction_rva": "0x1b50b5",
+        "target_rva": "0x2127070"
+      },
+      {
+        "instruction_rva": "0x1b50f6",
+        "target_rva": "0x21270d8"
+      },
+      {
+        "instruction_rva": "0x1b5106",
+        "target_rva": "0x21270d8"
+      },
+      {
+        "instruction_rva": "0x1b5131",
+        "target_rva": "0x21270d8"
+      },
+      {
+        "instruction_rva": "0x1b5172",
+        "target_rva": "0x21270c8"
+      },
+      {
+        "instruction_rva": "0x1b5182",
+        "target_rva": "0x21270c8"
+      },
+      {
+        "instruction_rva": "0x1b51ad",
+        "target_rva": "0x21270c8"
+      },
+      {
+        "instruction_rva": "0x1b51ee",
+        "target_rva": "0x21270b8"
+      },
+      {
+        "instruction_rva": "0x1b51fe",
+        "target_rva": "0x21270b8"
+      },
+      {
+        "instruction_rva": "0x1b5229",
+        "target_rva": "0x21270b8"
+      },
+      {
+        "instruction_rva": "0x1b526a",
+        "target_rva": "0x21270b0"
+      },
+      {
+        "instruction_rva": "0x1b527a",
+        "target_rva": "0x21270b0"
+      },
+      {
+        "instruction_rva": "0x1b52a5",
+        "target_rva": "0x21270b0"
+      },
+      {
+        "instruction_rva": "0x1b52e6",
+        "target_rva": "0x2127128"
+      },
+      {
+        "instruction_rva": "0x1b52f6",
+        "target_rva": "0x2127128"
+      },
+      {
+        "instruction_rva": "0x1b5321",
+        "target_rva": "0x2127128"
+      },
+      {
+        "instruction_rva": "0x1b5362",
+        "target_rva": "0x2127110"
+      },
+      {
+        "instruction_rva": "0x1b5372",
+        "target_rva": "0x2127110"
+      },
+      {
+        "instruction_rva": "0x1b539d",
+        "target_rva": "0x2127110"
+      },
+      {
+        "instruction_rva": "0x1b53de",
+        "target_rva": "0x21270f8"
+      },
+      {
+        "instruction_rva": "0x1b53ee",
+        "target_rva": "0x21270f8"
+      },
+      {
+        "instruction_rva": "0x1b5419",
+        "target_rva": "0x21270f8"
+      },
+      {
+        "instruction_rva": "0x1b545a",
+        "target_rva": "0x21270e8"
+      },
+      {
+        "instruction_rva": "0x1b546a",
+        "target_rva": "0x21270e8"
+      }
+    ],
+    "start_rva": "0x2123000"
+  },
+  "format": 1,
+  "known_name_registrations": [
+    {
+      "classification": "direct-string-reference",
+      "direct_string_rip_xref_rvas": [
+        "0x1b5552",
+        "0x1b5562",
+        "0x1b558d"
+      ],
+      "expected_registration_xref_rvas": [
+        "0x1b5552",
+        "0x1b5562",
+        "0x1b558d"
+      ],
+      "lua_name": "getSceneFilename",
+      "nearby_direct_call_target_rvas": {
+        "0x1b5552": [
+          "0xcbcb0",
+          "0x3815e0",
+          "0x38dad0",
+          "0xa11f20",
+          "0xa12340"
+        ],
+        "0x1b5562": [
+          "0xcbcb0",
+          "0x3815e0",
+          "0x38dad0",
+          "0xa11f20",
+          "0xa12340"
+        ],
+        "0x1b558d": [
+          "0xcbcb0",
+          "0x3815e0",
+          "0x38dad0",
+          "0xa11f20",
+          "0xa12340"
+        ]
+      },
+      "pointer_table_entries": [],
+      "raw_integer_encoding_rvas": {
+        "rva32": [],
+        "va64": []
+      },
+      "registration_xrefs_match": true,
+      "self_relative_32_entries": [],
+      "string_rva": "0x2127168"
+    },
+    {
+      "classification": "direct-string-reference",
+      "direct_string_rip_xref_rvas": [
+        "0x1b5362",
+        "0x1b5372",
+        "0x1b539d"
+      ],
+      "expected_registration_xref_rvas": [
+        "0x1b5362",
+        "0x1b5372",
+        "0x1b539d"
+      ],
+      "lua_name": "addUpdateListener",
+      "nearby_direct_call_target_rvas": {
+        "0x1b5362": [
+          "0xcbcb0",
+          "0x3815e0",
+          "0x38dad0",
+          "0xa11f20",
+          "0xa12340"
+        ],
+        "0x1b5372": [
+          "0xcbcb0",
+          "0x3815e0",
+          "0x38dad0",
+          "0xa11f20",
+          "0xa12340"
+        ],
+        "0x1b539d": []
+      },
+      "pointer_table_entries": [],
+      "raw_integer_encoding_rvas": {
+        "rva32": [],
+        "va64": []
+      },
+      "registration_xrefs_match": true,
+      "self_relative_32_entries": [],
+      "string_rva": "0x2127110"
+    },
+    {
+      "classification": "direct-string-reference",
+      "direct_string_rip_xref_rvas": [
+        "0x1b5c96",
+        "0x1b5ca6",
+        "0x1b5cd1"
+      ],
+      "expected_registration_xref_rvas": [
+        "0x1b5c96",
+        "0x1b5ca6",
+        "0x1b5cd1"
+      ],
+      "lua_name": "editorExit",
+      "nearby_direct_call_target_rvas": {
+        "0x1b5c96": [
+          "0xcbcb0",
+          "0x3815e0",
+          "0x38dad0",
+          "0xa11f20",
+          "0xa12340"
+        ],
+        "0x1b5ca6": [
+          "0xcbcb0",
+          "0x3815e0",
+          "0x38dad0",
+          "0xa11f20",
+          "0xa12340"
+        ],
+        "0x1b5cd1": []
+      },
+      "pointer_table_entries": [],
+      "raw_integer_encoding_rvas": {
+        "rva32": [],
+        "va64": []
+      },
+      "registration_xrefs_match": true,
+      "self_relative_32_entries": [],
+      "string_rva": "0x21272b0"
+    }
+  ],
+  "method": {
+    "call_window_bytes": 96,
+    "limitation": "A string xref plus nearby calls is evidence for a native registration path, not proof of a Lua state or table at runtime.",
+    "strings": "NUL-terminated printable ASCII in .rdata",
+    "xrefs": "x86-64 RIP-relative memory operands in the version-pinned registration or positive-control code block"
+  },
+  "registration_block": {
+    "end_rva_exclusive": "0x1b8178",
+    "start_rva": "0x1b4f58"
+  },
+  "registration_name_references": [
+    {
+      "lua_name": "ALBEDO",
+      "nearby_text_rip_target_rvas": [],
+      "rip_xref_rvas": [
+        "0x1b6355"
+      ]
+    },
+    {
+      "lua_name": "ALPHA",
+      "nearby_text_rip_target_rvas": [],
+      "rip_xref_rvas": [
+        "0x1b613f"
+      ]
+    },
+    {
+      "lua_name": "ALPHA_OVERDRAW",
+      "nearby_text_rip_target_rvas": [],
+      "rip_xref_rvas": [
+        "0x1b7569"
+      ]
+    },
+    {
+      "lua_name": "AMBIENT_OCCLUSION",
+      "nearby_text_rip_target_rvas": [],
+      "rip_xref_rvas": [
+        "0x1b66cf"
+      ]
+    },
+    {
+      "lua_name": "BAKED_AMBIENT_OCCLUSION",
+      "nearby_text_rip_target_rvas": [],
+      "rip_xref_rvas": [
+        "0x1b6781"
+      ]
+    },
+    {
+      "lua_name": "CLEARCOAT_INTENSITY",
+      "nearby_text_rip_target_rvas": [],
+      "rip_xref_rvas": [
+        "0x1b7a47"
+      ]
+    },
+    {
+      "lua_name": "CLEARCOAT_SMOOTHNESS",
+      "nearby_text_rip_target_rvas": [],
+      "rip_xref_rvas": [
+        "0x1b7af9"
+      ]
+    },
+    {
+      "lua_name": "CUSTOM1",
+      "nearby_text_rip_target_rvas": [],
+      "rip_xref_rvas": [
+        "0x1b71ef"
+      ]
+    },
+    {
+      "lua_name": "CUSTOM2",
+      "nearby_text_rip_target_rvas": [],
+      "rip_xref_rvas": [
+        "0x1b72a1"
+      ]
+    },
+    {
+      "lua_name": "DEPTH_SCALED",
+      "nearby_text_rip_target_rvas": [],
+      "rip_xref_rvas": [
+        "0x1b6d11"
+      ]
+    },
+    {
+      "lua_name": "DIFFUSE_LIGHTING",
+      "nearby_text_rip_target_rvas": [],
+      "rip_xref_rvas": [
+        "0x1b6997"
+      ]
+    },
+    {
+      "lua_name": "DRAWCALLS",
+      "nearby_text_rip_target_rvas": [],
+      "rip_xref_rvas": [
+        "0x1b76cd"
+      ]
+    },
+    {
+      "lua_name": "DebugRendering",
+      "nearby_text_rip_target_rvas": [],
+      "rip_xref_rvas": [
+        "0x1b5fcf",
+        "0x1b5ffe",
+        "0x1b605d"
+      ]
+    },
+    {
+      "lua_name": "INDIRECT_LIGHTING",
+      "nearby_text_rip_target_rvas": [],
+      "rip_xref_rvas": [
+        "0x1b6afb"
+      ]
+    },
+    {
+      "lua_name": "INSTANCED_DRAWCALLS",
+      "nearby_text_rip_target_rvas": [],
+      "rip_xref_rvas": [
+        "0x1b777f"
+      ]
+    },
+    {
+      "lua_name": "LIGHT_GRID",
+      "nearby_text_rip_target_rvas": [],
+      "rip_xref_rvas": [
+        "0x1b6bad"
+      ]
+    },
+    {
+      "lua_name": "MESH_LOD",
+      "nearby_text_rip_target_rvas": [],
+      "rip_xref_rvas": [
+        "0x1b713d"
+      ]
+    },
+    {
+      "lua_name": "METALNESS",
+      "nearby_text_rip_target_rvas": [],
+      "rip_xref_rvas": [
+        "0x1b661d"
+      ]
+    },
+    {
+      "lua_name": "MIP_LEVELS",
+      "nearby_text_rip_target_rvas": [],
+      "rip_xref_rvas": [
+        "0x1b6dc3"
+      ]
+    },
+    {
+      "lua_name": "MOTION_VECTORS",
+      "nearby_text_rip_target_rvas": [],
+      "rip_xref_rvas": [
+        "0x1b6fd9"
+      ]
+    },
+    {
+      "lua_name": "NONE",
+      "nearby_text_rip_target_rvas": [],
+      "rip_xref_rvas": [
+        "0x1b6090"
+      ]
+    },
+    {
+      "lua_name": "NORMALS",
+      "nearby_text_rip_target_rvas": [],
+      "rip_xref_rvas": [
+        "0x1b6407"
+      ]
+    },
+    {
+      "lua_name": "PARALLAX",
+      "nearby_text_rip_target_rvas": [],
+      "rip_xref_rvas": [
+        "0x1b61f1"
+      ]
+    },
+    {
+      "lua_name": "PARALLAX_HEIGHT",
+      "nearby_text_rip_target_rvas": [],
+      "rip_xref_rvas": [
+        "0x1b62a3"
+      ]
+    },
+    {
+      "lua_name": "POROSITY",
+      "nearby_text_rip_target_rvas": [],
+      "rip_xref_rvas": [
+        "0x1b7405"
+      ]
+    },
+    {
+      "lua_name": "QUAD_OVERDRAW",
+      "nearby_text_rip_target_rvas": [],
+      "rip_xref_rvas": [
+        "0x1b74b7"
+      ]
+    },
+    {
+      "lua_name": "SCREEN_SPACE_AMBIENT_OCCLUSION",
+      "nearby_text_rip_target_rvas": [],
+      "rip_xref_rvas": [
+        "0x1b6833"
+      ]
+    },
+    {
+      "lua_name": "SHADING_RATE",
+      "nearby_text_rip_target_rvas": [],
+      "rip_xref_rvas": [
+        "0x1b708b"
+      ]
+    },
+    {
+      "lua_name": "SHADOW_CASTERS",
+      "nearby_text_rip_target_rvas": [],
+      "rip_xref_rvas": [
+        "0x1b7831"
+      ]
+    },
+    {
+      "lua_name": "SHADOW_SPLITS",
+      "nearby_text_rip_target_rvas": [],
+      "rip_xref_rvas": [
+        "0x1b6c5f"
+      ]
+    },
+    {
+      "lua_name": "SMOOTHNESS",
+      "nearby_text_rip_target_rvas": [],
+      "rip_xref_rvas": [
+        "0x1b656b"
+      ]
+    },
+    {
+      "lua_name": "SPECULAR_LIGHTING",
+      "nearby_text_rip_target_rvas": [],
+      "rip_xref_rvas": [
+        "0x1b6a49"
+      ]
+    },
+    {
+      "lua_name": "SPECULAR_OCCLUSION",
+      "nearby_text_rip_target_rvas": [],
+      "rip_xref_rvas": [
+        "0x1b68e5"
+      ]
+    },
+    {
+      "lua_name": "TANGENT_SPACE_NORMALS",
+      "nearby_text_rip_target_rvas": [],
+      "rip_xref_rvas": [
+        "0x1b64b9"
+      ]
+    },
+    {
+      "lua_name": "TERRAIN_SLOPES",
+      "nearby_text_rip_target_rvas": [],
+      "rip_xref_rvas": [
+        "0x1b6f27"
+      ]
+    },
+    {
+      "lua_name": "TRIANGLE_DENSITY",
+      "nearby_text_rip_target_rvas": [],
+      "rip_xref_rvas": [
+        "0x1b6e75"
+      ]
+    },
+    {
+      "lua_name": "VERTEX_ALPHA",
+      "nearby_text_rip_target_rvas": [],
+      "rip_xref_rvas": [
+        "0x1b7995"
+      ]
+    },
+    {
+      "lua_name": "VERTEX_COLOR",
+      "nearby_text_rip_target_rvas": [],
+      "rip_xref_rvas": [
+        "0x1b78e3"
+      ]
+    },
+    {
+      "lua_name": "WETNESS",
+      "nearby_text_rip_target_rvas": [],
+      "rip_xref_rvas": [
+        "0x1b7353"
+      ]
+    },
+    {
+      "lua_name": "ZPASS_OVERDRAW",
+      "nearby_text_rip_target_rvas": [],
+      "rip_xref_rvas": [
+        "0x1b761b"
+      ]
+    },
+    {
+      "lua_name": "addDrawListener",
+      "nearby_text_rip_target_rvas": [
+        "0x1b9760",
+        "0x1b98e0"
+      ],
+      "rip_xref_rvas": [
+        "0x1b545a",
+        "0x1b546a",
+        "0x1b5495"
+      ]
+    },
+    {
+      "lua_name": "addSelection",
+      "nearby_text_rip_target_rvas": [
+        "0x1b8d40",
+        "0x1b8e20"
+      ],
+      "rip_xref_rvas": [
+        "0x1b507a",
+        "0x1b508a",
+        "0x1b50b5"
+      ]
+    },
+    {
+      "lua_name": "addUpdateListener",
+      "nearby_text_rip_target_rvas": [
+        "0x1b9450"
+      ],
+      "rip_xref_rvas": [
+        "0x1b5362",
+        "0x1b5372",
+        "0x1b539d"
+      ]
+    },
+    {
+      "lua_name": "applyEnvMapFilter",
+      "nearby_text_rip_target_rvas": [
+        "0x1ba140",
+        "0x1ba220"
+      ],
+      "rip_xref_rvas": [
+        "0x1b583a",
+        "0x1b584a",
+        "0x1b5875"
+      ]
+    },
+    {
+      "lua_name": "clearSelection",
+      "nearby_text_rip_target_rvas": [
+        "0x1b9140",
+        "0x1b9290"
+      ],
+      "rip_xref_rvas": [
+        "0x1b51ee",
+        "0x1b51fe",
+        "0x1b5229"
+      ]
+    },
+    {
+      "lua_name": "computeSeasonalCurveData",
+      "nearby_text_rip_target_rvas": [
+        "0x1bba90",
+        "0x1bbb70"
+      ],
+      "rip_xref_rvas": [
+        "0x1b80a1",
+        "0x1b80b1",
+        "0x1b80dc"
+      ]
+    },
+    {
+      "lua_name": "createI3DReference",
+      "nearby_text_rip_target_rvas": [
+        "0x1b9b90",
+        "0x1b9c70"
+      ],
+      "rip_xref_rvas": [
+        "0x1b55ce",
+        "0x1b55de",
+        "0x1b5609"
+      ]
+    },
+    {
+      "lua_name": "deleteFolder",
+      "nearby_text_rip_target_rvas": [
+        "0x1ba6f0",
+        "0x1ba7d0"
+      ],
+      "rip_xref_rvas": [
+        "0x1b5b22",
+        "0x1b5b32",
+        "0x1b5b5d"
+      ]
+    },
+    {
+      "lua_name": "editorExit",
+      "nearby_text_rip_target_rvas": [
+        "0x1ba9b0"
+      ],
+      "rip_xref_rvas": [
+        "0x1b5c96",
+        "0x1b5ca6",
+        "0x1b5cd1"
+      ]
+    },
+    {
+      "lua_name": "excludeFromSave",
+      "nearby_text_rip_target_rvas": [
+        "0x1b9c70",
+        "0x1b9d80"
+      ],
+      "rip_xref_rvas": [
+        "0x1b564a",
+        "0x1b565a",
+        "0x1b5685"
+      ]
+    },
+    {
+      "lua_name": "execute",
+      "nearby_text_rip_target_rvas": [
+        "0x1ba8b0",
+        "0x1ba9b0"
+      ],
+      "rip_xref_rvas": [
+        "0x1b5c1a",
+        "0x1b5c2a",
+        "0x1b5c55"
+      ]
+    },
+    {
+      "lua_name": "generateSeasonalCurveLUT",
+      "nearby_text_rip_target_rvas": [
+        "0x1bbb70"
+      ],
+      "rip_xref_rvas": [
+        "0x1b8119",
+        "0x1b8129",
+        "0x1b8154"
+      ]
+    },
+    {
+      "lua_name": "getAppDataPath",
+      "nearby_text_rip_target_rvas": [
+        "0x1ba030",
+        "0x1ba140"
+      ],
+      "rip_xref_rvas": [
+        "0x1b57be",
+        "0x1b57ce",
+        "0x1b57f9"
+      ]
+    },
+    {
+      "lua_name": "getDebugRenderingMode",
+      "nearby_text_rip_target_rvas": [
+        "0x1bb190",
+        "0x1bb280"
+      ],
+      "rip_xref_rvas": [
+        "0x1b7bc9",
+        "0x1b7bd9",
+        "0x1b7c04"
+      ]
+    },
+    {
+      "lua_name": "getEditorDirectory",
+      "nearby_text_rip_target_rvas": [
+        "0x1b9e80",
+        "0x1ba030"
+      ],
+      "rip_xref_rvas": [
+        "0x1b5742",
+        "0x1b5752",
+        "0x1b577d"
+      ]
+    },
+    {
+      "lua_name": "getEntitiesByType",
+      "nearby_text_rip_target_rvas": [
+        "0x1bb9b0",
+        "0x1bba90"
+      ],
+      "rip_xref_rvas": [
+        "0x1b8025",
+        "0x1b8035",
+        "0x1b8060"
+      ]
+    },
+    {
+      "lua_name": "getIsSelected",
+      "nearby_text_rip_target_rvas": [
+        "0x1b8f90",
+        "0x1b9140"
+      ],
+      "rip_xref_rvas": [
+        "0x1b5172",
+        "0x1b5182",
+        "0x1b51ad"
+      ]
+    },
+    {
+      "lua_name": "getIsUpdateLoopPlaying",
+      "nearby_text_rip_target_rvas": [
+        "0x1b9d80",
+        "0x1b9e80"
+      ],
+      "rip_xref_rvas": [
+        "0x1b56c6",
+        "0x1b56d6",
+        "0x1b5701"
+      ]
+    },
+    {
+      "lua_name": "getNumOfScreenModes",
+      "nearby_text_rip_target_rvas": [
+        "0x1ba220",
+        "0x1ba310"
+      ],
+      "rip_xref_rvas": [
+        "0x1b58b6",
+        "0x1b58c6",
+        "0x1b58f1"
+      ]
+    },
+    {
+      "lua_name": "getNumSelected",
+      "nearby_text_rip_target_rvas": [
+        "0x1b8c40",
+        "0x1b8d40"
+      ],
+      "rip_xref_rvas": [
+        "0x1b4ffe",
+        "0x1b500e",
+        "0x1b5039"
+      ]
+    },
+    {
+      "lua_name": "getSceneFilename",
+      "nearby_text_rip_target_rvas": [
+        "0x1b9a70",
+        "0x1b9b90"
+      ],
+      "rip_xref_rvas": [
+        "0x1b5552",
+        "0x1b5562",
+        "0x1b558d"
+      ]
+    },
+    {
+      "lua_name": "getScreenMode",
+      "nearby_text_rip_target_rvas": [
+        "0x1ba440",
+        "0x1ba530"
+      ],
+      "rip_xref_rvas": [
+        "0x1b59ae",
+        "0x1b59be",
+        "0x1b59e9"
+      ]
+    },
+    {
+      "lua_name": "getScreenModeInfo",
+      "nearby_text_rip_target_rvas": [
+        "0x1ba310",
+        "0x1ba440"
+      ],
+      "rip_xref_rvas": [
+        "0x1b5932",
+        "0x1b5942",
+        "0x1b596d"
+      ]
+    },
+    {
+      "lua_name": "getSelection",
+      "nearby_text_rip_target_rvas": [
+        "0x1b8b20",
+        "0x1b8c40"
+      ],
+      "rip_xref_rvas": [
+        "0x1b4f77",
+        "0x1b4f92",
+        "0x1b4fbd"
+      ]
+    },
+    {
+      "lua_name": "getShapeVertexColors",
+      "nearby_text_rip_target_rvas": [
+        "0x1bb7f0",
+        "0x1bb910"
+      ],
+      "rip_xref_rvas": [
+        "0x1b7eb1",
+        "0x1b7ec1",
+        "0x1b7eec"
+      ]
+    },
+    {
+      "lua_name": "getShapeVertexPositions",
+      "nearby_text_rip_target_rvas": [
+        "0x1bb6c0",
+        "0x1bb7f0"
+      ],
+      "rip_xref_rvas": [
+        "0x1b7e35",
+        "0x1b7e45",
+        "0x1b7e70"
+      ]
+    },
+    {
+      "lua_name": "getShapeVertexTexCoords",
+      "nearby_text_rip_target_rvas": [
+        "0x1bb910",
+        "0x1bb980"
+      ],
+      "rip_xref_rvas": [
+        "0x1b7f2d",
+        "0x1b7f3d",
+        "0x1b7f68"
+      ]
+    },
+    {
+      "lua_name": "getSystemEnvironmentVariable",
+      "nearby_text_rip_target_rvas": [
+        "0x1bb080"
+      ],
+      "rip_xref_rvas": [
+        "0x1b5f7e",
+        "0x1b5f8e",
+        "0x1b5fb9"
+      ]
+    },
+    {
+      "lua_name": "getTriangles",
+      "nearby_text_rip_target_rvas": [
+        "0x1bb680",
+        "0x1bb6c0"
+      ],
+      "rip_xref_rvas": [
+        "0x1b7db9",
+        "0x1b7dc9",
+        "0x1b7df4"
+      ]
+    },
+    {
+      "lua_name": "openDirDialog",
+      "nearby_text_rip_target_rvas": [
+        "0x1ba610",
+        "0x1ba6f0"
+      ],
+      "rip_xref_rvas": [
+        "0x1b5aa6",
+        "0x1b5ab6",
+        "0x1b5ae1"
+      ]
+    },
+    {
+      "lua_name": "openFileDialog",
+      "nearby_text_rip_target_rvas": [
+        "0x1ba530",
+        "0x1ba610"
+      ],
+      "rip_xref_rvas": [
+        "0x1b5a2a",
+        "0x1b5a3a",
+        "0x1b5a65"
+      ]
+    },
+    {
+      "lua_name": "refreshPanels",
+      "nearby_text_rip_target_rvas": [
+        "0x1bae10",
+        "0x1baf00"
+      ],
+      "rip_xref_rvas": [
+        "0x1b5e86",
+        "0x1b5e96",
+        "0x1b5ec1"
+      ]
+    },
+    {
+      "lua_name": "refreshViewport",
+      "nearby_text_rip_target_rvas": [
+        "0x1bac90",
+        "0x1bae10"
+      ],
+      "rip_xref_rvas": [
+        "0x1b5e0a",
+        "0x1b5e1a",
+        "0x1b5e45"
+      ]
+    },
+    {
+      "lua_name": "removeDrawListener",
+      "nearby_text_rip_target_rvas": [
+        "0x1b98e0",
+        "0x1b9a70"
+      ],
+      "rip_xref_rvas": [
+        "0x1b54d6",
+        "0x1b54e6",
+        "0x1b5511"
+      ]
+    },
+    {
+      "lua_name": "removeSelection",
+      "nearby_text_rip_target_rvas": [
+        "0x1b8e20",
+        "0x1b8f90"
+      ],
+      "rip_xref_rvas": [
+        "0x1b50f6",
+        "0x1b5106",
+        "0x1b5131"
+      ]
+    },
+    {
+      "lua_name": "removeUpdateListener",
+      "nearby_text_rip_target_rvas": [
+        "0x1b95d0",
+        "0x1b9760"
+      ],
+      "rip_xref_rvas": [
+        "0x1b53de",
+        "0x1b53ee",
+        "0x1b5419"
+      ]
+    },
+    {
+      "lua_name": "renderShapeOutline",
+      "nearby_text_rip_target_rvas": [
+        "0x1bb390",
+        "0x1bb560"
+      ],
+      "rip_xref_rvas": [
+        "0x1b7cc1",
+        "0x1b7cd1",
+        "0x1b7cfc"
+      ]
+    },
+    {
+      "lua_name": "setClipboard",
+      "nearby_text_rip_target_rvas": [
+        "0x1baf00",
+        "0x1bb080"
+      ],
+      "rip_xref_rvas": [
+        "0x1b5f02",
+        "0x1b5f12",
+        "0x1b5f3d"
+      ]
+    },
+    {
+      "lua_name": "setDebugRenderingMode",
+      "nearby_text_rip_target_rvas": [
+        "0x1bb280",
+        "0x1bb390"
+      ],
+      "rip_xref_rvas": [
+        "0x1b7c45",
+        "0x1b7c55",
+        "0x1b7c80"
+      ]
+    },
+    {
+      "lua_name": "setOutlineColor",
+      "nearby_text_rip_target_rvas": [
+        "0x1bb560",
+        "0x1bb680"
+      ],
+      "rip_xref_rvas": [
+        "0x1b7d3d",
+        "0x1b7d4d",
+        "0x1b7d78"
+      ]
+    },
+    {
+      "lua_name": "setShapeIsCPUMesh",
+      "nearby_text_rip_target_rvas": [
+        "0x1bb980",
+        "0x1bb9b0"
+      ],
+      "rip_xref_rvas": [
+        "0x1b7fa9",
+        "0x1b7fb9",
+        "0x1b7fe4"
+      ]
+    },
+    {
+      "lua_name": "showBitMaskDialog",
+      "nearby_text_rip_target_rvas": [
+        "0x1ba7d0",
+        "0x1ba8b0"
+      ],
+      "rip_xref_rvas": [
+        "0x1b5b9e",
+        "0x1b5bae",
+        "0x1b5bd9"
+      ]
+    },
+    {
+      "lua_name": "source",
+      "nearby_text_rip_target_rvas": [
+        "0x1b9290"
+      ],
+      "rip_xref_rvas": [
+        "0x1b526a",
+        "0x1b527a",
+        "0x1b52a5"
+      ]
+    },
+    {
+      "lua_name": "startUpdateLoop",
+      "nearby_text_rip_target_rvas": [
+        "0x1baab0",
+        "0x1baba0"
+      ],
+      "rip_xref_rvas": [
+        "0x1b5d12",
+        "0x1b5d22",
+        "0x1b5d4d"
+      ]
+    },
+    {
+      "lua_name": "stopUpdateLoop",
+      "nearby_text_rip_target_rvas": [
+        "0x1baba0",
+        "0x1bac90"
+      ],
+      "rip_xref_rvas": [
+        "0x1b5d8e",
+        "0x1b5d9e",
+        "0x1b5dc9"
+      ]
+    },
+    {
+      "lua_name": "visualRaycastAll",
+      "nearby_text_rip_target_rvas": [
+        "0x1b9370",
+        "0x1b9450"
+      ],
+      "rip_xref_rvas": [
+        "0x1b52e6",
+        "0x1b52f6",
+        "0x1b5321"
+      ]
+    }
+  ],
+  "registration_positive_control": "Each known Lua name must reproduce its independently mapped three-RIP-xref set in the bounded registration block.",
+  "save_name_matches": [
+    "Please save your scene to a file first."
+  ],
+  "text_decode_coverage": {
+    "covered_function_bytes": 27401260,
+    "exception_function_count": 94878
+  }
+}

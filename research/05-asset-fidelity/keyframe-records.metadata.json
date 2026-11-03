@@ -1,0 +1,156 @@
+{
+  "after_sha256": "c8c6aca97a944cade1be62feeb0a254e7638398786a0f9c51451c8e94a7a365b",
+  "before_sha256": "67d2098d2bdaecd0279b60178b66384866f8585de3e1b59faa4bd093bf223a03",
+  "bytes_after": 35172,
+  "bytes_before": 35172,
+  "component_units_and_interpolation_not_established": true,
+  "duration_after": 10000.0,
+  "duration_before": 10000.0,
+  "leading_word_after": 10,
+  "leading_word_before": 7,
+  "method": "bounded sentinel gate header-7/header-10 flag-3 record comparison",
+  "total_keys_after": 1095,
+  "total_keys_before": 1095,
+  "tracks": [
+    {
+      "changed_bit_records": 78,
+      "changed_numeric_records": 78,
+      "flags_equal": true,
+      "key_times_bits_equal": true,
+      "keys_after": 118,
+      "keys_before": 118,
+      "maximum_component_absolute_deltas": [
+        0.0,
+        0.0,
+        0.0,
+        4.1484832763671875e-05,
+        0.0,
+        0.0
+      ],
+      "node_id_after": 31,
+      "node_id_before": 2,
+      "node_name": "sentinelGarageSliding01Part01",
+      "node_path": "/0/0"
+    },
+    {
+      "changed_bit_records": 111,
+      "changed_numeric_records": 111,
+      "flags_equal": true,
+      "key_times_bits_equal": true,
+      "keys_after": 113,
+      "keys_before": 113,
+      "maximum_component_absolute_deltas": [
+        0.0,
+        0.0,
+        0.0,
+        3.933906555175781e-05,
+        0.0,
+        0.0
+      ],
+      "node_id_after": 32,
+      "node_id_before": 3,
+      "node_name": "sentinelGarageSliding01Part02",
+      "node_path": "/0/0/0"
+    },
+    {
+      "changed_bit_records": 109,
+      "changed_numeric_records": 109,
+      "flags_equal": true,
+      "key_times_bits_equal": true,
+      "keys_after": 111,
+      "keys_before": 111,
+      "maximum_component_absolute_deltas": [
+        0.0,
+        0.0,
+        0.0,
+        3.451108932495117e-05,
+        0.0,
+        0.0
+      ],
+      "node_id_after": 33,
+      "node_id_before": 4,
+      "node_name": "sentinelGarageSliding01Part03",
+      "node_path": "/0/0/0/0"
+    },
+    {
+      "changed_bit_records": 111,
+      "changed_numeric_records": 111,
+      "flags_equal": true,
+      "key_times_bits_equal": true,
+      "keys_after": 113,
+      "keys_before": 113,
+      "maximum_component_absolute_deltas": [
+        0.0,
+        0.0,
+        0.0,
+        3.886222839355469e-05,
+        0.0,
+        0.0
+      ],
+      "node_id_after": 34,
+      "node_id_before": 5,
+      "node_name": "sentinelGarageSliding01Part04",
+      "node_path": "/0/0/0/0/0"
+    },
+    {
+      "changed_bit_records": 110,
+      "changed_numeric_records": 110,
+      "flags_equal": true,
+      "key_times_bits_equal": true,
+      "keys_after": 112,
+      "keys_before": 112,
+      "maximum_component_absolute_deltas": [
+        0.0,
+        0.0,
+        0.0,
+        3.993511199951172e-05,
+        0.0,
+        0.0
+      ],
+      "node_id_after": 35,
+      "node_id_before": 6,
+      "node_name": "sentinelGarageSliding01Part05",
+      "node_path": "/0/0/0/0/0/0"
+    },
+    {
+      "changed_bit_records": 245,
+      "changed_numeric_records": 245,
+      "flags_equal": true,
+      "key_times_bits_equal": true,
+      "keys_after": 246,
+      "keys_before": 246,
+      "maximum_component_absolute_deltas": [
+        0.0,
+        0.0,
+        0.0,
+        3.4928321838378906e-05,
+        0.0,
+        0.0
+      ],
+      "node_id_after": 36,
+      "node_id_before": 7,
+      "node_name": "sentinelGarageSliding01Part06",
+      "node_path": "/0/0/0/0/0/0/0"
+    },
+    {
+      "changed_bit_records": 281,
+      "changed_numeric_records": 281,
+      "flags_equal": true,
+      "key_times_bits_equal": true,
+      "keys_after": 282,
+      "keys_before": 282,
+      "maximum_component_absolute_deltas": [
+        0.0,
+        0.0,
+        0.0,
+        3.713369369506836e-05,
+        0.0,
+        0.0
+      ],
+      "node_id_after": 37,
+      "node_id_before": 8,
+      "node_name": "sentinelGarageSliding01Part07",
+      "node_path": "/0/0/0/0/0/0/0/0"
+    }
+  ]
+}

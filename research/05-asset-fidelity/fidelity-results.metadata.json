@@ -1,0 +1,5583 @@
+{
+  "cases": {
+    "gate": {
+      "baseline": {
+        "asset": "gate",
+        "case": "gate-baseline",
+        "files": {
+          "before.i3d": "577bbd08d14ea17fe9cbfb6fe8f93dd59db7b4c4e8830431fae6ff6b95ead973",
+          "spec.json": "02e78dbb5d705b4d93f917d707723756b4643fa2d297b2784f0b574f23e4dc1f"
+        },
+        "fresh_ready": {
+          "sha256": null,
+          "status": "not_applicable"
+        },
+        "images": {
+          "end.png": {
+            "alpha_pixels": 2058,
+            "format": "PNG",
+            "height": 512,
+            "nonblank": true,
+            "nonblank_pixels": 2058,
+            "sha256": "f9b7cb2f4b9282ed69a11a7caefa8a6e9210cc63459b4a3d9a46387a7e3a90a1",
+            "status": "valid",
+            "width": 512
+          },
+          "middle.png": {
+            "alpha_pixels": 6128,
+            "format": "PNG",
+            "height": 512,
+            "nonblank": true,
+            "nonblank_pixels": 6128,
+            "sha256": "c041e7b8f3410f0d6780b50abc91bbee116b773c7f7bc5ca59dbb2bedc4e73a0",
+            "status": "valid",
+            "width": 512
+          },
+          "repeat.png": {
+            "alpha_pixels": 8365,
+            "format": "PNG",
+            "height": 512,
+            "nonblank": true,
+            "nonblank_pixels": 8365,
+            "sha256": "aac293c2ddc035ae7553372bd00fff7a719473d2373830ba7f1f895ca8c01649",
+            "status": "valid",
+            "width": 512
+          },
+          "start.png": {
+            "alpha_pixels": 8365,
+            "format": "PNG",
+            "height": 512,
+            "nonblank": true,
+            "nonblank_pixels": 8365,
+            "sha256": "aac293c2ddc035ae7553372bd00fff7a719473d2373830ba7f1f895ca8c01649",
+            "status": "valid",
+            "width": 512
+          }
+        },
+        "material_semantics_before_vs_saved": {
+          "after_count": 3,
+          "after_lambert1": {
+            "diffuseColor": "0.5 0.5 0.5 1",
+            "materialId": "3",
+            "name": "lambert1"
+          },
+          "before_count": 3,
+          "before_lambert1": {
+            "diffuseColor": "0.5 0.5 0.5 1",
+            "materialId": "3",
+            "name": "lambert1"
+          },
+          "differing_material_names": [],
+          "names_equal": true
+        },
+        "mode": "baseline",
+        "ready": {
+          "kind": "ready",
+          "ok": true,
+          "op_matches_expected_kind": true,
+          "path_matches_expected_scene": null,
+          "receipt_path": "",
+          "receipt_scene": "c:/tmp/agenttooling-giants-editor-control/.docs/giants-editor-fidelity/gate-baseline/asset/sentinelgarage_gate_animation.i3d",
+          "scene_matches_expected_scene": true,
+          "sha256": "c00fa2d6b029a746d936b8ba583919d7b4271cfd339c9b4ecc434887ca8306ae",
+          "status": "valid"
+        },
+        "repeat_capture": {
+          "minimized_pairs": {},
+          "minimized_state": {
+            "status": "not_applicable"
+          },
+          "pairs": {
+            "end.png": {
+              "a": "end.png",
+              "b": "end.png",
+              "different_pixels": 0,
+              "max_channel_delta": 0,
+              "mean_channel_max_delta": 0.0,
+              "status": "valid"
+            },
+            "middle.png": {
+              "a": "middle.png",
+              "b": "middle.png",
+              "different_pixels": 0,
+              "max_channel_delta": 0,
+              "mean_channel_max_delta": 0.0,
+              "status": "valid"
+            },
+            "repeat.png": {
+              "a": "repeat.png",
+              "b": "repeat.png",
+              "different_pixels": 0,
+              "max_channel_delta": 0,
+              "mean_channel_max_delta": 0.0,
+              "status": "valid"
+            },
+            "start.png": {
+              "a": "start.png",
+              "b": "start.png",
+              "different_pixels": 0,
+              "max_channel_delta": 0,
+              "mean_channel_max_delta": 0.0,
+              "status": "valid"
+            }
+          },
+          "provenance": "capture-only repeat checkout; no save-route proof"
+        },
+        "repeat_noise": {
+          "a": "start.png",
+          "b": "repeat.png",
+          "different_pixels": 0,
+          "interpretation": "one pairwise capture comparison, not a statistical noise bound",
+          "max_channel_delta": 0,
+          "mean_channel_max_delta": 0.0,
+          "status": "valid"
+        },
+        "samples": {
+          "all_interframe_motion_excluding_perspective": true,
+          "all_values_finite": true,
+          "clip_duration": 10000.0,
+          "clip_name": "sentinelGarage_gateSource",
+          "expected_times": [
+            0.0,
+            250.0,
+            500.0,
+            750.0,
+            1000.0,
+            1250.0,
+            1500.0,
+            1750.0,
+            2000.0,
+            2250.0,
+            2500.0,
+            2750.0,
+            3000.0,
+            3250.0,
+            3500.0,
+            3750.0,
+            4000.0,
+            4250.0,
+            4500.0,
+            4750.0,
+            5000.0,
+            5250.0,
+            5500.0,
+            5750.0,
+            6000.0,
+            6250.0,
+            6500.0,
+            6750.0,
+            7000.0,
+            7250.0,
+            7500.0,
+            7750.0,
+            8000.0,
+            8250.0,
+            8500.0,
+            8750.0,
+            9000.0,
+            9250.0,
+            9500.0,
+            9750.0,
+            10000.0
+          ],
+          "frame_count": 41,
+          "motion_intervals": 40,
+          "node_counts": [
+            24
+          ],
+          "requested_times": [
+            0.0,
+            250.0,
+            500.0,
+            750.0,
+            1000.0,
+            1250.0,
+            1500.0,
+            1750.0,
+            2000.0,
+            2250.0,
+            2500.0,
+            2750.0,
+            3000.0,
+            3250.0,
+            3500.0,
+            3750.0,
+            4000.0,
+            4250.0,
+            4500.0,
+            4750.0,
+            5000.0,
+            5250.0,
+            5500.0,
+            5750.0,
+            6000.0,
+            6250.0,
+            6500.0,
+            6750.0,
+            7000.0,
+            7250.0,
+            7500.0,
+            7750.0,
+            8000.0,
+            8250.0,
+            8500.0,
+            8750.0,
+            9000.0,
+            9250.0,
+            9500.0,
+            9750.0,
+            10000.0
+          ],
+          "status": "valid",
+          "track_times": [
+            0.0,
+            250.0,
+            500.0,
+            750.0,
+            1000.0,
+            1250.0,
+            1500.0,
+            1750.0,
+            2000.0,
+            2250.0,
+            2500.0,
+            2750.0,
+            3000.0,
+            3250.0,
+            3500.0,
+            3750.0,
+            4000.0,
+            4250.0,
+            4500.0,
+            4750.0,
+            5000.0,
+            5250.0,
+            5500.0,
+            5750.0,
+            6000.0,
+            6250.0,
+            6500.0,
+            6750.0,
+            7000.0,
+            7250.0,
+            7500.0,
+            7750.0,
+            8000.0,
+            8250.0,
+            8500.0,
+            8750.0,
+            9000.0,
+            9250.0,
+            9500.0,
+            9750.0,
+            10000.0
+          ]
+        },
+        "save_receipt": {
+          "status": "not_applicable"
+        },
+        "source_hashes": {
+          "copied_file_count": 22,
+          "copied_hash_mismatches_against_original": [
+            "sentinelGarage_gate_animation.i3d"
+          ],
+          "copied_missing": [],
+          "expected_file_count": 22,
+          "original_file_count": 22,
+          "original_hash_mismatches": [],
+          "original_missing": [],
+          "original_source_hashes_match": true,
+          "original_source_root": "D:\\Games\\Farming Simulator 2025\\data\\placeables\\agi\\sentinelGarage",
+          "prepared_i3d_hash_matches": true,
+          "prepared_i3d_sha256_actual": "577bbd08d14ea17fe9cbfb6fe8f93dd59db7b4c4e8830431fae6ff6b95ead973",
+          "prepared_i3d_sha256_expected": "577bbd08d14ea17fe9cbfb6fe8f93dd59db7b4c4e8830431fae6ff6b95ead973"
+        }
+      },
+      "image_pairs": {
+        "end.png": {
+          "baseline_manual": {
+            "a": "end.png",
+            "b": "end.png",
+            "different_pixels": 0,
+            "max_channel_delta": 0,
+            "mean_channel_max_delta": 0.0,
+            "status": "valid"
+          },
+          "baseline_native": {
+            "a": "end.png",
+            "b": "end.png",
+            "different_pixels": 0,
+            "max_channel_delta": 0,
+            "mean_channel_max_delta": 0.0,
+            "status": "valid"
+          },
+          "native_manual": {
+            "a": "end.png",
+            "b": "end.png",
+            "different_pixels": 0,
+            "max_channel_delta": 0,
+            "mean_channel_max_delta": 0.0,
+            "status": "valid"
+          }
+        },
+        "middle.png": {
+          "baseline_manual": {
+            "a": "middle.png",
+            "b": "middle.png",
+            "different_pixels": 0,
+            "max_channel_delta": 0,
+            "mean_channel_max_delta": 0.0,
+            "status": "valid"
+          },
+          "baseline_native": {
+            "a": "middle.png",
+            "b": "middle.png",
+            "different_pixels": 0,
+            "max_channel_delta": 0,
+            "mean_channel_max_delta": 0.0,
+            "status": "valid"
+          },
+          "native_manual": {
+            "a": "middle.png",
+            "b": "middle.png",
+            "different_pixels": 0,
+            "max_channel_delta": 0,
+            "mean_channel_max_delta": 0.0,
+            "status": "valid"
+          }
+        },
+        "repeat.png": {
+          "baseline_manual": {
+            "a": "repeat.png",
+            "b": "repeat.png",
+            "different_pixels": 0,
+            "max_channel_delta": 0,
+            "mean_channel_max_delta": 0.0,
+            "status": "valid"
+          },
+          "baseline_native": {
+            "a": "repeat.png",
+            "b": "repeat.png",
+            "different_pixels": 0,
+            "max_channel_delta": 0,
+            "mean_channel_max_delta": 0.0,
+            "status": "valid"
+          },
+          "native_manual": {
+            "a": "repeat.png",
+            "b": "repeat.png",
+            "different_pixels": 0,
+            "max_channel_delta": 0,
+            "mean_channel_max_delta": 0.0,
+            "status": "valid"
+          }
+        },
+        "start.png": {
+          "baseline_manual": {
+            "a": "start.png",
+            "b": "start.png",
+            "different_pixels": 0,
+            "max_channel_delta": 0,
+            "mean_channel_max_delta": 0.0,
+            "status": "valid"
+          },
+          "baseline_native": {
+            "a": "start.png",
+            "b": "start.png",
+            "different_pixels": 0,
+            "max_channel_delta": 0,
+            "mean_channel_max_delta": 0.0,
+            "status": "valid"
+          },
+          "native_manual": {
+            "a": "start.png",
+            "b": "start.png",
+            "different_pixels": 0,
+            "max_channel_delta": 0,
+            "mean_channel_max_delta": 0.0,
+            "status": "valid"
+          }
+        }
+      },
+      "keyframes": {
+        "baseline_vs_manual": {
+          "after_sha256": "c8c6aca97a944cade1be62feeb0a254e7638398786a0f9c51451c8e94a7a365b",
+          "before_sha256": "67d2098d2bdaecd0279b60178b66384866f8585de3e1b59faa4bd093bf223a03",
+          "bytes_after": 35172,
+          "bytes_before": 35172,
+          "component_units_and_interpolation_not_established": true,
+          "duration_after": 10000.0,
+          "duration_before": 10000.0,
+          "leading_word_after": 10,
+          "leading_word_before": 7,
+          "method": "bounded sentinel gate header-7/header-10 flag-3 record comparison",
+          "status": "valid",
+          "total_keys_after": 1095,
+          "total_keys_before": 1095,
+          "tracks": [
+            {
+              "changed_bit_records": 78,
+              "changed_numeric_records": 78,
+              "flags_equal": true,
+              "key_times_bits_equal": true,
+              "keys_after": 118,
+              "keys_before": 118,
+              "maximum_component_absolute_deltas": [
+                0.0,
+                0.0,
+                0.0,
+                4.1484832763671875e-05,
+                0.0,
+                0.0
+              ],
+              "node_id_after": 31,
+              "node_id_before": 2,
+              "node_name": "sentinelGarageSliding01Part01",
+              "node_path": "/0/0"
+            },
+            {
+              "changed_bit_records": 111,
+              "changed_numeric_records": 111,
+              "flags_equal": true,
+              "key_times_bits_equal": true,
+              "keys_after": 113,
+              "keys_before": 113,
+              "maximum_component_absolute_deltas": [
+                0.0,
+                0.0,
+                0.0,
+                3.933906555175781e-05,
+                0.0,
+                0.0
+              ],
+              "node_id_after": 32,
+              "node_id_before": 3,
+              "node_name": "sentinelGarageSliding01Part02",
+              "node_path": "/0/0/0"
+            },
+            {
+              "changed_bit_records": 109,
+              "changed_numeric_records": 109,
+              "flags_equal": true,
+              "key_times_bits_equal": true,
+              "keys_after": 111,
+              "keys_before": 111,
+              "maximum_component_absolute_deltas": [
+                0.0,
+                0.0,
+                0.0,
+                3.451108932495117e-05,
+                0.0,
+                0.0
+              ],
+              "node_id_after": 33,
+              "node_id_before": 4,
+              "node_name": "sentinelGarageSliding01Part03",
+              "node_path": "/0/0/0/0"
+            },
+            {
+              "changed_bit_records": 111,
+              "changed_numeric_records": 111,
+              "flags_equal": true,
+              "key_times_bits_equal": true,
+              "keys_after": 113,
+              "keys_before": 113,
+              "maximum_component_absolute_deltas": [
+                0.0,
+                0.0,
+                0.0,
+                3.886222839355469e-05,
+                0.0,
+                0.0
+              ],
+              "node_id_after": 34,
+              "node_id_before": 5,
+              "node_name": "sentinelGarageSliding01Part04",
+              "node_path": "/0/0/0/0/0"
+            },
+            {
+              "changed_bit_records": 110,
+              "changed_numeric_records": 110,
+              "flags_equal": true,
+              "key_times_bits_equal": true,
+              "keys_after": 112,
+              "keys_before": 112,
+              "maximum_component_absolute_deltas": [
+                0.0,
+                0.0,
+                0.0,
+                3.993511199951172e-05,
+                0.0,
+                0.0
+              ],
+              "node_id_after": 35,
+              "node_id_before": 6,
+              "node_name": "sentinelGarageSliding01Part05",
+              "node_path": "/0/0/0/0/0/0"
+            },
+            {
+              "changed_bit_records": 245,
+              "changed_numeric_records": 245,
+              "flags_equal": true,
+              "key_times_bits_equal": true,
+              "keys_after": 246,
+              "keys_before": 246,
+              "maximum_component_absolute_deltas": [
+                0.0,
+                0.0,
+                0.0,
+                3.4928321838378906e-05,
+                0.0,
+                0.0
+              ],
+              "node_id_after": 36,
+              "node_id_before": 7,
+              "node_name": "sentinelGarageSliding01Part06",
+              "node_path": "/0/0/0/0/0/0/0"
+            },
+            {
+              "changed_bit_records": 281,
+              "changed_numeric_records": 281,
+              "flags_equal": true,
+              "key_times_bits_equal": true,
+              "keys_after": 282,
+              "keys_before": 282,
+              "maximum_component_absolute_deltas": [
+                0.0,
+                0.0,
+                0.0,
+                3.713369369506836e-05,
+                0.0,
+                0.0
+              ],
+              "node_id_after": 37,
+              "node_id_before": 8,
+              "node_name": "sentinelGarageSliding01Part07",
+              "node_path": "/0/0/0/0/0/0/0/0"
+            }
+          ]
+        },
+        "baseline_vs_native": {
+          "after_sha256": "c8c6aca97a944cade1be62feeb0a254e7638398786a0f9c51451c8e94a7a365b",
+          "before_sha256": "67d2098d2bdaecd0279b60178b66384866f8585de3e1b59faa4bd093bf223a03",
+          "bytes_after": 35172,
+          "bytes_before": 35172,
+          "component_units_and_interpolation_not_established": true,
+          "duration_after": 10000.0,
+          "duration_before": 10000.0,
+          "leading_word_after": 10,
+          "leading_word_before": 7,
+          "method": "bounded sentinel gate header-7/header-10 flag-3 record comparison",
+          "status": "valid",
+          "total_keys_after": 1095,
+          "total_keys_before": 1095,
+          "tracks": [
+            {
+              "changed_bit_records": 78,
+              "changed_numeric_records": 78,
+              "flags_equal": true,
+              "key_times_bits_equal": true,
+              "keys_after": 118,
+              "keys_before": 118,
+              "maximum_component_absolute_deltas": [
+                0.0,
+                0.0,
+                0.0,
+                4.1484832763671875e-05,
+                0.0,
+                0.0
+              ],
+              "node_id_after": 31,
+              "node_id_before": 2,
+              "node_name": "sentinelGarageSliding01Part01",
+              "node_path": "/0/0"
+            },
+            {
+              "changed_bit_records": 111,
+              "changed_numeric_records": 111,
+              "flags_equal": true,
+              "key_times_bits_equal": true,
+              "keys_after": 113,
+              "keys_before": 113,
+              "maximum_component_absolute_deltas": [
+                0.0,
+                0.0,
+                0.0,
+                3.933906555175781e-05,
+                0.0,
+                0.0
+              ],
+              "node_id_after": 32,
+              "node_id_before": 3,
+              "node_name": "sentinelGarageSliding01Part02",
+              "node_path": "/0/0/0"
+            },
+            {
+              "changed_bit_records": 109,
+              "changed_numeric_records": 109,
+              "flags_equal": true,
+              "key_times_bits_equal": true,
+              "keys_after": 111,
+              "keys_before": 111,
+              "maximum_component_absolute_deltas": [
+                0.0,
+                0.0,
+                0.0,
+                3.451108932495117e-05,
+                0.0,
+                0.0
+              ],
+              "node_id_after": 33,
+              "node_id_before": 4,
+              "node_name": "sentinelGarageSliding01Part03",
+              "node_path": "/0/0/0/0"
+            },
+            {
+              "changed_bit_records": 111,
+              "changed_numeric_records": 111,
+              "flags_equal": true,
+              "key_times_bits_equal": true,
+              "keys_after": 113,
+              "keys_before": 113,
+              "maximum_component_absolute_deltas": [
+                0.0,
+                0.0,
+                0.0,
+                3.886222839355469e-05,
+                0.0,
+                0.0
+              ],
+              "node_id_after": 34,
+              "node_id_before": 5,
+              "node_name": "sentinelGarageSliding01Part04",
+              "node_path": "/0/0/0/0/0"
+            },
+            {
+              "changed_bit_records": 110,
+              "changed_numeric_records": 110,
+              "flags_equal": true,
+              "key_times_bits_equal": true,
+              "keys_after": 112,
+              "keys_before": 112,
+              "maximum_component_absolute_deltas": [
+                0.0,
+                0.0,
+                0.0,
+                3.993511199951172e-05,
+                0.0,
+                0.0
+              ],
+              "node_id_after": 35,
+              "node_id_before": 6,
+              "node_name": "sentinelGarageSliding01Part05",
+              "node_path": "/0/0/0/0/0/0"
+            },
+            {
+              "changed_bit_records": 245,
+              "changed_numeric_records": 245,
+              "flags_equal": true,
+              "key_times_bits_equal": true,
+              "keys_after": 246,
+              "keys_before": 246,
+              "maximum_component_absolute_deltas": [
+                0.0,
+                0.0,
+                0.0,
+                3.4928321838378906e-05,
+                0.0,
+                0.0
+              ],
+              "node_id_after": 36,
+              "node_id_before": 7,
+              "node_name": "sentinelGarageSliding01Part06",
+              "node_path": "/0/0/0/0/0/0/0"
+            },
+            {
+              "changed_bit_records": 281,
+              "changed_numeric_records": 281,
+              "flags_equal": true,
+              "key_times_bits_equal": true,
+              "keys_after": 282,
+              "keys_before": 282,
+              "maximum_component_absolute_deltas": [
+                0.0,
+                0.0,
+                0.0,
+                3.713369369506836e-05,
+                0.0,
+                0.0
+              ],
+              "node_id_after": 37,
+              "node_id_before": 8,
+              "node_name": "sentinelGarageSliding01Part07",
+              "node_path": "/0/0/0/0/0/0/0/0"
+            }
+          ]
+        },
+        "native_vs_manual": {
+          "after_sha256": "c8c6aca97a944cade1be62feeb0a254e7638398786a0f9c51451c8e94a7a365b",
+          "before_sha256": "c8c6aca97a944cade1be62feeb0a254e7638398786a0f9c51451c8e94a7a365b",
+          "bytes_after": 35172,
+          "bytes_before": 35172,
+          "component_units_and_interpolation_not_established": true,
+          "duration_after": 10000.0,
+          "duration_before": 10000.0,
+          "leading_word_after": 10,
+          "leading_word_before": 10,
+          "method": "bounded sentinel gate header-7/header-10 flag-3 record comparison",
+          "status": "valid",
+          "total_keys_after": 1095,
+          "total_keys_before": 1095,
+          "tracks": [
+            {
+              "changed_bit_records": 0,
+              "changed_numeric_records": 0,
+              "flags_equal": true,
+              "key_times_bits_equal": true,
+              "keys_after": 118,
+              "keys_before": 118,
+              "maximum_component_absolute_deltas": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "node_id_after": 31,
+              "node_id_before": 31,
+              "node_name": "sentinelGarageSliding01Part01",
+              "node_path": "/0/0"
+            },
+            {
+              "changed_bit_records": 0,
+              "changed_numeric_records": 0,
+              "flags_equal": true,
+              "key_times_bits_equal": true,
+              "keys_after": 113,
+              "keys_before": 113,
+              "maximum_component_absolute_deltas": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "node_id_after": 32,
+              "node_id_before": 32,
+              "node_name": "sentinelGarageSliding01Part02",
+              "node_path": "/0/0/0"
+            },
+            {
+              "changed_bit_records": 0,
+              "changed_numeric_records": 0,
+              "flags_equal": true,
+              "key_times_bits_equal": true,
+              "keys_after": 111,
+              "keys_before": 111,
+              "maximum_component_absolute_deltas": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "node_id_after": 33,
+              "node_id_before": 33,
+              "node_name": "sentinelGarageSliding01Part03",
+              "node_path": "/0/0/0/0"
+            },
+            {
+              "changed_bit_records": 0,
+              "changed_numeric_records": 0,
+              "flags_equal": true,
+              "key_times_bits_equal": true,
+              "keys_after": 113,
+              "keys_before": 113,
+              "maximum_component_absolute_deltas": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "node_id_after": 34,
+              "node_id_before": 34,
+              "node_name": "sentinelGarageSliding01Part04",
+              "node_path": "/0/0/0/0/0"
+            },
+            {
+              "changed_bit_records": 0,
+              "changed_numeric_records": 0,
+              "flags_equal": true,
+              "key_times_bits_equal": true,
+              "keys_after": 112,
+              "keys_before": 112,
+              "maximum_component_absolute_deltas": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "node_id_after": 35,
+              "node_id_before": 35,
+              "node_name": "sentinelGarageSliding01Part05",
+              "node_path": "/0/0/0/0/0/0"
+            },
+            {
+              "changed_bit_records": 0,
+              "changed_numeric_records": 0,
+              "flags_equal": true,
+              "key_times_bits_equal": true,
+              "keys_after": 246,
+              "keys_before": 246,
+              "maximum_component_absolute_deltas": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "node_id_after": 36,
+              "node_id_before": 36,
+              "node_name": "sentinelGarageSliding01Part06",
+              "node_path": "/0/0/0/0/0/0/0"
+            },
+            {
+              "changed_bit_records": 0,
+              "changed_numeric_records": 0,
+              "flags_equal": true,
+              "key_times_bits_equal": true,
+              "keys_after": 282,
+              "keys_before": 282,
+              "maximum_component_absolute_deltas": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "node_id_after": 37,
+              "node_id_before": 37,
+              "node_name": "sentinelGarageSliding01Part07",
+              "node_path": "/0/0/0/0/0/0/0/0"
+            }
+          ]
+        }
+      },
+      "manual": {
+        "asset": "gate",
+        "case": "gate-manual",
+        "files": {
+          "before.i3d": "577bbd08d14ea17fe9cbfb6fe8f93dd59db7b4c4e8830431fae6ff6b95ead973",
+          "spec.json": "9c0857dc845c957fd47d71495c892d455efb5adc6407519f0a9ff127b70c8e47"
+        },
+        "fresh_ready": {
+          "kind": "ready",
+          "ok": true,
+          "op_matches_expected_kind": true,
+          "path_matches_expected_scene": null,
+          "receipt_path": "",
+          "receipt_scene": "c:/tmp/agenttooling-giants-editor-control/.docs/giants-editor-fidelity/gate-manual/asset/sentinelgarage_gate_animation.i3d",
+          "scene_matches_expected_scene": true,
+          "sha256": "f8c459cc09fde5830a3303e32d4d3384cf91114dac1209da662b89a0d78f6201",
+          "status": "valid"
+        },
+        "images": {
+          "end.png": {
+            "alpha_pixels": 2058,
+            "format": "PNG",
+            "height": 512,
+            "nonblank": true,
+            "nonblank_pixels": 2058,
+            "sha256": "f9b7cb2f4b9282ed69a11a7caefa8a6e9210cc63459b4a3d9a46387a7e3a90a1",
+            "status": "valid",
+            "width": 512
+          },
+          "middle.png": {
+            "alpha_pixels": 6128,
+            "format": "PNG",
+            "height": 512,
+            "nonblank": true,
+            "nonblank_pixels": 6128,
+            "sha256": "c041e7b8f3410f0d6780b50abc91bbee116b773c7f7bc5ca59dbb2bedc4e73a0",
+            "status": "valid",
+            "width": 512
+          },
+          "repeat.png": {
+            "alpha_pixels": 8365,
+            "format": "PNG",
+            "height": 512,
+            "nonblank": true,
+            "nonblank_pixels": 8365,
+            "sha256": "aac293c2ddc035ae7553372bd00fff7a719473d2373830ba7f1f895ca8c01649",
+            "status": "valid",
+            "width": 512
+          },
+          "start.png": {
+            "alpha_pixels": 8365,
+            "format": "PNG",
+            "height": 512,
+            "nonblank": true,
+            "nonblank_pixels": 8365,
+            "sha256": "aac293c2ddc035ae7553372bd00fff7a719473d2373830ba7f1f895ca8c01649",
+            "status": "valid",
+            "width": 512
+          }
+        },
+        "material_semantics_before_vs_saved": {
+          "after_count": 3,
+          "after_lambert1": {
+            "diffuseColor": "0.501961 0.501961 0.501961 1",
+            "materialId": "5",
+            "name": "lambert1"
+          },
+          "before_count": 3,
+          "before_lambert1": {
+            "diffuseColor": "0.5 0.5 0.5 1",
+            "materialId": "3",
+            "name": "lambert1"
+          },
+          "differing_material_names": [
+            "assetLibraryDecals_mat",
+            "lambert1",
+            "sentinelGarageDoor_mat"
+          ],
+          "names_equal": true
+        },
+        "mode": "manual",
+        "ready": {
+          "kind": "ready",
+          "ok": true,
+          "op_matches_expected_kind": true,
+          "path_matches_expected_scene": null,
+          "receipt_path": "",
+          "receipt_scene": "c:/tmp/agenttooling-giants-editor-control/.docs/giants-editor-fidelity/gate-manual/asset/sentinelgarage_gate_animation.i3d",
+          "scene_matches_expected_scene": true,
+          "sha256": "30a00dd308cd8c557b396c70475badf85f71ba07529d5f4d2f15afd2ecc7755b",
+          "status": "valid"
+        },
+        "ready_vs_fresh": {
+          "after": "fresh-ready.xml",
+          "before": "ready.xml",
+          "document_root_name_after": "sentinelGarage_gate_animation.i3d",
+          "document_root_name_before": "sentinelGarage_gate_animation",
+          "document_root_name_ignored": true,
+          "material_slot_availability_equal": true,
+          "material_slots_after": [
+            [
+              "/0/0",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/0",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/0/0",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/0/0/0",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/0/0/0/0",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/0/0/0/0/0",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/0/0/0/0/0/0",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/0/0/0/0/0/0/0",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/0/0/0/0/0/0/1",
+              "0",
+              "true",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "1"
+            ],
+            [
+              "/0/0/0/0/0/0/0/1",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/0/0/0/0/0/2",
+              "0",
+              "true",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "1"
+            ],
+            [
+              "/0/0/0/0/0/0/1",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/0/0/0/0/2",
+              "0",
+              "true",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "1"
+            ],
+            [
+              "/0/0/0/0/0/1",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/0/0/0/2",
+              "0",
+              "true",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "1"
+            ],
+            [
+              "/0/0/0/0/1",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/0/0/2",
+              "0",
+              "true",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "1"
+            ],
+            [
+              "/0/0/0/1",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/0/2",
+              "0",
+              "true",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "1"
+            ],
+            [
+              "/0/0/1",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/2",
+              "0",
+              "true",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "1"
+            ]
+          ],
+          "material_slots_before": [
+            [
+              "/0/0",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/0",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/0/0",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/0/0/0",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/0/0/0/0",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/0/0/0/0/0",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/0/0/0/0/0/0",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/0/0/0/0/0/0/0",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/0/0/0/0/0/0/1",
+              "0",
+              "true",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "1"
+            ],
+            [
+              "/0/0/0/0/0/0/0/1",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/0/0/0/0/0/2",
+              "0",
+              "true",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "1"
+            ],
+            [
+              "/0/0/0/0/0/0/1",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/0/0/0/0/2",
+              "0",
+              "true",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "1"
+            ],
+            [
+              "/0/0/0/0/0/1",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/0/0/0/2",
+              "0",
+              "true",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "1"
+            ],
+            [
+              "/0/0/0/0/1",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/0/0/2",
+              "0",
+              "true",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "1"
+            ],
+            [
+              "/0/0/0/1",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/0/2",
+              "0",
+              "true",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "1"
+            ],
+            [
+              "/0/0/1",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/2",
+              "0",
+              "true",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "1"
+            ]
+          ],
+          "material_success_slot_count_after": 7,
+          "material_success_slot_count_before": 7,
+          "material_value_equivalence_claimed": false,
+          "max_pose_absolute_delta": 5.0067901611328125e-06,
+          "node_count_after": 24,
+          "node_count_before": 24,
+          "nodes": [
+            {
+              "material_children_equal": true,
+              "name_after": "sentinelGarage_gate_animation.i3d",
+              "name_before": "sentinelGarage_gate_animation",
+              "name_equal": true,
+              "path": "",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "sentinelGarageSliding01",
+              "name_before": "sentinelGarageSliding01",
+              "name_equal": true,
+              "path": "/0",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "sentinelGarageSliding01Part01",
+              "name_before": "sentinelGarageSliding01Part01",
+              "name_equal": true,
+              "path": "/0/0",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "sentinelGarageSliding01Part02",
+              "name_before": "sentinelGarageSliding01Part02",
+              "name_equal": true,
+              "path": "/0/0/0",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "sentinelGarageSliding01Part03",
+              "name_before": "sentinelGarageSliding01Part03",
+              "name_equal": true,
+              "path": "/0/0/0/0",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "sentinelGarageSliding01Part04",
+              "name_before": "sentinelGarageSliding01Part04",
+              "name_equal": true,
+              "path": "/0/0/0/0/0",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "sentinelGarageSliding01Part05",
+              "name_before": "sentinelGarageSliding01Part05",
+              "name_equal": true,
+              "path": "/0/0/0/0/0/0",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "sentinelGarageSliding01Part06",
+              "name_before": "sentinelGarageSliding01Part06",
+              "name_equal": true,
+              "path": "/0/0/0/0/0/0/0",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "sentinelGarageSliding01Part07",
+              "name_before": "sentinelGarageSliding01Part07",
+              "name_equal": true,
+              "path": "/0/0/0/0/0/0/0/0",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "sentinelGarageSliding01Part07_screws",
+              "name_before": "sentinelGarageSliding01Part07_screws",
+              "name_equal": true,
+              "path": "/0/0/0/0/0/0/0/0/0",
+              "pose_equal": false,
+              "pose_max_absolute_delta": 4.0531158447265625e-06
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "collision_part07",
+              "name_before": "collision_part07",
+              "name_equal": true,
+              "path": "/0/0/0/0/0/0/0/0/1",
+              "pose_equal": false,
+              "pose_max_absolute_delta": 2.86102294921875e-06
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "sentinelGarageSliding01Part06_screws",
+              "name_before": "sentinelGarageSliding01Part06_screws",
+              "name_equal": true,
+              "path": "/0/0/0/0/0/0/0/1",
+              "pose_equal": false,
+              "pose_max_absolute_delta": 5.0067901611328125e-06
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "collision_part06",
+              "name_before": "collision_part06",
+              "name_equal": true,
+              "path": "/0/0/0/0/0/0/0/2",
+              "pose_equal": false,
+              "pose_max_absolute_delta": 2.86102294921875e-06
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "sentinelGarageSliding01Part05_screws",
+              "name_before": "sentinelGarageSliding01Part05_screws",
+              "name_equal": true,
+              "path": "/0/0/0/0/0/0/1",
+              "pose_equal": false,
+              "pose_max_absolute_delta": 5.0067901611328125e-06
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "collision_part05",
+              "name_before": "collision_part05",
+              "name_equal": true,
+              "path": "/0/0/0/0/0/0/2",
+              "pose_equal": false,
+              "pose_max_absolute_delta": 2.86102294921875e-06
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "sentinelGarageSliding01Part04_screws",
+              "name_before": "sentinelGarageSliding01Part04_screws",
+              "name_equal": true,
+              "path": "/0/0/0/0/0/1",
+              "pose_equal": false,
+              "pose_max_absolute_delta": 5.0067901611328125e-06
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "collision_part04",
+              "name_before": "collision_part04",
+              "name_equal": true,
+              "path": "/0/0/0/0/0/2",
+              "pose_equal": false,
+              "pose_max_absolute_delta": 2.86102294921875e-06
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "sentinelGarageSliding01Part03_screws",
+              "name_before": "sentinelGarageSliding01Part03_screws",
+              "name_equal": true,
+              "path": "/0/0/0/0/1",
+              "pose_equal": false,
+              "pose_max_absolute_delta": 4.0531158447265625e-06
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "collision_part03",
+              "name_before": "collision_part03",
+              "name_equal": true,
+              "path": "/0/0/0/0/2",
+              "pose_equal": false,
+              "pose_max_absolute_delta": 2.86102294921875e-06
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "sentinelGarageSliding01Part02_screws",
+              "name_before": "sentinelGarageSliding01Part02_screws",
+              "name_equal": true,
+              "path": "/0/0/0/1",
+              "pose_equal": false,
+              "pose_max_absolute_delta": 2.1457672119140625e-06
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "collision_part02",
+              "name_before": "collision_part02",
+              "name_equal": true,
+              "path": "/0/0/0/2",
+              "pose_equal": false,
+              "pose_max_absolute_delta": 2.86102294921875e-06
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "sentinelGarageSliding01Part01_screws",
+              "name_before": "sentinelGarageSliding01Part01_screws",
+              "name_equal": true,
+              "path": "/0/0/1",
+              "pose_equal": false,
+              "pose_max_absolute_delta": 5.0067901611328125e-06
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "collision_part01",
+              "name_before": "collision_part01",
+              "name_equal": true,
+              "path": "/0/0/2",
+              "pose_equal": false,
+              "pose_max_absolute_delta": 2.86102294921875e-06
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "persp",
+              "name_before": "persp",
+              "name_equal": true,
+              "path": "/1",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            }
+          ],
+          "paths_equal": true,
+          "scene_path_and_node_paths_are_reported_only": true
+        },
+        "repeat_capture": {
+          "minimized_pairs": {
+            "end.png": {
+              "a": "end.png",
+              "b": "end_minimized.png",
+              "different_pixels": 0,
+              "max_channel_delta": 0,
+              "mean_channel_max_delta": 0.0,
+              "status": "valid"
+            },
+            "middle.png": {
+              "a": "middle.png",
+              "b": "middle_minimized.png",
+              "different_pixels": 0,
+              "max_channel_delta": 0,
+              "mean_channel_max_delta": 0.0,
+              "status": "valid"
+            },
+            "start.png": {
+              "a": "start.png",
+              "b": "start_minimized.png",
+              "different_pixels": 0,
+              "max_channel_delta": 0,
+              "mean_channel_max_delta": 0.0,
+              "status": "valid"
+            }
+          },
+          "minimized_state": {
+            "capture_names": [
+              "middle_minimized.png",
+              "end_minimized.png",
+              "start_minimized.png"
+            ],
+            "hwnd": 2569582,
+            "is_iconic": true,
+            "pid": 39816,
+            "timing": "queried after three minimized captures, before quit"
+          },
+          "pairs": {
+            "middle.png": {
+              "a": "middle.png",
+              "b": "middle.png",
+              "different_pixels": 0,
+              "max_channel_delta": 0,
+              "mean_channel_max_delta": 0.0,
+              "status": "valid"
+            }
+          },
+          "provenance": "capture-only repeat checkout; no save-route proof"
+        },
+        "repeat_noise": {
+          "a": "start.png",
+          "b": "repeat.png",
+          "different_pixels": 0,
+          "interpretation": "one pairwise capture comparison, not a statistical noise bound",
+          "max_channel_delta": 0,
+          "mean_channel_max_delta": 0.0,
+          "status": "valid"
+        },
+        "samples": {
+          "all_interframe_motion_excluding_perspective": true,
+          "all_values_finite": true,
+          "clip_duration": 10000.0,
+          "clip_name": "sentinelGarage_gateSource",
+          "expected_times": [
+            0.0,
+            250.0,
+            500.0,
+            750.0,
+            1000.0,
+            1250.0,
+            1500.0,
+            1750.0,
+            2000.0,
+            2250.0,
+            2500.0,
+            2750.0,
+            3000.0,
+            3250.0,
+            3500.0,
+            3750.0,
+            4000.0,
+            4250.0,
+            4500.0,
+            4750.0,
+            5000.0,
+            5250.0,
+            5500.0,
+            5750.0,
+            6000.0,
+            6250.0,
+            6500.0,
+            6750.0,
+            7000.0,
+            7250.0,
+            7500.0,
+            7750.0,
+            8000.0,
+            8250.0,
+            8500.0,
+            8750.0,
+            9000.0,
+            9250.0,
+            9500.0,
+            9750.0,
+            10000.0
+          ],
+          "frame_count": 41,
+          "motion_intervals": 40,
+          "node_counts": [
+            24
+          ],
+          "requested_times": [
+            0.0,
+            250.0,
+            500.0,
+            750.0,
+            1000.0,
+            1250.0,
+            1500.0,
+            1750.0,
+            2000.0,
+            2250.0,
+            2500.0,
+            2750.0,
+            3000.0,
+            3250.0,
+            3500.0,
+            3750.0,
+            4000.0,
+            4250.0,
+            4500.0,
+            4750.0,
+            5000.0,
+            5250.0,
+            5500.0,
+            5750.0,
+            6000.0,
+            6250.0,
+            6500.0,
+            6750.0,
+            7000.0,
+            7250.0,
+            7500.0,
+            7750.0,
+            8000.0,
+            8250.0,
+            8500.0,
+            8750.0,
+            9000.0,
+            9250.0,
+            9500.0,
+            9750.0,
+            10000.0
+          ],
+          "status": "valid",
+          "track_times": [
+            0.0,
+            250.0,
+            500.0,
+            750.0,
+            1000.0,
+            1250.0,
+            1500.0,
+            1750.0,
+            2000.0,
+            2250.0,
+            2500.0,
+            2750.0,
+            3000.0,
+            3250.0,
+            3500.0,
+            3750.0,
+            4000.0,
+            4250.0,
+            4500.0,
+            4750.0,
+            5000.0,
+            5250.0,
+            5500.0,
+            5750.0,
+            6000.0,
+            6250.0,
+            6500.0,
+            6750.0,
+            7000.0,
+            7250.0,
+            7500.0,
+            7750.0,
+            8000.0,
+            8250.0,
+            8500.0,
+            8750.0,
+            9000.0,
+            9250.0,
+            9500.0,
+            9750.0,
+            10000.0
+          ]
+        },
+        "save_receipt": {
+          "kind": "save",
+          "ok": true,
+          "op_matches_expected_kind": true,
+          "path_matches_expected_scene": true,
+          "receipt_path": "c:/tmp/agenttooling-giants-editor-control/.docs/giants-editor-fidelity/gate-manual/asset/sentinelgarage_gate_animation.i3d",
+          "receipt_scene": "c:/tmp/agenttooling-giants-editor-control/.docs/giants-editor-fidelity/gate-manual/asset/sentinelgarage_gate_animation.i3d",
+          "scene_matches_expected_scene": true,
+          "status": "valid"
+        },
+        "source_hashes": {
+          "copied_file_count": 22,
+          "copied_hash_mismatches_against_original": [
+            "sentinelGarage_gate_animation.i3d",
+            "sentinelGarage_gate_animation.i3d.anim",
+            "sentinelGarage_gate_animation.i3d.shapes"
+          ],
+          "copied_missing": [],
+          "expected_file_count": 22,
+          "original_file_count": 22,
+          "original_hash_mismatches": [],
+          "original_missing": [],
+          "original_source_hashes_match": true,
+          "original_source_root": "D:\\Games\\Farming Simulator 2025\\data\\placeables\\agi\\sentinelGarage",
+          "prepared_i3d_hash_matches": true,
+          "prepared_i3d_sha256_actual": "577bbd08d14ea17fe9cbfb6fe8f93dd59db7b4c4e8830431fae6ff6b95ead973",
+          "prepared_i3d_sha256_expected": "577bbd08d14ea17fe9cbfb6fe8f93dd59db7b4c4e8830431fae6ff6b95ead973"
+        }
+      },
+      "native": {
+        "asset": "gate",
+        "case": "gate-native",
+        "files": {
+          "before.i3d": "577bbd08d14ea17fe9cbfb6fe8f93dd59db7b4c4e8830431fae6ff6b95ead973",
+          "spec.json": "bf0d474c62869fc655134811ef95a99437f97d03e4ac93f5c9c0ff7a832d522a"
+        },
+        "fresh_ready": {
+          "kind": "ready",
+          "ok": true,
+          "op_matches_expected_kind": true,
+          "path_matches_expected_scene": null,
+          "receipt_path": "",
+          "receipt_scene": "c:/tmp/agenttooling-giants-editor-control/.docs/giants-editor-fidelity/gate-native/asset/sentinelgarage_gate_animation.i3d",
+          "scene_matches_expected_scene": true,
+          "sha256": "86246a71edae95c9d3fc5cfa7bd8883fb1d07b62cafc13c98e9c35522a72c566",
+          "status": "valid"
+        },
+        "images": {
+          "end.png": {
+            "alpha_pixels": 2058,
+            "format": "PNG",
+            "height": 512,
+            "nonblank": true,
+            "nonblank_pixels": 2058,
+            "sha256": "f9b7cb2f4b9282ed69a11a7caefa8a6e9210cc63459b4a3d9a46387a7e3a90a1",
+            "status": "valid",
+            "width": 512
+          },
+          "middle.png": {
+            "alpha_pixels": 6128,
+            "format": "PNG",
+            "height": 512,
+            "nonblank": true,
+            "nonblank_pixels": 6128,
+            "sha256": "c041e7b8f3410f0d6780b50abc91bbee116b773c7f7bc5ca59dbb2bedc4e73a0",
+            "status": "valid",
+            "width": 512
+          },
+          "repeat.png": {
+            "alpha_pixels": 8365,
+            "format": "PNG",
+            "height": 512,
+            "nonblank": true,
+            "nonblank_pixels": 8365,
+            "sha256": "aac293c2ddc035ae7553372bd00fff7a719473d2373830ba7f1f895ca8c01649",
+            "status": "valid",
+            "width": 512
+          },
+          "start.png": {
+            "alpha_pixels": 8365,
+            "format": "PNG",
+            "height": 512,
+            "nonblank": true,
+            "nonblank_pixels": 8365,
+            "sha256": "aac293c2ddc035ae7553372bd00fff7a719473d2373830ba7f1f895ca8c01649",
+            "status": "valid",
+            "width": 512
+          }
+        },
+        "material_semantics_before_vs_saved": {
+          "after_count": 3,
+          "after_lambert1": {
+            "diffuseColor": "0.501961 0.501961 0.501961 1",
+            "materialId": "5",
+            "name": "lambert1"
+          },
+          "before_count": 3,
+          "before_lambert1": {
+            "diffuseColor": "0.5 0.5 0.5 1",
+            "materialId": "3",
+            "name": "lambert1"
+          },
+          "differing_material_names": [
+            "assetLibraryDecals_mat",
+            "lambert1",
+            "sentinelGarageDoor_mat"
+          ],
+          "names_equal": true
+        },
+        "mode": "native",
+        "ready": {
+          "kind": "ready",
+          "ok": true,
+          "op_matches_expected_kind": true,
+          "path_matches_expected_scene": null,
+          "receipt_path": "",
+          "receipt_scene": "c:/tmp/agenttooling-giants-editor-control/.docs/giants-editor-fidelity/gate-native/asset/sentinelgarage_gate_animation.i3d",
+          "scene_matches_expected_scene": true,
+          "sha256": "081cb01f1343e3ab34a8ffd03c77fbfd63ed5c4352319d15f897aa25df6cffdd",
+          "status": "valid"
+        },
+        "ready_vs_fresh": {
+          "after": "fresh-ready.xml",
+          "before": "ready.xml",
+          "document_root_name_after": "sentinelGarage_gate_animation.i3d",
+          "document_root_name_before": "sentinelGarage_gate_animation",
+          "document_root_name_ignored": true,
+          "material_slot_availability_equal": true,
+          "material_slots_after": [
+            [
+              "/0/0",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/0",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/0/0",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/0/0/0",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/0/0/0/0",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/0/0/0/0/0",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/0/0/0/0/0/0",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/0/0/0/0/0/0/0",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/0/0/0/0/0/0/1",
+              "0",
+              "true",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "1"
+            ],
+            [
+              "/0/0/0/0/0/0/0/1",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/0/0/0/0/0/2",
+              "0",
+              "true",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "1"
+            ],
+            [
+              "/0/0/0/0/0/0/1",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/0/0/0/0/2",
+              "0",
+              "true",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "1"
+            ],
+            [
+              "/0/0/0/0/0/1",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/0/0/0/2",
+              "0",
+              "true",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "1"
+            ],
+            [
+              "/0/0/0/0/1",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/0/0/2",
+              "0",
+              "true",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "1"
+            ],
+            [
+              "/0/0/0/1",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/0/2",
+              "0",
+              "true",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "1"
+            ],
+            [
+              "/0/0/1",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/2",
+              "0",
+              "true",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "1"
+            ]
+          ],
+          "material_slots_before": [
+            [
+              "/0/0",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/0",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/0/0",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/0/0/0",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/0/0/0/0",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/0/0/0/0/0",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/0/0/0/0/0/0",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/0/0/0/0/0/0/0",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/0/0/0/0/0/0/1",
+              "0",
+              "true",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "1"
+            ],
+            [
+              "/0/0/0/0/0/0/0/1",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/0/0/0/0/0/2",
+              "0",
+              "true",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "1"
+            ],
+            [
+              "/0/0/0/0/0/0/1",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/0/0/0/0/2",
+              "0",
+              "true",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "1"
+            ],
+            [
+              "/0/0/0/0/0/1",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/0/0/0/2",
+              "0",
+              "true",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "1"
+            ],
+            [
+              "/0/0/0/0/1",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/0/0/2",
+              "0",
+              "true",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "1"
+            ],
+            [
+              "/0/0/0/1",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/0/2",
+              "0",
+              "true",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "1"
+            ],
+            [
+              "/0/0/1",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/2",
+              "0",
+              "true",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "1"
+            ]
+          ],
+          "material_success_slot_count_after": 7,
+          "material_success_slot_count_before": 7,
+          "material_value_equivalence_claimed": false,
+          "max_pose_absolute_delta": 5.0067901611328125e-06,
+          "node_count_after": 24,
+          "node_count_before": 24,
+          "nodes": [
+            {
+              "material_children_equal": true,
+              "name_after": "sentinelGarage_gate_animation.i3d",
+              "name_before": "sentinelGarage_gate_animation",
+              "name_equal": true,
+              "path": "",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "sentinelGarageSliding01",
+              "name_before": "sentinelGarageSliding01",
+              "name_equal": true,
+              "path": "/0",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "sentinelGarageSliding01Part01",
+              "name_before": "sentinelGarageSliding01Part01",
+              "name_equal": true,
+              "path": "/0/0",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "sentinelGarageSliding01Part02",
+              "name_before": "sentinelGarageSliding01Part02",
+              "name_equal": true,
+              "path": "/0/0/0",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "sentinelGarageSliding01Part03",
+              "name_before": "sentinelGarageSliding01Part03",
+              "name_equal": true,
+              "path": "/0/0/0/0",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "sentinelGarageSliding01Part04",
+              "name_before": "sentinelGarageSliding01Part04",
+              "name_equal": true,
+              "path": "/0/0/0/0/0",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "sentinelGarageSliding01Part05",
+              "name_before": "sentinelGarageSliding01Part05",
+              "name_equal": true,
+              "path": "/0/0/0/0/0/0",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "sentinelGarageSliding01Part06",
+              "name_before": "sentinelGarageSliding01Part06",
+              "name_equal": true,
+              "path": "/0/0/0/0/0/0/0",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "sentinelGarageSliding01Part07",
+              "name_before": "sentinelGarageSliding01Part07",
+              "name_equal": true,
+              "path": "/0/0/0/0/0/0/0/0",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "sentinelGarageSliding01Part07_screws",
+              "name_before": "sentinelGarageSliding01Part07_screws",
+              "name_equal": true,
+              "path": "/0/0/0/0/0/0/0/0/0",
+              "pose_equal": false,
+              "pose_max_absolute_delta": 4.0531158447265625e-06
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "collision_part07",
+              "name_before": "collision_part07",
+              "name_equal": true,
+              "path": "/0/0/0/0/0/0/0/0/1",
+              "pose_equal": false,
+              "pose_max_absolute_delta": 2.86102294921875e-06
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "sentinelGarageSliding01Part06_screws",
+              "name_before": "sentinelGarageSliding01Part06_screws",
+              "name_equal": true,
+              "path": "/0/0/0/0/0/0/0/1",
+              "pose_equal": false,
+              "pose_max_absolute_delta": 5.0067901611328125e-06
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "collision_part06",
+              "name_before": "collision_part06",
+              "name_equal": true,
+              "path": "/0/0/0/0/0/0/0/2",
+              "pose_equal": false,
+              "pose_max_absolute_delta": 2.86102294921875e-06
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "sentinelGarageSliding01Part05_screws",
+              "name_before": "sentinelGarageSliding01Part05_screws",
+              "name_equal": true,
+              "path": "/0/0/0/0/0/0/1",
+              "pose_equal": false,
+              "pose_max_absolute_delta": 5.0067901611328125e-06
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "collision_part05",
+              "name_before": "collision_part05",
+              "name_equal": true,
+              "path": "/0/0/0/0/0/0/2",
+              "pose_equal": false,
+              "pose_max_absolute_delta": 2.86102294921875e-06
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "sentinelGarageSliding01Part04_screws",
+              "name_before": "sentinelGarageSliding01Part04_screws",
+              "name_equal": true,
+              "path": "/0/0/0/0/0/1",
+              "pose_equal": false,
+              "pose_max_absolute_delta": 5.0067901611328125e-06
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "collision_part04",
+              "name_before": "collision_part04",
+              "name_equal": true,
+              "path": "/0/0/0/0/0/2",
+              "pose_equal": false,
+              "pose_max_absolute_delta": 2.86102294921875e-06
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "sentinelGarageSliding01Part03_screws",
+              "name_before": "sentinelGarageSliding01Part03_screws",
+              "name_equal": true,
+              "path": "/0/0/0/0/1",
+              "pose_equal": false,
+              "pose_max_absolute_delta": 4.0531158447265625e-06
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "collision_part03",
+              "name_before": "collision_part03",
+              "name_equal": true,
+              "path": "/0/0/0/0/2",
+              "pose_equal": false,
+              "pose_max_absolute_delta": 2.86102294921875e-06
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "sentinelGarageSliding01Part02_screws",
+              "name_before": "sentinelGarageSliding01Part02_screws",
+              "name_equal": true,
+              "path": "/0/0/0/1",
+              "pose_equal": false,
+              "pose_max_absolute_delta": 2.1457672119140625e-06
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "collision_part02",
+              "name_before": "collision_part02",
+              "name_equal": true,
+              "path": "/0/0/0/2",
+              "pose_equal": false,
+              "pose_max_absolute_delta": 2.86102294921875e-06
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "sentinelGarageSliding01Part01_screws",
+              "name_before": "sentinelGarageSliding01Part01_screws",
+              "name_equal": true,
+              "path": "/0/0/1",
+              "pose_equal": false,
+              "pose_max_absolute_delta": 5.0067901611328125e-06
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "collision_part01",
+              "name_before": "collision_part01",
+              "name_equal": true,
+              "path": "/0/0/2",
+              "pose_equal": false,
+              "pose_max_absolute_delta": 2.86102294921875e-06
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "persp",
+              "name_before": "persp",
+              "name_equal": true,
+              "path": "/1",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            }
+          ],
+          "paths_equal": true,
+          "scene_path_and_node_paths_are_reported_only": true
+        },
+        "repeat_capture": {
+          "minimized_pairs": {},
+          "minimized_state": {
+            "status": "not_applicable"
+          },
+          "pairs": {
+            "end.png": {
+              "a": "end.png",
+              "b": "end.png",
+              "different_pixels": 0,
+              "max_channel_delta": 0,
+              "mean_channel_max_delta": 0.0,
+              "status": "valid"
+            },
+            "middle.png": {
+              "a": "middle.png",
+              "b": "middle.png",
+              "different_pixels": 0,
+              "max_channel_delta": 0,
+              "mean_channel_max_delta": 0.0,
+              "status": "valid"
+            },
+            "repeat.png": {
+              "a": "repeat.png",
+              "b": "repeat.png",
+              "different_pixels": 0,
+              "max_channel_delta": 0,
+              "mean_channel_max_delta": 0.0,
+              "status": "valid"
+            },
+            "start.png": {
+              "a": "start.png",
+              "b": "start.png",
+              "different_pixels": 0,
+              "max_channel_delta": 0,
+              "mean_channel_max_delta": 0.0,
+              "status": "valid"
+            }
+          },
+          "provenance": "capture-only repeat checkout; no save-route proof"
+        },
+        "repeat_noise": {
+          "a": "start.png",
+          "b": "repeat.png",
+          "different_pixels": 0,
+          "interpretation": "one pairwise capture comparison, not a statistical noise bound",
+          "max_channel_delta": 0,
+          "mean_channel_max_delta": 0.0,
+          "status": "valid"
+        },
+        "samples": {
+          "all_interframe_motion_excluding_perspective": true,
+          "all_values_finite": true,
+          "clip_duration": 10000.0,
+          "clip_name": "sentinelGarage_gateSource",
+          "expected_times": [
+            0.0,
+            250.0,
+            500.0,
+            750.0,
+            1000.0,
+            1250.0,
+            1500.0,
+            1750.0,
+            2000.0,
+            2250.0,
+            2500.0,
+            2750.0,
+            3000.0,
+            3250.0,
+            3500.0,
+            3750.0,
+            4000.0,
+            4250.0,
+            4500.0,
+            4750.0,
+            5000.0,
+            5250.0,
+            5500.0,
+            5750.0,
+            6000.0,
+            6250.0,
+            6500.0,
+            6750.0,
+            7000.0,
+            7250.0,
+            7500.0,
+            7750.0,
+            8000.0,
+            8250.0,
+            8500.0,
+            8750.0,
+            9000.0,
+            9250.0,
+            9500.0,
+            9750.0,
+            10000.0
+          ],
+          "frame_count": 41,
+          "motion_intervals": 40,
+          "node_counts": [
+            24
+          ],
+          "requested_times": [
+            0.0,
+            250.0,
+            500.0,
+            750.0,
+            1000.0,
+            1250.0,
+            1500.0,
+            1750.0,
+            2000.0,
+            2250.0,
+            2500.0,
+            2750.0,
+            3000.0,
+            3250.0,
+            3500.0,
+            3750.0,
+            4000.0,
+            4250.0,
+            4500.0,
+            4750.0,
+            5000.0,
+            5250.0,
+            5500.0,
+            5750.0,
+            6000.0,
+            6250.0,
+            6500.0,
+            6750.0,
+            7000.0,
+            7250.0,
+            7500.0,
+            7750.0,
+            8000.0,
+            8250.0,
+            8500.0,
+            8750.0,
+            9000.0,
+            9250.0,
+            9500.0,
+            9750.0,
+            10000.0
+          ],
+          "status": "valid",
+          "track_times": [
+            0.0,
+            250.0,
+            500.0,
+            750.0,
+            1000.0,
+            1250.0,
+            1500.0,
+            1750.0,
+            2000.0,
+            2250.0,
+            2500.0,
+            2750.0,
+            3000.0,
+            3250.0,
+            3500.0,
+            3750.0,
+            4000.0,
+            4250.0,
+            4500.0,
+            4750.0,
+            5000.0,
+            5250.0,
+            5500.0,
+            5750.0,
+            6000.0,
+            6250.0,
+            6500.0,
+            6750.0,
+            7000.0,
+            7250.0,
+            7500.0,
+            7750.0,
+            8000.0,
+            8250.0,
+            8500.0,
+            8750.0,
+            9000.0,
+            9250.0,
+            9500.0,
+            9750.0,
+            10000.0
+          ]
+        },
+        "save_receipt": {
+          "kind": "save",
+          "ok": true,
+          "op_matches_expected_kind": true,
+          "path_matches_expected_scene": true,
+          "receipt_path": "c:/tmp/agenttooling-giants-editor-control/.docs/giants-editor-fidelity/gate-native/asset/sentinelgarage_gate_animation.i3d",
+          "receipt_scene": "c:/tmp/agenttooling-giants-editor-control/.docs/giants-editor-fidelity/gate-native/asset/sentinelgarage_gate_animation.i3d",
+          "scene_matches_expected_scene": true,
+          "status": "valid"
+        },
+        "source_hashes": {
+          "copied_file_count": 22,
+          "copied_hash_mismatches_against_original": [
+            "sentinelGarage_gate_animation.i3d",
+            "sentinelGarage_gate_animation.i3d.anim",
+            "sentinelGarage_gate_animation.i3d.shapes"
+          ],
+          "copied_missing": [],
+          "expected_file_count": 22,
+          "original_file_count": 22,
+          "original_hash_mismatches": [],
+          "original_missing": [],
+          "original_source_hashes_match": true,
+          "original_source_root": "D:\\Games\\Farming Simulator 2025\\data\\placeables\\agi\\sentinelGarage",
+          "prepared_i3d_hash_matches": true,
+          "prepared_i3d_sha256_actual": "577bbd08d14ea17fe9cbfb6fe8f93dd59db7b4c4e8830431fae6ff6b95ead973",
+          "prepared_i3d_sha256_expected": "577bbd08d14ea17fe9cbfb6fe8f93dd59db7b4c4e8830431fae6ff6b95ead973"
+        }
+      },
+      "sample_pair_native_manual": {
+        "euler_delta_frame_count": 0,
+        "frame_count": 41,
+        "max_local_euler_delta": 0.0,
+        "max_local_scale_delta": 0.0,
+        "max_local_translation_delta": 0.0,
+        "max_quaternion_angular_delta_radians": 0.0,
+        "status": "valid",
+        "translation_delta_frame_count": 0
+      },
+      "sample_pairs_baseline_saved": {
+        "baseline_vs_manual": {
+          "euler_delta_frame_count": 2,
+          "frame_count": 41,
+          "max_local_euler_delta": 1.633167266845703e-05,
+          "max_local_scale_delta": 0.0,
+          "max_local_translation_delta": 5.0067901611328125e-06,
+          "max_quaternion_angular_delta_radians": 1.627542453254008e-05,
+          "status": "valid",
+          "translation_delta_frame_count": 41
+        },
+        "baseline_vs_native": {
+          "euler_delta_frame_count": 2,
+          "frame_count": 41,
+          "max_local_euler_delta": 1.633167266845703e-05,
+          "max_local_scale_delta": 0.0,
+          "max_local_translation_delta": 5.0067901611328125e-06,
+          "max_quaternion_angular_delta_radians": 1.627542453254008e-05,
+          "status": "valid",
+          "translation_delta_frame_count": 41
+        }
+      },
+      "saved_asset_compare": {
+        "manual": "sentinelGarage_gate_animation.i3d",
+        "manual_sha256": "6f697e0a748cb41b6b12fc596643194ebebe91cf51fd9bfd49791f9b6a09d7d3",
+        "native": "sentinelGarage_gate_animation.i3d",
+        "native_sha256": "6f697e0a748cb41b6b12fc596643194ebebe91cf51fd9bfd49791f9b6a09d7d3",
+        "raw_xml_bytes_equal": true,
+        "semantic_equal_ignoring_document_paths_and_rootname": true
+      },
+      "sidecars": {
+        ".anim": {
+          "equal": true,
+          "manual_bytes": 35172,
+          "manual_sha256": "c8c6aca97a944cade1be62feeb0a254e7638398786a0f9c51451c8e94a7a365b",
+          "native_bytes": 35172,
+          "native_sha256": "c8c6aca97a944cade1be62feeb0a254e7638398786a0f9c51451c8e94a7a365b"
+        },
+        ".shapes": {
+          "equal": false,
+          "manual_bytes": 525472,
+          "manual_sha256": "6358fa5657d9b79beb80ff479b4876c91a908f1481e96910c35a5be77ea4e2fa",
+          "native_bytes": 525472,
+          "native_sha256": "28f6ccacda4c1e57f8cb8790139af95e25ca416a7e9b9c90925c47ed3026e01b"
+        }
+      }
+    },
+    "water": {
+      "baseline": {
+        "asset": "water",
+        "case": "water-baseline",
+        "files": {
+          "before.i3d": "e71d8ecbdac4a207dfc6ccf8b006ffa9cf78a1ad235a821e16577a9325d4e269",
+          "spec.json": "bf2d99d0b3b53c4160301d0e54352d6ffb180f0396090dca1c1198d876e7838d"
+        },
+        "fresh_ready": {
+          "sha256": null,
+          "status": "not_applicable"
+        },
+        "images": {
+          "repeat.png": {
+            "alpha_pixels": 1611,
+            "format": "PNG",
+            "height": 512,
+            "nonblank": true,
+            "nonblank_pixels": 1611,
+            "sha256": "f6463c0336a612ad5aada04261768cf54a49d20e02df0e239da4a039d06df917",
+            "status": "valid",
+            "width": 512
+          },
+          "view.png": {
+            "alpha_pixels": 1611,
+            "format": "PNG",
+            "height": 512,
+            "nonblank": true,
+            "nonblank_pixels": 1611,
+            "sha256": "f6463c0336a612ad5aada04261768cf54a49d20e02df0e239da4a039d06df917",
+            "status": "valid",
+            "width": 512
+          }
+        },
+        "material_semantics_before_vs_saved": {
+          "after_count": 19,
+          "after_lambert1": {
+            "diffuseColor": "0.5 0.5 0.5 1",
+            "materialId": "1",
+            "name": "lambert1"
+          },
+          "before_count": 19,
+          "before_lambert1": {
+            "diffuseColor": "0.5 0.5 0.5 1",
+            "materialId": "1",
+            "name": "lambert1"
+          },
+          "differing_material_names": [],
+          "names_equal": true
+        },
+        "mode": "baseline",
+        "ready": {
+          "kind": "ready",
+          "ok": true,
+          "op_matches_expected_kind": true,
+          "path_matches_expected_scene": null,
+          "receipt_path": "",
+          "receipt_scene": "c:/tmp/agenttooling-giants-editor-control/.docs/giants-editor-fidelity/water-baseline/asset/watertrailer550.i3d",
+          "scene_matches_expected_scene": true,
+          "sha256": "db2a44ba809ebdf150826990a630e79f183a13b37be8e4c7e29770c74c07f5a4",
+          "status": "valid"
+        },
+        "repeat_capture": {
+          "minimized_pairs": {},
+          "minimized_state": {
+            "status": "not_applicable"
+          },
+          "pairs": {
+            "repeat.png": {
+              "reason": "water_repeat_is_1024_and_primary_is_512",
+              "status": "not_comparable_by_design"
+            },
+            "view.png": {
+              "reason": "water_repeat_is_1024_and_primary_is_512",
+              "status": "not_comparable_by_design"
+            }
+          },
+          "provenance": "capture-only repeat checkout; no save-route proof"
+        },
+        "repeat_noise": {
+          "a": "view.png",
+          "b": "repeat.png",
+          "different_pixels": 0,
+          "interpretation": "one pairwise capture comparison, not a statistical noise bound",
+          "max_channel_delta": 0,
+          "mean_channel_max_delta": 0.0,
+          "status": "valid"
+        },
+        "samples": {
+          "reason": "water_fixture_has_no_animation",
+          "status": "not_applicable"
+        },
+        "save_receipt": {
+          "status": "not_applicable"
+        },
+        "source_hashes": {
+          "copied_file_count": 10,
+          "copied_hash_mismatches_against_original": [
+            "waterTrailer550.i3d"
+          ],
+          "copied_missing": [],
+          "expected_file_count": 10,
+          "original_file_count": 10,
+          "original_hash_mismatches": [],
+          "original_missing": [],
+          "original_source_hashes_match": true,
+          "original_source_root": "D:\\Games\\Farming Simulator 2025\\data\\vehicles\\abi\\waterTrailer550",
+          "prepared_i3d_hash_matches": true,
+          "prepared_i3d_sha256_actual": "e71d8ecbdac4a207dfc6ccf8b006ffa9cf78a1ad235a821e16577a9325d4e269",
+          "prepared_i3d_sha256_expected": "e71d8ecbdac4a207dfc6ccf8b006ffa9cf78a1ad235a821e16577a9325d4e269"
+        }
+      },
+      "image_pairs": {
+        "repeat.png": {
+          "baseline_manual": {
+            "a": "repeat.png",
+            "b": "repeat.png",
+            "different_pixels": 1,
+            "max_channel_delta": 1,
+            "mean_channel_max_delta": 3.814697265625e-06,
+            "status": "valid"
+          },
+          "baseline_native": {
+            "a": "repeat.png",
+            "b": "repeat.png",
+            "different_pixels": 1,
+            "max_channel_delta": 1,
+            "mean_channel_max_delta": 3.814697265625e-06,
+            "status": "valid"
+          },
+          "native_manual": {
+            "a": "repeat.png",
+            "b": "repeat.png",
+            "different_pixels": 0,
+            "max_channel_delta": 0,
+            "mean_channel_max_delta": 0.0,
+            "status": "valid"
+          }
+        },
+        "view.png": {
+          "baseline_manual": {
+            "a": "view.png",
+            "b": "view.png",
+            "different_pixels": 1,
+            "max_channel_delta": 1,
+            "mean_channel_max_delta": 3.814697265625e-06,
+            "status": "valid"
+          },
+          "baseline_native": {
+            "a": "view.png",
+            "b": "view.png",
+            "different_pixels": 1,
+            "max_channel_delta": 1,
+            "mean_channel_max_delta": 3.814697265625e-06,
+            "status": "valid"
+          },
+          "native_manual": {
+            "a": "view.png",
+            "b": "view.png",
+            "different_pixels": 0,
+            "max_channel_delta": 0,
+            "mean_channel_max_delta": 0.0,
+            "status": "valid"
+          }
+        }
+      },
+      "keyframes": {
+        "baseline_vs_manual": {
+          "reason": "water_fixture_has_no_animation",
+          "status": "not_applicable"
+        },
+        "baseline_vs_native": {
+          "reason": "water_fixture_has_no_animation",
+          "status": "not_applicable"
+        },
+        "native_vs_manual": {
+          "reason": "water_fixture_has_no_animation",
+          "status": "not_applicable"
+        }
+      },
+      "manual": {
+        "asset": "water",
+        "case": "water-manual",
+        "files": {
+          "before.i3d": "e71d8ecbdac4a207dfc6ccf8b006ffa9cf78a1ad235a821e16577a9325d4e269",
+          "spec.json": "44149efe2463f6b6c8a05c95ec8c919c0f05bb9b20d5c52a10c94d8f29dc6855"
+        },
+        "fresh_ready": {
+          "kind": "ready",
+          "ok": true,
+          "op_matches_expected_kind": true,
+          "path_matches_expected_scene": null,
+          "receipt_path": "",
+          "receipt_scene": "c:/tmp/agenttooling-giants-editor-control/.docs/giants-editor-fidelity/water-manual/asset/watertrailer550.i3d",
+          "scene_matches_expected_scene": true,
+          "sha256": "1651d150c19a1eeb73ba47c38ee43dfc4037ad59d7dd0e6294703d9f08ad45d7",
+          "status": "valid"
+        },
+        "images": {
+          "repeat.png": {
+            "alpha_pixels": 1611,
+            "format": "PNG",
+            "height": 512,
+            "nonblank": true,
+            "nonblank_pixels": 1611,
+            "sha256": "6888aa5a796f95a66ae416e2ce73e9e2d12fd559cd29bef7abef9f47a541da7c",
+            "status": "valid",
+            "width": 512
+          },
+          "view.png": {
+            "alpha_pixels": 1611,
+            "format": "PNG",
+            "height": 512,
+            "nonblank": true,
+            "nonblank_pixels": 1611,
+            "sha256": "6888aa5a796f95a66ae416e2ce73e9e2d12fd559cd29bef7abef9f47a541da7c",
+            "status": "valid",
+            "width": 512
+          }
+        },
+        "material_semantics_before_vs_saved": {
+          "after_count": 19,
+          "after_lambert1": {
+            "diffuseColor": "0.501961 0.501961 0.501961 1",
+            "materialId": "5",
+            "name": "lambert1"
+          },
+          "before_count": 19,
+          "before_lambert1": {
+            "diffuseColor": "0.5 0.5 0.5 1",
+            "materialId": "1",
+            "name": "lambert1"
+          },
+          "differing_material_names": [
+            "lambert1",
+            "waterTrailer550Decal_metalPainted_mat",
+            "waterTrailer550Decal_plasticPainted_mat",
+            "waterTrailer550Decal_reflectorWhite_mat",
+            "waterTrailer550Decal_silverScratched_mat",
+            "waterTrailer550Hose_rubber_mat",
+            "waterTrailer550Hose_silverScratched_mat",
+            "waterTrailer550_brassScratched_mat",
+            "waterTrailer550_chrome_mat",
+            "waterTrailer550_metalPaintedBlack_mat",
+            "waterTrailer550_metalPaintedGray_mat",
+            "waterTrailer550_metalPainted_mat",
+            "waterTrailer550_plasticPaintedBlack_mat",
+            "waterTrailer550_plasticPaintedShinyGray_01_mat",
+            "waterTrailer550_plasticPaintedShinyGray_02_mat",
+            "waterTrailer550_plasticPaintedShinyGray_03_mat",
+            "waterTrailer550_plasticPaintedShinyGray_04_mat",
+            "waterTrailer550_plasticPaintedShinyGray_05_mat",
+            "waterTrailer550_silverScratched_mat"
+          ],
+          "names_equal": true
+        },
+        "mode": "manual",
+        "ready": {
+          "kind": "ready",
+          "ok": true,
+          "op_matches_expected_kind": true,
+          "path_matches_expected_scene": null,
+          "receipt_path": "",
+          "receipt_scene": "c:/tmp/agenttooling-giants-editor-control/.docs/giants-editor-fidelity/water-manual/asset/watertrailer550.i3d",
+          "scene_matches_expected_scene": true,
+          "sha256": "9b9188f0f5d932776494046539126bd204e18bd9474d8f2b21b4c45b2090a23c",
+          "status": "valid"
+        },
+        "ready_vs_fresh": {
+          "after": "fresh-ready.xml",
+          "before": "ready.xml",
+          "document_root_name_after": "waterTrailer550.i3d",
+          "document_root_name_before": "waterTrailer550",
+          "document_root_name_ignored": true,
+          "material_slot_availability_equal": true,
+          "material_slots_after": [
+            [
+              "/0",
+              "0",
+              "true",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "1"
+            ],
+            [
+              "/0/0",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0",
+              "1",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0",
+              "10",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0",
+              "11",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0",
+              "2",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0",
+              "3",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0",
+              "4",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0",
+              "5",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0",
+              "6",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0",
+              "7",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0",
+              "8",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0",
+              "9",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/0/1/0/0/0/0",
+              "0",
+              "true",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "1"
+            ],
+            [
+              "/0/0/1/0",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/1/0",
+              "1",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/1/0",
+              "2",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/1/0/0",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/3/1",
+              "0",
+              "true",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "1"
+            ],
+            [
+              "/0/0/4",
+              "0",
+              "true",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "1"
+            ],
+            [
+              "/0/0/5",
+              "0",
+              "true",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "1"
+            ],
+            [
+              "/0/0/7/0",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/7/0",
+              "1",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/7/0",
+              "2",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/7/0",
+              "3",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/7/1",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/7/1",
+              "1",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/7/2",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/7/3",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/1/0",
+              "0",
+              "true",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "1"
+            ]
+          ],
+          "material_slots_before": [
+            [
+              "/0",
+              "0",
+              "true",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "1"
+            ],
+            [
+              "/0/0",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0",
+              "1",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0",
+              "10",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0",
+              "11",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0",
+              "2",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0",
+              "3",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0",
+              "4",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0",
+              "5",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0",
+              "6",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0",
+              "7",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0",
+              "8",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0",
+              "9",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/0/1/0/0/0/0",
+              "0",
+              "true",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "1"
+            ],
+            [
+              "/0/0/1/0",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/1/0",
+              "1",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/1/0",
+              "2",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/1/0/0",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/3/1",
+              "0",
+              "true",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "1"
+            ],
+            [
+              "/0/0/4",
+              "0",
+              "true",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "1"
+            ],
+            [
+              "/0/0/5",
+              "0",
+              "true",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "1"
+            ],
+            [
+              "/0/0/7/0",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/7/0",
+              "1",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/7/0",
+              "2",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/7/0",
+              "3",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/7/1",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/7/1",
+              "1",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/7/2",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/7/3",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/1/0",
+              "0",
+              "true",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "1"
+            ]
+          ],
+          "material_success_slot_count_after": 6,
+          "material_success_slot_count_before": 6,
+          "material_value_equivalence_claimed": false,
+          "max_pose_absolute_delta": 4.0531158447265625e-06,
+          "node_count_after": 38,
+          "node_count_before": 38,
+          "nodes": [
+            {
+              "material_children_equal": true,
+              "name_after": "waterTrailer550.i3d",
+              "name_before": "waterTrailer550",
+              "name_equal": true,
+              "path": "",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "agi550_main_component1",
+              "name_before": "agi550_main_component1",
+              "name_equal": true,
+              "path": "/0",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "waterTrailer550_vis",
+              "name_before": "waterTrailer550_vis",
+              "name_equal": true,
+              "path": "/0/0",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "attachable",
+              "name_before": "attachable",
+              "name_equal": true,
+              "path": "/0/0/0",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "attacherJoint",
+              "name_before": "attacherJoint",
+              "name_equal": true,
+              "path": "/0/0/0/0",
+              "pose_equal": false,
+              "pose_max_absolute_delta": 4.0531158447265625e-06
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "supportHolderRot",
+              "name_before": "supportHolderRot",
+              "name_equal": true,
+              "path": "/0/0/0/1",
+              "pose_equal": false,
+              "pose_max_absolute_delta": 2.9802322387695312e-06
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "supportHolder",
+              "name_before": "supportHolder",
+              "name_equal": true,
+              "path": "/0/0/0/1/0",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "supportArmRot",
+              "name_before": "supportArmRot",
+              "name_equal": true,
+              "path": "/0/0/0/1/0/0",
+              "pose_equal": false,
+              "pose_max_absolute_delta": 2.86102294921875e-06
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "supportArm",
+              "name_before": "supportArm",
+              "name_equal": true,
+              "path": "/0/0/0/1/0/0/0",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "supportCol",
+              "name_before": "supportCol",
+              "name_equal": true,
+              "path": "/0/0/0/1/0/0/0/0",
+              "pose_equal": false,
+              "pose_max_absolute_delta": 2.9802322387695312e-06
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "supportWinderRot",
+              "name_before": "supportWinderRot",
+              "name_equal": true,
+              "path": "/0/0/0/1/0/1",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "supportWinder",
+              "name_before": "supportWinder",
+              "name_equal": true,
+              "path": "/0/0/0/1/0/1/0",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "lights",
+              "name_before": "lights",
+              "name_equal": true,
+              "path": "/0/0/1",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "plateNumberLight01",
+              "name_before": "plateNumberLight01",
+              "name_equal": true,
+              "path": "/0/0/1/0",
+              "pose_equal": false,
+              "pose_max_absolute_delta": 3.933906555175781e-06
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "plateNumberLightGlass",
+              "name_before": "plateNumberLightGlass",
+              "name_equal": true,
+              "path": "/0/0/1/0/0",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "licensePlateLightHigh",
+              "name_before": "licensePlateLightHigh",
+              "name_equal": true,
+              "path": "/0/0/1/1",
+              "pose_equal": false,
+              "pose_max_absolute_delta": 2.0265579223632812e-06
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "wheels",
+              "name_before": "wheels",
+              "name_equal": true,
+              "path": "/0/0/2",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "wheelLeft",
+              "name_before": "wheelLeft",
+              "name_equal": true,
+              "path": "/0/0/2/0",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "wheelRight",
+              "name_before": "wheelRight",
+              "name_equal": true,
+              "path": "/0/0/2/1",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "discharge",
+              "name_before": "discharge",
+              "name_equal": true,
+              "path": "/0/0/3",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "dischargeNode",
+              "name_before": "dischargeNode",
+              "name_equal": true,
+              "path": "/0/0/3/0",
+              "pose_equal": false,
+              "pose_max_absolute_delta": 9.5367431640625e-07
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "dischargeTrigger",
+              "name_before": "dischargeTrigger",
+              "name_equal": true,
+              "path": "/0/0/3/1",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "waterTrigger",
+              "name_before": "waterTrigger",
+              "name_equal": true,
+              "path": "/0/0/4",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "exactFillRootNode",
+              "name_before": "exactFillRootNode",
+              "name_equal": true,
+              "path": "/0/0/5",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "fillNode",
+              "name_before": "fillNode",
+              "name_equal": true,
+              "path": "/0/0/6",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "visuals",
+              "name_before": "visuals",
+              "name_equal": true,
+              "path": "/0/0/7",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "waterTrailer550Decal",
+              "name_before": "waterTrailer550Decal",
+              "name_equal": true,
+              "path": "/0/0/7/0",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "waterTrailer550Hose",
+              "name_before": "waterTrailer550Hose",
+              "name_equal": true,
+              "path": "/0/0/7/1",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "waterTrailer550Decal3",
+              "name_before": "waterTrailer550Decal3",
+              "name_equal": true,
+              "path": "/0/0/7/2",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "NewMeshAddedwaterTrailer550Decal4",
+              "name_before": "NewMeshAddedwaterTrailer550Decal4",
+              "name_equal": true,
+              "path": "/0/0/7/3",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "tipOccluder",
+              "name_before": "tipOccluder",
+              "name_equal": true,
+              "path": "/0/0/8",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "occlusionAreaStart",
+              "name_before": "occlusionAreaStart",
+              "name_equal": true,
+              "path": "/0/0/8/0",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "occlusionAreaWidth",
+              "name_before": "occlusionAreaWidth",
+              "name_equal": true,
+              "path": "/0/0/8/1",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "occlusionAreaHeight",
+              "name_before": "occlusionAreaHeight",
+              "name_equal": true,
+              "path": "/0/0/8/2",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "licensePlateBack",
+              "name_before": "licensePlateBack",
+              "name_equal": true,
+              "path": "/0/0/9",
+              "pose_equal": false,
+              "pose_max_absolute_delta": 1.0728836059570312e-06
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "collisions",
+              "name_before": "collisions",
+              "name_equal": true,
+              "path": "/0/1",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "colPart01",
+              "name_before": "colPart01",
+              "name_equal": true,
+              "path": "/0/1/0",
+              "pose_equal": false,
+              "pose_max_absolute_delta": 2.0265579223632812e-06
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "persp",
+              "name_before": "persp",
+              "name_equal": true,
+              "path": "/1",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            }
+          ],
+          "paths_equal": true,
+          "scene_path_and_node_paths_are_reported_only": true
+        },
+        "repeat_capture": {
+          "minimized_pairs": {},
+          "minimized_state": {
+            "status": "not_applicable"
+          },
+          "pairs": {
+            "repeat.png": {
+              "reason": "water_repeat_is_1024_and_primary_is_512",
+              "status": "not_comparable_by_design"
+            },
+            "view.png": {
+              "reason": "water_repeat_is_1024_and_primary_is_512",
+              "status": "not_comparable_by_design"
+            }
+          },
+          "provenance": "capture-only repeat checkout; no save-route proof"
+        },
+        "repeat_noise": {
+          "a": "view.png",
+          "b": "repeat.png",
+          "different_pixels": 0,
+          "interpretation": "one pairwise capture comparison, not a statistical noise bound",
+          "max_channel_delta": 0,
+          "mean_channel_max_delta": 0.0,
+          "status": "valid"
+        },
+        "samples": {
+          "reason": "water_fixture_has_no_animation",
+          "status": "not_applicable"
+        },
+        "save_receipt": {
+          "kind": "save",
+          "ok": true,
+          "op_matches_expected_kind": true,
+          "path_matches_expected_scene": true,
+          "receipt_path": "c:/tmp/agenttooling-giants-editor-control/.docs/giants-editor-fidelity/water-manual/asset/watertrailer550.i3d",
+          "receipt_scene": "c:/tmp/agenttooling-giants-editor-control/.docs/giants-editor-fidelity/water-manual/asset/watertrailer550.i3d",
+          "scene_matches_expected_scene": true,
+          "status": "valid"
+        },
+        "source_hashes": {
+          "copied_file_count": 10,
+          "copied_hash_mismatches_against_original": [
+            "waterTrailer550.i3d",
+            "waterTrailer550.i3d.shapes"
+          ],
+          "copied_missing": [],
+          "expected_file_count": 10,
+          "original_file_count": 10,
+          "original_hash_mismatches": [],
+          "original_missing": [],
+          "original_source_hashes_match": true,
+          "original_source_root": "D:\\Games\\Farming Simulator 2025\\data\\vehicles\\abi\\waterTrailer550",
+          "prepared_i3d_hash_matches": true,
+          "prepared_i3d_sha256_actual": "e71d8ecbdac4a207dfc6ccf8b006ffa9cf78a1ad235a821e16577a9325d4e269",
+          "prepared_i3d_sha256_expected": "e71d8ecbdac4a207dfc6ccf8b006ffa9cf78a1ad235a821e16577a9325d4e269"
+        }
+      },
+      "native": {
+        "asset": "water",
+        "case": "water-native",
+        "files": {
+          "before.i3d": "e71d8ecbdac4a207dfc6ccf8b006ffa9cf78a1ad235a821e16577a9325d4e269",
+          "spec.json": "0d884ae2216a89135afb36faa0238c76df4ad3c099dfb8de39cfe89339da5d9e"
+        },
+        "fresh_ready": {
+          "kind": "ready",
+          "ok": true,
+          "op_matches_expected_kind": true,
+          "path_matches_expected_scene": null,
+          "receipt_path": "",
+          "receipt_scene": "c:/tmp/agenttooling-giants-editor-control/.docs/giants-editor-fidelity/water-native/asset/watertrailer550.i3d",
+          "scene_matches_expected_scene": true,
+          "sha256": "d567e2e0136265520c3d86b737e593c2c1a99a33bf6cd44ea59d42949cbf7c08",
+          "status": "valid"
+        },
+        "images": {
+          "repeat.png": {
+            "alpha_pixels": 1611,
+            "format": "PNG",
+            "height": 512,
+            "nonblank": true,
+            "nonblank_pixels": 1611,
+            "sha256": "6888aa5a796f95a66ae416e2ce73e9e2d12fd559cd29bef7abef9f47a541da7c",
+            "status": "valid",
+            "width": 512
+          },
+          "view.png": {
+            "alpha_pixels": 1611,
+            "format": "PNG",
+            "height": 512,
+            "nonblank": true,
+            "nonblank_pixels": 1611,
+            "sha256": "6888aa5a796f95a66ae416e2ce73e9e2d12fd559cd29bef7abef9f47a541da7c",
+            "status": "valid",
+            "width": 512
+          }
+        },
+        "material_semantics_before_vs_saved": {
+          "after_count": 19,
+          "after_lambert1": {
+            "diffuseColor": "0.501961 0.501961 0.501961 1",
+            "materialId": "5",
+            "name": "lambert1"
+          },
+          "before_count": 19,
+          "before_lambert1": {
+            "diffuseColor": "0.5 0.5 0.5 1",
+            "materialId": "1",
+            "name": "lambert1"
+          },
+          "differing_material_names": [
+            "lambert1",
+            "waterTrailer550Decal_metalPainted_mat",
+            "waterTrailer550Decal_plasticPainted_mat",
+            "waterTrailer550Decal_reflectorWhite_mat",
+            "waterTrailer550Decal_silverScratched_mat",
+            "waterTrailer550Hose_rubber_mat",
+            "waterTrailer550Hose_silverScratched_mat",
+            "waterTrailer550_brassScratched_mat",
+            "waterTrailer550_chrome_mat",
+            "waterTrailer550_metalPaintedBlack_mat",
+            "waterTrailer550_metalPaintedGray_mat",
+            "waterTrailer550_metalPainted_mat",
+            "waterTrailer550_plasticPaintedBlack_mat",
+            "waterTrailer550_plasticPaintedShinyGray_01_mat",
+            "waterTrailer550_plasticPaintedShinyGray_02_mat",
+            "waterTrailer550_plasticPaintedShinyGray_03_mat",
+            "waterTrailer550_plasticPaintedShinyGray_04_mat",
+            "waterTrailer550_plasticPaintedShinyGray_05_mat",
+            "waterTrailer550_silverScratched_mat"
+          ],
+          "names_equal": true
+        },
+        "mode": "native",
+        "ready": {
+          "kind": "ready",
+          "ok": true,
+          "op_matches_expected_kind": true,
+          "path_matches_expected_scene": null,
+          "receipt_path": "",
+          "receipt_scene": "c:/tmp/agenttooling-giants-editor-control/.docs/giants-editor-fidelity/water-native/asset/watertrailer550.i3d",
+          "scene_matches_expected_scene": true,
+          "sha256": "627349327b493e63a704139bc4ee3664ec52b17163cd31dfba01a1b947ce6016",
+          "status": "valid"
+        },
+        "ready_vs_fresh": {
+          "after": "fresh-ready.xml",
+          "before": "ready.xml",
+          "document_root_name_after": "waterTrailer550.i3d",
+          "document_root_name_before": "waterTrailer550",
+          "document_root_name_ignored": true,
+          "material_slot_availability_equal": true,
+          "material_slots_after": [
+            [
+              "/0",
+              "0",
+              "true",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "1"
+            ],
+            [
+              "/0/0",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0",
+              "1",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0",
+              "10",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0",
+              "11",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0",
+              "2",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0",
+              "3",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0",
+              "4",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0",
+              "5",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0",
+              "6",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0",
+              "7",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0",
+              "8",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0",
+              "9",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/0/1/0/0/0/0",
+              "0",
+              "true",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "1"
+            ],
+            [
+              "/0/0/1/0",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/1/0",
+              "1",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/1/0",
+              "2",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/1/0/0",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/3/1",
+              "0",
+              "true",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "1"
+            ],
+            [
+              "/0/0/4",
+              "0",
+              "true",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "1"
+            ],
+            [
+              "/0/0/5",
+              "0",
+              "true",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "1"
+            ],
+            [
+              "/0/0/7/0",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/7/0",
+              "1",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/7/0",
+              "2",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/7/0",
+              "3",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/7/1",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/7/1",
+              "1",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/7/2",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/7/3",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/1/0",
+              "0",
+              "true",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "1"
+            ]
+          ],
+          "material_slots_before": [
+            [
+              "/0",
+              "0",
+              "true",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "1"
+            ],
+            [
+              "/0/0",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0",
+              "1",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0",
+              "10",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0",
+              "11",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0",
+              "2",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0",
+              "3",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0",
+              "4",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0",
+              "5",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0",
+              "6",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0",
+              "7",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0",
+              "8",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0",
+              "9",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/0/1/0/0/0/0",
+              "0",
+              "true",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "1"
+            ],
+            [
+              "/0/0/1/0",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/1/0",
+              "1",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/1/0",
+              "2",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/1/0/0",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/3/1",
+              "0",
+              "true",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "1"
+            ],
+            [
+              "/0/0/4",
+              "0",
+              "true",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "1"
+            ],
+            [
+              "/0/0/5",
+              "0",
+              "true",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "1"
+            ],
+            [
+              "/0/0/7/0",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/7/0",
+              "1",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/7/0",
+              "2",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/7/0",
+              "3",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/7/1",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/7/1",
+              "1",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/7/2",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/0/7/3",
+              "0",
+              "false",
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "/0/1/0",
+              "0",
+              "true",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "0.50196081399917603",
+              "1"
+            ]
+          ],
+          "material_success_slot_count_after": 6,
+          "material_success_slot_count_before": 6,
+          "material_value_equivalence_claimed": false,
+          "max_pose_absolute_delta": 4.0531158447265625e-06,
+          "node_count_after": 38,
+          "node_count_before": 38,
+          "nodes": [
+            {
+              "material_children_equal": true,
+              "name_after": "waterTrailer550.i3d",
+              "name_before": "waterTrailer550",
+              "name_equal": true,
+              "path": "",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "agi550_main_component1",
+              "name_before": "agi550_main_component1",
+              "name_equal": true,
+              "path": "/0",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "waterTrailer550_vis",
+              "name_before": "waterTrailer550_vis",
+              "name_equal": true,
+              "path": "/0/0",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "attachable",
+              "name_before": "attachable",
+              "name_equal": true,
+              "path": "/0/0/0",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "attacherJoint",
+              "name_before": "attacherJoint",
+              "name_equal": true,
+              "path": "/0/0/0/0",
+              "pose_equal": false,
+              "pose_max_absolute_delta": 4.0531158447265625e-06
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "supportHolderRot",
+              "name_before": "supportHolderRot",
+              "name_equal": true,
+              "path": "/0/0/0/1",
+              "pose_equal": false,
+              "pose_max_absolute_delta": 2.9802322387695312e-06
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "supportHolder",
+              "name_before": "supportHolder",
+              "name_equal": true,
+              "path": "/0/0/0/1/0",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "supportArmRot",
+              "name_before": "supportArmRot",
+              "name_equal": true,
+              "path": "/0/0/0/1/0/0",
+              "pose_equal": false,
+              "pose_max_absolute_delta": 2.86102294921875e-06
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "supportArm",
+              "name_before": "supportArm",
+              "name_equal": true,
+              "path": "/0/0/0/1/0/0/0",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "supportCol",
+              "name_before": "supportCol",
+              "name_equal": true,
+              "path": "/0/0/0/1/0/0/0/0",
+              "pose_equal": false,
+              "pose_max_absolute_delta": 2.9802322387695312e-06
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "supportWinderRot",
+              "name_before": "supportWinderRot",
+              "name_equal": true,
+              "path": "/0/0/0/1/0/1",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "supportWinder",
+              "name_before": "supportWinder",
+              "name_equal": true,
+              "path": "/0/0/0/1/0/1/0",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "lights",
+              "name_before": "lights",
+              "name_equal": true,
+              "path": "/0/0/1",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "plateNumberLight01",
+              "name_before": "plateNumberLight01",
+              "name_equal": true,
+              "path": "/0/0/1/0",
+              "pose_equal": false,
+              "pose_max_absolute_delta": 3.933906555175781e-06
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "plateNumberLightGlass",
+              "name_before": "plateNumberLightGlass",
+              "name_equal": true,
+              "path": "/0/0/1/0/0",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "licensePlateLightHigh",
+              "name_before": "licensePlateLightHigh",
+              "name_equal": true,
+              "path": "/0/0/1/1",
+              "pose_equal": false,
+              "pose_max_absolute_delta": 2.0265579223632812e-06
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "wheels",
+              "name_before": "wheels",
+              "name_equal": true,
+              "path": "/0/0/2",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "wheelLeft",
+              "name_before": "wheelLeft",
+              "name_equal": true,
+              "path": "/0/0/2/0",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "wheelRight",
+              "name_before": "wheelRight",
+              "name_equal": true,
+              "path": "/0/0/2/1",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "discharge",
+              "name_before": "discharge",
+              "name_equal": true,
+              "path": "/0/0/3",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "dischargeNode",
+              "name_before": "dischargeNode",
+              "name_equal": true,
+              "path": "/0/0/3/0",
+              "pose_equal": false,
+              "pose_max_absolute_delta": 9.5367431640625e-07
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "dischargeTrigger",
+              "name_before": "dischargeTrigger",
+              "name_equal": true,
+              "path": "/0/0/3/1",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "waterTrigger",
+              "name_before": "waterTrigger",
+              "name_equal": true,
+              "path": "/0/0/4",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "exactFillRootNode",
+              "name_before": "exactFillRootNode",
+              "name_equal": true,
+              "path": "/0/0/5",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "fillNode",
+              "name_before": "fillNode",
+              "name_equal": true,
+              "path": "/0/0/6",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "visuals",
+              "name_before": "visuals",
+              "name_equal": true,
+              "path": "/0/0/7",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "waterTrailer550Decal",
+              "name_before": "waterTrailer550Decal",
+              "name_equal": true,
+              "path": "/0/0/7/0",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "waterTrailer550Hose",
+              "name_before": "waterTrailer550Hose",
+              "name_equal": true,
+              "path": "/0/0/7/1",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "waterTrailer550Decal3",
+              "name_before": "waterTrailer550Decal3",
+              "name_equal": true,
+              "path": "/0/0/7/2",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "NewMeshAddedwaterTrailer550Decal4",
+              "name_before": "NewMeshAddedwaterTrailer550Decal4",
+              "name_equal": true,
+              "path": "/0/0/7/3",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "tipOccluder",
+              "name_before": "tipOccluder",
+              "name_equal": true,
+              "path": "/0/0/8",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "occlusionAreaStart",
+              "name_before": "occlusionAreaStart",
+              "name_equal": true,
+              "path": "/0/0/8/0",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "occlusionAreaWidth",
+              "name_before": "occlusionAreaWidth",
+              "name_equal": true,
+              "path": "/0/0/8/1",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "occlusionAreaHeight",
+              "name_before": "occlusionAreaHeight",
+              "name_equal": true,
+              "path": "/0/0/8/2",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "licensePlateBack",
+              "name_before": "licensePlateBack",
+              "name_equal": true,
+              "path": "/0/0/9",
+              "pose_equal": false,
+              "pose_max_absolute_delta": 1.0728836059570312e-06
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "collisions",
+              "name_before": "collisions",
+              "name_equal": true,
+              "path": "/0/1",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "colPart01",
+              "name_before": "colPart01",
+              "name_equal": true,
+              "path": "/0/1/0",
+              "pose_equal": false,
+              "pose_max_absolute_delta": 2.0265579223632812e-06
+            },
+            {
+              "material_children_equal": true,
+              "name_after": "persp",
+              "name_before": "persp",
+              "name_equal": true,
+              "path": "/1",
+              "pose_equal": true,
+              "pose_max_absolute_delta": 0.0
+            }
+          ],
+          "paths_equal": true,
+          "scene_path_and_node_paths_are_reported_only": true
+        },
+        "repeat_capture": {
+          "minimized_pairs": {},
+          "minimized_state": {
+            "status": "not_applicable"
+          },
+          "pairs": {
+            "repeat.png": {
+              "reason": "water_repeat_is_1024_and_primary_is_512",
+              "status": "not_comparable_by_design"
+            },
+            "view.png": {
+              "reason": "water_repeat_is_1024_and_primary_is_512",
+              "status": "not_comparable_by_design"
+            }
+          },
+          "provenance": "capture-only repeat checkout; no save-route proof"
+        },
+        "repeat_noise": {
+          "a": "view.png",
+          "b": "repeat.png",
+          "different_pixels": 0,
+          "interpretation": "one pairwise capture comparison, not a statistical noise bound",
+          "max_channel_delta": 0,
+          "mean_channel_max_delta": 0.0,
+          "status": "valid"
+        },
+        "samples": {
+          "reason": "water_fixture_has_no_animation",
+          "status": "not_applicable"
+        },
+        "save_receipt": {
+          "kind": "save",
+          "ok": true,
+          "op_matches_expected_kind": true,
+          "path_matches_expected_scene": true,
+          "receipt_path": "c:/tmp/agenttooling-giants-editor-control/.docs/giants-editor-fidelity/water-native/asset/watertrailer550.i3d",
+          "receipt_scene": "c:/tmp/agenttooling-giants-editor-control/.docs/giants-editor-fidelity/water-native/asset/watertrailer550.i3d",
+          "scene_matches_expected_scene": true,
+          "status": "valid"
+        },
+        "source_hashes": {
+          "copied_file_count": 10,
+          "copied_hash_mismatches_against_original": [
+            "waterTrailer550.i3d",
+            "waterTrailer550.i3d.shapes"
+          ],
+          "copied_missing": [],
+          "expected_file_count": 10,
+          "original_file_count": 10,
+          "original_hash_mismatches": [],
+          "original_missing": [],
+          "original_source_hashes_match": true,
+          "original_source_root": "D:\\Games\\Farming Simulator 2025\\data\\vehicles\\abi\\waterTrailer550",
+          "prepared_i3d_hash_matches": true,
+          "prepared_i3d_sha256_actual": "e71d8ecbdac4a207dfc6ccf8b006ffa9cf78a1ad235a821e16577a9325d4e269",
+          "prepared_i3d_sha256_expected": "e71d8ecbdac4a207dfc6ccf8b006ffa9cf78a1ad235a821e16577a9325d4e269"
+        }
+      },
+      "sample_pair_native_manual": {
+        "reason": "water_fixture_has_no_animation",
+        "status": "not_applicable"
+      },
+      "sample_pairs_baseline_saved": {
+        "reason": "water_fixture_has_no_animation",
+        "status": "not_applicable"
+      },
+      "saved_asset_compare": {
+        "manual": "waterTrailer550.i3d",
+        "manual_sha256": "04ce81342f1bfb08fbe16c56075cfc19129323b57232bd301bbb1224002bd59f",
+        "native": "waterTrailer550.i3d",
+        "native_sha256": "04ce81342f1bfb08fbe16c56075cfc19129323b57232bd301bbb1224002bd59f",
+        "raw_xml_bytes_equal": true,
+        "semantic_equal_ignoring_document_paths_and_rootname": true
+      },
+      "sidecars": {
+        ".anim": {
+          "manual_exists": false,
+          "native_exists": false,
+          "status": "missing"
+        },
+        ".shapes": {
+          "equal": false,
+          "manual_bytes": 1895892,
+          "manual_sha256": "0ebe44e8d94906581a3226ceffc8e878496091326c358def8bf3aac7c81f9479",
+          "native_bytes": 1895892,
+          "native_sha256": "3f58400e3396406277c775db4f7b568ce76bcad426e96b9edef6416688c824c0"
+        }
+      }
+    }
+  },
+  "experiment": "controlled_giants_editor_fidelity",
+  "format": 1,
+  "scope": {
+    "cases": [
+      "water-baseline",
+      "water-native",
+      "water-manual",
+      "gate-baseline",
+      "gate-native",
+      "gate-manual"
+    ],
+    "coverage_limit": "captured frames and files only; no claim about unobserved instants or general format equivalence",
+    "document_paths_and_rootnames": "ignored only in semantic comparison and reported separately",
+    "perspective_camera_path_excluded_from_scene_motion": "/1",
+    "render_timing": {
+      "first_decodable_ms": {
+        "end": 147.538,
+        "middle": 127.855,
+        "start": 465.133
+      },
+      "limitation": "bounded file-write timing evidence; it does not establish generic GPU quiescence",
+      "no_later_change_observed_within_ms": 3000,
+      "observation_ms": [
+        3000
+      ],
+      "poses": [
+        "start",
+        "middle",
+        "end"
+      ],
+      "status": "valid"
+    },
+    "repeat_within_routes": {
+      "gate": {
+        "pairs": {
+          "end.png": {
+            "baseline_manual": {
+              "a": "end.png",
+              "b": "end_minimized.png",
+              "different_pixels": 0,
+              "max_channel_delta": 0,
+              "mean_channel_max_delta": 0.0,
+              "status": "valid"
+            },
+            "baseline_native": {
+              "a": "end.png",
+              "b": "end.png",
+              "different_pixels": 0,
+              "max_channel_delta": 0,
+              "mean_channel_max_delta": 0.0,
+              "status": "valid"
+            },
+            "native_manual": {
+              "a": "end.png",
+              "b": "end_minimized.png",
+              "different_pixels": 0,
+              "max_channel_delta": 0,
+              "mean_channel_max_delta": 0.0,
+              "status": "valid"
+            }
+          },
+          "middle.png": {
+            "baseline_manual": {
+              "a": "middle.png",
+              "b": "middle.png",
+              "different_pixels": 0,
+              "max_channel_delta": 0,
+              "mean_channel_max_delta": 0.0,
+              "status": "valid"
+            },
+            "baseline_native": {
+              "a": "middle.png",
+              "b": "middle.png",
+              "different_pixels": 0,
+              "max_channel_delta": 0,
+              "mean_channel_max_delta": 0.0,
+              "status": "valid"
+            },
+            "native_manual": {
+              "a": "middle.png",
+              "b": "middle.png",
+              "different_pixels": 0,
+              "max_channel_delta": 0,
+              "mean_channel_max_delta": 0.0,
+              "status": "valid"
+            }
+          },
+          "repeat.png": {
+            "baseline_manual": {
+              "reason": "capture_pair_not_collected",
+              "status": "not_collected"
+            },
+            "baseline_native": {
+              "a": "repeat.png",
+              "b": "repeat.png",
+              "different_pixels": 0,
+              "max_channel_delta": 0,
+              "mean_channel_max_delta": 0.0,
+              "status": "valid"
+            },
+            "native_manual": {
+              "reason": "capture_pair_not_collected",
+              "status": "not_collected"
+            }
+          },
+          "start.png": {
+            "baseline_manual": {
+              "a": "start.png",
+              "b": "start_minimized.png",
+              "different_pixels": 0,
+              "max_channel_delta": 0,
+              "mean_channel_max_delta": 0.0,
+              "status": "valid"
+            },
+            "baseline_native": {
+              "a": "start.png",
+              "b": "start.png",
+              "different_pixels": 0,
+              "max_channel_delta": 0,
+              "mean_channel_max_delta": 0.0,
+              "status": "valid"
+            },
+            "native_manual": {
+              "a": "start.png",
+              "b": "start_minimized.png",
+              "different_pixels": 0,
+              "max_channel_delta": 0,
+              "mean_channel_max_delta": 0.0,
+              "status": "valid"
+            }
+          }
+        },
+        "view_repeat_noise": {
+          "baseline": {
+            "a": "start.png",
+            "b": "repeat.png",
+            "different_pixels": 0,
+            "max_channel_delta": 0,
+            "mean_channel_max_delta": 0.0,
+            "status": "valid"
+          },
+          "manual": {
+            "reason": "capture_pair_not_collected",
+            "status": "not_collected"
+          },
+          "native": {
+            "a": "start.png",
+            "b": "repeat.png",
+            "different_pixels": 0,
+            "max_channel_delta": 0,
+            "mean_channel_max_delta": 0.0,
+            "status": "valid"
+          }
+        }
+      },
+      "water": {
+        "pairs": {
+          "repeat.png": {
+            "baseline_manual": {
+              "a": "repeat.png",
+              "b": "repeat.png",
+              "different_pixels": 50,
+              "max_channel_delta": 32,
+              "mean_channel_max_delta": 8.678436279296875e-05,
+              "status": "valid"
+            },
+            "baseline_native": {
+              "a": "repeat.png",
+              "b": "repeat.png",
+              "different_pixels": 50,
+              "max_channel_delta": 32,
+              "mean_channel_max_delta": 8.678436279296875e-05,
+              "status": "valid"
+            },
+            "native_manual": {
+              "a": "repeat.png",
+              "b": "repeat.png",
+              "different_pixels": 0,
+              "max_channel_delta": 0,
+              "mean_channel_max_delta": 0.0,
+              "status": "valid"
+            }
+          },
+          "view.png": {
+            "baseline_manual": {
+              "a": "view.png",
+              "b": "view.png",
+              "different_pixels": 50,
+              "max_channel_delta": 32,
+              "mean_channel_max_delta": 8.678436279296875e-05,
+              "status": "valid"
+            },
+            "baseline_native": {
+              "a": "view.png",
+              "b": "view.png",
+              "different_pixels": 50,
+              "max_channel_delta": 32,
+              "mean_channel_max_delta": 8.678436279296875e-05,
+              "status": "valid"
+            },
+            "native_manual": {
+              "a": "view.png",
+              "b": "view.png",
+              "different_pixels": 0,
+              "max_channel_delta": 0,
+              "mean_channel_max_delta": 0.0,
+              "status": "valid"
+            }
+          }
+        },
+        "view_repeat_noise": {
+          "baseline": {
+            "a": "view.png",
+            "b": "repeat.png",
+            "different_pixels": 0,
+            "max_channel_delta": 0,
+            "mean_channel_max_delta": 0.0,
+            "status": "valid"
+          },
+          "manual": {
+            "a": "view.png",
+            "b": "repeat.png",
+            "different_pixels": 0,
+            "max_channel_delta": 0,
+            "mean_channel_max_delta": 0.0,
+            "status": "valid"
+          },
+          "native": {
+            "a": "view.png",
+            "b": "repeat.png",
+            "different_pixels": 0,
+            "max_channel_delta": 0,
+            "mean_channel_max_delta": 0.0,
+            "status": "valid"
+          }
+        }
+      }
+    },
+    "save_repeat": {
+      "gate-cross_route": {
+        "saved_i3d_equal": true,
+        "sidecars_equal": {
+          ".anim": true,
+          ".shapes": false
+        }
+      },
+      "gate-manual": {
+        "before_equal_to_first_run": true,
+        "before_sha256": "577bbd08d14ea17fe9cbfb6fe8f93dd59db7b4c4e8830431fae6ff6b95ead973",
+        "check_image_vs_first_run": {
+          "a": "check.png",
+          "b": "middle.png",
+          "different_pixels": 0,
+          "max_channel_delta": 0,
+          "mean_channel_max_delta": 0.0,
+          "status": "valid"
+        },
+        "first_run_before_sha256": "577bbd08d14ea17fe9cbfb6fe8f93dd59db7b4c4e8830431fae6ff6b95ead973",
+        "first_run_saved_i3d_sha256": "6f697e0a748cb41b6b12fc596643194ebebe91cf51fd9bfd49791f9b6a09d7d3",
+        "fresh_receipt": {
+          "kind": "ready",
+          "ok": true,
+          "op_matches_expected_kind": true,
+          "path_matches_expected_scene": null,
+          "receipt_path": "",
+          "receipt_scene": "c:/tmp/agenttooling-giants-editor-control/.docs/giants-editor-save-repeat/gate-manual/asset/sentinelgarage_gate_animation.i3d",
+          "scene_matches_expected_scene": true,
+          "status": "valid"
+        },
+        "sample_vs_first_run": {
+          "euler_delta_frame_count": 0,
+          "frame_count": 41,
+          "max_local_euler_delta": 0.0,
+          "max_local_scale_delta": 0.0,
+          "max_local_translation_delta": 0.0,
+          "max_quaternion_angular_delta_radians": 0.0,
+          "status": "valid",
+          "translation_delta_frame_count": 0
+        },
+        "save_receipt": {
+          "kind": "save",
+          "ok": true,
+          "op_matches_expected_kind": true,
+          "path_matches_expected_scene": true,
+          "receipt_path": "c:/tmp/agenttooling-giants-editor-control/.docs/giants-editor-save-repeat/gate-manual/asset/sentinelgarage_gate_animation.i3d",
+          "receipt_scene": "c:/tmp/agenttooling-giants-editor-control/.docs/giants-editor-save-repeat/gate-manual/asset/sentinelgarage_gate_animation.i3d",
+          "scene_matches_expected_scene": true,
+          "status": "valid"
+        },
+        "saved_i3d_equal_to_first_run": true,
+        "saved_i3d_sha256": "6f697e0a748cb41b6b12fc596643194ebebe91cf51fd9bfd49791f9b6a09d7d3",
+        "sidecars": {
+          ".anim": {
+            "equal_to_first_run": true,
+            "first_run_sha256": "c8c6aca97a944cade1be62feeb0a254e7638398786a0f9c51451c8e94a7a365b",
+            "repeat_sha256": "c8c6aca97a944cade1be62feeb0a254e7638398786a0f9c51451c8e94a7a365b"
+          },
+          ".shapes": {
+            "equal_to_first_run": false,
+            "first_run_sha256": "6358fa5657d9b79beb80ff479b4876c91a908f1481e96910c35a5be77ea4e2fa",
+            "repeat_sha256": "e1a2a23871d1c5aa701662b9f381fcabb5f56e40160a5dda0b0d4a12d22a66c0"
+          }
+        }
+      },
+      "gate-native": {
+        "before_equal_to_first_run": true,
+        "before_sha256": "577bbd08d14ea17fe9cbfb6fe8f93dd59db7b4c4e8830431fae6ff6b95ead973",
+        "check_image_vs_first_run": {
+          "a": "check.png",
+          "b": "middle.png",
+          "different_pixels": 0,
+          "max_channel_delta": 0,
+          "mean_channel_max_delta": 0.0,
+          "status": "valid"
+        },
+        "first_run_before_sha256": "577bbd08d14ea17fe9cbfb6fe8f93dd59db7b4c4e8830431fae6ff6b95ead973",
+        "first_run_saved_i3d_sha256": "6f697e0a748cb41b6b12fc596643194ebebe91cf51fd9bfd49791f9b6a09d7d3",
+        "fresh_receipt": {
+          "kind": "ready",
+          "ok": true,
+          "op_matches_expected_kind": true,
+          "path_matches_expected_scene": null,
+          "receipt_path": "",
+          "receipt_scene": "c:/tmp/agenttooling-giants-editor-control/.docs/giants-editor-save-repeat/gate-native/asset/sentinelgarage_gate_animation.i3d",
+          "scene_matches_expected_scene": true,
+          "status": "valid"
+        },
+        "sample_vs_first_run": {
+          "euler_delta_frame_count": 0,
+          "frame_count": 41,
+          "max_local_euler_delta": 0.0,
+          "max_local_scale_delta": 0.0,
+          "max_local_translation_delta": 0.0,
+          "max_quaternion_angular_delta_radians": 0.0,
+          "status": "valid",
+          "translation_delta_frame_count": 0
+        },
+        "save_receipt": {
+          "kind": "save",
+          "ok": true,
+          "op_matches_expected_kind": true,
+          "path_matches_expected_scene": true,
+          "receipt_path": "c:/tmp/agenttooling-giants-editor-control/.docs/giants-editor-save-repeat/gate-native/asset/sentinelgarage_gate_animation.i3d",
+          "receipt_scene": "c:/tmp/agenttooling-giants-editor-control/.docs/giants-editor-save-repeat/gate-native/asset/sentinelgarage_gate_animation.i3d",
+          "scene_matches_expected_scene": true,
+          "status": "valid"
+        },
+        "saved_i3d_equal_to_first_run": true,
+        "saved_i3d_sha256": "6f697e0a748cb41b6b12fc596643194ebebe91cf51fd9bfd49791f9b6a09d7d3",
+        "sidecars": {
+          ".anim": {
+            "equal_to_first_run": true,
+            "first_run_sha256": "c8c6aca97a944cade1be62feeb0a254e7638398786a0f9c51451c8e94a7a365b",
+            "repeat_sha256": "c8c6aca97a944cade1be62feeb0a254e7638398786a0f9c51451c8e94a7a365b"
+          },
+          ".shapes": {
+            "equal_to_first_run": false,
+            "first_run_sha256": "28f6ccacda4c1e57f8cb8790139af95e25ca416a7e9b9c90925c47ed3026e01b",
+            "repeat_sha256": "e894b0d198ae4f0e0fa32e50438f593f7fc95e04803c8848f2c6f1d13bb0e396"
+          }
+        }
+      },
+      "water-cross_route": {
+        "saved_i3d_equal": true,
+        "sidecars_equal": {
+          ".anim": "not_applicable",
+          ".shapes": false
+        }
+      },
+      "water-manual": {
+        "before_equal_to_first_run": true,
+        "before_sha256": "e71d8ecbdac4a207dfc6ccf8b006ffa9cf78a1ad235a821e16577a9325d4e269",
+        "check_image_vs_first_run": {
+          "a": "check.png",
+          "b": "view.png",
+          "different_pixels": 0,
+          "max_channel_delta": 0,
+          "mean_channel_max_delta": 0.0,
+          "status": "valid"
+        },
+        "first_run_before_sha256": "e71d8ecbdac4a207dfc6ccf8b006ffa9cf78a1ad235a821e16577a9325d4e269",
+        "first_run_saved_i3d_sha256": "04ce81342f1bfb08fbe16c56075cfc19129323b57232bd301bbb1224002bd59f",
+        "fresh_receipt": {
+          "kind": "ready",
+          "ok": true,
+          "op_matches_expected_kind": true,
+          "path_matches_expected_scene": null,
+          "receipt_path": "",
+          "receipt_scene": "c:/tmp/agenttooling-giants-editor-control/.docs/giants-editor-save-repeat/water-manual/asset/watertrailer550.i3d",
+          "scene_matches_expected_scene": true,
+          "status": "valid"
+        },
+        "sample_vs_first_run": {
+          "reason": "water_fixture_has_no_animation",
+          "status": "not_applicable"
+        },
+        "save_receipt": {
+          "kind": "save",
+          "ok": true,
+          "op_matches_expected_kind": true,
+          "path_matches_expected_scene": true,
+          "receipt_path": "c:/tmp/agenttooling-giants-editor-control/.docs/giants-editor-save-repeat/water-manual/asset/watertrailer550.i3d",
+          "receipt_scene": "c:/tmp/agenttooling-giants-editor-control/.docs/giants-editor-save-repeat/water-manual/asset/watertrailer550.i3d",
+          "scene_matches_expected_scene": true,
+          "status": "valid"
+        },
+        "saved_i3d_equal_to_first_run": true,
+        "saved_i3d_sha256": "04ce81342f1bfb08fbe16c56075cfc19129323b57232bd301bbb1224002bd59f",
+        "sidecars": {
+          ".anim": {
+            "reason": "water_fixture_has_no_animation",
+            "status": "not_applicable"
+          },
+          ".shapes": {
+            "equal_to_first_run": false,
+            "first_run_sha256": "0ebe44e8d94906581a3226ceffc8e878496091326c358def8bf3aac7c81f9479",
+            "repeat_sha256": "a0805f44c0ba6ab73c8d6c68e3f23e9d2bc4efaa42005319f7698ade542d3865"
+          }
+        }
+      },
+      "water-native": {
+        "before_equal_to_first_run": true,
+        "before_sha256": "e71d8ecbdac4a207dfc6ccf8b006ffa9cf78a1ad235a821e16577a9325d4e269",
+        "check_image_vs_first_run": {
+          "a": "check.png",
+          "b": "view.png",
+          "different_pixels": 0,
+          "max_channel_delta": 0,
+          "mean_channel_max_delta": 0.0,
+          "status": "valid"
+        },
+        "first_run_before_sha256": "e71d8ecbdac4a207dfc6ccf8b006ffa9cf78a1ad235a821e16577a9325d4e269",
+        "first_run_saved_i3d_sha256": "04ce81342f1bfb08fbe16c56075cfc19129323b57232bd301bbb1224002bd59f",
+        "fresh_receipt": {
+          "kind": "ready",
+          "ok": true,
+          "op_matches_expected_kind": true,
+          "path_matches_expected_scene": null,
+          "receipt_path": "",
+          "receipt_scene": "c:/tmp/agenttooling-giants-editor-control/.docs/giants-editor-save-repeat/water-native/asset/watertrailer550.i3d",
+          "scene_matches_expected_scene": true,
+          "status": "valid"
+        },
+        "sample_vs_first_run": {
+          "reason": "water_fixture_has_no_animation",
+          "status": "not_applicable"
+        },
+        "save_receipt": {
+          "kind": "save",
+          "ok": true,
+          "op_matches_expected_kind": true,
+          "path_matches_expected_scene": true,
+          "receipt_path": "c:/tmp/agenttooling-giants-editor-control/.docs/giants-editor-save-repeat/water-native/asset/watertrailer550.i3d",
+          "receipt_scene": "c:/tmp/agenttooling-giants-editor-control/.docs/giants-editor-save-repeat/water-native/asset/watertrailer550.i3d",
+          "scene_matches_expected_scene": true,
+          "status": "valid"
+        },
+        "saved_i3d_equal_to_first_run": true,
+        "saved_i3d_sha256": "04ce81342f1bfb08fbe16c56075cfc19129323b57232bd301bbb1224002bd59f",
+        "sidecars": {
+          ".anim": {
+            "reason": "water_fixture_has_no_animation",
+            "status": "not_applicable"
+          },
+          ".shapes": {
+            "equal_to_first_run": false,
+            "first_run_sha256": "3f58400e3396406277c775db4f7b568ce76bcad426e96b9edef6416688c824c0",
+            "repeat_sha256": "35ff1146810be3eca964eca22aefc3779002a8f72e5a6d437812b0e0288a1de7"
+          }
+        }
+      }
+    },
+    "source_hashes_verified_against_original_sources": true
+  }
+}
