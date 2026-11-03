@@ -6,7 +6,7 @@ The original phase produced research only, with no MCP server or published skill
 
 ## Offline finding
 
-The previously retained `sentinelGarage_gate_animation.i3d.anim` files allow a bounded comparison of all 1,095 records across seven tracks. The original and previously native-saved file both parse to exactly 35,172 bytes with no unparsed tail. Track record counts are 118, 113, 111, 113, 112, 246 and 282.
+The trial's `sentinelGarage_gate_animation.i3d.anim` files allowed a bounded comparison of all 1,095 records across seven tracks. The original and previously native-saved file both parse to exactly 35,172 bytes with no unparsed tail. Track record counts are 118, 113, 111, 113, 112, 246 and 282.
 
 After resolving serialized node IDs through each companion I3D, track targets match by scene path and name. The serialized IDs changed from 2-8 to 31-37. All record-time float bits and all observed flag words match. Each track begins at zero and ends at 10000. The first header word changed from 7 to 10. This reader does not assume a general format contract from that word.
 
@@ -37,7 +37,7 @@ An optional `render` command copies the call shape used by the installed `script
 
 ## Prepared controlled comparison
 
-Six isolated cases are ready under ignored `.docs/giants-editor-fidelity/`, three for each of the water trailer and animated gate. Original installed file hashes cover 32 files. Each asset's baseline, native and manual cases have identical prepared I3D hashes and copied sidecars. They retain the earlier scratch-only texture-reference adjustment. Shared resources still resolve through the installed `$data` root.
+Six isolated cases were prepared under ignored `.docs/giants-editor-fidelity/`, three for each of the water trailer and animated gate. Original installed file hashes cover 32 files. Each asset's baseline, native and manual cases have identical prepared I3D hashes and copied sidecars. They retain the earlier scratch-only texture-reference adjustment. Shared resources still resolve through the installed `$data` root.
 
 [instruments/fidelity_host.py](../07-instruments/fidelity_host.py) enforces the initial-control/readback separation before native calls. Initial manual/native control processes accept only inspect and quit requests. Native Save refuses a fresh readback process or any recorded observation operation. Fresh launches require a successful Save receipt for the exact scratch document.
 
@@ -64,4 +64,4 @@ The parser passed the retained positive fixtures and offline refusals for unknow
 
 ## Archive context
 
-This report records the 2026-10-16/17 research against the pinned Editor build. Raw assets, screenshots, configurations and machine logs referenced under `.docs/` are local-only and are not distributed. Reproduction commands retain their historical workspace assumptions; read the [instrument index](../07-instruments/README.md) before adapting or running them.
+The original raw inputs were discarded; historical `.docs/` paths are no longer available. See [evidence availability](../../README.md#evidence-and-applicability) for the retained results and limits. Historical commands require new prepared data and reviewed paths; see the [instrument index](../07-instruments/README.md).

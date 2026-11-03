@@ -59,13 +59,13 @@ The logs also contain the pre-existing startup messages `Failed to enable XBTC f
 
 ## Reproduction and validation
 
-The retained raw receipts and prepared copies are under ignored `.docs/giants-editor-practical/`. They are local evidence, not distributable vendor assets. Durable derived results are in [practical-results.metadata.json](practical-results.metadata.json).
+The original raw receipts and prepared copies were stored under ignored `.docs/giants-editor-practical/` and have since been discarded. They were local trial inputs, not distributable vendor assets. Durable derived results are in [practical-results.metadata.json](practical-results.metadata.json).
 
 `instruments/practical_scene_probe.lua` supplies guarded inspection, translation, save callbacks and readback. Configure the existing menu stub and isolated config as in `live-results.md`. Set `MCP_PROBE_ROOT`, `MCP_EXPECTED_SCENE` and `MCP_EXPECTED_TARGET` before sourcing it. `MCP_READBACK_ONLY=true` writes the independent fresh snapshot and exits. Publish sequential `request-NNN.xml` files for `inspect`, `set` and `quit`.
 
 `instruments/practical_windows_probe.py` accepts only `water-trailer` and `animated-gate` fixtures prepared under the research scratch root. Inspect first with `--fixture`, `--pid` and `--expected-title`; then choose `--action script` or `--action save`. These actions require a minimized Editor and another foreground process. Exit 3 means uncertain/failed transport; exit 4 means a background-test postcondition changed. The quit exemption requires exactly one pending request with `op="quit"`. Never interpret a returned message alone as proof of Lua completion or persistence.
 
-Regenerate the derived evidence from the retained receipts, with an external Python cache:
+The original regeneration command is preserved below as a historical example. Its old receipts are no longer retained; new trials and reviewed paths are needed:
 
 ```powershell
 $env:PYTHONPYCACHEPREFIX = "$env:TEMP\repo-pycache"
@@ -82,4 +82,4 @@ Production acceptance must distinguish successful automation from acceptable ass
 
 ## Archive context
 
-This report records the 2026-10-16/17 research against the pinned Editor build. Raw assets, screenshots, configurations and machine logs referenced under `.docs/` are local-only and are not distributed. Reproduction commands retain their historical workspace assumptions; read the [instrument index](../07-instruments/README.md) before adapting or running them.
+The original raw inputs were discarded; historical `.docs/` paths are no longer available. See [evidence availability](../../README.md#evidence-and-applicability) for the retained results and limits. Historical commands require new prepared data and reviewed paths; see the [instrument index](../07-instruments/README.md).

@@ -39,13 +39,13 @@ Source hashes cover all 32 installed input files used by the two fixtures. Those
 
 ## Diagnostic attempts
 
-Five earlier private-desktop starts are retained separately under the gate fixture's `attempt-01` through `attempt-05` directories. The first four reached the Lua-ready marker but the instrument rejected the unavailable foreign-thread desktop query. The fifth completed inspect, Save and quit, then reported a teardown error caused by stale Win32 last-error state during empty desktop enumeration. The final instrument captures last error immediately, clears it before enumeration, and does not require private-frame discovery after confirmed process exit. These were instrument corrections, not Editor initialization failures. No visible fallback was used.
+Five earlier private-desktop starts were originally stored separately under the gate fixture's `attempt-01` through `attempt-05` directories. The first four reached the Lua-ready marker but the instrument rejected the unavailable foreign-thread desktop query. The fifth completed inspect, Save and quit, then reported a teardown error caused by stale Win32 last-error state during empty desktop enumeration. The final instrument captures last error immediately, clears it before enumeration, and does not require private-frame discovery after confirmed process exit. These were instrument corrections, not Editor initialization failures. No visible fallback was used.
 
 The four successful processes above ran after those corrections. Their input-desktop observations and receipts are independent of the diagnostic attempts.
 
 ## Evidence and reproduction
 
-[Derived metadata](invisible-startup-results.metadata.json) records receipt checks, source hashes, frame membership, telemetry, pose/image comparisons and post-exit system checks. [The analyzer](../07-instruments/analyze_invisible_startup.py) regenerates it from ignored local evidence. Raw assets, logs and images remain under `.docs/giants-editor-invisible/`; they are not vendor material for publication.
+[Derived metadata](invisible-startup-results.metadata.json) records receipt checks, source hashes, frame membership, telemetry, pose/image comparisons and post-exit system checks. [The analyzer](../07-instruments/analyze_invisible_startup.py) originally generated it from ignored local evidence. Raw assets, logs and images formerly under `.docs/giants-editor-invisible/` have since been discarded; repeating the analysis requires a new trial dataset.
 
 The private launcher exposes read-only `inspect-default` and explicit private launch/controller modes. Its runtime modes require the prepared disposable fixture layout and exact build hash. They are research instruments, not a general editor-control API. The read-only static findings and their limits are in [startup analysis](invisible-startup-static.md); the Windows API design is in [private desktop feasibility](../04-desktop-operations/private-desktop-feasibility.md).
 
@@ -63,4 +63,4 @@ The original phase performed no remote Git publication, skill update, runtime in
 
 ## Archive context
 
-This report records the 2026-10-16/17 research against the pinned Editor build. Raw assets, screenshots, configurations and machine logs referenced under `.docs/` are local-only and are not distributed. Reproduction commands retain their historical workspace assumptions; read the [instrument index](../07-instruments/README.md) before adapting or running them.
+The original raw inputs were discarded; historical `.docs/` paths are no longer available. See [evidence availability](../../README.md#evidence-and-applicability) for the retained results and limits. Historical commands require new prepared data and reviewed paths; see the [instrument index](../07-instruments/README.md).

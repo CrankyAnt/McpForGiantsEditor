@@ -66,7 +66,7 @@ The later [handle investigation](handle-growth-results.md) classified the growth
 
 Derived machine-readable facts are in [the metadata](desktop-operational-results.metadata.json). The instruments are [launcher](../07-instruments/desktop_endurance_probe.py), [Lua bridge](../07-instruments/desktop_endurance_probe.lua), [controller](../07-instruments/desktop_research_controller.py) and [analyzer](../07-instruments/analyze_desktop_endurance.py). Windows contracts and observer alternatives are in [observation research](desktop-observation-research.md); fault candidates are in [modal research](modal-probe-design.md).
 
-Raw copied assets, PNGs, launch configurations, request receipts, operation logs and telemetry remain ignored under `.docs/giants-editor-desktop/endurance/`. Cases are `longrun`, `lock-only`, `modal` and `reload-*`. The launcher requires a fresh case directory with `spec.json`, a dedicated `editor.xml`, copied `asset` and isolated `scripts` before launch. It snapshots input Lua/configuration, pins the executable hash, creates a unique private desktop, assigns the Editor to a kill-on-close job, and caps duration.
+Raw copied assets, PNGs, launch configurations, request receipts, operation logs and telemetry were stored under `.docs/giants-editor-desktop/endurance/` and have since been discarded. Cases are `longrun`, `lock-only`, `modal` and `reload-*`. The launcher requires a fresh case directory with `spec.json`, a dedicated `editor.xml`, copied `asset` and isolated `scripts` before launch. It snapshots input Lua/configuration, pins the executable hash, creates a unique private desktop, assigns the Editor to a kill-on-close job, and caps duration.
 
 For repetition, prepare a fresh copied fixture, run `desktop_endurance_probe.py --case <case> --duration-seconds <cap>`, then call the controller with that case and increasing request sequences. Inspect receipts and native return status. A controller exit alone is insufficient persistence evidence. Finish with Save, quit and fresh-process reload, then analyze the raw case with `analyze_desktop_endurance.py --case <directory> --output <analysis.json>`.
 
@@ -74,4 +74,4 @@ The real lock case used a human readiness confirmation followed by a separate st
 
 ## Archive context
 
-This report records the 2026-10-16/17 research against the pinned Editor build. Raw assets, screenshots, configurations and machine logs referenced under `.docs/` are local-only and are not distributed. Reproduction commands retain their historical workspace assumptions; read the [instrument index](../07-instruments/README.md) before adapting or running them.
+The original raw inputs were discarded; historical `.docs/` paths are no longer available. See [evidence availability](../../README.md#evidence-and-applicability) for the retained results and limits. Historical commands require new prepared data and reviewed paths; see the [instrument index](../07-instruments/README.md).

@@ -12,14 +12,14 @@
       "source_file": "desktop-observation-research.md",
       "source_sha256": "48faed28716a4344d2c18734fe08b4e70990c19d51046fa1bc2e202110bd0c44",
       "archive_file": "research/04-desktop-operations/desktop-observation-research.md",
-      "archive_sha256": "1bd010ebfbf34fdbf24a887e8c310601ef83f6c7981bfb402df7dad0118ed360",
+      "archive_sha256": "9f56d1a99d0c115c2078993f295aacf007e153c0ccbcc8082688c5176658f54c",
       "byte_identical": false
     },
     {
       "source_file": "desktop-operational-results.md",
       "source_sha256": "bc7e885545986710f958740da8e4cffceae4d90ede172ec85fe372950a3a8e7b",
       "archive_file": "research/04-desktop-operations/desktop-operational-results.md",
-      "archive_sha256": "f0f4fe6997b236b96e3b1c15e2d317467bc9eeb1e846e6b493aba82dcd44204d",
+      "archive_sha256": "bf8d81c4717b43449e07a8b60e3c5dc0a28338c439651fe88e8b21797b6548db",
       "byte_identical": false
     },
     {
@@ -33,14 +33,14 @@
       "source_file": "fidelity-research.md",
       "source_sha256": "feaf9d2fb934a41fbe64352b9dfbadeeca59d94215ae2fd6882a462a4973e805",
       "archive_file": "research/05-asset-fidelity/fidelity-research.md",
-      "archive_sha256": "1909d015e5aa4044d41c03fe14032aec2ad71100f5396713a3d9ff4e5c05e55e",
+      "archive_sha256": "9320fde63832a8f864b8577c940060df0d8c9ac1174f911827016b752399bf04",
       "byte_identical": false
     },
     {
       "source_file": "fidelity-results.md",
       "source_sha256": "04c248565cf6d06625de2a7d71dd4c90f58a5f3e6b6c9e567705f67448a97060",
       "archive_file": "research/05-asset-fidelity/fidelity-results.md",
-      "archive_sha256": "6545c2fdc38ef2dfa833649abb18af88a17888f06396e64522e973dbdc2576bf",
+      "archive_sha256": "f6ea1d5c0cd79126a72a6ef6805144d914a7b9b036b0bf557df99abb87abdf19",
       "byte_identical": false
     },
     {
@@ -54,7 +54,7 @@
       "source_file": "handle-growth-results.md",
       "source_sha256": "a8f24d30b3cb2669a0848983ac16546e0cbfdda92ff17dddfc5978063ce2dfe6",
       "archive_file": "research/04-desktop-operations/handle-growth-results.md",
-      "archive_sha256": "e2b43f51c14d1a859feb0ba98ccbd1f511ddf81d256a606eee29f11bc17fb983",
+      "archive_sha256": "28a9654c381fcaf57c0836e0b2517a0c6159939802f65a389275359af8e914d0",
       "byte_identical": false
     },
     {
@@ -68,14 +68,14 @@
       "source_file": "headless-alternative-routes.md",
       "source_sha256": "58a6a8810595c1bde7fb9978263fcb8eef0a92d70f9114ee5e1d688425ea9628",
       "archive_file": "research/03-startup-and-headless/headless-alternative-routes.md",
-      "archive_sha256": "fca80ff12169ebed40711fff2a3629c03bdadbe254c6549a6f6563bb09039a43",
+      "archive_sha256": "4f88ad14edc3be64b4d7bb5193d07e52e88d676289ceb8c1fc47a46cff0345d9",
       "byte_identical": false
     },
     {
       "source_file": "headless-runtime-results.md",
       "source_sha256": "66a964ffefe3a48975c30fdc445b106bbdc8d3b80a2b4be1dc33593adc201653",
       "archive_file": "research/03-startup-and-headless/headless-runtime-results.md",
-      "archive_sha256": "5c554da780828e92e251a9c5cf1ee124264a2c15699db80d20aed3ae8cbf832e",
+      "archive_sha256": "66c7dfc04940ec5e29cd6b0855b354248d532891384cf3049b76bbdbb1a94317",
       "byte_identical": false
     },
     {
@@ -89,7 +89,7 @@
       "source_file": "headless-startup-trace.md",
       "source_sha256": "f481bb1da7c5bb492908ee299f8463cbf977b7463460a5314331709a72fb0b3d",
       "archive_file": "research/03-startup-and-headless/headless-startup-trace.md",
-      "archive_sha256": "07fc1ea057b6c9adca183097dcb4e07f897cb400fc0d4f51c429685c89bc8dd2",
+      "archive_sha256": "43dacda5438ab0573fe08feff177fc414a8ea8cd330f2015b031486c20231ccc",
       "byte_identical": false
     },
     {
@@ -320,7 +320,7 @@
       "source_file": "invisible-startup-results.md",
       "source_sha256": "77cbedc7448461f3676cd25c22e105ae38c5453a6c4f4fa778438166dbfc63b9",
       "archive_file": "research/03-startup-and-headless/invisible-startup-results.md",
-      "archive_sha256": "39bfeb78c1601d36d3f716974f5a9efe88c8a53de9370cd960b9697333eba559",
+      "archive_sha256": "1d4194f17898c29245de40e7d83412dcf5a4d6d0ae33a056d04142d03c82ec69",
       "byte_identical": false
     },
     {
@@ -334,7 +334,7 @@
       "source_file": "invisible-startup-static.md",
       "source_sha256": "f8a88d59a9c266fcd782f748b0d804e4fd68157ec051ef5b97dc3e9a4ccb3559",
       "archive_file": "research/03-startup-and-headless/invisible-startup-static.md",
-      "archive_sha256": "3ce44c70e05c86bcc3bc32ff806be0ef5114c5d1a882b862227e56f5a5a6f42b",
+      "archive_sha256": "14224ead5b21f5cec12ee1d694d15cf4199e543a7f29d6c462e7fff32f85083a",
       "byte_identical": false
     },
     {
@@ -348,14 +348,14 @@
       "source_file": "live-results.md",
       "source_sha256": "319a608d97aa845e7281cd7b62a0c13d8b2ea7320eaabb792b1ecc8d9b674a38",
       "archive_file": "research/02-lua-and-save/live-results.md",
-      "archive_sha256": "3be09e4eedd4450198ba4fb85a27b78e72cfe7b6007ad273660e8af92b8672ad",
+      "archive_sha256": "87af8a26e70d89844fb1c5da0adc5bf66b8f411e87a4094b3ee1deef93a81712",
       "byte_identical": false
     },
     {
       "source_file": "lua-registrations.md",
       "source_sha256": "8d546df59a269027337d06921e20030047f39681049246aa9613fa14a73f3860",
       "archive_file": "research/02-lua-and-save/lua-registrations.md",
-      "archive_sha256": "1bb40f0aac1e276cd2de3d31c3a48850fba2866600b4ef1864bc0e5717a4f481",
+      "archive_sha256": "4f8ce4a657eda3d84b995e0e6fd6918bde10d11bc6da80cfeb3a25e5f843fc8d",
       "byte_identical": false
     },
     {
@@ -369,35 +369,35 @@
       "source_file": "mcp-build-plan.md",
       "source_sha256": "aa680dcc606de4617d3029b6f7b961be9d5a936f73059c325562ebe175669e11",
       "archive_file": "research/01-design-input/mcp-build-plan.md",
-      "archive_sha256": "58b993a8d554b77c55ee7b7edf98361268b8c25c41e329bddda304dce7e65b9d",
+      "archive_sha256": "e9cde05c3e21eb0c8226928de39fdceefec867d9406410c353a8f66b06ab0873",
       "byte_identical": false
     },
     {
       "source_file": "mcp-design.md",
       "source_sha256": "dafa751ee39ab5a19388500ab5395f41a73da3ca646034f5a87a0b31cd28a101",
       "archive_file": "research/01-design-input/mcp-design.md",
-      "archive_sha256": "7bd7c8a90580884f34422aaaf2a469f921f9abe1df8aa9d845fb86581543568c",
+      "archive_sha256": "67a4429d84df96b091b83c69fe9884e6849f23b4407be1ce8441b6766ede5654",
       "byte_identical": false
     },
     {
       "source_file": "modal-probe-design.md",
       "source_sha256": "8fe9423b173b7760db94d983a65d465ca8174fe3fb89bada6b41905bb509c3a8",
       "archive_file": "research/04-desktop-operations/modal-probe-design.md",
-      "archive_sha256": "afc9bd6efec372c5d54fdd3a60d81b7ac28bc28e8fe3f70f9d09eddf9654a5eb",
+      "archive_sha256": "acd00ce7fe43d174cd930a98df28e381473581040054a194a67e24acd91b918e",
       "byte_identical": false
     },
     {
       "source_file": "native-save.md",
       "source_sha256": "f75b1b29025ff84dcfd973bd10ea9e8e6352e42f716bab69970032ce69fa3434",
       "archive_file": "research/02-lua-and-save/native-save.md",
-      "archive_sha256": "545da042a82bf1988312440ee599766060475ea01b271e614fece126d7017fe2",
+      "archive_sha256": "27a82f15eeea1403095230525204d44106d00a05bb8817add0a6477e01e3a4c6",
       "byte_identical": false
     },
     {
       "source_file": "practical-results.md",
       "source_sha256": "721f7026f2872511da115e13aa9ccfde221472c86b06d3e7554a6249b73df5e1",
       "archive_file": "research/05-asset-fidelity/practical-results.md",
-      "archive_sha256": "138c084abdb7c7a2ca3d1a07d68b90a89560dc7fcdfc162023ae4c3b42179bcc",
+      "archive_sha256": "fea98b482cfde2f932f34c0ea80a8efe2e51f3779f85ccee4607213cbb7bb4a8",
       "byte_identical": false
     },
     {
@@ -411,28 +411,28 @@
       "source_file": "private-desktop-feasibility.md",
       "source_sha256": "38fe0c717b68b7e7aef2dd6e3307d9920fcf998e474070367ee2726fc2bd0c39",
       "archive_file": "research/04-desktop-operations/private-desktop-feasibility.md",
-      "archive_sha256": "d7fa860b398221bf2d2951c5412f674e5dc4865421bb5819ec84e1a02c49308a",
+      "archive_sha256": "9acb0e47ca93f47621c663ec08d805552dec1172df78aa44fa89e4e321c96679",
       "byte_identical": false
     },
     {
       "source_file": "proof-of-concept.md",
       "source_sha256": "95391ba6e9415ee7925aa815a25ebcaae279482eec0700e47fb5ca4e84301fb4",
       "archive_file": "research/01-design-input/proof-of-concept.md",
-      "archive_sha256": "706d09be70d219066893d4f73432082561b89bdfbd528359bbabed3636849670",
+      "archive_sha256": "6a332a7f195b85669d93268fda1ec21f01052cdb3c0751a58bd48c217e50a65c",
       "byte_identical": false
     },
     {
       "source_file": "publication-license-review.md",
       "source_sha256": "ea5209ec51ac73893a04eb030290834b15627307c418d8be9b9520ba97b7f535",
       "archive_file": "research/06-publication/publication-license-review.md",
-      "archive_sha256": "9a1f4f0a2d77eae68b42a34b1bb7ace6362b4dc1e2b6ec7ef72a8bb0f0792afd",
+      "archive_sha256": "83cc4db6c93bb19fb6193db85d152affa813e77c04c9fa260ef02c1331819b8f",
       "byte_identical": false
     },
     {
       "source_file": "replacement-results.md",
       "source_sha256": "f73631d7d4df1d8565b1552d9f6190b9109912686f62db1e4ab525a82f5f0854",
       "archive_file": "research/05-asset-fidelity/replacement-results.md",
-      "archive_sha256": "0fc9fc7c6b39abc72d37a0344643859bb0a5ed59112cec70c3dcb23763f9c74a",
+      "archive_sha256": "4d0c866ff4bb1cda925e88cf157f54d07845d2193a525f62dd0747eb851d3029",
       "byte_identical": false
     },
     {
@@ -453,14 +453,14 @@
       "source_file": "startup-flags.md",
       "source_sha256": "a9a9cd0dbf91ce23c629c945436544dc6b5296955cdb71b45c6dda8b91e8f262",
       "archive_file": "research/03-startup-and-headless/startup-flags.md",
-      "archive_sha256": "4534a839496b89eda38be6d135db22a6f8fc307afe9ae2add1b3df5f1e4baa58",
+      "archive_sha256": "22c3b33ccc4a509491bc54ef2b97231d416416e96c2e987f34ebf04ccce22ec5",
       "byte_identical": false
     },
     {
       "source_file": "unlock-investigation.md",
       "source_sha256": "4a06e25cc276d4442d41957f5e0af27bb8c71653d94d6a3da2a1d9056a1927af",
       "archive_file": "research/04-desktop-operations/unlock-investigation.md",
-      "archive_sha256": "e9ffa55efe4753a72cec6b62048cb6a3ec3b3e0b58f65812c3a9cb0c37553cc8",
+      "archive_sha256": "8f163d00382f3a49fd4dc8f2a7e3bbbe19a26b529075161d48f22f4fb4329462",
       "byte_identical": false
     },
     {
@@ -470,5 +470,10 @@
       "archive_sha256": "6afef48f4857185e1a8667f1fa432d9f10e3c8c5fbaa1d17b46e39b455dc3efa",
       "byte_identical": true
     }
-  ]
+  ],
+  "raw_evidence_retention": {
+    "retained_raw_files": 0,
+    "disposition": "discarded after preserving derived results and methods",
+    "limitation": "Historical raw datasets cannot be regenerated or independently re-audited; new reproductions require new fixtures and measurements."
+  }
 }

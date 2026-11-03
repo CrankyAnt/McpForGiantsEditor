@@ -16,7 +16,7 @@ The headless requirement was to load a scene and execute Lua without an Editor G
 
 Each runtime trial used a fresh private Win32 desktop, a copied one-node I3D, its own config and Lua file, the pinned executable, a suspended process and an owned kill-on-close job. Frida 17.24.0 attached before the primary thread resumed. Hooks recorded `CreateWindowExA/W`, native `NtUserCreateWindowEx`, show operations and selected internal startup functions. No desktop switch, input injection or visible fallback occurred. Instrumented memory changes existed only in the owned child process. The installed binary was not patched.
 
-The Lua probe was immediate `-runScriptCode`, not an idle callback. It wrote a typed receipt containing the current scene, root and child count, then exited. All 16 successful receipts match their exact fixture scene and have root greater than zero and child count two. Their file timestamps follow the recorded suspended-process sample before `ResumeThread`. This gives a retained freshness check as well as the live controller's check.
+The Lua probe was immediate `-runScriptCode`, not an idle callback. It wrote a typed receipt containing the current scene, root and child count, then exited. All 16 successful receipts match their exact fixture scene and have root greater than zero and child count two. Their file timestamps follow the recorded suspended-process sample before `ResumeThread`. This supplied a recorded freshness check as well as the live controller's check during the trial.
 
 No headless candidate reached that first Lua gate. A headless Save test therefore could not proceed. Save after ordinary GUI initialization was already established by the preceding phases.
 
@@ -29,7 +29,7 @@ There were 32 process starts, including controls, repeats and backend confirmati
 | Normal startup controls | Lua completed, with GUI windows and Vulkan | The fixture and instrumentation work. |
 | `-headless`, `-nogui`, `-batch` | Lua completed through the normal GUI route | These exact tokens did not enable headless operation. Static parser inspection found no handlers for them. |
 | `-logging nogui` | Lua completed with GUI windows | The traced log-sink flag does not bypass the GUI. |
-| XML renderer `NULL`, `NULL_TRACKING`, `D3D_12` | Snapshot-backed repeats constructed enum 5 and used Vulkan | These XML values did not select the internal backend. Pre-run config snapshots and their recorded hashes are retained. |
+| XML renderer `NULL`, `NULL_TRACKING`, `D3D_12` | Snapshot-backed repeats constructed enum 5 and used Vulkan | These XML values did not select the internal backend. Pre-run config snapshots were checked during the trial; their recorded hash evidence remains in the derived metadata, while the raw snapshots were discarded. |
 | Speculative XML `None` and `Headless` | Lua completed through GUI startup | No headless behavior was observed. These preliminary cases lack a retained input-config snapshot and do not independently prove the submitted token. |
 | `STARTF_USESHOWWINDOW` with `SW_HIDE` | No Lua receipt within 20 seconds | This startup-show variant failed under the tested bound; it does not prove a general hidden-window impossibility. |
 | Force hidden styles, `ShowWindow` and `SetWindowPos` | No Lua receipt within 20 seconds | Broad show suppression failed. It changes many windows and does not isolate a main-frame dependency. |
@@ -74,21 +74,21 @@ The negative conclusion is therefore bounded: no usable headless route was estab
 
 All 32 trials recorded `Default` as the input desktop, no owned Editor window there, and another process as foreground in their state samples. Sampling cannot exclude events between samples. Each private desktop handle was closed and a post-close `OpenDesktopW` failed with error 2. A final independent process check found zero `editor.exe` processes. The normal Editor configuration still has SHA256 `31720002d6f6639a6d340ff4d7bb4e558f5ccd1001209c169d1f79f3345871cf`.
 
-The [launcher](../07-instruments/headless_runtime_probe.py), [hooks](../07-instruments/headless_runtime_hooks.js) and [analyzer](../07-instruments/analyze_headless_runtime.py) are research instruments. Raw configs, assets, logs and traces remain ignored under `.docs/giants-editor-headless/`. The temporary Frida installation and downloaded TestRunner archive/extraction were removed after analysis. Runtime evidence remains under the ignored directory; no vendor implementation is committed.
+The [launcher](../07-instruments/headless_runtime_probe.py), [hooks](../07-instruments/headless_runtime_hooks.js) and [analyzer](../07-instruments/analyze_headless_runtime.py) are research instruments. Raw configs, assets, logs and traces were originally stored under `.docs/giants-editor-headless/` and have since been discarded. The temporary Frida installation and downloaded TestRunner archive/extraction were removed after analysis. Derived runtime results remain in this archive; the raw directory is no longer retained and no vendor implementation is committed.
 
 The original phase produced research artifacts only; no MCP service, skill or runtime installation was produced.
 
 Python compilation, Ruff lint and format checks, JavaScript syntax checking and repository validation passed. Guard controls refused both an invalid case path and existing runtime output before Win32 access. Independent review verified the backend enum inputs, same-process diagnostics, receipt freshness and scoped negative conclusions.
 
-To regenerate the derived receipt from retained local evidence, run from this worktree with an external Python cache:
+The historical regeneration command was the following. Its original raw inputs no longer exist; new prepared data and reviewed paths are required for a new run:
 
 ```powershell
 $env:PYTHONPYCACHEPREFIX = "$env:TEMP\repo-pycache"
 python docs/research/skills/fs25-modding/giants-editor-mcp/instruments/analyze_headless_runtime.py --output docs/research/skills/fs25-modding/giants-editor-mcp/headless-runtime-results.metadata.json --verify-system
 ```
 
-New runtime trials require a new prepared directory under `.docs/giants-editor-headless/runtime`, with `spec.json`, a copied `scene.i3d`, a dedicated `editor.xml` and `probe.lua`. Existing receipts are deliberately refused. The retained input snapshots show the exact submitted configuration for the later trials. The launcher pins the build and script hashes. Frida 17.24.0 was installed only into `C:\TMP\giants-headless-tooling`; reproducing the runtime instrumentation requires that temporary dependency again. The read-only analyzer does not require Frida.
+New runtime trials require a new prepared directory under `.docs/giants-editor-headless/runtime`, with `spec.json`, a copied `scene.i3d`, a dedicated `editor.xml` and `probe.lua`. Existing receipts are deliberately refused. Input snapshots established the exact submitted configuration during the later trials; those raw snapshots are no longer retained. The launcher pins the build and script hashes. Frida 17.24.0 was installed only into `C:\TMP\giants-headless-tooling`; reproducing the runtime instrumentation requires that temporary dependency again. The read-only analyzer does not require Frida.
 
 ## Archive context
 
-This report records the 2026-10-16/17 research against the pinned Editor build. Raw assets, screenshots, configurations and machine logs referenced under `.docs/` are local-only and are not distributed. Reproduction commands retain their historical workspace assumptions; read the [instrument index](../07-instruments/README.md) before adapting or running them.
+The original raw inputs were discarded; historical `.docs/` paths are no longer available. See [evidence availability](../../README.md#evidence-and-applicability) for the retained results and limits. Historical commands require new prepared data and reviewed paths; see the [instrument index](../07-instruments/README.md).

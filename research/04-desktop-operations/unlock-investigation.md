@@ -36,7 +36,7 @@ The short access-denied interval is compatible with movement to a protected inpu
 
 The historical foreground PID still existed during this investigation. Its process start time was 16 October 2026 at 07:44:14.0089842 CEST, before the trial, so it was not a PID reused after the trial. The current process name, Session ID, executable path and valid Microsoft signature identified LockApp. Its file version was `10.0.26100.9549`. This is a retrospective process-identity match, not a contemporaneous screenshot or a record of which credential control held focus. Raw PIDs, HWNDs and identity fields are omitted from the durable metadata.
 
-The original launcher can be reconstructed exactly by restoring its old class-name buffer length. Its SHA256 matches the run's recorded `001945acbabe5c18c14815c783a458e48b87a52ec90035376b9c6de7cc7be21e`. The retained input Lua matches `7a84a4416319d43f4082c07a599e231c95277f6c199ed68891231905e4de8260`. Both sources were inspected. The original run did not retain a controller source hash; current-controller inspection does not remove that provenance gap.
+The original launcher can be reconstructed exactly by restoring its old class-name buffer length. Its SHA256 matches the run's recorded `001945acbabe5c18c14815c783a458e48b87a52ec90035376b9c6de7cc7be21e`. The trial input Lua matched `7a84a4416319d43f4082c07a599e231c95277f6c199ed68891231905e4de8260`. Both sources were inspected during the investigation; the raw trial input copy has since been discarded. The original run did not retain a controller source hash; current-controller inspection does not remove that provenance gap.
 
 The audited paths create the private desktop, restore the controller thread's original desktop, and send commands only to the verified private Editor frame. No `SwitchDesktop`, `SetForegroundWindow`, `ShowWindow`, `AttachThreadInput` or input-hook installation was found in the verified launcher or inspected controller paths. Opened desktop handles are closed, while borrowed thread-desktop handles are restored rather than closed. Creating or assigning a thread's desktop is distinct from changing the input desktop. [CreateDesktop](https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-createdesktopw), [SetThreadDesktop](https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-setthreaddesktop).
 
@@ -72,10 +72,10 @@ Until that comparison exists, the private-desktop route has an unresolved intera
 
 ## Evidence and validation boundary
 
-[Derived metadata](unlock-investigation.metadata.json) records the timeline, safe event fields, coverage and source hashes. Retained evidence is under ignored `.docs/giants-editor-desktop/unlock-events/` and `unlock-audit/`. No login screenshots, keypress capture or audio recording was made. Credentials, usernames, SIDs and raw authentication messages were not extracted into retained evidence or committed.
+[Derived metadata](unlock-investigation.metadata.json) records the timeline, safe event fields, coverage and source hashes. The original raw evidence was under ignored `.docs/giants-editor-desktop/unlock-events/` and `unlock-audit/` and has since been discarded. No login screenshots, keypress capture or audio recording was made. Credentials, usernames, SIDs and raw authentication messages were not extracted into retained evidence or committed.
 
 This phase completed retrospective evidence checks. It did not create a pass/fail reproduction of the reported symptom, prove a cause, or test a fix. No further lock or visible operation was performed.
 
 ## Archive context
 
-This report records the 2026-10-16/17 research against the pinned Editor build. Raw assets, screenshots, configurations and machine logs referenced under `.docs/` are local-only and are not distributed. Reproduction commands retain their historical workspace assumptions; read the [instrument index](../07-instruments/README.md) before adapting or running them.
+The original raw inputs were discarded; historical `.docs/` paths are no longer available. See [evidence availability](../../README.md#evidence-and-applicability) for the retained results and limits. Historical commands require new prepared data and reviewed paths; see the [instrument index](../07-instruments/README.md).

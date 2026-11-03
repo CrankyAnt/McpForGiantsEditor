@@ -16,7 +16,7 @@ Baseline processes were never saved. Initial Save controls accepted only inspect
 
 Because `.shapes` hashes differed, the complete Save comparison was repeated from new untouched baseline copies. This added a second manual and second native Save per asset, each followed by a fresh reload. I3D XML and gate animation bytes stayed identical across these four outputs per asset. Shape bytes varied within each route as well as between routes. This establishes run-to-run byte variation, without identifying its encoding or proving full shape-data equivalence.
 
-Raw inputs, receipts, samples and images remain ignored under:
+Raw inputs, receipts, samples and images were stored under the following historical paths; those original inputs have since been discarded:
 
 - `.docs/giants-editor-fidelity/` for the primary six-case matrix;
 - `.docs/giants-editor-fidelity-repeat/` for capture-only repeat processes;
@@ -25,7 +25,7 @@ Raw inputs, receipts, samples and images remain ignored under:
 
 The capture-only repeat cases deliberately use observation permissions regardless of the route that produced their input. Their folder names and `repeat_input_from` identify provenance. They are not additional Save controls.
 
-The reproducible analyzer is [analyze_fidelity.py](../07-instruments/analyze_fidelity.py). Consolidated hashes, validation and numeric differences are in [fidelity-results.metadata.json](fidelity-results.metadata.json). Raw vendor assets and images are not committed.
+The historical analyzer is [analyze_fidelity.py](../07-instruments/analyze_fidelity.py). Consolidated hashes, validation and numeric differences are in [fidelity-results.metadata.json](fidelity-results.metadata.json). Raw vendor assets and images are not committed.
 
 ## Gate keyframes and evaluated poses
 
@@ -70,7 +70,7 @@ One extra capture-only startup stopped on a malformed temporary configuration ca
 
 Python compilation, Lua syntax, Ruff check/format and LF checks passed. The typed receipt validator accepted three real receipts and rejected ten corrupted receipts covering operation, scene, Save path and success status. Quaternion sign and zero-norm controls passed. The final metadata contained no unresolved invalid or pending evidence statuses. Uncollected or inapplicable supplemental captures remain explicitly labelled. Independent review checked the analyzer and report against retained evidence. The original repository validation passed with 35 managed skills, 35 registrations and 22 labels. These are historical source-repository checks, not current MCP implementation or CI results.
 
-To reproduce the analysis against the retained local evidence:
+Historical analysis command, requiring a new prepared dataset now that the original raw inputs have been discarded:
 
 ```powershell
 $env:PYTHONPYCACHEPREFIX = "$env:TEMP\repo-pycache"
@@ -79,4 +79,4 @@ python docs/research/skills/fs25-modding/giants-editor-mcp/instruments/analyze_f
 
 ## Archive context
 
-This report records the 2026-10-16/17 research against the pinned Editor build. Raw assets, screenshots, configurations and machine logs referenced under `.docs/` are local-only and are not distributed. Reproduction commands retain their historical workspace assumptions; read the [instrument index](../07-instruments/README.md) before adapting or running them.
+The original raw inputs were discarded; historical `.docs/` paths are no longer available. See [evidence availability](../../README.md#evidence-and-applicability) for the retained results and limits. Historical commands require new prepared data and reviewed paths; see the [instrument index](../07-instruments/README.md).
