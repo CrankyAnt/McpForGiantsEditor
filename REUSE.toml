@@ -1,0 +1,9 @@
+version = 1
+
+# Every tracked file is MIT-licensed. Git-ignored working documentation is
+# outside the scope of these assignments.
+
+[[annotations]]
+path = ["**"]
+SPDX-FileCopyrightText = "2026 CrankyAnt"
+SPDX-License-Identifier = "MIT"
