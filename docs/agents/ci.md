@@ -27,7 +27,7 @@ This repository uses these shared parts:
 | --- | --- | --- | --- |
 | Repository hygiene | `.github/workflows/repository-hygiene.yml` | `hygiene / hygiene` | none |
 
-- Repository hygiene: `repository-hygiene.yml` runs the floor and the shared checks that a change can affect in the one job `hygiene / hygiene`. The floor is the convention checks on pull requests, of the branch name, every commit subject and the pull-request title, and the credential scan of every commit reachable from any ref on every event. The other checks are the validation of the workflow definitions, the check that every tracked package file has a Dependabot entry and the link check of relative links in tracked Markdown.
+- Repository hygiene: `repository-hygiene.yml` runs the floor and the shared checks that a change can affect in the one job `hygiene / hygiene`. The floor is the convention checks on pull requests, of the branch name, every commit subject and the pull-request title, and the credential scan of every commit reachable from any ref on every event. The other checks are the validation of the workflow definitions, the check that every tracked package file has a Dependabot entry, `reuse lint` with the repository's `REUSE.toml` and the link check of relative links in tracked Markdown.
 
 The check to require in a ruleset on the default branch is `hygiene / hygiene`.
 

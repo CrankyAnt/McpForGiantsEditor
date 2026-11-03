@@ -45,9 +45,10 @@ When in doubt about a place, ask the user.
 Every tracked top-level folder whose name does not start with a dot gets one line: the path and at most one short clause. No explanation, rules, status, subfolders, nested lists or file pointers. A new top-level folder adds its line; a removed one removes its line.
 
 - `docs/`: Development-flow configuration.
+- `LICENSES/`: Canonical license texts.
 
 ## Testing instructions
 
 One line per validation or test command and per CI workflow the repository runs. Whoever adds a workflow or caller adds its line.
 
-- `repository-hygiene` (shared, `v1`): the convention checks of branch names, commit subjects and pull-request titles, the credential scan, workflow validation, Dependabot coverage and the Markdown link check
+- `repository-hygiene` (shared, `v1`): the convention checks of branch names, commit subjects and pull-request titles, the credential scan, workflow validation, Dependabot coverage, the Markdown link check and `reuse lint`
