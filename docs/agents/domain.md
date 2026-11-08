@@ -19,7 +19,7 @@ Resolved terms, ADRs and `SCOPE.md` changes take one of two routes, by whether t
 
 Single-context repo (most repos):
 
-```text
+```
 /
 ├── GLOSSARY.md
 ├── docs/adr/
@@ -30,7 +30,7 @@ Single-context repo (most repos):
 
 Multi-context repo (presence of `GLOSSARY-MAP.md` at the root):
 
-```text
+```
 /
 ├── GLOSSARY-MAP.md
 ├── docs/adr/                          ← system-wide decisions
