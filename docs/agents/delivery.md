@@ -26,8 +26,6 @@ Default to `merge`: the builder merges after independent receipt and the pre-mer
 **Required validation:** the commands and workflows under `## Testing instructions` in `AGENTS.md`
 **Reason:** Repository changes require reviewable pull requests, independent receipt, acceptance evidence and passing CI before integration.
 
-Research branches are never merged.
-
 ## Gitleaks before a push
 
 Before every `git push` that sends commits, Gitleaks must pass from the repository root. This covers a branch push, a forced push, a push of a ref other than `HEAD`, and a tag push. It does not cover operations on the provider, such as merging a pull request there or editing a file in its web interface, nor deleting a remote branch or tag.
